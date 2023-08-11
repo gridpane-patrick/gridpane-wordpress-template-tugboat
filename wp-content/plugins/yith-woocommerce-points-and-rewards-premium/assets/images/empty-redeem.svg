@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="24px" viewBox="0 0 71 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="15" height="15"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Redeeming-rules-list-Copy" transform="translate(-560.000000, -372.000000)">
+            <g id="Group" transform="translate(561.000000, 373.000000)">
+                <g id="Group-2">
+                    <circle id="Oval" stroke="#000000" stroke-width="1.4" cx="7.5" cy="8.5" r="7.5"></circle>
+                    <rect id="Rectangle" fill="#FFFFFF" x="6" y="0" width="12" height="17"></rect>
+                    <circle id="Oval" stroke="#000000" stroke-width="1.4" cx="13.5" cy="8.5" r="7.5"></circle>
+                </g>
+                <g id="cart" transform="translate(41.500000, 0.000000)" stroke="#333333" stroke-width="1.2">
+                    <polyline id="Path" points="11.4874864 5.38016529 27 5.38016529 23.7094668 14 7.10990207 14 4.37758433 0 0 0"></polyline>
+                    <circle id="Oval" cx="10.5" cy="19.5" r="2.5"></circle>
+                    <circle id="Oval" cx="20.5" cy="19.5" r="2.5"></circle>
+                    <line x1="25.5" y1="10" x2="16.5" y2="10" id="Path"></line>
+                </g>
+                <g transform="translate(26.000000, 3.000000)" id="arrow-/-long_right">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="arrow-/-long_right-(Background/Mask)"></g>
+                    <path d="M11.35625,8.125 L9.7437501,9.7437501 L10.625,10.625 L13.75,7.5000003 L10.6250006,4.375 L9.7437501,5.25624983 L11.35625,6.875 L1.25,6.875 L1.25,8.12499911 L11.35625,8.125 Z" fill="#000000" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

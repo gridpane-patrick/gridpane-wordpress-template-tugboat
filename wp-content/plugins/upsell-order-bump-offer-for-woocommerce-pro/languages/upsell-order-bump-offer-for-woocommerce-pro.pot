@@ -1,0 +1,885 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Upsell Order Bump Offer For Woocommerce Pro 2.0.3\n"
+"POT-Creation-Date: 2022-04-30 17:00+0530\n"
+"PO-Revision-Date: 2022-03-30 17:23+0530\n"
+"Last-Translator: \n"
+"Language-Team: WP Swings\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html;esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;"
+"translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:180
+msgid "An unexpected error occurred. Please try again."
+msgstr ""
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:196
+msgid "Successfully Verified. Please Wait."
+msgstr ""
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:263
+msgid "Upsell Order Bump Offers Pro"
+msgstr ""
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:281
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:341
+#: admin/partials/templates/wps-upsell-bump-list.php:31
+#: class-wps-upsell-bump-update.php:83
+#: upsell-order-bump-offer-for-woocommerce-pro.php:299
+msgid "Nonce Not verified"
+msgstr ""
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:289
+msgid "Sorry, License panel is moved."
+msgstr ""
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:290
+msgid "Go to License tab →"
+msgstr ""
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:363
+msgid "Upsell Order Bump Offer for WooCommerce"
+msgstr ""
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:363
+msgid ""
+"is deactivated, Please Update the Free version as this version is outdated "
+"and will not work with the current"
+msgstr ""
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:363
+#: upsell-order-bump-offer-for-woocommerce-pro.php:329
+#: upsell-order-bump-offer-for-woocommerce-pro.php:348
+msgid "Upsell Order Bump Offer for WooCommerce Pro"
+msgstr ""
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-pro-admin.php:363
+msgid "version."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:317
+msgid "Settings saved"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:328
+msgid "Daily"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:329
+msgid "Monday"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:330
+msgid "Tuesday"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:331
+msgid "Wednesday"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:332
+msgid "Thursday"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:333
+msgid "Friday"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:334
+msgid "Saturday"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:335
+msgid "Sunday"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:342
+msgid "Guest/Logged Out User"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:361
+msgid "Order Bump"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:378
+#: admin/partials/templates/wps-upsell-bump-list.php:137
+msgid "Live"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:379
+#: admin/partials/templates/wps-upsell-bump-list.php:140
+msgid "Sandbox"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:387
+msgid "Name of the Order Bump"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:394
+msgid "Provide the name of your Order Bump."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:410
+msgid "Priority of the Order Bump"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:417
+msgid ""
+"Priortize Order Bump. Do not use same priority for multiple order bumps, "
+"this will override triggered order bump."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:432
+msgid "Select target product(s)"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:439
+msgid ""
+"If any one of these Target Products is checked out then this Order Bump will "
+"be triggered and the below offer will be shown."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:445
+#: admin/partials/templates/wps-upsell-bump-creation.php:842
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:466
+#: admin/partials/templates/wps-upsell-bump-creation.php:855
+#: admin/partials/templates/wps-upsell-bump-list.php:175
+#: admin/partials/templates/wps-upsell-bump-list.php:248
+msgid "Product Not Found"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:487
+msgid "Select target categories"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:494
+msgid ""
+"If any one of these Target categories is checked out then this Order Bump "
+"will be triggered and the below offer will be shown."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:500
+msgid "Search for a category&hellip;"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:521
+#: admin/partials/templates/wps-upsell-bump-list.php:213
+msgid "Category Not Found"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:541
+msgid "Select roles to exclude"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:548
+msgid "Order Bumps will not be shown to these roles."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:554
+msgid "Search for a role&hellip;"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:580
+msgid "Order Bump Schedule"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:587
+msgid "Schedule your Order Bump for specific weekdays."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:608
+msgid "Search for a specific days&hellip;"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:639
+#: admin/partials/templates/wps-upsell-bump-creation.php:667
+#: admin/partials/templates/wps-upsell-bump-creation.php:701
+#: admin/partials/templates/wps-upsell-bump-creation.php:727
+msgid "Pro"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:641
+#: admin/partials/templates/wps-upsell-bump-list.php:147
+msgid "Smart Offer Upgrade"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:647
+msgid ""
+"Replace the existing target product with the offer product as soon as the "
+"customer accepts the Order Bump offer."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:669
+msgid "Exclusive Limits"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:679
+msgid ""
+"This feature allows you to limit Order bump for some exclusive sales/order "
+"counts."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:689
+msgid "Enter the limit"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:690
+msgid "Limit Used : "
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:702
+msgid "Global Order Bump"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:708
+msgid ""
+"This feature allows you to trigger this specific order bump, no matter "
+"target product is present or not."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:729
+msgid "Meta Forms"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:735
+msgid ""
+"This feature allows you to add a custom form to receive answers before "
+"adding Offer product."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:754
+#: admin/partials/templates/wps-upsell-bump-creation.php:1716
+msgid "Label"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:755
+#: admin/partials/templates/wps-upsell-bump-creation.php:1724
+msgid "Placeholder"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:756
+#: admin/partials/templates/wps-upsell-bump-creation.php:1732
+msgid "Description"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:757
+#: admin/partials/templates/wps-upsell-bump-creation.php:1740
+msgid "Type"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:758
+#: admin/partials/templates/wps-upsell-bump-creation.php:1755
+msgid "Options"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:759
+msgid "Actions"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:783
+msgid "No Fields Added"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:789
+msgid "add new field"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:794
+msgid "Order Bump Offer"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:829
+msgid "Offer Section"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:837
+msgid "Offer Product"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:869
+msgid "Select the product you want to show as offer."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:877
+msgid "Offer Price/Discount"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:883
+msgid "%"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:883
+msgid "Discount %"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:884
+msgid "fixed"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:884
+msgid "Fixed price"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:885
+msgid "no_disc"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:885
+msgid "No Discount"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:888
+msgid "Specify new offer price or discount %"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:897
+msgid "Offer Image"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:921
+msgid "Offer Quantity Section"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:931
+msgid "Enable Offer Quantity"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:936
+msgid "Enable quantity field on checkout."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:956
+msgid "Quantity Fixed/Variable"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:964
+msgid "fixed_q"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:964
+msgid "Fixed Quantity"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:965
+msgid "variable_q"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:965
+msgid "Variable Quantity"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:971
+msgid "Minimum Quantity"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:975
+msgid "Maximum Quantity"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:977
+msgid ""
+"Specify quantity type enter quantity in fixed and min max in variable "
+"quantity."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:999
+msgid "Appearance"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1003
+msgid "Template"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1004
+msgid "Design"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1005
+msgid "Content"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1025
+#: admin/partials/templates/wps-upsell-bump-creation.php:1042
+#: admin/partials/templates/wps-upsell-bump-creation.php:1055
+msgid "wps_ubo_selected_class"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1031
+msgid "Dazzling Bliss"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1044
+msgid "Alluring Lakeside"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1057
+msgid "Elegant Summers"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1076
+msgid "Bump Offer Box"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1098
+msgid "Select Border type"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1103
+msgid "Select among different border types for Bump Offer."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1117
+msgid "No Border"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1118
+msgid "Solid"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1119
+msgid "Dashed"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1120
+msgid "Double"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1121
+msgid "Dotted"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1126
+msgid "----Select Border Type----"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1131
+msgid "selected"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1144
+msgid "Select Border Color"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1149
+msgid "Select border color for Bump Offer."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1174
+#: admin/partials/templates/wps-upsell-bump-creation.php:1257
+#: admin/partials/templates/wps-upsell-bump-creation.php:1382
+#: admin/partials/templates/wps-upsell-bump-creation.php:1448
+msgid "Select Background Color"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1179
+msgid "Select Background Color for Bump Offer."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1204
+msgid "Select Top Vertical Spacing"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1209
+msgid "Add top spacing to the Bump Offer Box."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1216
+#: admin/partials/templates/wps-upsell-bump-creation.php:1237
+#: admin/partials/templates/wps-upsell-bump-creation.php:1309
+#: admin/partials/templates/wps-upsell-bump-creation.php:1362
+#: admin/partials/templates/wps-upsell-bump-creation.php:1430
+#: admin/partials/templates/wps-upsell-bump-creation.php:1492
+msgid "px"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1216
+#: admin/partials/templates/wps-upsell-bump-creation.php:1237
+msgid "0px"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1225
+msgid "Select Bottom Vertical Spacing"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1230
+msgid "Add bottom spacing to the Bump Offer Box."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1251
+msgid "Discount Section"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1262
+msgid "Select background color for Discount section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1277
+#: admin/partials/templates/wps-upsell-bump-creation.php:1328
+#: admin/partials/templates/wps-upsell-bump-creation.php:1401
+#: admin/partials/templates/wps-upsell-bump-creation.php:1466
+msgid "Select Text Color"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1282
+msgid "Select text color for Discount section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1297
+#: admin/partials/templates/wps-upsell-bump-creation.php:1348
+#: admin/partials/templates/wps-upsell-bump-creation.php:1420
+#: admin/partials/templates/wps-upsell-bump-creation.php:1482
+msgid "Select Text Size"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1302
+msgid "Select font size for Discount section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1321
+msgid "Product Section"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1333
+msgid "Select text color for Product section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1353
+msgid "Select font size for Product section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1375
+msgid "Accept Offer Section"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1387
+msgid "Select background color for Accept Offer section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1406
+msgid "Select text color for Accept Offer section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1424
+msgid "Select font size for Accept Offer section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1442
+msgid "Offer Description Section"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1452
+msgid "Select background color for Offer Description section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1470
+msgid "Select text color for Offer Description section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1486
+msgid "Select font size for Offer Description section."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1509
+msgid "Discount Title"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1516
+msgid "Discount title content. Please use at respective places :"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1518
+#, php-format
+msgid "for % discount."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1520
+msgid "for fixed discount price."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1531
+msgid "For Discount %"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1536
+msgid "For Fixed Price"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1548
+msgid "Product Description"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1555
+msgid "Bump Offer Product description content."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1571
+msgid " Lead Title "
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1576
+msgid "Bump offer Lead title content."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1595
+msgid "Offer Description "
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1600
+msgid "Bump Offer description content."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1624
+msgid "Offer Preview"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1644
+msgid "Save Changes"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1663
+msgid "Do you really want to change template layout ?"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1664
+msgid "Changing layout will reset Design settings back to default."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1668
+msgid "Yes"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1670
+msgid "No"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1690
+msgid "Update Required!"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1691
+msgid ""
+"Please Update 'Upsell Order Bump Offer for WooCommerce' to use this feature."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1696
+msgid "Update Now"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1697
+msgid "Don't update"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1707
+msgid "Custom Field Details"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1709
+msgid "x"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1744
+msgid "Text"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1745
+msgid "Checkbox"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1746
+msgid "Select"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1747
+msgid "Number"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1748
+msgid "Date"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1749
+msgid "Month"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1757
+msgid ""
+"For Select Field only. Add options like : Option 1 | Option 2 | Option 3"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-creation.php:1767
+#: includes/class-upsell-order-bump-offer-for-woocommerce-pro.php:587
+msgid "Submit"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-license.php:21
+msgid "Your License"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-license.php:26
+msgid ""
+"This is the License Activation Panel. After purchasing extension from WP "
+"Swings you will get the purchase code of this extension. Please verify your "
+"purchase below so that you can use feature of this plugin."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-license.php:34
+msgid "Purchase Code : "
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-license.php:36
+msgid "Enter your code here..."
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-license.php:44
+msgid "Validate"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:102
+msgid "No Order Bumps added"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:109
+msgid "Name"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:110
+msgid "Status"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:111
+msgid "Target Product(s) and Categories"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:112
+msgid "Offers"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:113
+msgid "Action"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:126
+msgid "Priority : "
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:126
+msgid "No Priority"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:189
+msgid "No Product(s) added"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:199
+msgid "Target Categories -"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:227
+msgid "No Categories added"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:255
+msgid "No offers Added"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:265
+msgid "View / Edit"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:268
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:271
+msgid "Clone"
+msgstr ""
+
+#: admin/partials/templates/wps-upsell-bump-list.php:284
+msgid "+Create New Order Bump"
+msgstr ""
+
+#: class-wps-upsell-bump-update.php:174
+msgid "Plugin Description"
+msgstr ""
+
+#: class-wps-upsell-bump-update.php:178
+msgid "Plugin Change Log"
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:101
+msgid ""
+"Heads up, We highly recommend Also Update Latest Org Plugin. The latest "
+"update includes some substantial changes across different areas of the "
+"plugin."
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:209
+msgid "Settings"
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:229
+msgid "Demo"
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:230
+msgid "Documentation"
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:231
+msgid "Support"
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:329
+msgid "WooCommerce"
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:329
+msgid " is not activated, Please activate WooCommerce first to activate "
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:329
+msgid "."
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:348
+msgid " Plugin requires the"
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:348
+msgid "Order Bump Free Org"
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:348
+msgid " plugin to work."
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:349
+msgid "Install & Activate →"
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:350
+msgid "View on ORG page →"
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:351
+msgid "Dismiss this notice."
+msgstr ""
+
+#: upsell-order-bump-offer-for-woocommerce-pro.php:387
+msgid ""
+"Sorry, but Upsell order bump for woocommerce pro Plugin requires the Upsell "
+"order bump for woocommerce plugin to be installed and active"
+msgstr ""

@@ -1,0 +1,24 @@
+{
+  "src/apps/settings/index-legacy.ts": {
+    "file": "apps/settings/index-legacy.45381350.js",
+    "isEntry": true,
+    "src": "src/apps/settings/index-legacy.ts"
+  },
+  "src/apps/settings/index.css": {
+    "file": "css/index.31f4bc52.css",
+    "src": "src/apps/settings/index.css"
+  },
+  "src/apps/settings/index.ts": {
+    "css": [
+      "css/index.31f4bc52.css"
+    ],
+    "file": "apps/settings/index.a079c82b.js",
+    "isEntry": true,
+    "src": "src/apps/settings/index.ts"
+  },
+  "vite/legacy-polyfills-legacy": {
+    "file": "polyfills-legacy.4a7337a8.js",
+    "isEntry": true,
+    "src": "vite/legacy-polyfills-legacy"
+  }
+}

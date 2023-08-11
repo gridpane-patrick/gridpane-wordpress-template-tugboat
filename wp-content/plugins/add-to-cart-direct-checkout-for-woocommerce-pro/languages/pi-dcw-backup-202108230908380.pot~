@@ -1,0 +1,180 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Language: \n"
+"POT-Creation-Date: 2021-01-03 09:48+0000\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin/class-pi-dcw-add-to-cart.php:39
+msgid "Change Add to cart button text"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:40 admin/class-pi-dcw-woo.php:108
+msgid "Add to cart button text"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:41 admin/class-pi-dcw-woo.php:118
+msgid "Select options button text"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:42 admin/class-pi-dcw-woo.php:127
+msgid "Read more button text"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:35
+msgid "Buy now button on product page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:45
+msgid "Buy now button on product archive page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:50
+msgid "Show buy now option on variable product, on category / Shop page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:64
+msgid "Remove order comment"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:65
+msgid "Remove coupon field from checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:66
+msgid ""
+"Remove all the option of shipping field \"Ship to a different address?\""
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:67
+msgid "Link product name in checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:69
+msgid "Remove billing fields"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:70
+msgid "Remove shipping fields"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:74
+msgid "Set custom thankyou page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:78
+msgid "Use this custom url as thankyou page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:88
+msgid "Set Custom Url"
+msgstr ""
+
+#: admin/class-pi-dcw-menu.php:21 admin/class-pi-dcw-menu.php:22
+msgid "Direct Checkout"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:40
+msgid "Disable cart page"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:41
+msgid "Enable single page checkout"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:43
+msgid "Enable redirect on add to cart"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:44 admin/class-pi-dcw-option.php:46
+msgid "Redirect to custom url"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:47
+msgid "Disable continue shopping button"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:48
+msgid "External Safe domain list where you want to redirect"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:58 admin/class-pi-dcw-woo.php:198
+msgid "Select page"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:73
+msgid "Exclude this product from any redirect"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:77
+msgid "Overwrite global redirect setting"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:81
+msgid "Disable buy now button"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:94
+msgid "Redirect to page"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:137
+msgid "Custom Thank you page url"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:147
+msgid "Weight of this Thank you page url  "
+msgstr ""
+
+#: admin/speed.php:24
+msgid "Enable caching"
+msgstr ""
+
+#: admin/speed.php:24
+msgid "This will cache the buy no button on archive page for variable product"
+msgstr ""
+
+#: admin/speed.php:26
+msgid "Cache expiry in minutes"
+msgstr ""
+
+#: admin/speed.php:26
+msgid "How long the cached will be used, "
+msgstr ""
+
+#: public/quickview/class-pi-dcw-quickview.php:68
+msgid "Enable Quick View button"
+msgstr ""
+
+#: public/quickview/class-pi-dcw-quickview.php:84
+msgid "Enable light box"
+msgstr ""
+
+#. Name of the plugin
+msgid ""
+"Direct checkout, WooCommerce Single page checkout , WooCommerce One page "
+"checkout - PRO"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce single page checkout, lets you show cart and checkout option on "
+"single page, that is one page checkout for WooCommerce, along with it you "
+"can redirect user directly to checkout as they click add to cart"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://www.piwebsolution.com/product/add-to-cart-direct-checkout-for-"
+"woocommerce-pro/"
+msgstr ""
+
+#. Author of the plugin
+msgid "PI Websolution"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.piwebsolution.com/"
+msgstr ""

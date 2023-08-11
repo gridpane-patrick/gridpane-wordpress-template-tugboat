@@ -1,0 +1,1960 @@
+# Translation of YITH Store Locator in Italian
+# This file is distributed under the same license as the YITH Store Locator package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-16 10:33:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: it\n"
+"Project-Id-Version: YITH Store Locator\n"
+
+#: plugin-options/store-locator-page-options.php:99
+msgid "Choose main color shade for store locator page"
+msgstr "Scegli come mostrare i filtri nella pagina Store Locator"
+
+#: plugin-options/store-locator-page-options.php:98
+msgid "Main Color shade"
+msgstr "Tonalità di colore principale"
+
+#: templates/admin/filters/add-new.php:63 templates/admin/filters/edit.php:78
+msgid "Show filter name"
+msgstr "Mostra nome del filtro"
+
+#: plugin-options/store-locator-page-options.php:527
+msgid "Choose if you want to show the radius filter"
+msgstr "Scegli se mostrare o meno il filtro \"Raggio\""
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:442
+msgid "Term for %s list"
+msgstr "Termine per la lista %s"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:440
+msgid "Term for %s archived"
+msgstr "Termine per %s archiviato"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:438
+msgid "No term found for %s "
+msgstr "Nessun termine trovato per %s "
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:437
+msgid "Parent term for %s"
+msgstr "Termine genitore per %s"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:436
+msgid "Search term for %s"
+msgstr "Cerca termine per %s"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:435
+msgid "All terms for  %s"
+msgstr "Tutti i termini per %s"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:434
+msgid "View term for %s"
+msgstr "Vedi termini per %s"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:433
+msgid "Edit new term for %s"
+msgstr "Modifica nuovo termine per %s"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:432
+msgid "New term for %s"
+msgstr "Nuovo per termine per %s"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:431
+msgid "Add new term for %s"
+msgstr "Aggiungi nuovo termine per %s"
+
+#: templates/admin/filters/add-new.php:65 templates/admin/filters/edit.php:92
+msgid "Choose if you want to show the filter name"
+msgstr "Scegli se mostrare o meno il nome del filtro nella pagina Store Locator"
+
+#: plugin-options/store-locator-page-options.php:593
+msgid "Choose if you want to show the active filters after each search"
+msgstr "Scegli se mostrare o meno i filtri attivi dopo aver effettuato una ricerca"
+
+#: plugin-options/store-locator-page-options.php:574
+msgid "After the search"
+msgstr "Dopo la ricerca"
+
+#: plugin-options/store-locator-page-options.php:345
+msgid "Border radius"
+msgstr "Arrotondamento dei bordi"
+
+#: plugin-options/search-options.php:288
+msgid "Choose if you want to show the \"view all stores\" button"
+msgstr "Scegli se mostrare o meno il pulsante \"mostra tutti i negozi\""
+
+#: includes/class.yith-store-locator-post-type.php:194
+msgid "State/Province"
+msgstr "Provincia"
+
+#. Description of the plugin/theme
+msgid "YITH Store Locator helps your customers to find your stores quickly and easily."
+msgstr "YITH Store Locator aiuta i tuoi clienti a trovare facilmente i tuoi punti vendita o uffici."
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-store-locator-for-wordpress/"
+msgstr "https://yithemes.com/themes/plugins/yith-store-locator-for-wordpress/"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH Store Locator for WordPress"
+msgstr "YITH Store Locator per WordPress"
+
+#: plugin-options/store-locator-page-options.php:53
+msgid "Map position"
+msgstr "Posizione della mappa"
+
+#: plugin-options/search-options.php:260
+msgid "Use auto geolocation"
+msgstr "Attiva geolocalizzazione automatica"
+
+#: plugin-options/search-options.php:236
+msgid "Geolocation text"
+msgstr "Testo del link di geolocalizzazione"
+
+#: plugin-options/search-options.php:167
+msgid "Use geolocation"
+msgstr "Permetti geolocalizzazione"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:606
+msgid "Set as default"
+msgstr "Imposta come predefinito"
+
+#: templates/admin/filters/edit.php:72
+msgid "Upload a custom icon for this filter"
+msgstr "Carica un'icona per questo filtro"
+
+#: plugin-options/stores-results-options.php:595
+msgid "Badge background"
+msgstr "Sfondo del badge"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:587
+msgid "Default"
+msgstr "Predefinito"
+
+#: templates/frontend/fields/dropdown.php:3
+#: templates/frontend/fields/select.php:12
+#: templates/frontend/shortcodes/filters/dropdown.php:21
+#: templates/frontend/shortcodes/filters/opened.php:13
+msgid "Any"
+msgstr "Qualsiasi"
+
+#: templates/admin/filters/filters.php:10
+msgid "First, create a filter (for example: \"Services\") and then populate it with terms (\"Parking\")"
+msgstr "Crea un filtro (esempio: \"Servizi\") e dopo, nella tabella, configura dei termini da associargli (esempio: \"Parcheggio\")"
+
+#: templates/admin/filters/filter-row.php:22
+#: templates/admin/filters/list.php:49
+msgid "Configure terms"
+msgstr "Configura termini"
+
+#: includes/class.yith-store-locator-admin.php:103
+msgctxt "Tab name in plugin options panel"
+msgid "Store Locator Page"
+msgstr "Pagina Store Locator"
+
+#: templates/frontend/shortcodes/search.php:22
+msgid "Please enter a valid address"
+msgstr "Per favore, inserisci un indirizzo valido"
+
+#: plugin-options/stores-results-options.php:52
+msgid "Set the background color for the hover effect on the stores list"
+msgstr "Scegli il colore di sfondo per l'effetto hover sulla lista dei negozi"
+
+#: plugin-options/stores-results-options.php:51
+msgid "Stores list hover effect"
+msgstr "Colore di sfondo all'hover"
+
+#: plugin-options/store-locator-page-options.php:42
+msgid "Set the side margins for the content in full-width layout"
+msgstr "Imposta lo spazio laterale per il contenuto nel layout full-width"
+
+#: plugin-options/store-locator-page-options.php:36
+msgid "Side margin in full width layout (px)"
+msgstr "Spazio laterale nel layout full width (in pixel)"
+
+#: plugin-options/store-locator-page-options.php:30
+msgid "Enable to set a full width layout for store locator page"
+msgstr "Abilita per impostare un layout full-width per la pagina Store Locator"
+
+#: plugin-options/store-locator-page-options.php:28
+msgid "Full width page"
+msgstr "Layout full-width"
+
+#: plugin-options/store-locator-page-options.php:215
+msgid "Mouse wheel"
+msgstr "Scorrendo la rotellina del mouse"
+
+#: plugin-options/store-locator-page-options.php:214
+msgid "Mouse wheel+ctrl"
+msgstr "Scorrendo la rotellina del mouse e premendo il pulsante CTRL"
+
+#: plugin-options/store-locator-page-options.php:212
+msgid "Choose how to scroll the map of your store locator"
+msgstr "Scegli come abilitare lo spostamento all'interno della mappa"
+
+#: plugin-options/store-locator-page-options.php:210
+msgid "Map scroll type"
+msgstr "L'utente può spostarsi all'interno della mappa"
+
+#: includes/class.yith-store-locator-admin.php:241
+msgid "Store Locator"
+msgstr "Store Locator"
+
+#: plugin-options/stores-results-options.php:400
+msgid "Upload an icon for \"Contact store\" button"
+msgstr "Carica un'icona per il pulsante \"Contatta negozio\""
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#: templates/frontend/single/classic.php:30
+msgid "Open page"
+msgstr "Apri la pagina"
+
+#: templates/frontend/single/alternative.php:46
+#: templates/frontend/single/classic.php:67
+msgid "Click here"
+msgstr "Clicca qui"
+
+#: templates/frontend/single/alternative.php:41
+#: templates/frontend/single/classic.php:44
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: templates/frontend/single/alternative.php:40
+#: templates/frontend/single/classic.php:43
+msgid "Mobile Phone:"
+msgstr "Cellulare:"
+
+#: templates/frontend/single/alternative.php:39
+#: templates/frontend/single/classic.php:42
+msgid "Phone:"
+msgstr "Telefono:"
+
+#: templates/frontend/single/alternative.php:27
+msgctxt "Title showed when hover the link"
+msgid "Open page"
+msgstr "Apri la pagina"
+
+#: templates/frontend/shortcodes/store-locator/results.php:59
+msgid "Oops! It looks like no results match your search criteria"
+msgstr "Ops! Sembra che non ci siano risultati per questa ricerca"
+
+#: templates/frontend/shortcodes/store-locator/active-filters.php:49
+msgid "Clear all"
+msgstr "Rimuovi filtri"
+
+#: templates/frontend/shortcodes/filters.php:19
+msgid "Open filters"
+msgstr "Apri filtri"
+
+#: templates/frontend/pin-info-modal.php:92
+#: templates/frontend/shortcodes/store-locator/single-result.php:113
+#: templates/frontend/single/main.php:25
+msgid "Contact store"
+msgstr "Contatta il negozio"
+
+#: templates/frontend/pin-info-modal.php:88
+#: templates/frontend/shortcodes/store-locator/single-result.php:109
+#: templates/frontend/single/main.php:17
+msgid "Get direction >"
+msgstr "Ottieni indicazioni >"
+
+#: templates/admin/filters/list.php:59
+msgid "No filters currently exist."
+msgstr "Non è ancora stato creato alcun filtro."
+
+#: templates/admin/filters/filters.php:26
+msgid "Are you sure you want to delete this attribute?"
+msgstr "Sei sicuro di voler eliminare questo attributo?"
+
+#: templates/admin/filters/filters.php:9
+msgid "Add new filter"
+msgstr "Aggiungi un nuovo filtro"
+
+#: templates/admin/filters/filters.php:2
+msgid "Stores filters"
+msgstr "Filtri"
+
+#: templates/admin/filters/filter-row.php:12
+#: templates/admin/filters/list.php:29
+msgid "Edit"
+msgstr "Modifica"
+
+#: templates/admin/filters/edit.php:103
+msgid "Save Filter"
+msgstr "Salva filtro"
+
+#: templates/admin/filters/edit.php:12
+msgid "Edit filter"
+msgstr "Modifica filtro"
+
+#: templates/admin/filters/add-new.php:73
+msgid "Add filter"
+msgstr "Crea filtro"
+
+#: templates/admin/filters/add-new.php:72 templates/admin/filters/edit.php:102
+msgid "Add attribute"
+msgstr "Aggiungi attributo"
+
+#: templates/admin/filters/add-new.php:48
+msgid "Upload a custom icon for new filter"
+msgstr "Carica un'icona per questo filtro"
+
+#: templates/admin/filters/add-new.php:32 templates/admin/filters/edit.php:53
+msgid "Determines how this filters' terms are displayed."
+msgstr "Scegli come mostrare i termini di questo filtro."
+
+#: templates/admin/filters/add-new.php:15 templates/admin/filters/edit.php:33
+msgid "Unique slug/reference for the filter; must be no more than 28 characters."
+msgstr "Scegli uno slug/riferimento per questo filtro con un limite di 28 caratteri."
+
+#: templates/admin/filters/add-new.php:13 templates/admin/filters/edit.php:29
+#: templates/admin/filters/list.php:13
+msgid "Slug"
+msgstr "Slug"
+
+#: templates/admin/filters/add-new.php:9 templates/admin/filters/edit.php:23
+msgid "Name for the filter (shown on the front-end)."
+msgstr "Inserisci il nome del filtro (potrai scegliere se mostrarlo o meno nella pagina Store Locator)"
+
+#: templates/admin/filters/add-new.php:7 templates/admin/filters/edit.php:19
+#: templates/admin/filters/list.php:12
+msgid "Label"
+msgstr "Nome"
+
+#: plugin-options/stores-results-options.php:609
+msgid "Set colors for \"Featured stores\""
+msgstr "Negozi in evidenza"
+
+#: plugin-options/stores-results-options.php:605
+msgctxt "yith-store-locator"
+msgid "Container background"
+msgstr "Sfondo della sezione"
+
+#: plugin-options/stores-results-options.php:600
+msgctxt "yith-store-locator"
+msgid "Badge text"
+msgstr "Testo del badge"
+
+#: plugin-options/stores-results-options.php:590
+msgid "Featured stores colors"
+msgstr "Colori per i negozi in evidenza"
+
+#: plugin-options/stores-results-options.php:585
+#: templates/frontend/pin-info-modal.php:46
+#: templates/frontend/shortcodes/store-locator/single-result.php:61
+msgid "Featured"
+msgstr "IN EVIDENZA"
+
+#: plugin-options/stores-results-options.php:584
+msgid "Set a text to identify the featured stores"
+msgstr "Inserisci un testo da inserire nel badge mostrato sui negozi in evidenza"
+
+#: plugin-options/stores-results-options.php:582
+msgid "Enter a badge text for featured stores"
+msgstr "Testo per il badge"
+
+#: plugin-options/stores-results-options.php:576
+msgid "Upload an icon to identify the featured stores"
+msgstr "Carica un'icona per identificare i negozi in evidenza"
+
+#: plugin-options/stores-results-options.php:574
+msgid "Icon for featured store"
+msgstr "Icona per i negozi in evidenza"
+
+#: plugin-options/stores-results-options.php:567
+msgid "Featured stores settings"
+msgstr "Opzioni relative ai negozi in evidenza"
+
+#: plugin-options/stores-results-options.php:556
+msgid "Choose if you want to display or hide the \"Opening Hours\" section"
+msgstr "Scegli se mostrare o meno la sezione \"orari di apertura\""
+
+#: plugin-options/stores-results-options.php:554
+msgid "Show \"Opening Hours\""
+msgstr "Mostra \"Orari di apertura\""
+
+#: plugin-options/stores-results-options.php:543
+msgid "Upload an optional icon to identify the \"visit website\" option"
+msgstr "Carica un'icona per il link \"visita sito\""
+
+#: plugin-options/stores-results-options.php:541
+msgid "Upload an icon for \"Visit website\" button"
+msgstr "Carica un'icona per il pulsante \"Visita sito\""
+
+#: plugin-options/stores-results-options.php:493
+msgid "\"Visit website\" colors"
+msgstr "Colori del link \"Visita sito\""
+
+#: plugin-options/stores-results-options.php:483
+#: plugin-options/stores-results-options.php:531
+msgid "Set colors for \"visit website\" option"
+msgstr "Imposta i colori per il link \"Visita sito\""
+
+#: plugin-options/stores-results-options.php:469
+msgid "\"Visit Website\" colors"
+msgstr "Colori del link \"Visita sito\""
+
+#: plugin-options/stores-results-options.php:459
+#: templates/frontend/pin-info-modal.php:24
+#: templates/frontend/shortcodes/store-locator/single-result.php:24
+msgid "View website"
+msgstr "Sito web >"
+
+#: plugin-options/stores-results-options.php:458
+msgid "Enter text for \"visit website\" link"
+msgstr "Inserisci il testo per il link \"visita sito\""
+
+#: plugin-options/stores-results-options.php:456
+msgid "Enter text for \"Visit website\" link"
+msgstr "Inserisci il testo per il link \"visita sito\""
+
+#: plugin-options/stores-results-options.php:441
+msgid "Choose if you want to use a simple text or a button for \"visit website\" option"
+msgstr "Scegli se utilizzare un link testuale o un pulsante per l'opzione \"Visita sito\""
+
+#: plugin-options/stores-results-options.php:439
+msgid "\"Visit website\" link style"
+msgstr "Stile del link \"Visita sito\""
+
+#: plugin-options/stores-results-options.php:432
+msgid "Choose if you want to display or hide the \"visit website\" link"
+msgstr "Scegli se mostrare o meno il link \"Visita sito\""
+
+#: plugin-options/stores-results-options.php:430
+msgid "Show \"Visit website\" link"
+msgstr "Mostra il link \"Visita sito\""
+
+#: plugin-options/stores-results-options.php:419
+msgid "Choose where to redirect the user when clicking the \"contact store\" link"
+msgstr "Scegli dove reindirizzare l'utente al click sul pulsante \"Contatta negozio\""
+
+#: plugin-options/stores-results-options.php:416
+msgid "Search Pages"
+msgstr "Pagine di ricerca"
+
+#: plugin-options/stores-results-options.php:413
+msgid "Select the contact page to link"
+msgstr "Seleziona la pagina di contatto da collegare"
+
+#: plugin-options/stores-results-options.php:402
+msgid "Upload an optional icon to identify the \"contact store\" option"
+msgstr "Carica un'icona per il link \"Contatta negozio\""
+
+#: plugin-options/stores-results-options.php:342
+#: plugin-options/stores-results-options.php:390
+msgid "Set colors for \"contact store\" option"
+msgstr "Imposta i colori per il link \"Contatta negozio\""
+
+#: plugin-options/stores-results-options.php:338
+#: plugin-options/stores-results-options.php:479
+msgctxt "Color used for the text when user hover the link"
+msgid "Hover state"
+msgstr "Colore all'hover"
+
+#: plugin-options/stores-results-options.php:333
+#: plugin-options/stores-results-options.php:474
+msgctxt "Color used for the text when user see the link"
+msgid "Normal state"
+msgstr "Colore di default"
+
+#: plugin-options/stores-results-options.php:328
+#: plugin-options/stores-results-options.php:352
+msgid "\"Contact store\" colors"
+msgstr "Colori del link \"Contatta negozio\""
+
+#: plugin-options/stores-results-options.php:312
+msgid "Choose if you want to use a  text or button for \"contact store\" option"
+msgstr "Scegli se utilizzare un link testuale o un pulsante per l'opzione \"Contatta negozio\""
+
+#: plugin-options/stores-results-options.php:310
+msgid "\"Contact store\" style"
+msgstr "Stile del link \"Contatta negozio\""
+
+#: plugin-options/stores-results-options.php:299
+msgid "Contact store >"
+msgstr "Contatta negozio >"
+
+#: plugin-options/stores-results-options.php:298
+msgid "Enter text for \"contact store\" link"
+msgstr "Inserisci il testo per il link \"Contatta negozio\""
+
+#: plugin-options/stores-results-options.php:296
+msgid "Enter text for \"Contact\" button"
+msgstr "Enter text for \"contact store\" link"
+
+#: plugin-options/stores-results-options.php:290
+msgid "Choose if you want to display or hide the \"contact store\" link"
+msgstr "Scegli se mostrare o meno il link \"Contatta negozio\""
+
+#: plugin-options/stores-results-options.php:288
+msgid "Show \"Contact store\""
+msgstr "Mostra il link \"Contatta negozio\""
+
+#: plugin-options/stores-results-options.php:282
+msgid "Choose if you want to display or hide the contact info section"
+msgstr "Scegli se mostrare o meno la sezione \"Informazioni di contatto\""
+
+#: plugin-options/stores-results-options.php:280
+msgid "Show \"Contact info\""
+msgstr "Mostra \"Informazioni di contatto\""
+
+#: plugin-options/stores-results-options.php:269
+msgid "Upload an optional icon to identify the \"Get direction\" option"
+msgstr "Carica un'icona per identificare l'opzione \"Ottieni indicazioni\""
+
+#: plugin-options/stores-results-options.php:267
+msgid "Upload an icon for \"Get direction\" button"
+msgstr "Carica un'icona per il pulsante \"Ottieni indicazioni\""
+
+#: plugin-options/stores-results-options.php:252
+#: plugin-options/stores-results-options.php:386
+#: plugin-options/stores-results-options.php:527
+msgctxt "Color used for the background when user hover the button"
+msgid "Background hover"
+msgstr "Colore di sfondo all'hover"
+
+#: plugin-options/stores-results-options.php:247
+#: plugin-options/stores-results-options.php:381
+#: plugin-options/stores-results-options.php:522
+msgctxt "Color used for the background when user see the button"
+msgid "Background"
+msgstr "Colore di sfondo"
+
+#: plugin-options/stores-results-options.php:227
+#: plugin-options/stores-results-options.php:362
+#: plugin-options/stores-results-options.php:503
+msgctxt "Color used for the text when user hover the button"
+msgid "Text hover"
+msgstr "Testo all'hover"
+
+#: plugin-options/stores-results-options.php:222
+#: plugin-options/stores-results-options.php:357
+#: plugin-options/stores-results-options.php:498
+msgctxt "Color used for the text when user see the button"
+msgid "Text"
+msgstr "Testo"
+
+#: plugin-options/stores-results-options.php:207
+#: plugin-options/stores-results-options.php:256
+msgid "Set colors for \"Get direction\" option"
+msgstr "Imposta i colori per l'opzione \"Ottieni indicazioni\""
+
+#: plugin-options/stores-results-options.php:193
+#: plugin-options/stores-results-options.php:217
+msgid "\"Get direction\" colors"
+msgstr "Colori dell'opzione \"Ottieni indicazioni\""
+
+#: plugin-options/stores-results-options.php:183
+msgid "Get direction"
+msgstr "Ottieni indicazioni"
+
+#: plugin-options/stores-results-options.php:182
+msgid "Enter a text for \"get direction\" link"
+msgstr "Inserisci un testo per il link \"Ottieni indicazioni\""
+
+#: plugin-options/stores-results-options.php:180
+msgid "Enter a text for \"Get Direction\" button"
+msgstr "Inserisci un testo per il pulsante \"Ottieni indicazioni\""
+
+#: plugin-options/stores-results-options.php:168
+#: plugin-options/stores-results-options.php:315
+#: plugin-options/stores-results-options.php:444
+msgid "Textual"
+msgstr "Link testuale"
+
+#: plugin-options/stores-results-options.php:165
+msgid "Choose if you want to use a simple text or a button for \"get direction\" option"
+msgstr "Scegli se utilizzare un link testuale o un pulsante per l'opzione \"Ottieni indicazioni\""
+
+#: plugin-options/stores-results-options.php:163
+msgid "\"Get direction\" link style"
+msgstr "Stile del link \"Ottieni indicazioni\""
+
+#: plugin-options/stores-results-options.php:157
+msgid "Choose if you want to display or hide the \"get directions\" link"
+msgstr "Scegli se mostrare o meno il link \"Ottieni indicazioni\""
+
+#: plugin-options/stores-results-options.php:155
+msgid "Show \"Get Direction\""
+msgstr "Mostra il link \"Ottieni indicazioni\""
+
+#: plugin-options/stores-results-options.php:149
+msgid "Choose if you want to display or hide the store addresses"
+msgstr "Scegli se mostrare o meno gli indirizzi dei negozi"
+
+#: plugin-options/stores-results-options.php:140
+msgid "Choose if you want to display or hide the store descriptions"
+msgstr "Scegli se mostrare o meno le descrizioni dei negozi"
+
+#: plugin-options/stores-results-options.php:127
+msgid "Top"
+msgstr "In alto"
+
+#: plugin-options/store-locator-page-options.php:40
+#: plugin-options/stores-results-options.php:126
+msgid "Right"
+msgstr "A destra"
+
+#: plugin-options/store-locator-page-options.php:39
+#: plugin-options/stores-results-options.php:125
+msgid "Left"
+msgstr "A sinistra"
+
+#: plugin-options/stores-results-options.php:122
+msgid "Choose the store image position in stores list"
+msgstr "Scegl dove posizionare l'immagine del negozio nella lista dei risultati"
+
+#: plugin-options/stores-results-options.php:120
+msgid "Image position"
+msgstr "Posizione dell'immagine"
+
+#: plugin-options/stores-results-options.php:114
+msgid "Choose if you want to display or hide the store images"
+msgstr "Scegli se mostrare o meno l'immagine del negozio"
+
+#: plugin-options/stores-results-options.php:112
+msgid "Show store image"
+msgstr "Mostra immagine del negozio"
+
+#: plugin-options/stores-results-options.php:106
+msgid "Choose if you want to display or hide the store names"
+msgstr "Scegli se mostrare o meno il nome del negozio"
+
+#: plugin-options/stores-results-options.php:97
+msgid "Stores list - Info to show"
+msgstr "Lista dei negozi - informazioni da mostrare"
+
+#: plugin-options/stores-results-options.php:84
+#: plugin-options/stores-results-options.php:203
+msgctxt "Color used for the background when user hover the button"
+msgid "Hover state"
+msgstr "Testo all'hover"
+
+#: plugin-options/stores-results-options.php:79
+#: plugin-options/stores-results-options.php:198
+msgctxt "Color used for the background when user see the button"
+msgid "Normal state"
+msgstr "Colore del testo"
+
+#: plugin-options/stores-results-options.php:74
+msgid "Choose the color for the \"view all\" link"
+msgstr "Setta il colore per il link \"mostra tutti\""
+
+#: plugin-options/stores-results-options.php:73
+msgid "\"view all\" link color"
+msgstr "Colore del link \"mostra tutti\""
+
+#: plugin-options/stores-results-options.php:62
+msgid "Enter text for \"view all stores\" pagination link"
+msgstr "Inserisci il testo per il link \"mostra tutti i negozi\""
+
+#: plugin-options/stores-results-options.php:60
+msgid "Enter the text for \"view all\" link"
+msgstr "Inserisci il testo per il link \"mostra tutti\""
+
+#: plugin-options/stores-results-options.php:40
+msgid "Choose how many stores to show in the list"
+msgstr "Scegli quanti negozi mostrare nella lista"
+
+#: plugin-options/stores-results-options.php:38
+msgid "Set how many results to show (before showing the \"view all link\")"
+msgstr "Imposta quanti risultati mostrare nella lista dei negozi. Per vedere gli altri l'utente dovrà cliccare sul link \"mostra tutti\"."
+
+#: plugin-options/stores-results-options.php:27
+msgid "Choose if you want to display or hide the stores list by default"
+msgstr "Scegli se mostrare o meno la lista di tutti i negozi come opzione predefinita"
+
+#: plugin-options/stores-results-options.php:25
+msgid "Show stores list by default"
+msgstr "Mostra tutti i negozi di default"
+
+#: plugin-options/stores-results-options.php:18
+msgid "Choose if you want to display or hide the stores list in the result."
+msgstr "Scegli se mostrare o meno la lista dei negozi nella colonna dei risultati."
+
+#: plugin-options/stores-results-options.php:16
+msgid "Show the stores list"
+msgstr "Mostra la lista dei negozi"
+
+#: plugin-options/stores-results-options.php:9
+msgid "Stores results"
+msgstr "Risultati di ricerca"
+
+#: plugin-options/stores-options.php:16
+msgid "Stores Pages"
+msgstr "Pagine dei negozi"
+
+#: plugin-options/stores-options.php:13
+msgid "Stores Filters"
+msgstr "Filtri dei negozi"
+
+#: plugin-options/stores-options.php:10
+msgid "All stores"
+msgstr "Tutti i negozi"
+
+#: plugin-options/stores/page-details-options.php:69
+msgid "Optional: upload an icon to identify the Opening hours section"
+msgstr "Carica un'icona per identificare la sezione \"Orari di apertura\""
+
+#: plugin-options/stores/page-details-options.php:67
+msgid "Upload an icon for \"Opening-Hours\" section"
+msgstr "Icona per la sezione \"Orari di apertura\""
+
+#: plugin-options/stores/page-details-options.php:62
+#: templates/frontend/single/main.php:26
+msgid "We're open on:"
+msgstr "Orari di apertura:"
+
+#: plugin-options/stores/page-details-options.php:61
+msgid "Enter a title to identify the Opening hours section"
+msgstr "Inserisci un titolo per identificare la sezione \"Orari di apertura\""
+
+#: plugin-options/stores/page-details-options.php:59
+msgid "Enter title for \"Opening Hours\" section"
+msgstr "Titolo per la sezione \"Orari di apertura\""
+
+#: plugin-options/stores/page-details-options.php:53
+msgid "Optional: upload an icon to identify the Contact section"
+msgstr "Carica un'icona per identificare la sezione \"Informazioni di contatto\""
+
+#: plugin-options/stores/page-details-options.php:51
+msgid "Upload an icon for \"Contact Info\" section"
+msgstr "Icona per la sezione \"Informazioni di contatto\""
+
+#: plugin-options/stores/page-details-options.php:45
+msgid "Enter a title to identify the Contact section"
+msgstr "Inserisci un titolo per identificare la sezione \"Informazioni di contatto\""
+
+#: plugin-options/stores/page-details-options.php:43
+msgid "Enter title for \"Contact\" section"
+msgstr "Titolo per la sezione \"Informazioni di contatto\""
+
+#: plugin-options/stores/page-details-options.php:37
+msgid "Optional: upload an icon to identify the Address section"
+msgstr "Carica un'icona per identificare la sezione \"Indirizzo\""
+
+#: plugin-options/stores/page-details-options.php:35
+msgid "Upload an icon for \"Address\" section"
+msgstr "Icona per la sezione \"Indirizzo\""
+
+#: plugin-options/stores/page-details-options.php:29
+msgid "Enter a title to identify the Address section"
+msgstr "Inserisci un titolo per identificare la sezione \"Indirizzo\""
+
+#: plugin-options/stores/page-details-options.php:27
+msgid "Enter title for \"Address\" section"
+msgstr "Titolo per la sezione \"Indirizzo\""
+
+#: plugin-options/stores/page-details-options.php:22
+msgid "Choose the layout for store detail page"
+msgstr "Scegli il layout per la pagina del negozio"
+
+#: plugin-options/stores/page-details-options.php:20
+msgid "Alternative layout (big image)"
+msgstr "Layout alternativo (immagine grande)"
+
+#: plugin-options/stores/page-details-options.php:19
+msgid "Classic layout (image on the left)"
+msgstr "Layout classico (immagine a sinistra)"
+
+#: plugin-options/stores/page-details-options.php:16
+msgid "Store detail page layout"
+msgstr "Layout della pagina del negozio"
+
+#: plugin-options/stores/page-details-options.php:8
+msgctxt "Heading for options relative to store page"
+msgid "Stores pages"
+msgstr "Pagine dei negozi"
+
+#: plugin-options/search-options.php:398
+msgid "Your search did not show any results, please try with different terms."
+msgstr "La tua ricerca per non ha prodotto alcun risultato. Prova ad utilizzare parole diverse ed effettuare una nuova ricerca."
+
+#: plugin-options/search-options.php:397
+msgid "Enter a custom text when no results are displayed"
+msgstr "Inserisci un testo da mostrare all'utente se la ricerca non produce risultati"
+
+#: plugin-options/search-options.php:395
+msgid "Enter a text for \"no results\" title"
+msgstr "Inserisci un titolo per \"Nessun risultato\""
+
+#: plugin-options/search-options.php:391
+#: templates/frontend/shortcodes/results.php:3
+msgid "Results"
+msgstr "Risultati"
+
+#: plugin-options/search-options.php:390
+msgid "Enter an optional \"results\" title to show before the stores list"
+msgstr "Inserisci un titolo \"Risultati\" prima della lista dei negozi"
+
+#: plugin-options/search-options.php:388
+msgid "Enter a text for \"Results\" title"
+msgstr "Inserisci un titolo \"Risultati\""
+
+#: plugin-options/search-options.php:382
+msgid "Search results"
+msgstr "Risultati di ricerca"
+
+#: plugin-options/search-options.php:368
+msgid "Upload a custom icon for \"All stores\" button"
+msgstr "Carica un'icona per il pulsante \"Tutti i negozi\""
+
+#: plugin-options/search-options.php:366
+msgid "Default icon for \"View all stores\" button"
+msgstr "Icona per il pulsante \"Tutti i negozi\""
+
+#: plugin-options/search-options.php:357
+msgid "Enter text for \"view all stores\" option"
+msgstr "Inserisci un testo per l'opzione \"Mostra tutti i negozi\""
+
+#: plugin-options/search-options.php:356
+#: plugin-options/stores-results-options.php:63
+#: templates/frontend/shortcodes/store-locator/results.php:30
+msgid "View all stores"
+msgstr "Mostra tutti i negozi"
+
+#: plugin-options/search-options.php:354
+msgid "Enter a text for \"View all stores\" button"
+msgstr "Inserisci un testo per il pulsante \"Mostra tutti i negozi\""
+
+#: plugin-options/search-options.php:345
+msgid "Set colors for \"View all stores\" button"
+msgstr "Setta il colore per il pulsante \"Mostra tutti i negozi\""
+
+#: plugin-options/search-options.php:308
+msgid "\"View all stores\" colors"
+msgstr "Colore del pulsante \"Mostra tutti i negozi\""
+
+#: plugin-options/search-options.php:294
+msgid "Choose to show a simple text link or a button to click \"view all stores\""
+msgstr "Scegli se utilizzare un link testuale o un pulsante per l'opzione \"Mostra tutti i negozi\""
+
+#: plugin-options/search-options.php:292
+msgid "\"View all stores\" style"
+msgstr "Stile del link \"Mostra tutti i negozi\""
+
+#: plugin-options/search-options.php:285
+msgid "Show \"View all stores\" button"
+msgstr "Mostra il link \"Mostra tutti i negozi\""
+
+#: plugin-options/search-options.php:279
+msgid "'View all stores' settings"
+msgstr "Opzioni relative al \"Mostra tutti i negozi\""
+
+#: plugin-options/search-options.php:263
+msgid "Choose to enable or disable the auto-geolocation. If enabled, the user will get an alert when opening the store locator page."
+msgstr "Scegli se abilitare o meno la geolocalizzazione automatica. Se abilitata, l'utente riceverà una notifica dal browser quando accede alla pagina Store Locator e se è d'accordo verrà geolocalizzato immediatamente."
+
+#: plugin-options/search-options.php:250
+msgid "Upload an icon to identify the geolocation option"
+msgstr "Carica un'icona per identificare l'opzione Geolocalizzazione"
+
+#: plugin-options/search-options.php:248
+msgid "Default icon for geolocation"
+msgstr "Icona per la geolocalizzazione"
+
+#: plugin-options/search-options.php:239
+msgid "Enter text for geolocation button"
+msgstr "Inserisci un testo per il pulsante di geolocalizzazione"
+
+#: plugin-options/search-options.php:238
+msgid "Use my position"
+msgstr "Usa la mia posizione"
+
+#: plugin-options/search-options.php:227
+msgid "Set colors for geolocation button"
+msgstr "Setta i colori per il pulsante di geolocalizzazione"
+
+#: plugin-options/search-options.php:190
+msgid "Geolocation button colors"
+msgstr "Colore del pulsante di geolocalizzazione"
+
+#: plugin-options/search-options.php:179 plugin-options/search-options.php:297
+#: plugin-options/stores-results-options.php:169
+#: plugin-options/stores-results-options.php:316
+#: plugin-options/stores-results-options.php:445
+msgid "Button"
+msgstr "Pulsante"
+
+#: plugin-options/search-options.php:178 plugin-options/search-options.php:296
+msgid "Only text"
+msgstr "Link testuale"
+
+#: plugin-options/search-options.php:176
+msgid "Select to use a button or text link, for the user to activate their geolocation"
+msgstr "Scegli se utilizzare un link testuale o un pulsante per la geolocalizzazione"
+
+#: plugin-options/search-options.php:174
+msgid "Geolocation style"
+msgstr "Stile del link di geolocalizzazione"
+
+#: plugin-options/search-options.php:170
+msgid "Choose to enable the geolocation feature to get the user's position automatically."
+msgstr "Abilita l'opzione geolocalizzazione per analizzare automaticamente la posizione dell'utente e fornirgli informazioni personalizzate."
+
+#: plugin-options/search-options.php:161
+msgid "Geolocation settings"
+msgstr "Opzioni di geolocalizzazione"
+
+#: plugin-options/search-options.php:144
+msgid "Set colors for search button"
+msgstr "Setta i colori del pulsante di ricerca"
+
+#: plugin-options/search-options.php:140 plugin-options/search-options.php:223
+#: plugin-options/search-options.php:341
+msgid "Background hover"
+msgstr "Colore di sfondo all'hover"
+
+#: plugin-options/search-options.php:117 plugin-options/search-options.php:200
+#: plugin-options/search-options.php:318
+msgid "Text hover"
+msgstr "Testo all'hover"
+
+#: plugin-options/search-options.php:112 plugin-options/search-options.php:195
+#: plugin-options/search-options.php:313
+#: plugin-options/store-locator-page-options.php:331
+msgid "Text"
+msgstr "Testo"
+
+#: plugin-options/search-options.php:107
+msgid "Search button colors"
+msgstr "Colori del pulsante \"Cerca\""
+
+#: plugin-options/search-options.php:97
+msgid "Search"
+msgstr "Cerca"
+
+#: plugin-options/search-options.php:95 plugin-options/search-options.php:98
+msgid "Enter text for search button"
+msgstr "Inserisci un testo per il pulsante di ricerca"
+
+#: plugin-options/search-options.php:91
+msgid "When enabled, the instant search will load results automatically. If disabled, the user has to click on the \"search\" button to see the results."
+msgstr "Se abilitata, la ricerca istantanea caricherà i risultati automaticamente. Se disabilitata, l'utente dovrà cliccare sul pulsante \"cerca\" per effettuare la ricerca e vederne i risultati."
+
+#: plugin-options/search-options.php:88
+msgid "Use instant search"
+msgstr "Usa la ricerca istantanea"
+
+#: plugin-options/search-options.php:79
+msgid "Find our stores"
+msgstr "Trova i nostri negozi"
+
+#: plugin-options/search-options.php:78
+msgid "Enter the text to show above the search bar"
+msgstr "Inserisci un testo da mostrare sopra la barra di ricerca"
+
+#: plugin-options/search-options.php:76
+msgid "Enter a title for \"search\" feature"
+msgstr "Inserisci un titolo per l'opzione di ricerca"
+
+#: plugin-options/search-options.php:66
+msgid "Upload a custom icon to show in the search bar"
+msgstr "Carica un'icona da mostrare nella barra di ricerca"
+
+#: plugin-options/search-options.php:64
+msgid "Upload icon for search bar"
+msgstr "Icona per la barra di ricerca"
+
+#: plugin-options/search-options.php:55
+msgid "Enter the placeholder text for the search bar"
+msgstr "Inserisci un testo placeholder da mostrare nella barra di ricerca (sparirà al click dell'utente)"
+
+#: plugin-options/search-options.php:54
+msgid "Enter address / city"
+msgstr "Inserisci indirizzo o nome della città"
+
+#: plugin-options/search-options.php:52
+msgid "Enter a text to display inside the search form"
+msgstr "Testo da mostrare dentro il form di ricerca"
+
+#: plugin-options/search-options.php:42
+msgid "Set the background and placeholder colors of the search form"
+msgstr "Setta i colori del form di ricerca"
+
+#: plugin-options/search-options.php:38
+msgctxt "yith-store-locator"
+msgid "text"
+msgstr "testo"
+
+#: plugin-options/search-options.php:28
+msgid "Search form colors"
+msgstr "Colori del form di ricerca"
+
+#: plugin-options/search-options.php:22
+msgid "Choose if you want to display or not the search box"
+msgstr "Scegli se mostrare o meno il form di ricerca"
+
+#: plugin-options/search-options.php:20
+msgid "Show the search box"
+msgstr "Mostra il form di ricerca"
+
+#: plugin-options/search-options.php:9
+msgid "Search Settings"
+msgstr "Opzioni del form di ricerca"
+
+#: plugin-options/store-locator-page-options.php:132
+msgid "Set width (in pixel) of scrollbar for results section"
+msgstr "Imposta la larghezza (in pixel) della barra di scorrimento mostrata nella sezione con i risultati di ricerca"
+
+#: plugin-options/store-locator-page-options.php:131
+msgid "Scrollbar width"
+msgstr "Larghezza della scrollbar"
+
+#: plugin-options/store-locator-page-options.php:123
+msgid "Scrollbar thumb color"
+msgstr "Colore di scorrimento"
+
+#: plugin-options/store-locator-page-options.php:118
+msgid "Main scrollbar color"
+msgstr "Colore principale"
+
+#: plugin-options/store-locator-page-options.php:113
+msgid "Choose colors for scrollbar used to navigate in results"
+msgstr "Setta i colori della barra di scorrimento utilizzata per navigare nei risultati"
+
+#: plugin-options/store-locator-page-options.php:112
+msgid "Scrollbar colors"
+msgstr "Colori della scrollbar"
+
+#: plugin-options/store-locator-page-options.php:93
+msgid "Choose if show results in a single column or in two columns"
+msgstr "Scegli se mostrare i risultati in una singola colonna o su due colonne"
+
+#: plugin-options/store-locator-page-options.php:90
+msgid "Two columns"
+msgstr "Due colonne"
+
+#: plugin-options/store-locator-page-options.php:89
+msgid "One column"
+msgstr "Colonna singola"
+
+#: plugin-options/store-locator-page-options.php:86
+msgid "Show results in"
+msgstr "Mostra risultati in"
+
+#: plugin-options/store-locator-page-options.php:81
+msgid "Set the height of the map"
+msgstr "Setta l'altezza della mappa"
+
+#: plugin-options/store-locator-page-options.php:79
+msgid "Map height (in pixel)"
+msgstr "Altezza della mappa (in pixel)"
+
+#: plugin-options/store-locator-page-options.php:74
+msgid "Choose the width of the map. Default is 65. Width of search results list will be calculated automatically."
+msgstr "Setta la larghezza della mappa in %. Il valore predefinito è 65. La larghezza della sezione dei risultati di ricerca verrà calcolata automaticamente."
+
+#: plugin-options/store-locator-page-options.php:71
+msgid "Map width (in %)"
+msgstr "Larghezza mappa (in%)"
+
+#: plugin-options/store-locator-page-options.php:66
+msgid "Choose the position of map and search results in store locator page"
+msgstr "Scegli la posizione della mappa e dei risultati di ricerca nella pagina Store Locator"
+
+#: plugin-options/store-locator-page-options.php:61
+msgid "Map left"
+msgstr "A sinistra"
+
+#: plugin-options/store-locator-page-options.php:57
+msgid "Map right"
+msgstr "A destra"
+
+#: plugin-options/store-locator-page-options.php:23
+msgid "Choose the default position of the search bar and filters"
+msgstr "Scegli la posizione della barra di ricerca e dei filtri"
+
+#: plugin-options/store-locator-page-options.php:20
+msgid "Beside the map"
+msgstr "Al lato della mappa"
+
+#: plugin-options/store-locator-page-options.php:19
+msgid "Above the map"
+msgstr "Sopra la mappa"
+
+#: plugin-options/store-locator-page-options.php:16
+msgid "Search bar and filters position"
+msgstr "Posizione della ricerca e dei filtri"
+
+#: plugin-options/store-locator-page-options.php:9
+msgid "Store locator page layout"
+msgstr "Layout della pagina Store Locator"
+
+#: plugin-options/store-locator-page-options.php:500
+msgid "Choose the border weight of the radius-circle"
+msgstr "Scegli lo spessore del bordo del raggio"
+
+#: plugin-options/store-locator-page-options.php:498
+msgid "Circle border weight"
+msgstr "Spessore del bordo del raggio"
+
+#: plugin-options/store-locator-page-options.php:488
+msgid "Set the background and border colors of the radius-circle"
+msgstr "Setta il colore di sfondo e del bordo del raggio"
+
+#: plugin-options/store-locator-page-options.php:484
+msgctxt "yith-store-locator"
+msgid "Border"
+msgstr "Bordo"
+
+#: plugin-options/search-options.php:33
+#: plugin-options/store-locator-page-options.php:479
+msgctxt "yith-store-locator"
+msgid "Background"
+msgstr "Colore di sfondo"
+
+#: plugin-options/store-locator-page-options.php:474
+msgid "Circle colors"
+msgstr "Colori del raggio"
+
+#: plugin-options/store-locator-page-options.php:468
+msgid "Choose if you want to show the circle to highlight the selected radius on the map"
+msgstr "Scegli se mostrare o meno un cerchio per rappresentare il raggio d'azione sulla mappa"
+
+#: plugin-options/store-locator-page-options.php:466
+msgid "Show radius circle"
+msgstr "Mostra raggio sulla mappa"
+
+#: plugin-options/store-locator-page-options.php:460
+msgid "Radius circle"
+msgstr "Cerchio del raggio d'azione"
+
+#: plugin-options/store-locator-page-options.php:443
+msgid "Choose if you want to display or not the store visit website link within the pin modal"
+msgstr "Scegli se mostrare o meno il link \"Visita sito\" nella modale"
+
+#: plugin-options/store-locator-page-options.php:441
+msgid "Show visit website link"
+msgstr "Mostra link \"Visita sito\""
+
+#: plugin-options/store-locator-page-options.php:430
+msgid "Choose if you want to display or not the store contact link within the pin modal"
+msgstr "Scegli se mostrare o meno il link \"Contatta negozio\" nella modale"
+
+#: plugin-options/store-locator-page-options.php:428
+msgid "Show contact link"
+msgstr "Mostra link \"Contatta\""
+
+#: plugin-options/store-locator-page-options.php:417
+msgid "Choose if you want to display or not the store direction link within the pin modal"
+msgstr "Scegli se mostrare o meno il link \"Ottieni indicazioni\" nella modale"
+
+#: plugin-options/store-locator-page-options.php:415
+msgid "Show get direction link"
+msgstr "Mostra link \"Ottieni indicazioni\""
+
+#: plugin-options/store-locator-page-options.php:404
+msgid "Choose if you want to display or not the store contact info within the pin modal"
+msgstr "Scegli se mostrare o meno le informazioni di contatto del negozio nella modale"
+
+#: plugin-options/store-locator-page-options.php:402
+msgid "Show store contact info"
+msgstr "Mostra le informazioni di contatto"
+
+#: plugin-options/store-locator-page-options.php:391
+msgid "Choose if you want to display or not the store address within the pin modal"
+msgstr "Scegli se mostrare o meno l'indirizzo del negozio nella modale"
+
+#: plugin-options/store-locator-page-options.php:389
+#: plugin-options/stores-results-options.php:147
+msgid "Show store address"
+msgstr "Mostra l'indirizzo del negozii"
+
+#: plugin-options/store-locator-page-options.php:378
+msgid "Choose if you want to display or not the store description within the pin modal"
+msgstr "Scegli se mostrare o meno la descrizione del negozio nella modale"
+
+#: plugin-options/store-locator-page-options.php:376
+#: plugin-options/stores-results-options.php:138
+msgid "Show store description"
+msgstr "Mostra descrizione del negozio"
+
+#: plugin-options/store-locator-page-options.php:365
+msgid "Choose if you want to display or not the store name within the pin modal"
+msgstr "Scegli se mostrare o meno il nome del negozio nella modale"
+
+#: plugin-options/store-locator-page-options.php:363
+#: plugin-options/stores-results-options.php:104
+msgid "Show store name"
+msgstr "Mostra nome del negozio"
+
+#: plugin-options/store-locator-page-options.php:347
+msgid "Set 0 if you want a rectangular box, 10 for a circle box."
+msgstr "Setta la curvatura degli angoli della modale. Con 0 la modale sarà rettangolare, con 10 circolare."
+
+#: plugin-options/store-locator-page-options.php:335
+msgid "Set the background and text colors of the pin modal"
+msgstr "Setta il colore di sfondo e del testo della modale"
+
+#: plugin-options/search-options.php:135 plugin-options/search-options.php:218
+#: plugin-options/search-options.php:336
+#: plugin-options/store-locator-page-options.php:326
+msgid "Background"
+msgstr "Colore di sfondo"
+
+#: plugin-options/store-locator-page-options.php:321
+msgid "Modal colors"
+msgstr "Colori della modale"
+
+#: plugin-options/store-locator-page-options.php:310
+msgid "Set the width (in px) of the modal window opened on the map%s Height will be dynamic and based on modal content."
+msgstr "Setta la larghezza (in pixel) the modale mostrata sulla mappa%s. L'altezza dipenderà dai contenuti mostrati nella modale stessa."
+
+#: plugin-options/store-locator-page-options.php:308
+msgid "Modal width"
+msgstr "Larghezza della modale"
+
+#: plugin-options/store-locator-page-options.php:296
+msgctxt "Event on which trigger the info box modal opening"
+msgid "Mouse hover"
+msgstr "All'hover sul pin"
+
+#: plugin-options/store-locator-page-options.php:295
+msgctxt "Event on which trigger the info box modal opening"
+msgid "Click on pin"
+msgstr "Al click sul pin"
+
+#: plugin-options/store-locator-page-options.php:291
+msgid "Open the modal at"
+msgstr "Apri la modale"
+
+#: plugin-options/store-locator-page-options.php:285
+msgid "Choose if you want to display or not the modal within info on the map"
+msgstr "Scegli se mostrare o meno la modale con le informazioni del negozio sulla mappa"
+
+#: plugin-options/store-locator-page-options.php:283
+msgid "Show the info modals"
+msgstr "Mostra modale sulla mappa"
+
+#: plugin-options/store-locator-page-options.php:277
+msgid "Pin Info Modal Settings"
+msgstr "Opzioni della modale"
+
+#: plugin-options/store-locator-page-options.php:256
+msgid "Paste here the JSON code provided by Google for your custom style. %1$sClick here%2$s to create your favourite one"
+msgstr "Incolla qui il codice JSON fornito da Google per il tuo stile personalizzato. %1$sClicca qui%2$s per creare uno stile"
+
+#: plugin-options/store-locator-page-options.php:254
+msgid "Map style"
+msgstr "Stile della mappa"
+
+#: plugin-options/store-locator-page-options.php:243
+msgid "Upload a custom icon to identify stores in map%s In each store you can override with a different icon."
+msgstr "Carica un'icona predefinita (pin) per rappresentare i negozi nella mappa.%s In ogni store puoi inoltre caricare un pin differente che sostituirà quello impostato come predefinito."
+
+#: plugin-options/store-locator-page-options.php:241
+msgid "Default icon for store in the map"
+msgstr "Icona negozi sulla mappa"
+
+#: plugin-options/store-locator-page-options.php:230
+msgid "Upload a custom icon to identify the user position in map"
+msgstr "Carica un'icona per rappresentare la posizione dell'utente nella mappa"
+
+#: plugin-options/store-locator-page-options.php:228
+msgid "Default icon for user position in the map"
+msgstr "Icona utente nella mappa"
+
+#: plugin-options/store-locator-page-options.php:194
+msgid "Choose the default zoom for store locator map"
+msgstr "Scegli lo zoom predefinito per la mappa"
+
+#: plugin-options/store-locator-page-options.php:192
+msgid "Default map zoom"
+msgstr "Zoom predefinito"
+
+#: plugin-options/store-locator-page-options.php:181
+msgid "Choose the default map type"
+msgstr "Scegli il tipo di mappa predefinito"
+
+#: plugin-options/store-locator-page-options.php:175
+msgid "Default map type"
+msgstr "Tipo di mappa"
+
+#: plugin-options/store-locator-page-options.php:165
+msgid "Choose the default position for store locator map"
+msgstr "Imposta la posizione predefinita della mappa"
+
+#: plugin-options/store-locator-page-options.php:159
+msgid "Default map position"
+msgstr "Posizione predefinita della mappa"
+
+#: plugin-options/store-locator-page-options.php:153
+msgid "Choose if you want to display or not the map"
+msgstr "Scegli se mostrare o meno la mappa"
+
+#: plugin-options/store-locator-page-options.php:151
+msgid "Show the map"
+msgstr "Mostra la mappa"
+
+#: plugin-options/store-locator-page-options.php:145
+msgid "Map Settings"
+msgstr "Opzioni della mappa"
+
+#: plugin-options/general-options.php:161
+msgid "Here you can add some javascript if you want."
+msgstr "Se necessario, usa questo spazio per aggiungere javascript personalizzato."
+
+#: plugin-options/general-options.php:158
+msgid "Custom JS"
+msgstr "JS personalizzato"
+
+#: plugin-options/general-options.php:154
+msgid "Enter some stylesheet rules if you want to customize some elements"
+msgstr "Inserisci qui le regole CSS per personalizzare alcuni elementi del plugin"
+
+#: plugin-options/general-options.php:151
+msgid "Custom CSS"
+msgstr "CSS personalizzato"
+
+#: plugin-options/general-options.php:145
+msgid "Custom code"
+msgstr "Codice personalizzato"
+
+#: plugin-options/general-options.php:130
+msgid "Choose the overlay color in loading process"
+msgstr "Scegli il colore di overlay che copre la pagina durante uno stato di caricamento"
+
+#: plugin-options/general-options.php:128
+msgid "Overlay color"
+msgstr "Colore overlay"
+
+#: plugin-options/general-options.php:118
+msgid "Choose the loader icon color"
+msgstr "Setta il colore dell'icona di caricamento"
+
+#: plugin-options/general-options.php:116
+msgid "Loading icon color"
+msgstr "Colore dell'icona di caricamento"
+
+#: plugin-options/general-options.php:105
+msgid "Big"
+msgstr "Grande"
+
+#: plugin-options/general-options.php:104
+msgid "Medium"
+msgstr "Media"
+
+#: plugin-options/general-options.php:103
+msgid "Small"
+msgstr "Piccola"
+
+#: plugin-options/general-options.php:101
+msgid "Choose the loader icon size"
+msgstr "Scegli la dimensione dell'icona di caricamento"
+
+#: plugin-options/general-options.php:99
+msgid "Loading icon size"
+msgstr "Dimensione icona di caricamento"
+
+#: plugin-options/general-options.php:86
+msgid "Loader 4"
+msgstr "Loader 4"
+
+#: plugin-options/general-options.php:82
+msgid "Loader 3"
+msgstr "Loader 3"
+
+#: plugin-options/general-options.php:78
+msgid "Loader 2"
+msgstr "Loader 2"
+
+#: plugin-options/general-options.php:74
+msgid "Loader 1"
+msgstr "Loader 1"
+
+#: plugin-options/general-options.php:71
+msgid "Choose the loader icon"
+msgstr "Scegli l'icona di caricamento da mostrare nella pagina Store Locator"
+
+#: plugin-options/general-options.php:69
+msgid "Default loading icon"
+msgstr "Icona di caricamento"
+
+#: plugin-options/general-options.php:59
+msgid "Upload here your custom loader"
+msgstr "Usa un'icona di caricamento personalizzata"
+
+#: plugin-options/general-options.php:57
+msgid "Upload a custom loader"
+msgstr "Carica un'icona personalizzata"
+
+#: plugin-options/general-options.php:50
+msgid "Custom loader"
+msgstr "Icona personalizzata"
+
+#: plugin-options/general-options.php:49
+msgid "Default loader"
+msgstr "Icona di caricamento predefinita"
+
+#: plugin-options/general-options.php:45
+msgid "Set a default loader or custom loader"
+msgstr "Scegli se utilizzare una delle icone di caricamento incluse nel plugin o se caricarne una personalizzata"
+
+#: plugin-options/general-options.php:38
+msgid "Loader"
+msgstr "Icona di caricamento"
+
+#: plugin-options/general-options.php:22
+msgid "You need Google API Key to show a google map in your site. %1$sRead more%2$s"
+msgstr "Hai bisogno delle API di Google Key per integrare una mappa Google nel tuo sito. %1$sLeggi come fare qui%2$s"
+
+#: plugin-options/general-options.php:20
+msgid "Google Maps API Key"
+msgstr "Api Key di Google Maps"
+
+#: plugin-options/general-options.php:9
+msgid "Google API Key"
+msgstr "API Key Google"
+
+#: plugin-options/store-locator-page-options.php:607
+#: templates/frontend/shortcodes/store-locator/active-filters.php:3
+msgid "Active filters:"
+msgstr "Filtri attivi:"
+
+#: plugin-options/store-locator-page-options.php:606
+msgid "Enter a text to identify the active filters"
+msgstr "Inserisci un testo per identificare i filtri di ricerca attivi"
+
+#: plugin-options/store-locator-page-options.php:604
+msgid "Enter a text for \"active filters\" text"
+msgstr "Testo per la opzione \"filtri attivi\""
+
+#: plugin-options/store-locator-page-options.php:591
+msgid "Show \"active filters\" text"
+msgstr "Mostra i filtri attivi durante una ricerca"
+
+#: plugin-options/store-locator-page-options.php:579
+msgid "Hide filters and show a link in order to open them again"
+msgstr "Nascondi i filtri e mostra un link per permettere all'utente di visualizzarli nuovamente"
+
+#: plugin-options/store-locator-page-options.php:578
+msgid "Keep filters opened in the page"
+msgstr "Lascia i filtri visibili nella pagina"
+
+#: plugin-options/store-locator-page-options.php:576
+msgid "Choose if you want to show the section \"Filters\" when results are showed"
+msgstr "Scegli se mostrare o meno i filtri quando vengono caricati i risultati della ricerca"
+
+#: plugin-options/store-locator-page-options.php:562
+msgid "Dropdown style"
+msgstr "Racchiusi dentro sezioni dropdown"
+
+#: plugin-options/store-locator-page-options.php:561
+msgid "Opened in the page"
+msgstr "Visibili nella pagina"
+
+#: plugin-options/store-locator-page-options.php:559
+msgid "Choose how to to display the filters in store locator page"
+msgstr "Scegli come mostrare i filtri nella pagina Store Locator"
+
+#: plugin-options/store-locator-page-options.php:557
+msgid "Filters display mode"
+msgstr "Stile dei filtri"
+
+#: plugin-options/store-locator-page-options.php:549
+msgid "Show filters"
+msgstr "Mostra filtri"
+
+#: plugin-options/store-locator-page-options.php:539
+msgid "Choose the distance unit to use for map settings"
+msgstr "Scegli l'unità di distanza da utilizzare nelle opzioni della mappa"
+
+#: plugin-options/store-locator-page-options.php:537
+msgid "Miles"
+msgstr "Miglia"
+
+#: plugin-options/store-locator-page-options.php:536
+msgid "KM"
+msgstr "Km"
+
+#: plugin-options/store-locator-page-options.php:533
+msgid "Distance unit"
+msgstr "Unità di distanza"
+
+#: plugin-options/store-locator-page-options.php:551
+msgid "Choose if you want to show the filters"
+msgstr "Scegli se mostrare o meno i filtri"
+
+#: plugin-options/store-locator-page-options.php:525
+msgid "Show radius filter"
+msgstr "Mostra filtro \"Raggio\""
+
+#: plugin-options/store-locator-page-options.php:519
+msgid "Filters settings"
+msgstr "Opzioni dei filtri"
+
+#: includes/functions.php:45
+msgid "Contact"
+msgstr "Contatta"
+
+#: includes/class.yith-store-locator-shortcodes.php:134
+msgctxt "Text for the button \"Show all stores\" inside the store locator"
+msgid "View all stores"
+msgstr "Mostra tutti i negozi"
+
+#: includes/class.yith-store-locator-shortcodes.php:133
+msgctxt "Default text for the geolocalation button inside store locator"
+msgid "Use my position"
+msgstr "Usa la mia posizione"
+
+#: includes/class.yith-store-locator-shortcodes.php:130
+msgctxt "Placeholder to show for the search address input inside the store locator"
+msgid "Enter address / city"
+msgstr "Inserisci indirizzo o città"
+
+#: includes/class.yith-store-locator-shortcodes.php:129
+msgctxt "Default text to show as title of Search Bar in store locator"
+msgid "Find our stores"
+msgstr "Trova i nostri negozi"
+
+#: includes/class.yith-store-locator-post-type.php:498
+#: templates/frontend/pin-info-modal.php:80
+#: templates/frontend/shortcodes/store-locator/single-result.php:101
+msgid "Email"
+msgstr "Email"
+
+#: includes/class.yith-store-locator-post-type.php:496
+#: templates/frontend/pin-info-modal.php:72
+#: templates/frontend/shortcodes/store-locator/single-result.php:93
+msgid "Mobile Phone"
+msgstr "Cellulare"
+
+#: includes/class.yith-store-locator-post-type.php:378
+#: includes/class.yith-store-locator-post-type.php:416
+msgid "Display as"
+msgstr "Mostra come"
+
+#: includes/class.yith-store-locator-post-type.php:374
+#: includes/class.yith-store-locator-post-type.php:410
+#: templates/admin/filters/add-new.php:36 templates/admin/filters/edit.php:59
+msgid "Custom icon"
+msgstr "Icona personalizzata"
+
+#: includes/class.yith-store-locator-post-type.php:368
+#: includes/class.yith-store-locator-post-type.php:402
+msgid "Dropdown select"
+msgstr "Select dropdown"
+
+#: includes/class.yith-store-locator-post-type.php:330
+msgid "Upload a custom icon to identify this store in map and override the default icon"
+msgstr "Carica un'icona per rappresentare questo negozio nella mappa e sovrascrivere il pin predefinito"
+
+#: includes/class.yith-store-locator-post-type.php:327
+msgid "Default map icon for this store"
+msgstr "Icona del negozio"
+
+#: includes/class.yith-store-locator-post-type.php:323
+msgid "Enter the url to redirect the user when click on store name"
+msgstr "Inserisci l'indirizzo a cui reindirizzare l'utente quando clicca sul nome del negozio"
+
+#: includes/class.yith-store-locator-post-type.php:316
+msgid "Custom URL for store name"
+msgstr "Inserisci URL"
+
+#: includes/class.yith-store-locator-post-type.php:312
+msgid "Choose if the store name has to redirect the user to a specific page or not"
+msgstr "Scegli se il nome del negozio deve reindirizzare l'utente a una pagina specifica o meno"
+
+#: includes/class.yith-store-locator-post-type.php:310
+msgid "Link to custom url"
+msgstr "A un URL personalizzato"
+
+#: includes/class.yith-store-locator-post-type.php:309
+msgid "Link to store page"
+msgstr "Alla pagina di dettaglio del negozio"
+
+#: includes/class.yith-store-locator-post-type.php:308
+msgid "No link"
+msgstr "No, non deve contenere un link"
+
+#: includes/class.yith-store-locator-post-type.php:305
+msgid "Store name link options:"
+msgstr "Il nome del negozio deve linkare:"
+
+#: includes/class.yith-store-locator-post-type.php:301
+msgid "Choose if you want to promote this store as \"featured store\""
+msgstr "Scegli se vuoi mettere in evidenza questo negozio (verrà mostrato con il badge)"
+
+#: includes/class.yith-store-locator-post-type.php:298
+msgid "Make featured store"
+msgstr "Metti in evidenza"
+
+#: includes/class.yith-store-locator-post-type.php:295
+msgid "Enter a custom text to inform users about your opening hours holidays and so on."
+msgstr "Inserisci un testo per informare gli utenti sugli orari di apertura, giorni di chiusura, ecc."
+
+#: includes/class.yith-store-locator-post-type.php:292
+msgid "Opening hours text"
+msgstr "Testo per la sezione \"Orari di apertura\""
+
+#: includes/class.yith-store-locator-post-type.php:283
+#: includes/class.yith-store-locator-post-type.php:289
+msgid "Advanced settings"
+msgstr "Opzioni aggiuntive"
+
+#: includes/class.yith-store-locator-post-type.php:276
+msgid "Enter a custom url to redirect the user when click on contact button"
+msgstr "Inserisci l'indirizzo a cui reindirizzare l'utente quando clicca sul nome del negozio"
+
+#: includes/class.yith-store-locator-post-type.php:273
+msgid "Custom Url for contact button"
+msgstr "Inserisci URL"
+
+#: includes/class.yith-store-locator-post-type.php:270
+msgid "Enter the website url of this store"
+msgstr "Inserisci l'URL del sito di questo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:267
+#: templates/frontend/single/alternative.php:42
+#: templates/frontend/single/classic.php:45
+msgid "Website"
+msgstr "Sito web"
+
+#: includes/class.yith-store-locator-post-type.php:264
+msgid "Enter the email address"
+msgstr "Inserisci l'indirizzo e-mail"
+
+#: includes/class.yith-store-locator-post-type.php:261
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/class.yith-store-locator-post-type.php:258
+msgid "Enter a fax number this store"
+msgstr "Inserisci il numero fax di questo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:255
+#: includes/class.yith-store-locator-post-type.php:497
+msgid "Fax"
+msgstr "Fax"
+
+#: includes/class.yith-store-locator-post-type.php:252
+msgid "Enter a mobile number this store"
+msgstr "Inserisci un numero di cellulare per questo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:249
+msgid "Mobile phone"
+msgstr "Cellulare"
+
+#: includes/class.yith-store-locator-post-type.php:246
+msgid "Enter a phone number for this store"
+msgstr "Inserisci un numero di telefono per questo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:243
+#: includes/class.yith-store-locator-post-type.php:495
+#: templates/frontend/pin-info-modal.php:65
+#: templates/frontend/shortcodes/store-locator/single-result.php:86
+msgid "Phone"
+msgstr "Telefono"
+
+#: includes/class.yith-store-locator-post-type.php:234
+#: includes/class.yith-store-locator-post-type.php:240
+#: includes/class.yith-store-locator-post-type.php:450
+#: plugin-options/stores/page-details-options.php:46
+#: templates/frontend/single/main.php:18
+msgid "Contact Info"
+msgstr "Informazioni di contatto"
+
+#: includes/class.yith-store-locator-post-type.php:222
+msgid "Map"
+msgstr "Mappa"
+
+#: includes/class.yith-store-locator-post-type.php:219
+msgid "Enter a custom url to override the link that redirect the user in google maps to get directions"
+msgstr "Inserisci un URL personalizzato per sostituire il link che reindirizza l'utente a Google Maps per ottenere indicazioni"
+
+#: includes/class.yith-store-locator-post-type.php:216
+msgid "Custom URL for get direction button"
+msgstr "Inserisci URL"
+
+#: includes/class.yith-store-locator-post-type.php:211
+#: plugin-options/store-locator-page-options.php:163
+msgid "Longitude"
+msgstr "Longitudine"
+
+#: includes/class.yith-store-locator-post-type.php:206
+#: plugin-options/store-locator-page-options.php:162
+msgid "Latitude"
+msgstr "Latitudine"
+
+#: includes/class.yith-store-locator-post-type.php:203
+msgid "Country of this store"
+msgstr "Paese in cui si trova il negozio"
+
+#: includes/class.yith-store-locator-post-type.php:200
+msgid "Country"
+msgstr "Paese"
+
+#: includes/class.yith-store-locator-post-type.php:197
+msgid "State or Province of this store"
+msgstr "Provincia di questo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:191
+msgid "City where the store is located"
+msgstr "Città in cui si trova questo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:188
+msgid "City"
+msgstr "Città"
+
+#: includes/class.yith-store-locator-post-type.php:185
+msgid "Postal code of this store"
+msgstr "Codice postale di questo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:182
+msgid "ZIP/ CAP/ Postal Code"
+msgstr "CAP / Codice postale"
+
+#: includes/class.yith-store-locator-post-type.php:179
+msgid "If needed, add a second line for the address"
+msgstr "Se necessario, aggiungi una seconda linea per l'indirizzo"
+
+#: includes/class.yith-store-locator-post-type.php:176
+msgid "Address line 2"
+msgstr "Indirizzo - linea 2"
+
+#: includes/class.yith-store-locator-post-type.php:173
+msgid "The address of this store"
+msgstr "Indirizzo di questo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:170
+msgid "Address line 1"
+msgstr "Indirizzo - linea 1"
+
+#: includes/class.yith-store-locator-post-type.php:161
+msgid "Address details"
+msgstr "Indirizzo del negozio"
+
+#: includes/class.yith-store-locator-post-type.php:151
+msgid "Enter the address of this store to search it"
+msgstr "Inserisci l'indirizzo del negozio per effettuare la ricerca"
+
+#: includes/class.yith-store-locator-post-type.php:147
+#: includes/class.yith-store-locator-post-type.php:449
+#: includes/functions.php:44 plugin-options/stores/page-details-options.php:30
+#: templates/frontend/single/main.php:13
+msgid "Address"
+msgstr "Indirizzo"
+
+#: includes/class.yith-store-locator-post-type.php:141
+msgid "Search address"
+msgstr "Cerca indirizzo"
+
+#: includes/class.yith-store-locator-post-type.php:92
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. "
+msgid "Stores list"
+msgstr "Lista dei negozi"
+
+#: includes/class.yith-store-locator-post-type.php:91
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. "
+msgid "Stores list navigation"
+msgstr "Navigazione nella lista dei negozi"
+
+#: includes/class.yith-store-locator-post-type.php:90
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. "
+msgid "Filter Stores list"
+msgstr "Lista dei filtri"
+
+#: includes/class.yith-store-locator-post-type.php:89
+msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). "
+msgid "Uploaded to this Store"
+msgstr "Caricato in questo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:88
+msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). "
+msgid "Insert into Store"
+msgstr "Inserisci nel negozio"
+
+#: includes/class.yith-store-locator-post-type.php:87
+msgctxt "The post type archive label used in nav menus. Default “Post Archives”."
+msgid "Store archives"
+msgstr "Archivi del negozio"
+
+#: includes/class.yith-store-locator-post-type.php:86
+msgctxt "Overrides the “Use as featured image” phrase for this post type."
+msgid "Use as cover image"
+msgstr "Immagine del negozio"
+
+#: includes/class.yith-store-locator-post-type.php:85
+msgctxt "Overrides the “Remove featured image” phrase for this post type."
+msgid "Remove cover image"
+msgstr "Rimuovi immagine"
+
+#: includes/class.yith-store-locator-post-type.php:84
+msgctxt "Overrides the “Set featured image” phrase for this post type."
+msgid "Set cover image"
+msgstr "Imposta immagine predefinita del negozio"
+
+#: includes/class.yith-store-locator-post-type.php:83
+msgctxt "Overrides the “Featured Image” phrase for this post type."
+msgid "Store Cover Image"
+msgstr "Immagine predefinita del negozio"
+
+#: includes/class.yith-store-locator-post-type.php:82
+msgid "No Stores found in Trash."
+msgstr "Nessun negozio trovato nel Cestino."
+
+#: includes/class.yith-store-locator-post-type.php:81
+msgid "No Stores found."
+msgstr "Non è stato trovato alcun negozio."
+
+#: includes/class.yith-store-locator-post-type.php:80
+msgid "Search Store"
+msgstr "Cerca negozio"
+
+#: includes/class.yith-store-locator-post-type.php:79
+msgid "All Stores"
+msgstr "Tutti i negozi"
+
+#: includes/class.yith-store-locator-post-type.php:78
+msgid "View Store"
+msgstr "Vedi negozio"
+
+#: includes/class.yith-store-locator-post-type.php:77
+msgid "Edit Store"
+msgstr "Modifica negozio"
+
+#: includes/class.yith-store-locator-post-type.php:76
+msgid "New Store"
+msgstr "Nuovo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:75
+msgid "Add New Store"
+msgstr "Crea un nuovo negozio"
+
+#: includes/class.yith-store-locator-post-type.php:74
+msgid "Add New"
+msgstr "Crea nuovo"
+
+#: includes/class.yith-store-locator-post-type.php:73
+msgctxt "Add New on Toolbar"
+msgid "Store"
+msgstr "Negozio"
+
+#: includes/class.yith-store-locator-post-type.php:72
+msgctxt "Admin Menu text"
+msgid "Stores"
+msgstr "Negozi"
+
+#: includes/class.yith-store-locator-post-type.php:71
+msgctxt "Post type singular name"
+msgid "Store"
+msgstr "Negozio"
+
+#: includes/class.yith-store-locator-post-type.php:70
+msgctxt "Post type general name"
+msgid "Store"
+msgstr "Negozio"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:485
+msgid "An error occurred while editing the filter. Please, try again."
+msgstr "Si è riscontrato un errore durante la modifica del filtro. Prova di nuovo."
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:477
+msgid "Filter has been edited correctly"
+msgstr "Il filtro è stato modificato correttamente"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:441
+msgid "Insert into %s"
+msgstr "Inserisci nel %s"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:439
+msgid "Add term for %s found in trash"
+msgstr "Aggiungi valore per %s trovato nel cestino"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:430
+msgid "Add new"
+msgstr "Aggiungi nuovo"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:350
+#: includes/class.yith-store-locator-filters-taxonomies.php:354
+msgid "An error occurred while creating the filter. Please, try again."
+msgstr "Si è verificato un errore durante la creazione del filtro. Prova di nuovo."
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:342
+msgid "New filter has been created correctly."
+msgstr "Il filtro è stato creato correttamente."
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:223
+#: includes/class.yith-store-locator-post-type.php:369
+#: includes/class.yith-store-locator-post-type.php:403
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:222
+msgid "Select"
+msgstr "Select"
+
+#: includes/class.yith-store-locator-admin.php:116
+msgctxt "plugin description on options page"
+msgid "#"
+msgstr "#"
+
+#: includes/class.yith-store-locator-admin.php:108
+msgctxt "Tab name in plugin options panel"
+msgid "Results list"
+msgstr "Lista dei risultati"
+
+#: includes/class.yith-store-locator-admin.php:106
+msgctxt "Tab name in plugin options panel"
+msgid "Search"
+msgstr "Ricerca"
+
+#: includes/class.yith-store-locator-admin.php:102
+msgctxt "Tab name in plugin options panel"
+msgid "General"
+msgstr "Opzioni generali"
+
+#: includes/class.yith-store-locator-admin.php:101
+msgctxt "Tab name in plugin options panel"
+msgid "Stores"
+msgstr "Negozi"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:201
+msgid "Radius"
+msgstr "Raggio"
+
+#: includes/assets/class.yith-store-locator-frontend-scripts.php:119
+msgid "It's not possible geolocate your position"
+msgstr "Non è possibile geolocalizzare la tua posizione"
+
+#: includes/assets/class.yith-store-locator-frontend-scripts.php:118
+msgid "Geolocalization not supported by your browser"
+msgstr "Il tuo browser non supporta la geolocalizzazione"
+
+#: includes/assets/class.yith-store-locator-admin-scripts.php:87
+msgid "Are you sure to delete filter and its terms?"
+msgstr "Sei sicuro di voler cancellare il filtro e i suoi termini?"
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#: templates/admin/filters/filter-row.php:13
+#: templates/admin/filters/list.php:31
+msgid "Delete"
+msgstr "Cancella"
+
+#: templates/admin/filters/list.php:15
+msgid "Values"
+msgstr "Valori"
+
+#: includes/class.yith-store-locator-filters-taxonomies.php:586
+msgid "Name"
+msgstr "Nome"
+
+#: templates/admin/filters/add-new.php:19 templates/admin/filters/edit.php:39
+#: templates/admin/filters/list.php:14
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class.yith-store-locator-post-type.php:167
+msgid "Settings"
+msgstr "Opzioni"

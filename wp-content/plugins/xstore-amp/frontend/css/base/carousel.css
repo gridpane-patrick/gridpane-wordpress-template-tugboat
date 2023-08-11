@@ -1,0 +1,57 @@
+.carousel-wrapper {
+    clear: both;
+}
+amp-carousel {
+    --et_amp-c-i-sp: 5px;
+}
+amp-carousel.circle-images amp-img {
+    border-radius: 50%;
+}
+amp-carousel[data-slides] > div {
+    margin: 0 calc(-1 * var(--et_amp-c-i-sp));
+}
+amp-carousel[data-slides] .flex-item{
+    width: 100%;
+    padding: 0 var(--et_amp-c-i-sp);
+    vertical-align: top;
+    margin: 0 0 5px;
+}
+
+amp-carousel[data-slides]:not([data-slides="1"]) {
+    margin-right: -15px;
+}
+amp-carousel[data-slides]:not([data-slides="1"]):after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    background: linear-gradient(90deg, var(--et_amp-tr-c), var(--et_amp-body-bg-c));
+}
+amp-carousel.no-arrows .amp-carousel-button {
+    display: none;
+}
+@media only screen and (min-width: 320px) {
+    amp-carousel[data-slides="1.5"] .flex-item {
+        width: 66.667%;
+    }
+    amp-carousel[data-slides="2"] .flex-item {
+        width: 50%;
+    }
+    amp-carousel[data-slides="2.5"] .flex-item {
+        width: 40%;
+    }
+    amp-carousel[data-slides="3"] .flex-item {
+        width: 33.33%;
+    }
+    amp-carousel[data-slides="3.5"] .flex-item {
+        width: 28.57%;
+    }
+    amp-carousel[data-slides="4"] .flex-item {
+        width: 25%;
+    }
+    amp-carousel[data-slides="4.5"] .flex-item {
+        width: 22.22%;
+    }
+}

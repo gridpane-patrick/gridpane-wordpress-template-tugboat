@@ -1,0 +1,31 @@
+.change-repo-version{
+	background-color: #fff;
+	padding: 1px 12px;
+	border: 1px solid #ccd0d4;
+	border-left-width: 4px;
+	border-left-color: #ccd0d4;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+
+.change-repo-version.change-repo-important{
+	background-color: #fff8e5;
+	border-left-color: #ffb900;
+	
+}
+
+
+.change-repo-version a{
+	margin: .5em 0;
+	padding: 2px;
+	display: block;
+}
+
+
+
+    

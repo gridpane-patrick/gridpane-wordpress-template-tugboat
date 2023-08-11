@@ -1,0 +1,48 @@
+form [submit-success] .form-success-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+}
+
+form [submit-success] .form-success-popup:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--et_amp-w-2-d);
+    opacity: .95;
+}
+
+form [submit-success] .form-success-popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.form-success-popup-content:before {
+    content: '\e918';
+    font-family: 'xstore-icons';
+    color: var(--et_amp-d-2-w);
+}
+
+form [submit-success] .form-success-popup-content .button {
+    display: inline-flex;
+    margin: 0 5px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+form [submit-success] .popup-title {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}

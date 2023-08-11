@@ -1,0 +1,282 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Language: \n"
+"POT-Creation-Date: 2021-08-23 09:08+0000\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: pi-dcw.php:51
+msgid ""
+"Please Un-Install or deactivate the FREE version of Add to cart direct "
+"redirect plugin"
+msgstr ""
+
+#: pi-dcw.php:65
+msgid ""
+"Please Install and Activate WooCommerce plugin, without that this plugin "
+"cant work"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:38
+msgid "Add to Cart button"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:39
+msgid "Change Add to cart button text"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:40 admin/class-pi-dcw-woo.php:108
+msgid "Add to cart button text"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:41 admin/class-pi-dcw-woo.php:118
+msgid "Select options button text"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:42 admin/class-pi-dcw-woo.php:127
+msgid "Read more button text"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:34
+msgid "On product page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:35
+msgid "Buy now button on product page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:44
+msgid "On product archive page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:45
+msgid "Buy now button on product archive page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:50
+msgid "Show buy now option on variable product, on category / Shop page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:57
+msgid "Loading animation on Buy now button click"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:79
+msgid ""
+"\" target=\"_blank\">Enable single page checkout</a>\" so disable the "
+"\"Enable single page checkout\" option in Basic Setting tab first</div>"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:81
+msgid ""
+"It will show remove button before each product in the checkout page so "
+"customer can remove it without leaving checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:81
+msgid "Remove product option on checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:83
+msgid ""
+"It will allow customer to change the quantity of product in the checkout "
+"page itself"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:83
+msgid "Change quantity of product"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:86
+msgid "Checkout field setting"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:88
+msgid "Remove order comment"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:90
+msgid "Remove coupon field from checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:92
+msgid ""
+"Remove all the option of shipping field \"Ship to a different address?\""
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:94
+msgid "Link product name in checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:96
+msgid "Open link in new tab"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:98
+msgid "Remove billing fields"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:100
+msgid "Remove shipping fields"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:102
+msgid "Checkout redirect setting / Custom thankyou page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:104
+msgid "Set custom thankyou page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:106
+msgid "Set this page as thank you page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:108
+msgid "Use this custom url as thankyou page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:118
+msgid "Set Custom Url"
+msgstr ""
+
+#: admin/class-pi-dcw-menu.php:21 admin/class-pi-dcw-menu.php:22
+msgid "Direct Checkout"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:40
+msgid "Single page / One page Checkout setting"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:41
+msgid "Disable cart page"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:43
+msgid "Enable single page checkout"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:45
+msgid "Redirect Setting"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:46
+msgid "Enable redirect on add to cart"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:47 admin/class-pi-dcw-option.php:49
+msgid "Redirect to custom url"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:48 admin/class-pi-dcw-woo.php:94
+msgid "Redirect to page"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:50
+msgid "Disable continue shopping button"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:51
+msgid "External Safe domain list where you want to redirect"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:61 admin/class-pi-dcw-woo.php:198
+msgid "Select page"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:73
+msgid "Exclude this product from any redirect"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:77
+msgid "Overwrite global redirect setting"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:81
+msgid "Disable buy now button"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:137
+msgid "Custom Thank you page url"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:147
+msgid "Weight of this Thank you page url  "
+msgstr ""
+
+#: admin/speed.php:24
+msgid "Enable caching"
+msgstr ""
+
+#: admin/speed.php:24
+msgid "This will cache the buy no button on archive page for variable product"
+msgstr ""
+
+#: admin/speed.php:26
+msgid "Cache expiry in minutes"
+msgstr ""
+
+#: admin/speed.php:26
+msgid "How long the cached will be used, "
+msgstr ""
+
+#: admin/speed.php:77
+msgid "Delete cache"
+msgstr ""
+
+#: admin/speed.php:97
+msgid "Save Changes"
+msgstr ""
+
+#: public/quickview/class-pi-dcw-quickview.php:67
+msgid "Basic Setting Quick View"
+msgstr ""
+
+#: public/quickview/class-pi-dcw-quickview.php:68
+msgid "Enable Quick View button"
+msgstr ""
+
+#: public/quickview/class-pi-dcw-quickview.php:71
+msgid "Quick View box size"
+msgstr ""
+
+#: public/quickview/class-pi-dcw-quickview.php:75
+msgid "Button Design"
+msgstr ""
+
+#: public/quickview/class-pi-dcw-quickview.php:79
+msgid "Quick view popup box design"
+msgstr ""
+
+#: public/quickview/class-pi-dcw-quickview.php:84
+msgid "Enable light box"
+msgstr ""
+
+#. Name of the plugin
+msgid ""
+"Direct checkout, WooCommerce Single page checkout , WooCommerce One page "
+"checkout - PRO"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce single page checkout, lets you show cart and checkout option on "
+"single page, that is one page checkout for WooCommerce, along with it you "
+"can redirect user directly to checkout as they click add to cart"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://www.piwebsolution.com/product/add-to-cart-direct-checkout-for-"
+"woocommerce-pro/"
+msgstr ""
+
+#. Author of the plugin
+msgid "PI Websolution"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.piwebsolution.com/"
+msgstr ""

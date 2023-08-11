@@ -1,0 +1,11 @@
+<wpml-config>
+    <admin-texts>
+        <key name="tier_pricing_table_table_title"/>
+        <key name="tier_pricing_table_head_quantity_text"/>
+        <key name="tier_pricing_table_head_price_text"/>
+        <key name="tier_pricing_table_head_discount_text"/>
+        <key name="tier_pricing_table_summary_title"/>
+        <key name="tier_pricing_table_summary_total_label"/>
+        <key name="tier_pricing_table_summary_each_label"/>
+    </admin-texts>
+</wpml-config>

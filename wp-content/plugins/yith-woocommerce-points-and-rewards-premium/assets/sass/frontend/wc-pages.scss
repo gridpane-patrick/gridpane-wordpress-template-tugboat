@@ -1,0 +1,77 @@
+input#ywpar-points-max {
+    text-align: center;
+    max-width: 80px;
+    min-width: 30px;
+    padding: 0 5px;
+}
+
+.ywpar_apply_discounts_container {
+    display: none;
+    margin-top: 20px;
+}
+
+.ywpar-button-message {
+    cursor: pointer;
+}
+
+#yith-par-message-cart{
+    &{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    img{
+        padding-right: 10px;
+        box-sizing: content-box;
+    }
+}
+div#yith-par-message-checkout_threshold{
+    p {
+        margin: 5px 0;
+    }
+
+    h4{margin: 0 0 15px 0;}
+}
+.ywpar_apply_discounts{
+    display: flex;
+    align-items: center;
+    .form-row.form-row-first{
+        padding: 0;
+    }
+
+    .form-row.form-row-last,
+    .form-row.form-row-first{
+        width: auto;
+        margin-bottom: 0;
+    }
+    .button{
+        margin-bottom: 0;
+    }
+}
+
+.ywpar_min_reedem_value_error{
+    color:red;
+}
+
+.default-layout .ywpar_apply_discounts{
+    display: inline-block;
+}
+
+.theme-yith-proteo{
+    div#yith-par-message-checkout_threshold{
+        h4 {
+          color:var(--proteo-general_link_color, #448a85);
+        }
+    }
+
+    #yith_birthday_field.form-row{
+         padding: 0!important;
+    }
+}
+
+@media (max-width: 768px) {
+    #yith-par-message-cart{
+        display:block;
+    }
+}

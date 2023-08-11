@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 6</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.744537 0 0 0 0 0.744537 0 0 0 0 0.744537 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Public-page-with-users-points" transform="translate(-408.000000, -1093.000000)">
+            <g id="Group-2" transform="translate(389.000000, 655.000000)">
+                <g id="Group-6" transform="translate(19.000000, 438.000000)">
+                    <rect id="Rectangle" fill="#EFEFEF" x="0" y="0" width="75" height="75" rx="7"></rect>
+                    <g filter="url(#filter-1)" id="ic_person">
+                        <g transform="translate(9.000000, 9.500000)" id="Icon-24px">
+                            <path d="M29.5,29.5 C34.9329167,29.5 39.3333333,25.0995833 39.3333333,19.6666667 C39.3333333,14.23375 34.9329167,9.83333333 29.5,9.83333333 C24.0670833,9.83333333 19.6666667,14.23375 19.6666667,19.6666667 C19.6666667,25.0995833 24.0670833,29.5 29.5,29.5 L29.5,29.5 Z M29.5,34.4166667 C22.93625,34.4166667 9.83333333,37.7108333 9.83333333,44.25 L9.83333333,49.1666667 L49.1666667,49.1666667 L49.1666667,44.25 C49.1666667,37.7108333 36.06375,34.4166667 29.5,34.4166667 L29.5,34.4166667 Z" id="Shape" fill="#000000"></path>
+                            <polygon id="Shape" points="0 0 59 0 59 59 0 59"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

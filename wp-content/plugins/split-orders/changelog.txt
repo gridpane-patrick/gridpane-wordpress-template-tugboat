@@ -1,0 +1,59 @@
+*** Split Orders Changelog ***
+
+2022-04-20 - version 1.5.2
+* Fixed - Fix bug importing orders into admin since 6.4
+* Changed - WC 6.4 compatibility
+
+2022-03-01 - version 1.5.1
+* Added - Add action for extending item details on dialog
+* Added - Add variation ID to item details on dialog
+* Changed - WC 6.2 compatibility
+
+2021-11-22 - version 1.5.0
+* Added - Add filter to prevent source order being updated
+* Added - Add setting for additional meta fields to clone
+* Added - Add refund support for Stripe, PayPal, Braintree and WooCommerce Payments
+* Added - Add order number suffix option for Sequential Order Numbers Pro extension
+* Added - Clone shipping line when splitting
+* Added - Clone additional meta data: dates, payment method, transaction ID
+* Fixed - PHP 8.0 compatibility
+* Fixed - Fix bug adding additional address indexes
+* Fixed - Fix bug in WooCommerce analytics revenue count for split orders
+* Changed - Clone all line item meta
+* Changed - WC 5.9 compatibility
+
+2021-07-09 - version 1.4.0
+* Added - Display product thumbnail images on splitting dialog
+* Added - Add filter for changing which order screens split action is added to
+* Fixed - Ensure basic compatibility with WooCommerce Subscriptions
+* Fixed - Fix error preventing dialog loading if dependent product has been removed
+* Fixed - Fix outdated jQuery event listener
+* Fixed - Fix address search indexes for new and past splits
+* Changed - WC 5.4 compatibility
+
+2021-04-29 - version 1.3.2
+* Changed - Use absolute path for autoloader
+* Changed - WC 5.2 compatibility
+
+2021-01-22 - version 1.3.1
+* Added - Filter for copying line item meta
+* Fixed - Remove rounding on line items to fix rounding errors
+* Fixed - Use old order for customer details in email so shipping details are included
+* Changed - WC 4.9 compatibility
+
+2020-12-23 - version 1.3.0
+* Added - Customer email notification for a split
+* Added - Filter for default split quantity
+
+2020-10-28 - version 1.2.0
+* Added - Add support for Sequential Order Numbers Pro
+* Fixed - Split _reduced_stock meta to ensure inventory maintained correctly
+* Changed - WC 4.6 compatibility
+
+2020-09-16 - version 1.1.0
+* Added - Add support for decimal quantities
+* Fixed - Hide split order button when creating new order
+* Changed - WC 4.5 compatibility
+
+2020-07-21 - version 1.0.0
+* First Release

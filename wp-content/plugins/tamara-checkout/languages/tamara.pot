@@ -1,0 +1,472 @@
+msgid ""
+msgstr ""
+"X-Domain: tamara\n"
+
+msgid "Tamara Checkout Session created."
+msgstr ""
+
+msgid "To continue, please confirm your payment with Tamara."
+msgstr ""
+
+msgid "Proceed to Tamara Payment"
+msgstr ""
+
+msgid "Cancel Order"
+msgstr ""
+
+msgid "https://tamara.co/orders"
+msgstr ""
+
+msgid "View and Pay your order"
+msgstr ""
+
+msgid "https://tamara.co/paynext"
+msgstr ""
+
+msgid "Go to Tamara and pay"
+msgstr ""
+
+msgid "https://tamara.co/en/index.html"
+msgstr ""
+
+msgid "What is Tamara?"
+msgstr ""
+
+msgid "Tamara service is having problem. Please try again later!"
+msgstr ""
+
+msgid "Tamara Gateway Settings"
+msgstr ""
+
+msgid "Pay Later with Tamara"
+msgstr ""
+
+msgid "Pay 30 days later with Tamara."
+msgstr ""
+
+msgid "You will be redirected to Tamara Payment."
+msgstr ""
+
+msgid "SANDBOX ENABLED. See the %s for more details."
+msgstr ""
+
+msgid "Use Tamara Gateway with WooCommerce"
+msgstr ""
+
+msgid "Enable/Disable"
+msgstr ""
+
+msgid "Enable Tamara Gateway"
+msgstr ""
+
+msgid "Logo Image URL"
+msgstr ""
+
+msgid "URL of image icon to appear on payment method selecting. The recommended size must be no larger than 230x60, image format."
+msgstr ""
+
+msgid "Order status for payment cancelled from Tamara"
+msgstr ""
+
+msgid "Map status for order when the payment is cancelled from Tamara during checkout."
+msgstr ""
+
+msgid "Order status for payment failed from Tamara"
+msgstr ""
+
+msgid "Map status for order when the payment is failed from Tamara during checkout."
+msgstr ""
+
+msgid "Order status for Authorise success from Tamara"
+msgstr ""
+
+msgid "Map status for order when the payment is authorised successfully from Tamara."
+msgstr ""
+
+msgid "Order status for Authorise failed from Tamara"
+msgstr ""
+
+msgid "Map status for order when the payment is failed in authorising from Tamara."
+msgstr ""
+
+msgid "Order status for cancelling an order and cancel the payment on Tamara"
+msgstr ""
+
+msgid "The default \"Cancelled\" status of WooCommerce is used to cancel the order as well as trigger the Cancel payment to Tamara (before it is captured)."
+msgstr ""
+
+msgid "Order status to proceed Tamara Capture Payment"
+msgstr ""
+
+msgid "Map status for order to proceed the Capture payment process and send API to Tamara."
+msgstr ""
+
+msgid "Order status for Capture failed from Tamara"
+msgstr ""
+
+msgid "Map status for order when the Capture process is failed."
+msgstr ""
+
+msgid "Order status for cancelling the order from Tamara through Webhook"
+msgstr ""
+
+msgid "Map status for order when it is cancelled from Tamara (Order Expired, Order Declined...) through Webhook."
+msgstr ""
+
+msgid "Tamara Working Mode"
+msgstr ""
+
+msgid "Choose Tamara Working Mode"
+msgstr ""
+
+msgid "This setting specifies whether you will process live transactions, or whether you will process simulated transactions using the Tamara Sandbox."
+msgstr ""
+
+msgid "Live API URL"
+msgstr ""
+
+msgid "The Tamara Live API URL (https://api.tamara.co)."
+msgstr ""
+
+msgid "Live Merchant Token"
+msgstr ""
+
+msgid "Get your API from Tamara."
+msgstr ""
+
+msgid "Live Notification Token"
+msgstr ""
+
+msgid "Sandbox API URL"
+msgstr ""
+
+msgid "The Tamara Sandbox API URL (https://api-sandbox.tamara.co)."
+msgstr ""
+
+msgid "Sandbox Merchant Token"
+msgstr ""
+
+msgid "Get your API Token for testing from Tamara."
+msgstr ""
+
+msgid "Sandbox Notification Token"
+msgstr ""
+
+msgid "Get your API Notification Token for testing from Tamara."
+msgstr ""
+
+msgid "The Payment has been captured successfully"
+msgstr ""
+
+msgid "The Payment can not be captured - "
+msgstr ""
+
+msgid "The order can not be captured as it was already captured."
+msgstr ""
+
+msgid "The order has been cancelled successfully"
+msgstr ""
+
+msgid "The order can not be cancelled - "
+msgstr ""
+
+msgid "The order can not be cancelled as it was captured. Please try \"Refund\" function instead."
+msgstr ""
+
+msgid "Plugin `%s` needs Woocommerce to be activated"
+msgstr ""
+
+msgid "Plugin `%s` deactivated because WooCommerce is not active. Please activate WooCommerce first."
+msgstr ""
+
+msgid "If you use Tamara Payment, this should be your full Tamara registered phone number (e.g. +966504449999...)"
+msgstr ""
+
+msgid "Order has been refunded successfully - Refund ID: #%1$s"
+msgstr ""
+
+msgid "Error! Tamara is having a problem. Please contact Tamara and try again later"
+msgstr ""
+
+msgid "Pay Later Information"
+msgstr ""
+
+msgid "Min Limit: "
+msgstr ""
+
+msgid "Max Limit: "
+msgstr ""
+
+msgid "*The grand total of order is over/under limit of Tamara"
+msgstr ""
+
+msgid "Thank you for choosing Tamara! We will inform you once the merchant ships your order."
+msgstr ""
+
+msgid "View Your Orders"
+msgstr ""
+
+msgid "Your phone number is invalid. Please check again"
+msgstr ""
+
+msgid "We do not support your delivery country"
+msgstr ""
+
+msgid "We do not support cross currencies. Please select the correct currency for your country."
+msgstr ""
+
+msgid "Your order information is invalid"
+msgstr ""
+
+msgid "consumer_invalid_phone_number"
+msgstr ""
+
+msgid "invalid_phone_number"
+msgstr ""
+
+msgid "billing_address_invalid_phone_number"
+msgstr ""
+
+msgid "shipping_address_invalid_phone_number"
+msgstr ""
+
+msgid "Invalid Consumer Phone Number"
+msgstr ""
+
+msgid "Invalid Phone Number"
+msgstr ""
+
+msgid "Invalid Billing Address Phone Number"
+msgstr ""
+
+msgid "Invalid Shipping Address Phone Number"
+msgstr ""
+
+msgid "Please don't close this window."
+msgstr ""
+
+msgid "Your order paying with Tamara is still under process."
+msgstr ""
+
+msgid "Pay later in 30 days"
+msgstr ""
+
+msgid "Split into 3 payments, no fees"
+msgstr ""
+
+msgid "Due today"
+msgstr ""
+
+msgid "1 month later"
+msgstr ""
+
+msgid "2 months later"
+msgstr ""
+
+msgid "Buy now, pay later"
+msgstr ""
+
+msgid "*Exclusive for shoppers in KSA and UAE"
+msgstr ""
+
+msgid "SAR"
+msgstr ""
+
+msgid "SAR %d"
+msgstr ""
+
+msgid "AED"
+msgstr ""
+
+msgid "AED %d"
+msgstr ""
+
+msgid "Learn more."
+msgstr ""
+
+msgid "This order is paid via Tamara Pay Later."
+msgstr ""
+
+msgid "Refund item is empty. Please choose your item to refund."
+msgstr ""
+
+msgid "Tamara Capture ID not found. Please capture the payment before making a refund."
+msgstr ""
+
+msgid "Add a default billing country code (%s, e.g. AE, SA) to use with Tamara if none is set during the checkout progress."
+msgstr ""
+
+msgid "We are not able to process your order via Tamara currently, please try again later or proceed with a different payment method."
+msgstr ""
+
+msgid "Tamara is currently unavailable, please try again later."
+msgstr ""
+
+msgid "Order Received by Tamara"
+msgstr ""
+
+msgid "Pay By Later English Title"
+msgstr ""
+
+msgid "Enter the English title to display for Tamara Pay By Later method on checkout page."
+msgstr ""
+
+msgid "Pay By Later Arabic Title"
+msgstr ""
+
+msgid "Enter the Arabic title to display for Tamara Pay By Later method on checkout page."
+msgstr ""
+
+msgid "Pay By Instalments English Title"
+msgstr ""
+
+msgid "Enter the English title to display for Tamara Pay By Instalments method on checkout page."
+msgstr ""
+
+msgid "Pay By Instalments Arabic Title"
+msgstr ""
+
+msgid "Enter the Arabic title to display for Tamara Pay By Instalments method on checkout page."
+msgstr ""
+
+msgid "No immediate payment needed. Buy now and pay within 30 days."
+msgstr ""
+
+msgid "Enter your data"
+msgstr ""
+
+msgid "Receive your order... and pay later"
+msgstr ""
+
+msgid "Pay however you want"
+msgstr ""
+
+msgid "Mobile number, ID details (first order only) and payment details"
+msgstr ""
+
+msgid "without any payment today"
+msgstr ""
+
+msgid "Pay your order value only within 30 days via Tamara App"
+msgstr ""
+
+msgid "Pay the third today and the rest on two payments made over the next two months."
+msgstr ""
+
+msgid "Pay the first payment"
+msgstr ""
+
+msgid "Pay easily via any bank card or Apply Pay to confirm your order"
+msgstr ""
+
+msgid "Pay the remaining dues within 2 months via Tamara App"
+msgstr ""
+
+msgid "We are unable to proceed your payment via Tamara."
+msgstr ""
+
+msgid "Please contact us if you need assistance."
+msgstr ""
+
+msgid "We are unable to authorise your payment from Tamara. Please contact us if you need assistance."
+msgstr ""
+
+msgid "Payment Failed From Tamara"
+msgstr ""
+
+msgid "Payment Canceled From Tamara"
+msgstr ""
+
+msgid "Pay the first today and the rest on remaining dues over the next %d months."
+msgstr ""
+
+msgid "Pay the remaining dues within 60 days via Tamara App"
+msgstr ""
+
+msgid "Know more?"
+msgstr ""
+
+msgid "Pay In %d with Tamara"
+msgstr ""
+
+msgid "Pay In %d"
+msgstr ""
+
+msgid "Please %s if you are not redirected automatically after 30 seconds."
+msgstr ""
+
+msgid "click here"
+msgstr ""
+
+msgid "Pay In X Options in %s currency unavailable."
+msgstr ""
+
+msgid "Manage Pay In X in %s"
+msgstr ""
+
+msgid "Pay Later Options Unavailable."
+msgstr ""
+
+msgid "Manage Pay Later Options"
+msgstr ""
+
+msgid "Please make sure the Tamara payment status of the order is <strong>captured</strong> before making a refund."
+msgstr ""
+
+msgid "The Tamara payment of this order was already captured."
+msgstr ""
+
+# Pay In X description
+msgid "Pay the first today and the rest on remaining dues over the next %d months. "
+msgstr ""
+
+msgid "Pay the remaining dues within %d months via Tamara App"
+msgstr ""
+
+msgid "Your payment via Tamara has failed, please try again with a different payment method"
+msgstr ""
+
+msgid "Split it up to 4 payments with Tamara, interest-free"
+msgstr ""
+
+msgid "Pay a fraction of your total now, and the rest over time. No hidden fees, no interest!"
+msgstr ""
+
+msgid "Tamara: Split in %d, interest-free"
+msgstr ""
+
+msgid "Saudi Arabia"
+msgstr ""
+
+msgid "United Emirates"
+msgstr ""
+
+msgid "Kuwait"
+msgstr ""
+
+msgid "Bahrain"
+msgstr ""
+
+msgid "Qatar"
+msgstr ""
+
+msgid "Tamara pay now using Mada, Apple Pay, or credit card"
+msgstr ""
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in %s only."
+msgstr ""
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in Saudi Arabia only."
+msgstr ""
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in United Arab Emirates only."
+msgstr ""
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in Kuwait only."
+msgstr ""
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in Bahrain only."
+msgstr ""
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in Qatar only."
+msgstr ""

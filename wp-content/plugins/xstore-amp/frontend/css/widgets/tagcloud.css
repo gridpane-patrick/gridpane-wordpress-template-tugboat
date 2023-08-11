@@ -1,0 +1,19 @@
+/* tagcloud */
+.tagcloud {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -3px;
+}
+.tagcloud a {
+    display: inline-block;
+    padding: 5px 12px;
+    margin: 3px;
+    border-radius: 3px;
+    background: var(--et_amp-l-g-c);
+    color: var(--et_amp-d-2-w);
+}
+
+.tagcloud a:hover {
+    background: var(--et_amp-a-c);
+    color: #fff;
+}

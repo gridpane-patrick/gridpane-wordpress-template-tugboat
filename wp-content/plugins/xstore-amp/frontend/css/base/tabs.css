@@ -1,0 +1,26 @@
+amp-selector[role=tablist] {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+amp-selector[role=tablist] .tab-separator {
+    margin: 0 15px;
+}
+amp-selector[role=tablist] [role=tab] {
+    text-align: center;
+    display: inline-block;
+}
+
+amp-selector[role=tablist] [role=tab][selected] {
+    outline: 0;
+    color: var(--et_amp-a-c);
+}
+
+amp-selector [role=tabpanel] {
+    display: none;
+}
+
+amp-selector [role=tabpanel][selected] {
+    outline: 0;
+    display: block;
+}

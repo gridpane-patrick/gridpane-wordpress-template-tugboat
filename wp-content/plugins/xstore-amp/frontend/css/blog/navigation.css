@@ -1,0 +1,22 @@
+.navigation .page-numbers {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 4px 0;
+    border: 2px solid var(--et_amp-br-c);
+    border-radius: 3px;
+}
+
+.navigation .current {
+    background: var(--et_amp-a-c);
+    border-color: var(--et_amp-a-c);
+    color: #fff;
+}
+
+
+.navigation {
+    text-align: center;
+}

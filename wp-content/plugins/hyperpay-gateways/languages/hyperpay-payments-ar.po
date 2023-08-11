@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hyperpay-payments\n"
+"POT-Creation-Date: 2022-09-04 15:26+0300\n"
+"PO-Revision-Date: 2022-09-04 15:27+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gateways/WC_Hyperpay_Hypercash_Gateway.php:72
+msgid "Invoice ID: "
+msgstr "رقم الدفع الالكتروني : "
+
+#: gateways/WC_Hyperpay_Mada_Gateway.php:51
+msgid "Mada debit card"
+msgstr "بطاقة مدى البنكية"
+
+#: gateways/WC_Hyperpay_Zoodpay_Gateway.php:40
+msgid "service code"
+msgstr "رمز الخدمة"
+
+#: gateways/WC_Hyperpay_Zoodpay_Gateway.php:192
+msgid "Instalment of"
+msgstr "دفعات تُقسط على"
+
+#: gateways/WC_Hyperpay_Zoodpay_Gateway.php:192
+msgid "mo."
+msgstr "شهري."
+
+#: gateways/WC_Hyperpay_Zoodpay_Gateway.php:192
+msgid "Terms and Conditions"
+msgstr "تطبق الشروط و الأحكام"
+
+#: includes/Hyperpay_main_class.php:141
+msgid "Your transaction not completed ."
+msgstr "خطأ في إتمام الحركة "
+
+#: includes/Hyperpay_main_class.php:142
+msgid "Your payment has been processed successfully."
+msgstr "تمت العملية بنجاح."
+
+#: includes/Hyperpay_main_class.php:274
+msgid "Enable/Disable"
+msgstr "تمكين / تعطيل"
+
+#: includes/Hyperpay_main_class.php:276
+msgid "Enable Payment Module."
+msgstr "تفعيل طريقة الدفع."
+
+#: includes/Hyperpay_main_class.php:280
+msgid "Test mode"
+msgstr "وضع الاختبار"
+
+#: includes/Hyperpay_main_class.php:282
+msgid "Off"
+msgstr "ايقاف"
+
+#: includes/Hyperpay_main_class.php:282
+msgid "On"
+msgstr "تشغيل"
+
+#: includes/Hyperpay_main_class.php:285
+msgid "Title:"
+msgstr "الاسم:"
+
+#: includes/Hyperpay_main_class.php:287
+msgid "This controls the title which the user sees during checkout."
+msgstr "هذا العنوان سيظهر للمستخدمين خلال عملية الدفع."
+
+#: includes/Hyperpay_main_class.php:288
+msgid "Credit Card"
+msgstr "بطاقة ائتمانية"
+
+#: includes/Hyperpay_main_class.php:291
+msgid "Transaction type"
+msgstr "نوع الحركة"
+
+#: includes/Hyperpay_main_class.php:296
+msgid "Transaction mode"
+msgstr "وضع الحركة"
+
+#: includes/Hyperpay_main_class.php:302
+msgid "Access Token"
+msgstr "رمز الدخول"
+
+#: includes/Hyperpay_main_class.php:306
+msgid "Entity ID"
+msgstr "المعرف الخاص بالتاجر"
+
+#: includes/Hyperpay_main_class.php:310
+msgid "Webhook Key"
+msgstr "رمز الويب هوك"
+
+#: includes/Hyperpay_main_class.php:314
+msgid "Webhook URL"
+msgstr "عنوان الويب هوك"
+
+#: includes/Hyperpay_main_class.php:320
+msgid "Tokenization"
+msgstr "تسجيل عمليات الدفع"
+
+#: includes/Hyperpay_main_class.php:325
+msgid "Brands"
+msgstr "العلامات التجارية"
+
+#: includes/Hyperpay_main_class.php:331
+msgid "Payment Style"
+msgstr "المظهر"
+
+#: includes/Hyperpay_main_class.php:338
+msgid "Custom Style"
+msgstr "مظهر خاص"
+
+#: includes/Hyperpay_main_class.php:344
+msgid "Enable error logging by email?"
+msgstr "هل تريد ارسال بريد الكتروني في حال وجود خطا ؟"
+
+#: includes/Hyperpay_main_class.php:346 includes/Hyperpay_main_class.php:353
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/Hyperpay_main_class.php:348
+msgid "If checked, an email will be sent to "
+msgstr "في حال الاختيار ، سيتم ارسال بريد الكتروني للمسؤول "
+
+#: includes/Hyperpay_main_class.php:351
+msgid "Enable Input validation (Accept English Characters only)"
+msgstr "تمكين التحقق من صحة الإدخال (قبول الأحرف الإنجليزية فقط)"
+
+#: includes/Hyperpay_main_class.php:355
+msgid ""
+"Disable this option may cause transaction declined by bank due to 3DSecure"
+msgstr ""
+"تعطيل هذا الخيار يمكن ان يتسبب برفض بعض الحركات من قبل البنك بسبب 3DSecure"
+
+#: includes/Hyperpay_main_class.php:358
+msgid "Return Page"
+msgstr "اعادة التوديه الى"
+
+#: includes/Hyperpay_main_class.php:361
+msgid "success page"
+msgstr "إعادة التوجيه بعد نجاح عملية الدفع"
+
+#: includes/Hyperpay_main_class.php:364
+msgid "Status Of Order"
+msgstr "حالة الطلب بعد اتمام عملية الدفع"
+
+#: includes/Hyperpay_main_class.php:367
+msgid "select order status after success transaction."
+msgstr "حالة الطلب بعد نجاح عملية الدفع."
+
+#: includes/Hyperpay_main_class.php:382
+msgid "Processing"
+msgstr "قيد المعالجة"
+
+#: includes/Hyperpay_main_class.php:383
+msgid "Completed"
+msgstr "مكتمل"
+
+#: includes/Hyperpay_main_class.php:397
+msgid "Enable"
+msgstr "تمكين"
+
+#: includes/Hyperpay_main_class.php:398
+msgid "Disable"
+msgstr "تعطيل"
+
+#: includes/Hyperpay_main_class.php:767
+msgid "format error"
+msgstr "لا يجب ان يحتوي على احرف عربية او رموز و ان يكون من ثلاثة حروف او اكثر"
+
+#: includes/Hyperpay_main_class.php:771
+msgid "Email format not valid"
+msgstr "البريد الالكتروني غير صحيح"
+
+#: includes/Hyperpay_main_class.php:823
+msgid ""
+"Sorry! Please select \"mada\" payment option in order to be able to complete "
+"your purchase successfully."
+msgstr "عذراً يجب اختيار طريقة الدفع \" مدى \" لتتمكن من إتمام العملية بنجاح ."
+
+#: includes/Hyperpay_main_class.php:942 includes/Hyperpay_main_class.php:977
+msgid "Transaction ID: "
+msgstr ":رقم الحركة "
+
+#: includes/Hyperpay_main_class.php:964
+msgid "Transaction is pending confirmation from "
+msgstr "المعاملة في انتظار التأكيد من "
+
+#: includes/class-wp-webhook.php:39 includes/class-wp-webhook.php:56
+msgid "Sorry, you are not allowed to do that."
+msgstr "نرجوا المعذرة ، لا يسمح لك أن تفعل ذلك."
+
+#~ msgid "API Password"
+#~ msgstr "كلمة مروم API"
+
+#~ msgid "Be careful Modify API Password will affect on update order status"
+#~ msgstr "كن حذرا  عند التعديل على هذا الحقل"
+
+#~ msgid "Hyperpay Mada"
+#~ msgstr "بطاقة مدى البنكية"
+
+#~ msgid "first name"
+#~ msgstr "الأسم الاول"
+
+#~ msgid "last name"
+#~ msgstr "الأسم الاخير"
+
+#~ msgid "street"
+#~ msgstr "الشارع"
+
+#~ msgid "city"
+#~ msgstr "المدينة"
+
+#~ msgid "state"
+#~ msgstr "المدينة"
+
+#~ msgid "email"
+#~ msgstr "البريد الإلكتروني"
+
+#~ msgid "Problem with payments "
+#~ msgstr ".خطاء في عملية الدفع "
+
+#~ msgid "All Information Should be In English"
+#~ msgstr "جميع الحقول المدخلة يجب ان تكون باللغة الإنجليزية فقط و بدون رموز"
+
+#~ msgid "(Transaction Error) "
+#~ msgstr "خطأ في عملية الدفع "
+
+#~ msgid "Card"
+#~ msgstr "بطاقة"
+
+#~ msgid "Plain"
+#~ msgstr "بدون تنسيق"

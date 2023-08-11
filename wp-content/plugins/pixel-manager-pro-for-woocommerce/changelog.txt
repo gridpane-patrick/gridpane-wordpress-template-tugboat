@@ -1,0 +1,438 @@
+*** Pixel Manager for WooCommerce Changelog ***
+
+2022-07-08 - version 1.17.11 
+
+* New: Added export and import functionality.
+* Tweak: Removed the deprecated ttq.track("Browse") event.
+* Tweak: Tweaked is_order_received_page() in order to allow PMW to work with custom WooFunnels purchase confirmation pages. It might also work with custom Elementor purchase confirmation pages.
+* Tweak: Added an additional trigger if a visitor clicks on an Elementor checkout button.
+* Fix: Added the content_type to the FB InitiateCheckout event.
+
+2022-06-21 - version 1.17.10 
+
+* Tweak: Updated Google Ads Enhanced Conversions to use new specification with gtag('set', 'user_data', {})
+* Tweak: Bumped up Facebook API version to v14.0
+* Tweak: Changed some jQuery event listeners to work around some themes / plugins that stop propagation of those events
+* Tweak: Prevent console error on purchase confirmation page when Google Ads is disabled
+* Tweak: Added product and value info to Facebook InitiateCheckout event
+* Tweak: Refactored getting product details for add-to-cart event plus added condition for variable-subscription
+* Tweak: Adjusted price output for wpmDataLayer products to two decimals
+* Fix: Removed a function not necessary for the WC version
+
+
+2022-06-07 - version 1.17.9 
+
+* Fix: Fixed the Facebook browser pixel external ID for anonymous users
+* Fix: Replaced str_contains() with a backward compatible version for the admin notification check
+
+2022-06-07 - version 1.17.8 
+
+* Tweak: Updated Microsoft Ads custom event names
+* Tweak: Optimized ViewItem event on variable product pages when no product is preselected. The user has now the choice to fire a ViewItem event without product.
+* Tweak: Optimized how, when and where admin notifications are displayed
+* Fix: Removed a duplicate Pinterest pagevisit event
+* Fix: Don't process CLV calculation if no billing email is available
+
+2022-08-30 - version 1.17.7 
+* Tweak: Prohibit processing of Facebook CAPI hits for excluded roles
+* Tweak: Improved checks for excluded roles for GA MP hits
+* Tweak: Bumped up WordPress version to 6.0
+* Tweak: Bumped up WoCommerce version to 6.5
+* Fix: Fixed documentation links that contain anchors
+* Fix: Fixed ask-for-rating scripts
+
+2022-05-28 - version 1.17.6 
+
+* Fix: Fixed fbp retrieval from browser for FB CAPI
+
+2022-05-28 - version 1.17.5 
+
+* Tweak: Send proper browser identifiers when an order is created by an admin and then paid through the payment link by the customer for Facebook CAPI
+* Tweak: Make sure that the correct Facebook CAPI user identifiers are processed for the purchase events when payment gateways with iframes are in use
+* Tweak: Improved handling of user identifiers when processing of anonymous Facebook CAPI hits is allowed
+* Tweak: Added safeguard to check if wpmDataLayer.products exists before trying to filter it
+* Fix: Fixed billing phone output in FB CAPI purchase hit
+* Fix: Fixed fbc validation
+
+2022-05-26 - version 1.17.4 
+
+* New: Added GA4 session ID handling over the Measurement Protocol. This is not documented by Google and is experimental.
+* Tweak: Added tier info into debug info
+* Tweak: Added more FB user information for logged in users
+* Tweak: Prevent slow processing of large amount of variation data for variable products with > 64 variations
+* Tweak: Increased server test timout to minimize false negatives
+* Fix: Workaround if $_server['HTTP_HOST'] is not set
+* Fix: Workaround if $_server['REMOTE_ADDR'] is not set
+
+2022-05-19 - version 1.17.3 
+
+* Tweak: Added fbp and fbc validation for browser based FB CAPI events
+* Fix: Fixed a bug that could prevent processing the purchase events under certain conditions
+* Fix: Another fix for Facebook microdata output to prevent fatal errors when processing variable products with unsynced products
+* Tweak: Optimized clv query for clv output
+* Tweak: Optimized retrieval of purchase labels for Google Ads
+* Tweak: Optimized precheck for Google Ads purchase event
+* Tweak: Optimized retrieval function for conversion identifiers with label for Google Ads
+* Tweak: Optimized new_customer query to run faster
+* Tweak: Updated libphonenumber
+* Fix: Prevent that the Freemius menu tabs get displayed in other plugins
+* Fix: Fixed the documentation links
+
+2022-05-13 - version 1.17.2 
+
+* Fix: Additional safeguard to check for array when checking for updates
+
+2022-05-12 - version 1.17.1 
+
+* Tweak: Adjusted db query for clv order total
+
+2022-05-12 - version 1.17.0 
+
+* New: Added user_id to Google Ads remarketing pixel
+* Tweak: Improved data transmitted with Facebook CAPI event payload
+* Tweak: Removed processing of GA4 refunds over the front-end and only allow processing refunds over the Measurement Protocol
+* Tweak: Added doc links for the wc.com version
+* Fix: Another safeguard to prevent processing of out-of-stock variations through the FB microdata script output.
+* Fix: Added external_id in the FB pixel event and more identifiers on purchases
+* New: Added customer lifetime value output for Google Ads
+* Tweak: Renamed the plugin from Pixel Manager for WooCommerce to Pixel Manager for WooCommerce
+* Tweak: Added user identifiers for FB for orders and logged in users
+* Tweak: Temporary disabled off_site_payment_gateway check
+* Fix: Now the cache is only flushed when the Pixel Manager itself is updated
+* Fix: Fixed the new_customer evaluation for guest buyers
+* Fix: Fixed the position of the 'scripts blocked' warning message in the back-end if admin scripts don't load
+* Fix: Fixed the link of the 'admin scripts not loaded' message
+
+2022-05-02 - version 1.16.14 
+
+* Tweak: Refactored Facebook CAPI event handling. Added external_id
+* Tweak: Bumped up Facebook API version to v13.0
+* Tweak: Refactored Google Analytics visitor identifier tracking for Measurement Protocol
+* Tweak: Set that admins and shop managers are being tracked by default, because the majority of new users expects this
+* Fix: Fixed document links for Meta (Facebook) settings
+
+2022-04-30 - version 1.16.13 
+
+* Tweak: One more adjustment to make sure categories are being output for purchase events on shops that don't properly sync the categories down to the variants
+* Fix: It can happen that no proper product object is created by WC and is passed to the Facebook microdata output. In that case WPM will now terminate the microdata output seamlessly.
+* Fix: Fixed a syntax error in on of the back-end admin scripts
+
+2022-04-27 - version 1.16.12 
+
+* Tweak: Added a new event listener for the Complianz Cookie Banner
+* Fix: Fixed an error when processing partial refunds through the Google Analytics Measurement Protocol
+
+
+2022-04-25 - version 1.16.11 
+
+* New: Added function with which custom Facebook events can be triggered (including Facebook CAPI if it is enabled in the pro version)
+* Tweak: Changed cursor for submenu links in the back-end
+* Tweak: Added an additional check for a cookie name for Cookie Law Info
+* Tweak: Some code style changes
+* Tweak: Updated libphone library
+* Tweak: Updated Freemius library
+
+2022-04-21 - version 1.16.10 
+
+* Tweak: Facebook microdata output now properly treats product variations
+* Fix: Borlabs cookie auto-detection for Microsoft Ads (Bing Ads) fixed
+
+2022-04-19 - version 1.16.9 
+
+* Tweak: Added European Union as Google Consent Mode region selection
+* Tweak: Refactored user role tracking permissions
+* Tweak: Enabled tracking of manual orders from the back-end
+* Tweak: Made sure that manual back-end order get tracked with correct GA cid if the cid is available
+* Tweak: Refactored some of the GA4 functions
+* Tweak: Changed escaping method for outputting the titles and names into the wpmDataLayer in order to properly deal with characters like a dash, ampersand, etc.
+* Tweak: Load categories for variations from parent product, because on some installs the variations don't inherit the parent product's categories
+* Tweak: Removed more cruft from the code and improved the syntax here and there
+* Tweak: Adjusted validation for the Google Merchant Center ID
+* Tweak: Updated selectWoo.full.*.js
+* Tweak: Tested up to WooCommerce 6.4
+
+2022-04-14 - version 1.16.8 
+
+Tweak: Added more page type outputs (for better product list performance analysis in GA)
+Tweak: Refactored GA3 and GA4 product data collection
+Fix: Fix for view item events on single variation pages
+
+2022-04-12 - version 1.16.7 
+
+* Tweak: Improve output formatting for enhanced_conversion_data if shipping address is not set
+
+2022-04-11 - version 1.16.6 
+
+* Tweak: Safeguard for JavaScript optimizers that ignore the jQuery dependency of WPM and load jQuery after WPM
+* Tweak: Refactored the WPM JavaScript library (split code logically and into folders)
+
+2022-04-08 - version 1.16.5 
+
+* Tweak: More verbose logging of WPM load and pixel consent status into the dev console
+* Tweak: Added new logic to retrieve categories for variations
+
+2022-04-07 - version 1.16.4 
+
+* Fix: Fixed a bug that prevented disabling user role tracking
+
+2022-04-07 - version 1.16.3 
+
+* Tweak: Remove the IPv6 to IPv4 mapping in case the the external user IP contains one
+* Tweak: Improved local IP detection
+* Tweak: Replaced deprecated FILTER_SANITIZE_STRING filter with FILTER_SANITIZE_FULL_SPECIAL_CHARS
+
+2022-04-05 - version 1.16.2 
+
+* Tweak: Added filter to add custom order statuses that trigger a purchase hit over the Measurement Protocol
+* Fix: Improved detection of users that are deactivated for tracking
+
+2022-04-05 - version 1.16.1 
+
+* Tweak: Removed data-cfasync=”false” to allow Cloudflare Rocket Loader to optimize scripts
+* Tweak: Removed unused functions
+* Tweak: Refactored some code and removed cruft
+* Tweak: Improved logic of when to load cart items into the wpm dataLayer
+* Tweak: For users, who have been disabled for tracking, prevent tracking entirely, not just for purchase events
+* Tweak: Renamed Facebook to Meta
+* Tweak: Add log entry when a purchase hit has been prevented because of a user role that has been opted out from tracking
+
+2022-04-01 - version 1.16.0 
+
+* New: Setting to exclude specific user roles
+* Tweak: Removed a few deprecated and inactive settings
+* Tweak: Updated Enhanced Conversions output as per updated specs by Google
+* Tweak: Improved formatting for Facebook CAPI event parameters
+
+2022-03-30 - version 1.15.5 
+
+* Tweak: Removed an obsolete db cleanup function
+* Tweak: On variable products, with no preselection send the valid variation ID if variations output is enabled
+* Tweak: Added safeguard for debug info when URL redirect test fails to open the URL
+* Tweak: Syntax improvements in wpm.addProductToCart()
+* Tweak: Simplified logic when the wpm.getCartItems() function is called
+* Tweak: Deprecated the wpm_track_mini_cart filter
+* Tweak: Added cookie detection for Cookie Law CMP with French named cookies
+* Tweak: Added one more safeguard in case the main wpmDataLayer init is being blocked by some third party plugin and products need being loaded into the wpmDataLayer further down below
+* Tweak: Added console log output when pixels don't fire because of user consent choice
+* Tweak: Added a payload logger for Facebook CAPI events
+* Tweak: Initiate WC session later in the checkout funnel (if necessary at all) to improve caching conditions
+* Tweak: Added URL parameter debugConsentMode for verbose debug output in the browser console in relation to user cookie consent
+
+2022-03-23 - version 1.15.4 
+
+* Fix: Product name transmission for Google Analytics Universal purchases
+
+2022-03-22 - version 1.15.3 
+
+* Tweak: Attach click handlers later during loading in order to better deal with some side cases
+* Tweak: Fire viewItem event on variable product pages when no variation is selected yet, sending the ID of the parent product
+
+2022-03-21 - version 1.15.2 
+
+* Tweak: Silenced status icon on compatibility mode setting when disabled
+* Tweak: Made Autoptimize, FlyingPress, Async JavaScript, Optimocha and WP Optimize JavaScript optimization disabler optional through compatibility mode
+* Tweak: Made Litespeed Cache and SG Optimizer JavaScript optimization disabler mostly optional through compatibility mode. Some exclusion have been left permanent without which the tracking scripts would break.
+* Fix: Added safeguard if old version of FlyingPress is being used and compatibility mode is enabled
+* Fix: Added safeguard if old version of WP Rocket is being used and compatibility mode is enabled
+* Fix: Added safeguard if Yoast SEO is being used and compatibility mode is enabled
+
+2022-03-18 - version 1.15.1 
+
+* Tweak: Made WP Rocket JavaScript optimization disabler optional through compatibility mode
+* Tweak: Adjusted sourcemaps output to make them work with Firefox
+* Fix: Proper check for user id when logged in
+
+2022-03-15 - version 1.15.0 
+
+* Experiment: Added experimental filter which defers the WPM script. The filter may be removed without prior notice. If you like the filter vote it up over here: https://roadmap.sweetcode.com/pixel-manager-for-woocommerce?card=622f4ba9d0b938002e8378c0
+* Experiment: Added experimental filter which moves the WPM script to the footer. The filter may be removed without prior notice. If you like the filter vote it up over here: https://roadmap.sweetcode.com/pixel-manager-for-woocommerce?card=622f4bc2d0b938002e8378e2
+* Tweak: Moved sourcemaps into correct folder
+* Tweak: Moved parts of the back-end logic to the front-end in order to gain much more flexibility and better handle front-end script flow
+* Tweak: Bumped up WC version
+* Fix: List id processing for GA3 eec
+* Fix: Product position output on lists
+
+2022-02-24 - version 1.14.3 
+
+* Tweak: Adjusted all documentation links to point to new domain and sub-folder
+* Tweak: Improved handling with SG Optimizer
+* Fix: Nodedupe Google Ads conversion script output and event name when cart data is turned off
+
+2022-02-17 - version 1.14.2 
+
+* Tweak: Added items to Microsoft Ads purchase event
+* Tweak: Added 'wpm-js' to optimization exclusion list
+* Fix: Added a safeguard when checking for order purchase redirects in the UX
+* Fix: Fixed a double json encoded string for the GA4 browser purchase event
+
+2022-02-12 - version 1.14.1 
+
+* Tweak: Avoid loading the entire admin UX in case an admin is not viewing the plugin admin page itself
+* Fix: Fixed a side case where the plugin would output wrong html in case the pro version demo is enabled
+
+2022-02-11 - version 1.14.0 
+
+* New: Save gclid on order for possible later use
+* Tweak: Change purchase confirmation event from CompletePayment to PlaceAnOrder
+* Tweak: Replace sweetcode.co references with sweetcode.com
+* Fix: Replaced function wpm.objectExists() because it did not always work properly
+* Fix: Plenty of syntax adjustments in order to adhere to all WooCommerce and WordPress coding standards
+* Fix: Fixed refunds for GA UA measurement protocol
+
+2022-01-28 - version 1.13.1 
+
+* Fix: fixed an error that would appear if no Google pixel is turned on and the wpm scripts are looking for Google values in the wpmDataLayer
+
+2022-01-28 - version 1.13.0 
+
+* New: Added experimental support for polyfill.io (may be dropped at any time)
+* Tweak: Tweaked settings for new cookie names in CMP Complianz >= version 6.0.0
+* Tweak: Rebranding to sweetcode.co
+* Tweak: Refactored plenty function names
+* Tweak: Improved WP Rocket cache flush and recreation
+* Tweak: Refactored documentation links into a class
+* Tweak: Added safeguards in case some wpm functions have not been loaded properly
+* Tweak: Included transpiling ES6 into the JS minification process
+* Tweak: Combined all front-end and back-end scripts into single, optimized and compressed files
+* Tweak: Removed functions from the newly combined files that are not necessary anymore, like Promise.allSettled
+
+2022-01-11 - version 1.12.4 
+
+* Tweak: Removed some unnecessary console.log outputs
+* Tweak: Added a safeguard when flushing Flying Press Cache
+* Tweak: Added support output for various CMPs into the admin pages
+* Tweak: Added more safeguards in case on the purchase confirmation page the order can't be retrieved through query vars
+* Tweak: A few improvements how to read out cookies for various CMPs
+* Tweak: Improved gtag firing based on cookie consent
+* Tweak: Improvements to read out of Cookie Script consent cookie
+* Tweak: Improvements to read out of Cookiebot consent cookie
+
+2022-01-04 - version 1.12.3 
+
+Fix: Deliver proper updated wpm.jsx
+
+2022-01-03 - version 1.12.2 
+
+* Tweak: Added automatic improvements for users of the Optimocha Speed Booster Pack plugin
+* Tweak: Added automatic improvements for users of the Async JavaScript plugin
+* Tweak: Added automatic improvements for users of the Flying Press plugin
+* Tweak: Added a few console warnings if wooptpm scripts are being deferred
+* Fix: Fixed a bug that appeared when a shop was using the "Complianz | GDPR/CCPA Cookie Consent" consent management plugin
+
+2022-01-02 - version 1.12.1 
+
+* Tweak: Added back the cookie prevention filter and included a deprecation notice
+* Fix: Fixed a bug that appeared when a shop was using the "CookieYes, GDPR Cookie Consent (Cookie Law Info)" consent management plugin
+
+2021-12-31 - version 1.12.0 
+
+* New: Added dynamic remarketing ID output for the WooCommerce Google Listings & Ads plugin
+* Tweak: Fixed the wooptpm_facebook_capi_api_version filter name
+* Tweak: Bumped up Facebook API version to 12.0
+* Tweak: Changed PlaceAnOrder TikTok event to CompletePayment
+* Tweak: Bumped up minimum PHP version to 7.3
+* Tweak: Much more cache friendly handling of Cookie Consent Platforms
+* Tweak: Added support for several more Cookie Consent Platforms
+* Tweak: Properly handle error if WooCommerce is not active
+
+2021-10-29 - version 1.11.7 
+
+* New: Added gallery images links to Facebook Microdata output
+* Tweak: Added documentation link for GA4 API secret
+* Tweak: Added add-to-wishlist, search and initiate-checkout events to TikTok
+* Tweak: Increased Facebook Microdata Feed Description length to 5000 characters
+* Tweak: Adjusted HotJar ID validation to accept 6 digit IDs
+* Tweak: Switched body reference to jQuery(document) for better compatibility
+* Fix: TikTok ViewContent and PlaceAnOrder event names
+* Fix: Fixed misspelling in Google Consent mode region parameter
+
+
+2021-09-17 - version 1.11.6 
+
+* Tweak: Bumped up Facebook API version to v11.0
+* Tweak: Added filter for Facebook CAPI API version
+* Tweak: Improved some admin interface text
+
+2021-09-02 - version 1.11.5 
+
+* New: Sending referrer, user_agent, gclid and viewport to GA UA through measurement protocol
+* Tweak: Added a delay to save one of the Google target IDs on the session in order to make sure the save is executed properly
+* Tweak: Added filters for url_passthrough and ads_data_redaction
+* Tweak: Don't disable the deactivation button anymore when a user chooses "other" from the list of reasons
+* Tweak: Added minified versions of all front-end scripts
+* Tweak: Removed query to remove old refund keys from db
+* Fix: Fixed TikTok activation condition
+* Fix: Fixed too few parameters being passed to woocommerce_subscription_renewal_payment_complete
+
+2021-08-13 - version 1.11.4 
+
+* Fix: Fixed cannot access offset of type string on string in Google measurement protocol
+
+2021-08-13 - version 1.11.3 
+
+* Fix: Fixed an array type error that could happen in rare cases
+
+2021-08-13 - version 1.11.2 
+
+* New: Starting to save gclid to orders for later use
+* New: Added shortcodes for Snapchat and TikTok
+* New: Saving referrer in a wooptpm cookie
+* Tweak: E.164 phone format output for Google Ads Enhanced Conversions
+* Tweak: Add multiple addresses to Google Ads Enhanced Conversions if billing and shipping addresses are different
+* Tweak: Added Facebook CAPI events to shortcodes
+* Tweak: Added manual view-item shortcode for custom pages where add-to-cart shortcodes are being used, but because of that, view_item events are missing
+* Tweak: Moved Freemius to composer vendor directory
+* Tweak: Improved handler to save cookies for FB session
+* Tweak: Added fallback to get an order from the order received page in case a plugin messes with query vars
+
+
+2021-08-05 - version 1.11.1 
+
+* New: Automatic cache purge for Kinsta on plugin updates and saved settings
+* Tweak: Added safeguard in order to prevent a fatal error when coming across a variation that doesn't properly link to a parent product
+* Tweak: Added filters to suppress certain admin notifications
+* Tweak: Changed global for notifications db name
+* Tweak: Changed function declaration for varExists in order to work around a Google Closure bug
+* Fix: Renamed transactions_id to transaction_id for GA4 MP refunds
+* Fix: Built in a safeguard for the debug info in case no order exists yet in the shop
+
+2021-07-26 - version 1.11.0 
+
+* New: Added view_cart event for GA4
+* Tweak: Added coupons to GA UA and GA4 purchase events
+* Tweak: Avoid an issue when trying to read WP Rocket options when no options exist yet
+* Tweak: Removed some unnecessary parameters from Google Ads purchase confirmation script
+* Tweak: Output purchase value with max two decimals
+* Fix: Fixed a syncing cached cart syncing issue
+* Fix: Fixed the FB microdata product IDs in case custom IDs are being used (with filters)
+* Fix: Fixed enhanced conversion declaration from let to var
+* Fix: Renamed transactions_id to transaction_id for GA4 MP
+* Fix: Fixed some events on cart page for variable products
+
+2021-07-19 - version 1.10.11 
+
+* New: TikTok pixel
+* New: Filter to enable enhanced match for Pinterest
+* New: Filter for order items
+* New: Implemented warning for incompatible plugins
+* Tweak: Setting GA cid already on product page if possible
+* Tweak: Remove nonce check when setting cid on product pages because product pages are cached
+* Tweak: Added logging for cid retrieval
+* Tweak: Save cid_set cookie as normal cookie if sessionStorage is not available
+* Tweak: Comma separated categories for GA UA
+* Tweak: Proper category variables for GA4
+* Tweak: Refactored wooptpm.setCookie() so that it can create session cookies
+* Fix: item_name for GA4 add_to_cart events
+* Fix: Added proper product ID output to addtocart, pagevisit and checkout events for Pinterest
+* Fix: Don't return a random cid in get_cid_from_session, but handle this in set_cid_on_order
+* Fix: Output of product prices as float
+* Fix: Added string to float conversion in wooptpm_get_order_item_price to make sure a float is returned
+
+= 1.10.10 =  7.7.2021
+
+* New: Snapchat pixel
+* New: Automatically flush cache of caching plugins and platforms on plugin settings changes
+* New: Report hosting platform in debug info
+* Tweak: Added new compatibility exclusions for WP Rocket
+* Tweak: Added option to filter GA4 parameters
+

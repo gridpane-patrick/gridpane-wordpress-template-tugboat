@@ -1,0 +1,92 @@
+.elementor-section > div > .elementor-column {
+    padding: 10px;
+}
+
+.elementor-column {
+    min-height: 1px;
+    float: left;
+}
+
+.elementor-section {
+    clear: both;
+}
+
+@media only screen and (min-width: 676px) {
+
+    .amp_col-10 {
+        width: 10%
+    }
+
+    .amp_col-11 {
+        width: 11.111%
+    }
+
+    .amp_col-12 {
+        width: 12.5%
+    }
+
+    .amp_col-14 {
+        width: 14.285%
+    }
+
+    .amp_col-16 {
+        width: 16.666%
+    }
+
+    .amp_col-20 {
+        width: 20%
+    }
+
+    .amp_col-25 {
+        width: 25%
+    }
+
+    .amp_col-30 {
+        width: 30%
+    }
+
+    .amp_col-33 {
+        width: 33.333%
+    }
+
+    .amp_col-40 {
+        width: 40%
+    }
+
+    .amp_col-50 {
+        width: 50%
+    }
+
+    .amp_col-60 {
+        width: 60%
+    }
+
+    .amp_col-66 {
+        width: 66.666%
+    }
+
+    .amp_col-70 {
+        width: 70%
+    }
+
+    .amp_col-75 {
+        width: 75%
+    }
+
+    .amp_col-80 {
+        width: 80%
+    }
+
+    .amp_col-83 {
+        width: 83.333%
+    }
+
+    .amp_col-90 {
+        width: 90%
+    }
+
+    .amp_col-100 {
+        width: 100%
+    }
+
+}

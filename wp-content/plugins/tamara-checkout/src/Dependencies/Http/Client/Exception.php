@@ -1,0 +1,14 @@
+<?php
+
+namespace Tamara\Wp\Plugin\Dependencies\Http\Client;
+
+use Tamara\Wp\Plugin\Dependencies\Psr\Http\Client\ClientExceptionInterface as PsrClientException;
+
+/**
+ * Every HTTP Client related Exception must implement this interface.
+ *
+ * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ */
+interface Exception extends PsrClientException
+{
+}

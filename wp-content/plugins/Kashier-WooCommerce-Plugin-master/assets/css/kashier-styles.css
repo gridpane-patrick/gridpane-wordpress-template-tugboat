@@ -1,0 +1,57 @@
+#add_payment_method #payment ul.payment_methods li img.kashier-icon,
+.woocommerce-checkout #payment ul.payment_methods li img.kashier-icon {
+  max-width: 40px;
+  padding-left: 3px;
+  margin: 0;
+}
+
+#add_payment_method #payment ul.payment_methods li .kashier-card-brand,
+.woocommerce-checkout #payment ul.payment_methods li .kashier-card-brand {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  right: 0;
+  left: auto;
+  display: block;
+  width: 55px;
+  height: 30px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#add_payment_method #payment ul.payment_methods li .kashier-credit-card-brand,
+.woocommerce-checkout
+  #payment
+  ul.payment_methods
+  li
+  .kashier-credit-card-brand {
+  background-image: url(../images/credit-card.svg);
+}
+
+#add_payment_method #payment ul.payment_methods .kashier-card-group,
+.woocommerce-checkout #payment ul.payment_methods .kashier-card-group {
+  position: relative;
+}
+
+#add_payment_method #payment ul.payment_methods li .kashier-visa-brand,
+.woocommerce-checkout #payment ul.payment_methods li .kashier-visa-brand {
+  background-image: url(../images/visa.svg);
+}
+
+#add_payment_method #payment ul.payment_methods li .kashier-mastercard-brand,
+.woocommerce-checkout #payment ul.payment_methods li .kashier-mastercard-brand {
+  background-image: url(../images/mastercard.svg);
+}
+
+#secured-by-kashier-container {
+  text-align: right;
+  padding-top: 15px;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
+#payment .payment_methods li #secured-by-kashier-container img {
+  max-height: none;
+  max-width: 125px;
+}

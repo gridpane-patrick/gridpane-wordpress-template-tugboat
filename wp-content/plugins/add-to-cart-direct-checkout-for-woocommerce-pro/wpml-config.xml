@@ -1,0 +1,10 @@
+<wpml-config>
+    <admin-texts>
+        <key name="pi_dcw_add_to_cart_text"/>
+        <key name="pi_dcw_select_option_text"/>
+        <key name="pi_dcw_read_more_text"/>
+        <key name="pi_dcw_quick_view_text"/>
+        <key name="pi_dcw_buy_now_button_text"/>
+        <key name="pi_dcw_buy_now_button__loop_text"/>
+    </admin-texts>
+</wpml-config>

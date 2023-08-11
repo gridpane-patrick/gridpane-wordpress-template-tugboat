@@ -1,0 +1,685 @@
+.message {
+    float: left;
+    clear: both;
+    width: 100%;
+    background-color: #fefae1;
+    font-size: 14px;
+    color: #555;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 10px 20px;
+    margin: 10px 0 20px 0;
+    box-sizing: border-box;
+}
+
+.twwr-welcome-panel {
+    display: flex;
+    min-height: calc(100vh - 100px);
+    margin: 0 0 0 -20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1.twwr-welcome {
+    margin: 0 0 20px 0;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.twwr-welcome-panel-content {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+h1.twwr-welcome:after {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #2bd29c;
+    content: '';
+    margin: 20px auto 0 auto;
+}
+
+.twwr-actions {
+    margin-top: 30px;
+}
+
+.twwr-welcome-panel-content p {
+    font-size: 20px;
+    color: #8a8a8a;
+}
+
+.twwr-actions .button.button-primary {
+    background-color: #00af54;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 15px 36px;
+}
+
+.twwr-actions .button.button-primary:hover {
+    background-color: #09b77c;
+
+}
+
+
+.page-numbers {
+    display: inline-flex;
+    line-height: 20px;
+    padding: 10px;
+    margin: 10px 3px;
+    flex: 0 0 auto;
+    min-width: 20px;
+    text-align: center;
+    border: solid 1px #eeeeee;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+table + .page-numbers {
+    margin-left: 10px;
+}
+
+span.page-numbers.current {
+    background-color: #eeeeee;
+    color: #9c9c9c;
+    border-color: #eeeeee;
+}
+
+.page-numbers:hover {
+    background-color: #007cba;
+    color: #ffffff;
+    border-color: #007cba;
+}
+
+.clearable-picker {
+    position: relative;
+}
+
+.working-day-time-table .clearable-picker input.twwr-whatsapp-chat-timepicker {
+    width: 100%;
+}
+
+.clearable-picker > span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 30px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #f33434;
+}
+
+.clearable-picker > span:hover {
+    opacity: .8;
+}
+
+.message h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+input.input-views {
+    width: 35px;
+    padding-right: 0;
+    -webkit-appearance: textfield;
+}
+
+input.input-views::-webkit-inner-spin-button,
+input.input-views::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+table.wp-list-table.widefat.striped th {
+    font-weight: 700;
+}
+
+#wpbody-content .twwr-whatsapp-chat-container .postbox-container {
+    width: 50% !important;
+}
+
+.twwr-whatsapp-admin-post-form table.form-table th > label,
+.twwr-whatsapp-admin-post-form table.form-table td > label {
+    font-weight: 700;
+}
+
+.twwr-whatsapp-admin-post-form input[type!='checkbox', type!='radio'],
+.twwr-whatsapp-admin-post-form select,
+.twwr-whatsapp-admin-post-form textarea {
+	box-shadow: none;
+	height: 30px;
+	padding: 5px 10px;
+	line-height: 20px;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+	max-width: 200px;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+.twwr-whatsapp-admin-post-form tr:nth-child(3) h3 {
+	float: left;
+	width: 200px;
+	margin-left: -10px;
+	font-size: 14px;
+}
+
+.twwr-whatsapp-admin-post-form tr:nth-child(3) h3 + ul{
+	margin-left: 210px;
+	position: relative;
+	max-width: 760px;
+}
+
+table#working-hours h3 {
+    font-size: 18px;
+    margin: 0 !important;
+}
+
+ul.parent_button {
+    margin: 0;
+}
+
+ul.parent_button li.button-contact {
+    padding: 15px 95px 15px 40px;
+    border: solid 1px #e6e6e6;
+    background-color: #fff;
+    position: relative;
+    font-size: 0;
+    margin: 0;
+}
+
+ul.parent_button li.button-contact .agent-column {
+    display: inline-block;
+    width: calc(33.333% - 10px);
+    margin-right: 15px;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+ul.parent_button li.button-contact .agent-column:nth-child(4n) {
+    margin-right: 0;
+}
+
+ul.parent_button li.button-contact .agent-column span.heading {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+button.button_plus,
+button.button_min,
+button.fb_id_button_plus,
+button.fb_id_button_min {
+    width: 30px;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    font-weight: bold;
+    background-color: #0085ba;
+    border: 0;
+    color: #ffffff;
+    border-radius: 3px;
+    border-bottom: solid 2px #006799;
+    font-size: 20px;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+button.button_plus:hover,
+button.button_min:hover,
+button.fb_id_button_plus:hover,
+button.fb_id_button_min:hover {
+    background-color: #006799;
+}
+
+.twwr-whatsapp-admin-post-form select {
+    padding: 0 24px 0 10px;
+    line-height: 30px;
+}
+
+ul.parent_button li.button-contact select,
+ul.parent_button li.button-contact input[type!='checkbox', type!='radio'] {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    max-width: inherit;
+    font-size: 14px;
+}
+
+ul.parent_button li.button-contact span.dashicons.dashicons-move {
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    color: #7e7e7e;
+    left: 0;
+    line-height: 50px;
+    text-align: center;
+    cursor: -webkit-grab;
+    vertical-align: middle;
+}
+
+button.button_plus,
+button.button_min {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+button.button_plus {
+    margin-right: 35px;
+}
+
+ul.parent_button li.button-contact input[type!='radio'],
+ul.parent_button li.button-contact input[type!='checkbox'] {
+    width: 30%;
+    margin-left: 10px;
+}
+
+ul.parent_button li.button-contact + li.button-contact {
+    margin-top: 15px;
+}
+
+ul.parent_button li.button-contact:hover {
+    box-shadow: 0 0 20px rgba(221, 234, 240, 0.54);
+    border-color: #d9f4ff;
+}
+
+.twwr-whatsapp-admin-post-form textarea {
+	max-width: 760px;
+	display: block;
+	padding: 10px;
+	min-height: 130px;
+}
+
+th span.description {
+    font-weight: 400;
+    font-style: normal;
+}
+
+span.description {
+    color: #afafaf;
+    margin-top: 10px;
+    display: block;
+}
+
+input:disabled {
+    display:none;
+}
+
+input.shortcode {
+    font-family: 'Courier', 'Courier New';
+    font-size: 16px;
+}
+
+ul.twwr-chat-shortcodes li {
+    font-size: 12px;
+    color: #999;
+}
+
+ul.twwr-chat-shortcodes li code {
+    font-size: 12px;
+    color: #555;
+}
+
+.twwr-whatsapp-icon{
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    cursor: n-resize;
+    vertical-align: middle;
+}
+
+.twwr-whatsapp-admin-post-form .form-field, .twwr-whatsapp-admin-post-form .form-fields {
+    padding: 15px;
+}
+
+.twwr-whatsapp-admin-post-form label {
+    display: inline-block; /* add this */
+}
+
+.twwr-whatsapp-admin-post-form .twwr_whatsapp_custom_event {
+    width: 75% !important;
+}
+
+.twwr-whatsapp-license-key-field {
+    width: 400px;
+}
+
+span.twwr-whatsapp-msg-active {
+    color: #3fa248;
+    font-weight: bold;
+}
+
+.twwr-error {
+    color: #a00;
+}
+
+.working-day-time-table thead tr th {
+	padding: 10px 15px !important;
+}
+
+.irs--flat .irs-bar,
+.irs--flat .irs-handle>i:first-child,
+.irs--flat .irs-from,
+.irs--flat .irs-to,
+.irs--flat .irs-single {
+    background-color: #8BC34A !important;
+}
+
+i {}
+
+.irs--flat .irs-from:before,
+.irs--flat .irs-to:before,
+.irs--flat .irs-single:before {
+    border-top-color: #8bc34a !important;
+}
+
+/* Rotator Column Stats */
+#chat-stats {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 5px 0 10px 0;
+    padding: 0 10px;
+}
+
+#chat-stats .stat-column {
+    float: left;
+    width: 20%;
+    max-width: 150px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 5px 0 #cecece;
+    margin: 0 20px 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#chat-stats .stat-column span.dashicons {
+    display: block;
+    width: 100%;
+    height: 45px;
+    font-size: 40px;
+    color: #dedede;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#chat-stats .stat-column h3 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    margin: 0 0 15px 0;
+}
+
+#chat-stats .stat-column h3 + span {
+    color: #9e9e9e;
+}
+
+.agent-name {
+}
+
+img.agent-avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#agent-detail-chart {
+    margin: 20px 0;
+}
+
+.twwr-whatsapp-admin-post-form table.form-table,
+.twwr-whatsapp-admin-post-form table.form-table table{
+    table-layout: fixed;
+}
+
+.twwr-whatsapp-admin-post-form table.form-table table {
+    width: 100%;
+}
+
+.twwr-whatsapp-admin-post-form table.form-table th {
+    width: 20%;
+}
+
+.twwr-whatsapp-admin-post-form table.form-table input,
+.twwr-whatsapp-admin-post-form table.form-table textarea {
+    max-width: 100% !important;
+}
+
+.working-day-time-table tbody tr td .mobile-label {
+    display: none;
+}
+
+tr.row td {
+    padding: 15px 0;
+}
+
+tr.row td h3 {
+    display: block;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+tr.twwr_whatsapp_position_parent td input[type="number"].small-text {
+    width: 60px;
+}
+
+th#agent_image,
+td.agent_image {
+    width: 60px;
+}
+
+td.agent_image img.agent-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+th#total_wa_number {
+    width: 50px;
+}
+
+td.total_wa_number span.wa-numbers {
+    display: inline-block;
+    background-color: #72777c;
+    font-size: 11px;
+    color: #fff;
+    line-height: 18px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+td.chat_stats_today span.dashicons.dashicons-arrow-up,
+td.chat_stats_yesterday span.dashicons.dashicons-arrow-up,
+td.chat_stats_today span.dashicons.dashicons-arrow-down,
+td.chat_stats_yesterday span.dashicons.dashicons-arrow-down,
+td.agent_stats_today span.dashicons.dashicons-arrow-up,
+td.agent_stats_yesterday span.dashicons.dashicons-arrow-up,
+td.agent_stats_today span.dashicons.dashicons-arrow-down,
+td.agent_stats_yesterday span.dashicons.dashicons-arrow-down {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: green;
+    position: relative;
+    top: -5px;
+}
+
+td.chat_stats_today span.dashicons.dashicons-arrow-down,
+td.chat_stats_yesterday span.dashicons.dashicons-arrow-down,
+td.agent_stats_today span.dashicons.dashicons-arrow-down,
+td.agent_stats_yesterday span.dashicons.dashicons-arrow-down {
+    color: red;
+}
+
+td.chat_stats_today span.compared,
+td.chat_stats_yesterday span.compared,
+td.agent_stats_today span.compared,
+td.agent_stats_yesterday span.compared {
+    font-size: 11px;
+    color: #9e9e9e;
+}
+
+td span.compared.positive {
+    color: green;
+}
+
+td span.compared.negative {
+    color: red;
+}
+
+th.column-chat_stats_yesterday span.dashicons-info {
+    color: #7e7e7e;
+}
+
+.chat_shortcode input.chat-shortcode,
+.chat_url input.chat-url {
+    width: 100%;
+}
+
+.custom-dates {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.custom-dates label.cd-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.custom-dates label.cd-item .date-dropdowns {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.custom-dates label.cd-item > span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.custom-dates label.cd-item > .cd-options {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input.small-text.code.slug {
+    width: 100px;
+}
+
+@media screen and (max-width: 1280px) {
+    ul.parent_button li.button-contact .agent-column:nth-child(2n) {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    ul.parent_button li.button-contact .agent-column:nth-child(4n),
+    ul.parent_button li.button-contact .agent-column:nth-child(3n) {
+        width: calc(50% - 7.5px);
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 851px) and (max-width: 1080px) {
+    ul.parent_button li.button-contact .agent-column:nth-child(4n),
+    ul.parent_button li.button-contact .agent-column:nth-child(3n) {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 1080px) {
+
+
+    .working-day-time-table,
+    .working-day-time-table tr,
+    .working-day-time-table td,
+    .working-day-time-table th,
+    .working-day-time-table thead,
+    .working-day-time-table tbody {
+        display: block;
+    }
+
+    .working-day-time-table thead {
+    	display:none;
+    }
+
+    .working-day-time-table tbody tr:not(.inline-edit-row):not(.no-items) {
+        font-size: 0;
+        border-bottom: solid 5px #f9f9f9;
+        padding: 0 5px 5px 5px;
+        background-color: #ffffff !important;
+    }
+    .working-day-time-table tbody tr:not(.inline-edit-row):not(.no-items):first-child {
+    	border-bottom: 0;
+    }
+    .working-day-time-table tbody tr:not(.inline-edit-row):not(.no-items):first-child td:not(.check-column) {
+    	margin-bottom: 0 !important;
+    }
+    .working-day-time-table tbody tr:not(.inline-edit-row):not(.no-items) td:not(.check-column) {
+        font-size: 14px;
+        display: inline-block;
+        width: 50% !important;
+        box-sizing: border-box;
+        padding: 5px !important;
+        margin: 0;
+        background-color: #ffffff;
+    }
+    .working-day-time-table tbody tr td .mobile-label {
+    	display: block;
+        margin-bottom: 5px;
+    }
+    .working-day-time-table tbody tr td input[type="text"] {
+    	width: 100%;
+    	margin: 0;
+    	box-sizing: border-box;
+    }
+    .working-day-time-table tbody tr:not(.inline-edit-row):not(.no-items) td:not(.check-column):first-child {
+        width: calc(100% + 10px) !important;
+        border-bottom: solid 1px #eeeeee;
+        margin-left: -5px;
+        padding: 10px !important;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width:480px) {
+    ul.parent_button li.button-contact .agent-column:nth-child(4n),
+    ul.parent_button li.button-contact .agent-column:nth-child(3n) {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    ul.parent_button li.button-contact {
+        padding-right: 60px;
+    }
+
+    ul.parent_button li.button-contact button.button_plus {
+        margin-right: 0;
+        margin-top: -22.5px;
+    }
+    ul.parent_button li.button-contact button.button_min {
+        margin-right: 0;
+        margin-top: 22.5px;
+    }
+}

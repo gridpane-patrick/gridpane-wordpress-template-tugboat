@@ -1,0 +1,125 @@
+
+.product_list_widget  {
+    color: #888;
+}
+.product_list_widget .product-list-image,
+.product_list_widget .product-title a  {
+    padding: 0;
+}
+.product_list_widget .product-list-image,
+.sidebar-slider .product-list-image {
+    float: left;
+    width: 55px;
+    display: block;
+    margin-right: 15px;
+}
+.product_list_widget .cart-popup .empty  {
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.product_list_widget > p,
+.product_list-popup-footer-wrapper > p {
+    margin: 0;
+}
+.product_list_widget li,
+.sidebar-slider li {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.product_list_widget li .product-title,
+.sidebar-slider li .product-title {
+    font-size: 1.14rem;
+    padding-right: 25px;
+    margin-bottom: 7px;
+    line-height: 1.4;
+    text-align: start;
+}
+.product_list_widget li .product-title:empty,
+.sidebar-slider li .product-title:empty {
+    display: none;
+}
+.product_list_widget li .product-title a,
+.sidebar-slider li .product-title a {
+    display: block;
+    margin-top: -5px;
+}
+.product_list_widget li .product-title a:hover,
+.sidebar-slider li .product-title a:hover {
+    color: #888;
+}
+.product_list_widget li .price,
+.sidebar-slider li .price {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+.product_list_widget .product-item-right {
+    overflow: hidden;
+}
+.product_list_widget .variation {
+    opacity: .7;
+}
+.product_list_widget .variation br:first-of-type {
+    display: none;
+}
+.product_list_widget .variation p {
+    margin-bottom: .21em;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+.product_list_widget .variation dt {
+    display: inline-block;
+}
+.product_list_widget .variation dd {
+    display: inline-block;
+    margin-right: 5px;
+}
+.product_list_widget .variation dd p {
+    margin-bottom: 0;
+    line-height: 1;
+}
+.product_list_widget .variation dd amp-img {
+    max-width: 15px;
+}
+
+.product_list_widget li a.remove {
+    display: none;
+}
+
+.product_list_widget li a.remove:before {
+    content: '\e1000';
+    font-size: 1rem;
+    font-family: 'xstore-icons';
+}
+
+
+.product_list_widget ~ .total {
+    font-size: 1.5rem;
+    color: var(--et_amp-d-2-w);
+    border-top: 1px solid var(--et_amp-br-c);
+    border-bottom: 1px solid var(--et_amp-br-c);
+    padding: 10px 0;
+}
+
+.product_list_widget ~ .total .amount {
+    color: currentColor;
+    font-size: 90%;
+    vertical-align: bottom;
+}
+
+.product_list_widget ~ .buttons {
+    margin-bottom: -10px;
+    line-height: 1;
+}
+
+.product_list_widget ~ .buttons .button {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.product_list_widget ~ .buttons .button:first-child {
+    background-color: var(--et_amp-w-2-d);
+    color: var(--et_amp-btn-bg-c);
+}

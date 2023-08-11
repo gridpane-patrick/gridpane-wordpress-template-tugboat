@@ -1,0 +1,939 @@
+# Copyright (C) 2022 Themesquad
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Store Credit 4.1.1\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/create-a-ticket/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-16T15:00:17+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: woocommerce-store-credit\n"
+
+#. Plugin Name of the plugin
+#: includes/admin/notices/enable-coupons.php:14
+#: includes/admin/notices/sell-credit.php:18
+#: includes/admin/notices/update.php:19
+#: includes/admin/notices/updating.php:20
+msgid "WooCommerce Store Credit"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/store-credit/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create \"store credit\" coupons for customers which are redeemable at checkout."
+msgstr ""
+
+#. Author of the plugin
+msgid "Themesquad"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themesquad.com/"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-menu.php:36
+msgctxt "page title"
+msgid "Send Store Credit"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-menu.php:37
+msgctxt "menu title"
+msgid "Send Store Credit"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-menu.php:51
+#: includes/admin/class-wc-store-credit-admin-menu.php:79
+msgid "Send Store Credit"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-menu.php:70
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:54
+#: includes/admin/views/html-admin-status-report-settings.php:21
+#: includes/class-wc-store-credit-privacy.php:22
+#: includes/class-wc-store-credit-products.php:46
+msgid "Store Credit"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-menu.php:89
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-meta-boxes.php:53
+msgid "Store credit usage"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:95
+msgctxt "send credit: desc"
+msgid "Send a Store credit coupon to a customer."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:99
+msgctxt "send credit: field label"
+msgid "Credit amount"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:100
+msgctxt "send credit: field desc"
+msgid "The amount the store credit coupon is worth."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:109
+msgctxt "send credit: field label"
+msgid "Customer"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:110
+msgctxt "send credit: field desc"
+msgid "The customer who will receive the coupon."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:112
+msgctxt "send credit: field desc"
+msgid "Accepts emails from non-registered customers."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:116
+msgid "Choose customer&hellip;"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:122
+msgctxt "send credit: field label"
+msgid "Note"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:125
+msgctxt "send credit: field desc"
+msgid "A note for the customer who will receive the coupon."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:126
+msgctxt "send credit: field placeholder"
+msgid "Enter a note or the reason for this coupon."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:133
+msgctxt "send credit: desc"
+msgid "Expiration"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:135
+msgctxt "send credit: desc"
+msgid "Define when the coupon expires."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:138
+msgid "Never expires"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:139
+msgid "Specific date"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:140
+msgid "Specific period"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:145
+msgctxt "send credit: field desc"
+msgid "The coupon will expire on the specified date."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:158
+msgctxt "send credit: field desc"
+msgid "The coupon will expire when the period passes."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:217
+msgctxt "form validation error"
+msgid "You need to provide a credit amount for the coupon."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:222
+msgctxt "form validation error"
+msgid "You need to choose a customer who to send the coupon."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:229
+msgctxt "form validation error"
+msgid "Customer not found."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:234
+msgctxt "form validation error"
+msgid "An expiration date is required."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:239
+msgctxt "form validation error"
+msgid "An expiration period is required."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:254
+msgid "Store credit sent to the customer."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-send-credit-page.php:256
+msgctxt "form validation error"
+msgid "An unexpected error happened."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:27
+msgctxt "settings tab"
+msgid "Store Credit"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:45
+msgctxt "settings title"
+msgid "Store Credit"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:46
+msgctxt "settings desc"
+msgid "The following options are specific to store credit coupons."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:51
+#: includes/admin/views/html-admin-status-report-settings.php:32
+msgctxt "setting label"
+msgid "My Account"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:52
+msgctxt "setting desc"
+msgid "Display store credit on the My Account page."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:58
+#: includes/admin/views/html-admin-status-report-settings.php:37
+msgctxt "setting label"
+msgid "Delete after use"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:59
+msgctxt "setting desc"
+msgid "Delete the coupon when the credit is exhausted."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:65
+#: includes/admin/views/html-admin-status-report-settings.php:42
+msgctxt "setting label"
+msgid "Individual use"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:66
+msgctxt "setting desc"
+msgid "The coupon cannot be used in conjunction with other coupons."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:74
+#: includes/admin/views/html-admin-status-report-settings.php:47
+msgctxt "setting desc"
+msgid "Include tax"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:75
+msgctxt "setting desc"
+msgid "The coupon amount includes taxes."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:76
+msgctxt "setting desc"
+msgid "The options 'Prices entered with tax' and 'Round tax at subtotal' must be enabled."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:91
+#: includes/admin/views/html-admin-status-report-settings.php:52
+msgctxt "setting label"
+msgid "Apply to shipping"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:92
+msgctxt "setting desc"
+msgid "Apply the remaining coupon amount to the shipping costs."
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:100
+msgctxt "setting desc"
+msgid "Shipping not enabled."
+msgstr ""
+
+#. translators: %s: list of placeholders
+#: includes/admin/class-wc-store-credit-admin-settings.php:107
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin-settings.php:111
+#: includes/admin/views/html-admin-status-report-settings.php:57
+msgctxt "setting label"
+msgid "Coupon code format"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin.php:163
+msgctxt "aria-label: settings link"
+msgid "View WooCommerce Store Credit settings"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin.php:164
+msgctxt "plugin action link"
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin.php:187
+#: includes/admin/notices/sell-credit.php:32
+msgctxt "aria-label: documentation link"
+msgid "View WooCommerce Store Credit documentation"
+msgstr ""
+
+#: includes/admin/class-wc-store-credit-admin.php:188
+msgctxt "plugin row link"
+msgid "Docs"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-store-credit-admin-list-table-coupons.php:44
+msgctxt "shop coupon filter"
+msgid "Filter by customer or email"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-coupon-usage.php:78
+msgid "Order Number"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-coupon-usage.php:79
+msgid "Date"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-coupon-usage.php:80
+msgid "Status"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-coupon-usage.php:81
+msgid "Credit used"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:87
+msgid "Coupon amount"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:91
+msgid "Value of the coupon. Default: regular price."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:96
+msgid "Custom amount"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:97
+msgctxt "coupon: field desc"
+msgid "Allow the customer to choose the amount of credit to purchase."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:103
+msgid "Minimum amount"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:107
+msgid "The minimum amount of credit to purchase."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:112
+msgid "Maximum amount"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:116
+msgid "The maximum amount of credit to purchase."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:121
+msgid "Amount step"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:125
+msgid "The credit amount must be in the specified interval."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:134
+msgid "Coupon expiration"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:135
+msgid "Coupon expiration period"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:138
+msgid "The coupon will expire passed this period. Leave empty to not expire."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:139
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:146
+#: includes/admin/meta-boxes/views/html-coupon-data-store-credit.php:20
+msgctxt "coupon: field label"
+msgid "Include tax"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:147
+#: includes/admin/meta-boxes/views/html-coupon-data-store-credit.php:21
+msgctxt "coupon: field desc"
+msgid "Check this box if the coupon amount includes taxes."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:152
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:168
+msgctxt "setting option"
+msgid "Default"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:153
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:169
+msgctxt "setting option"
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:154
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:170
+msgctxt "setting option"
+msgid "No"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:162
+#: includes/admin/meta-boxes/views/html-coupon-data-store-credit.php:31
+msgctxt "coupon: field label"
+msgid "Apply to shipping"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:163
+#: includes/admin/meta-boxes/views/html-coupon-data-store-credit.php:32
+msgctxt "coupon: field desc"
+msgid "Check this box to apply the remaining coupon amount to the shipping costs."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:181
+msgctxt "coupon: field label"
+msgid "Send to someone"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:182
+msgctxt "coupon: field desc"
+msgid "Allow purchasing credit for a different person."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:189
+msgctxt "coupon: field label"
+msgid "Title to display"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:190
+msgctxt "coupon: field desc"
+msgid "Add a title for the receiver form."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:194
+#: includes/class-wc-store-credit-product-addons.php:185
+msgid "Send credit to someone?"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:199
+msgctxt "coupon: field label"
+msgid "Display receiver fields"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:200
+msgctxt "coupon: field desc"
+msgid "How to display the receiver fields on page load."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:205
+msgctxt "setting option"
+msgid "Collapsed"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:206
+msgctxt "setting option"
+msgid "Expanded"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:211
+msgctxt "coupon: section title"
+msgid "Usage restriction"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:217
+msgctxt "coupon: field label"
+msgid "Individual use only"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:218
+msgctxt "coupon: field desc"
+msgid "Check this box if the coupon cannot be used in conjunction with other coupons."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:225
+msgctxt "coupon: field label"
+msgid "Exclude sale items"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:226
+msgctxt "coupon: field desc"
+msgid "Check this box if the coupon should not apply to items on sale."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:237
+msgctxt "coupon: field label"
+msgid "Products"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:238
+msgctxt "coupon: field desc"
+msgid "Product that the coupon will be applied to, or that need to be in the cart in order to be applied."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:247
+msgctxt "coupon: field label"
+msgid "Exclude products"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:248
+msgctxt "coupon: field desc"
+msgid "Product that the coupon will not be applied to, or that cannot be in the cart in order to be applied."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:261
+msgctxt "coupon: field label"
+msgid "Product categories"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:262
+msgctxt "coupon: field desc"
+msgid "Product categories that the coupon will be applied to, or that need to be in the cart in order to be applied."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:270
+msgctxt "coupon: field label"
+msgid "Exclude categories"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-store-credit-meta-box-product-data.php:271
+msgctxt "coupon: field desc"
+msgid "Product categories that the coupon will not be applied to, or that cannot be in the cart in order to be applied."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-coupon-store-credit-usage.php:15
+msgid "This coupon has not been used yet."
+msgstr ""
+
+#: includes/admin/notices/enable-coupons.php:14
+msgctxt "admin notice"
+msgid "WooCommerce coupons are not enabled."
+msgstr ""
+
+#: includes/admin/notices/enable-coupons.php:16
+msgid "Enable coupons."
+msgstr ""
+
+#: includes/admin/notices/sell-credit.php:19
+msgctxt "admin notice"
+msgid "Now you can sell Store Credit coupons to your customers for their own usage or as gift cards."
+msgstr ""
+
+#: includes/admin/notices/sell-credit.php:25
+msgid "Add product"
+msgstr ""
+
+#: includes/admin/notices/sell-credit.php:33
+msgid "Read more"
+msgstr ""
+
+#: includes/admin/notices/update.php:19
+msgctxt "admin notice"
+msgid "We need to update your store database to the latest version."
+msgstr ""
+
+#: includes/admin/notices/update.php:22
+msgid "Run the updater"
+msgstr ""
+
+#: includes/admin/notices/update.php:28
+msgctxt "admin notice"
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: includes/admin/notices/updating.php:20
+msgctxt "admin notice"
+msgid "Your database is being updated in the background."
+msgstr ""
+
+#: includes/admin/notices/updating.php:22
+msgid "Taking a while? Click here to run it now."
+msgstr ""
+
+#: includes/admin/views/html-admin-page-send-credit.php:25
+msgctxt "send credit: submit button"
+msgid "Send credit"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-send-credit.php:25
+msgid "Send credit"
+msgstr ""
+
+#: includes/admin/views/html-admin-status-report-settings.php:21
+msgid "This section shows information about WooCommerce Store Credit."
+msgstr ""
+
+#: includes/admin/views/html-admin-status-report-settings.php:67
+msgid "-"
+msgstr ""
+
+#: includes/admin/wc-store-credit-admin-functions.php:124
+msgid "Dismiss"
+msgstr ""
+
+#: includes/admin/wc-store-credit-meta-box-functions.php:107
+msgctxt "setting placeholder"
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/admin/wc-store-credit-meta-box-functions.php:150
+msgctxt "setting placeholder"
+msgid "Select product categories"
+msgstr ""
+
+#: includes/class-wc-store-credit-cart.php:60
+msgid "Store credit coupon not found."
+msgstr ""
+
+#: includes/class-wc-store-credit-cart.php:67
+msgid "The store credit will be applied after adding some products to the cart."
+msgstr ""
+
+#. translators: %s: coupon code
+#: includes/class-wc-store-credit-cart.php:124
+msgid "Store credit: %s"
+msgstr ""
+
+#: includes/class-wc-store-credit-coupons.php:43
+msgctxt "discount type label"
+msgid "Store Credit"
+msgstr ""
+
+#: includes/class-wc-store-credit-coupons.php:150
+msgctxt "error message"
+msgid "There is no credit remaining on this coupon."
+msgstr ""
+
+#: includes/class-wc-store-credit-coupons.php:152
+msgctxt "error message"
+msgid "This coupon cannot be used on this cart."
+msgstr ""
+
+#: includes/class-wc-store-credit-install.php:333
+msgctxt "admin notice"
+msgid "WooCommerce Store Credit update complete. Thank you for updating to the latest version!"
+msgstr ""
+
+#. translators: %s plugin settings URL
+#: includes/class-wc-store-credit-install.php:342
+msgctxt "admin notice"
+msgid "<strong>WooCommerce Store Credit</strong> &#8211; There are new requirements to enable store credit coupons with tax included. Please, review your <a href=\"%s\">settings</a>."
+msgstr ""
+
+#: includes/class-wc-store-credit-my-account.php:50
+msgctxt "my account: page title"
+msgid "Store credit"
+msgstr ""
+
+#: includes/class-wc-store-credit-order-details.php:69
+msgid "Coupon"
+msgid_plural "Coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-store-credit-order-details.php:197
+#: includes/class-wc-store-credit-order-details.php:245
+msgctxt "order totals row"
+msgid "Store Credit used:"
+msgstr ""
+
+#: includes/class-wc-store-credit-order.php:156
+#: includes/wc-store-credit-update-functions.php:164
+msgctxt "payment method"
+msgid "Store Credit"
+msgstr ""
+
+#. translators: %s: Order shipping method
+#: includes/class-wc-store-credit-paypal.php:80
+msgid "Shipping via %s"
+msgstr ""
+
+#: includes/class-wc-store-credit-privacy.php:24
+#: includes/class-wc-store-credit-privacy.php:25
+msgid "WooCommerce Store Credit Coupon Data"
+msgstr ""
+
+#. translators: %s marketplace privacy URL
+#: includes/class-wc-store-credit-privacy.php:53
+msgctxt "privacy message"
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. <a href=\"%s\" target=\"_blank\">Learn more about how this works, including what you may want to include in your privacy policy.</a>"
+msgstr ""
+
+#: includes/class-wc-store-credit-privacy.php:80
+msgctxt "data exporter: group label"
+msgid "Coupons"
+msgstr ""
+
+#. Translators: %s Coupon code.
+#: includes/class-wc-store-credit-privacy.php:130
+msgid "Removed personal data from coupon %s."
+msgstr ""
+
+#. Translators: %s Coupon code.
+#: includes/class-wc-store-credit-privacy.php:134
+msgid "Personal data within coupon %s has been retained."
+msgstr ""
+
+#: includes/class-wc-store-credit-privacy.php:157
+msgctxt "data exporter: data label"
+msgid "Coupon code"
+msgstr ""
+
+#: includes/class-wc-store-credit-privacy.php:161
+msgctxt "data exporter: data label"
+msgid "Coupon amount"
+msgstr ""
+
+#: includes/class-wc-store-credit-privacy.php:165
+msgctxt "data exporter: data label"
+msgid "Allowed emails"
+msgstr ""
+
+#. translators: %s: minimum amount
+#: includes/class-wc-store-credit-product-addons.php:123
+msgid "Minimum amount: %s"
+msgstr ""
+
+#. translators: %s: Currency symbol
+#: includes/class-wc-store-credit-product-addons.php:130
+msgctxt "product field label"
+msgid "Credit amount (%s)"
+msgstr ""
+
+#: includes/class-wc-store-credit-product-addons.php:151
+msgctxt "product field label"
+msgid "Send to"
+msgstr ""
+
+#: includes/class-wc-store-credit-product-addons.php:152
+msgctxt "product field placeholder"
+msgid "The receiver email"
+msgstr ""
+
+#: includes/class-wc-store-credit-product-addons.php:157
+msgctxt "product field label"
+msgid "Message"
+msgstr ""
+
+#: includes/class-wc-store-credit-product-addons.php:158
+msgctxt "product field placeholder"
+msgid "Add a message"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/class-wc-store-credit-product-addons.php:238
+msgid "\"%s\" is a required field."
+msgstr ""
+
+#: includes/class-wc-store-credit-product-addons.php:248
+msgid "The credit amount is not valid."
+msgstr ""
+
+#. translators: %s: minimum amount
+#: includes/class-wc-store-credit-product-addons.php:256
+msgid "The minimum credit amount is %s."
+msgstr ""
+
+#. translators: %s: maximum amount
+#: includes/class-wc-store-credit-product-addons.php:264
+msgid "The maximum credit amount is %s."
+msgstr ""
+
+#. translators: %s: amount step
+#: includes/class-wc-store-credit-product-addons.php:273
+msgid "The credit amount has an interval of %s."
+msgstr ""
+
+#: includes/class-wc-store-credit-product-addons.php:393
+msgid "Credit amount"
+msgstr ""
+
+#. translators: 1: Minimum PHP version 2: Current PHP version
+#: includes/class-wc-store-credit-requirements.php:56
+msgctxt "admin notice"
+msgid "<strong>WooCommerce Store Credit</strong> requires PHP %1$s or higher. You are using version %2$s"
+msgstr ""
+
+#. translators: 1: Minimum WordPress version 2: Current WordPress version
+#: includes/class-wc-store-credit-requirements.php:63
+msgctxt "admin notice"
+msgid "<strong>WooCommerce Store Credit</strong> requires WordPress %1$s or higher. You are using version %2$s"
+msgstr ""
+
+#: includes/class-wc-store-credit-requirements.php:68
+msgctxt "admin notice"
+msgid "<strong>WooCommerce Store Credit</strong> requires WooCommerce to be activated to work."
+msgstr ""
+
+#. translators: 1: Minimum WooCommerce version 2: Current WooCommerce version
+#: includes/class-wc-store-credit-requirements.php:72
+msgctxt "admin notice"
+msgid "<strong>WooCommerce Store Credit</strong> requires WooCommerce %1$s or higher. You are using version %2$s"
+msgstr ""
+
+#: includes/class-wc-store-credit-rest-api.php:94
+msgid "Store credit discount for the order."
+msgstr ""
+
+#: includes/coupon-discounts/class-wc-store-credit-coupon-discount.php:58
+msgctxt "exception message"
+msgid "Invalid coupon."
+msgstr ""
+
+#: includes/coupon-discounts/class-wc-store-credit-coupon-discount.php:66
+msgctxt "exception message"
+msgid "Invalid item discounts."
+msgstr ""
+
+#. translators: %s: class name
+#: includes/coupon-discounts/class-wc-store-credit-coupon-discounts.php:161
+#: includes/item-discounts/class-wc-store-credit-item-discounts.php:231
+msgctxt "exception message"
+msgid "The argument must be an instance of the class %s."
+msgstr ""
+
+#. translators: %s: shipping method label
+#: includes/discounts/class-wc-store-credit-discounts.php:576
+msgctxt "shipping discount label"
+msgid "Discount: %s"
+msgstr ""
+
+#: includes/emails/class-wc-store-credit-email-send-credit.php:46
+msgctxt "email title"
+msgid "Send Store Credit"
+msgstr ""
+
+#: includes/emails/class-wc-store-credit-email-send-credit.php:47
+msgctxt "email desc"
+msgid "Email used for sending a Store Credit coupon to a customer."
+msgstr ""
+
+#: includes/emails/class-wc-store-credit-email-send-credit.php:71
+msgctxt "email subject"
+msgid "You have received a coupon"
+msgstr ""
+
+#: includes/emails/class-wc-store-credit-email-send-credit.php:82
+msgctxt "email heading"
+msgid "You have been given {coupon_amount} credit"
+msgstr ""
+
+#: includes/emails/class-wc-store-credit-email-send-credit.php:93
+msgctxt "email button text"
+msgid "Redeem now"
+msgstr ""
+
+#: includes/emails/class-wc-store-credit-email-send-credit.php:198
+msgid "Button text"
+msgstr ""
+
+#: includes/emails/class-wc-store-credit-email-send-credit.php:201
+msgctxt "email field desc"
+msgid "Text for the email CTA button."
+msgstr ""
+
+#. translators: $1: customer name, $2 customer id, $3: customer email
+#: includes/wc-store-credit-customer-functions.php:128
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr ""
+
+#: includes/wc-store-credit-functions.php:385
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wc-store-credit-functions.php:386
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wc-store-credit-functions.php:387
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wc-store-credit-functions.php:388
+msgid "year"
+msgid_plural "years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/emails/customer-store-credit.php:22
+#: templates/emails/plain/customer-store-credit.php:19
+msgctxt "email text"
+msgid "To redeem your store credit use the following code during checkout:"
+msgstr ""
+
+#. translators: %s expiration date
+#: templates/emails/customer-store-credit.php:44
+#: templates/emails/plain/customer-store-credit.php:36
+msgctxt "email text"
+msgid "This credit can be redeemed until %s."
+msgstr ""
+
+#: templates/myaccount/dashboard-store-credit.php:15
+msgctxt "my account: dashboard title"
+msgid "Store credit"
+msgstr ""
+
+#. translators: %s: store-credit endpoint
+#: templates/myaccount/dashboard-store-credit.php:20
+msgctxt "my account: dashboard desc"
+msgid "You have <a href=\"%s\">store credit coupons</a> available to spend on your next purchase."
+msgstr ""
+
+#: templates/myaccount/store-credit.php:13
+msgctxt "my account: column name"
+msgid "Code"
+msgstr ""
+
+#: templates/myaccount/store-credit.php:14
+msgctxt "my account: column name"
+msgid "Credit"
+msgstr ""
+
+#: templates/myaccount/store-credit.php:15
+msgctxt "my account: column name"
+msgid "Expiry date"
+msgstr ""
+
+#: templates/myaccount/store-credit.php:16
+msgctxt "my account: column name"
+msgid "Actions"
+msgstr ""
+
+#: templates/myaccount/store-credit.php:21
+msgid "No store credit coupons found."
+msgstr ""
+
+#: templates/myaccount/store-credit.php:53
+msgid "Use now"
+msgstr ""

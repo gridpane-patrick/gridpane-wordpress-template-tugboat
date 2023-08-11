@@ -1,0 +1,1476 @@
+# Translation of Plugins - Upsell Order Bump Offer for WooCommerce – Increase Sales, Upsell &amp; Cross-sell, Checkout Page - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Upsell Order Bump Offer for WooCommerce – Increase Sales, Upsell &amp; Cross-sell, Checkout Page - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-13 03:04:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - Upsell Order Bump Offer for WooCommerce – Increase Sales, Upsell &amp; Cross-sell, Checkout Page - Stable (latest release)\n"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:191
+msgid "Bump Offer Appearance"
+msgstr "عرض نتوء المظهر"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2363
+msgid "Want More Templates? Go Pro !!"
+msgstr "هل تريد المزيد من القوالب؟ انطلق برو !!"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1364
+msgid "Select Arrow color for Accept Offer section."
+msgstr "حدد لون السهم لقسم قبول العرض."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1359
+msgid "Select Arrow Color"
+msgstr "حدد لون السهم"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1293
+msgid "Select Image height for Product section."
+msgstr "حدد ارتفاع الصورة لقسم المنتج."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1288
+msgid "Select Image Height"
+msgstr "حدد ارتفاع الصورة"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1270
+msgid "Select Image width size for Product section."
+msgstr "حدد حجم عرض الصورة لقسم المنتج."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1265
+msgid "Select Image Width"
+msgstr "حدد عرض الصورة"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1248
+msgid "Select font size for Product Price."
+msgstr "حدد حجم الخط لسعر المنتج."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1243
+msgid "Select Product Price Size"
+msgstr "حدد حجم سعر المنتج"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1204
+msgid "Select text color for Product Price."
+msgstr "حدد لون النص لسعر المنتج."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1199
+msgid "Select Price Text Color"
+msgstr "حدد لون نص السعر"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:901
+msgid "Summer Cool "
+msgstr "صيف بارد "
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:887
+msgid "Winner Jazz "
+msgstr "وينر جاز "
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:698
+msgid "This feature allows you to add Product Gallery Image With Slider  at  specific order bump "
+msgstr "تتيح لك هذه الميزة إضافة صورة معرض المنتجات مع شريط التمرير عند نتوء ترتيب معين "
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:692
+msgid "Product Gallery Image Slider"
+msgstr "معرض صور المنتج المنزلق"
+
+#: upsell-order-bump-offer-for-woocommerce.php:228
+msgid "Services"
+msgstr "خدمات"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:507
+msgid "Enable arrow pointing checkbox to add the bump offer."
+msgstr "قم بتمكين مربع الاختيار الذي يشير إلى السهم لإضافة عرض نتوء."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:502
+msgid "Enable Arrow feature."
+msgstr "تمكين ميزة السهم."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:674
+msgid "This feature allows you to add countdown timer at  specific order bump , when timer end it restrict offer product to add."
+msgstr "تتيح لك هذه الميزة إضافة مؤقت العد التنازلي عند ارتطام طلب معين ، عندما ينتهي المؤقت ، فإنه يقيد منتج العرض الذي يمكن إضافته."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:668
+msgid "Countdown Timer"
+msgstr "العد التنازلي"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:374
+msgid "Set Minimum cart value to show the Order Bump."
+msgstr "قم بتعيين الحد الأدنى لقيمة سلة التسوق لإظهار نتوء الطلب."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:367
+msgid "Minimum Cart Value for the Order Bump"
+msgstr "الحد الأدنى لقيمة سلة التسوق لارتفاع الطلب"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1025
+msgid "Select Background Color for Bump Offer."
+msgstr "حدد لون الخلفية لعرض التضاريس."
+
+#: upsell-order-bump-offer-for-woocommerce.php:123
+msgid "Your Upsell Order Bump Offer for WooCommerce Pro plugin update is here! Please Update it now."
+msgstr "لك Upsell Order Bump Offer for WooCommerce Pr تحديث البرنامج المساعد هنا! يرجى تحديثه الآن"
+
+#. Author URI of the plugin
+msgid "https://wpswings.com/?utm_source=wpswings-official&utm_medium=order-bump-org-backend&utm_campaign=official"
+msgstr "https://wpswings.com/?utm_source=wpswings-official&utm_medium=order-bump-org-backend&utm_campaign=official"
+
+#. Author of the plugin
+msgid "WP Swings"
+msgstr "WP Swings"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:969
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:983
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1560
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:3105
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:3121
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:3685
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:3688
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:3714
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:3717
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:4285
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:4288
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:4317
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:4320
+msgid "Quantity"
+msgstr "الكمية"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:526
+#: admin/partials/templates/wps-ubo-lite-settings.php:531
+msgid "Enable Delete all data on uninstall."
+msgstr "مكّن حذف جميع البيانات عند إزالة التثبيت."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:238
+msgid "Opens in a new window or tab"
+msgstr "يفتح في نافذة أو علامة تبويب جديدة"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:236
+msgid "Opens in the same frame as it was clicked"
+msgstr "يفتح في نفس الإطار الذي تم النقر عليه"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:229
+msgid "On clicking on the offer product title or image the product page opens on the same page or new page."
+msgstr "عند النقر فوق عنوان منتج العرض أو الصورة ، تفتح صفحة المنتج على نفس الصفحة أو صفحة جديدة."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:224
+msgid "Offer product permalink target attribute"
+msgstr "عرض سمة هدف الرابط الثابت للمنتج"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:171
+msgid "Enable permalink on product title and image."
+msgstr "تفعيل الرابط الثابت على عنوان المنتج والصورة."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:166
+msgid "Enable permalink on product title and image"
+msgstr "تفعيل الرابط الثابت على عنوان المنتج والصورة"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:98
+msgid "Priority : "
+msgstr "أولوية : "
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:800
+msgid "Offer Image"
+msgstr "صورة العرض التجاري"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:650
+msgid "This feature allows you to trigger this specific order bump, no matter target product is present or not."
+msgstr "تتيح لك هذه الميزة تشغيل هذا الطلب المحدد ، بغض النظر عن وجود المنتج المستهدف أم لا."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:644
+msgid "Global Order Bump"
+msgstr "اهتزاز النظام العالمي"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:497
+msgid "Search for a role&hellip;"
+msgstr "البحث عن دور hellip؛"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:491
+msgid "Order Bumps will not be shown to these roles."
+msgstr "لن يتم عرض مطبات الطلب لهذه الأدوار."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:484
+msgid "Select roles to exclude"
+msgstr "حدد الأدوار لاستبعادها"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:351
+msgid "Priortize Order Bump. Do not use same priority for multiple order bumps, this will override triggered order bump."
+msgstr "عثرة ترتيب الجائزة. لا تستخدم نفس الأولوية مع العديد من مطبات الطلبات ، حيث سيؤدي ذلك إلى تجاوز تضخم الطلب الذي تم تشغيله."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:344
+msgid "Priority of the Order Bump"
+msgstr "أولوية ارتطام الطلب"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:270
+msgid "Guest/Logged Out User"
+msgstr "ضيف / مستخدم قام بتسجيل الخروج"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:780
+msgid "Upload image"
+msgstr "رفع الصورة"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:772
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:782
+msgid "Remove Image"
+msgstr "إزالة الصورة"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1943
+msgid "excl.VAT"
+msgstr "غير شامل. ضريبة"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1941
+msgid "incl.VAT"
+msgstr "بما في ذلك ضريبة"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:601
+msgid "This feature allows you to limit Order bump for some exclusive sales/order counts."
+msgstr "تسمح لك هذه الميزة بالحد من ارتفاع الطلب لبعض عمليات البيع / عدد الطلبات الحصرية."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:595
+msgid "Exclusive Limits"
+msgstr "حدود حصرية"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:162
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:349
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:420
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:491
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:715
+#: admin/partials/templates/wps-ubo-lite-list.php:33
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-admin-display.php:28
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-incompatible.php:28
+#: admin/reporting/upsell-order-bump-reporting-config-panel.php:22
+#: includes/class-wpswings-onboarding-helper.php:828
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:66
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:144
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:309
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:182
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:464
+#: upsell-order-bump-offer-for-woocommerce.php:279
+msgid "Nonce Not verified"
+msgstr "Nonce لم يتم التحقق منها"
+
+#: includes/class-wpswings-onboarding-helper.php:896
+msgid "Unexpected Error Occurred"
+msgstr "حدث خطأ غير متوقع"
+
+#: includes/class-wpswings-onboarding-helper.php:630
+msgid "Select Any One Option..."
+msgstr "حدد أي خيار واحد ..."
+
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-admin-display.php:42
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-incompatible.php:42
+#: admin/reporting/upsell-order-bump-reporting-config-panel.php:30
+msgid "Upsell Order Bump Offers"
+msgstr "عروض ارتفاعات الطلب الزائدة"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:484
+msgid "This features removes extra coupon discounts from cart item."
+msgstr "هذه الميزات تزيل خصومات القسيمة الإضافية من عنصر سلة التسوق."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:478
+msgid "Restrict Woo coupons"
+msgstr "تقييد كوبونات Woo"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:788
+msgid "No Discount"
+msgstr "لا خصم"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:626
+msgid "This feature allows you to add a custom form to receive answers before adding Offer product."
+msgstr "تتيح لك هذه الميزة إضافة نموذج مخصص لتلقي الإجابات قبل إضافة منتج العرض."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:620
+msgid "Meta Forms"
+msgstr "أشكال ميتا"
+
+#: public/class-upsell-order-bump-offer-for-woocommerce-public.php:486
+msgid "Product Not Found."
+msgstr "الصنف غير موجود."
+
+#: extra-templates/wpswings-deactivation-template-display.php:44
+msgid "Skip and Deactivate Now"
+msgstr "تخطي وإلغاء التنشيط الآن"
+
+#: extra-templates/wpswings-deactivation-template-display.php:34
+msgid "May we have a little info about why you are deactivating?"
+msgstr "هل يمكننا الحصول على القليل من المعلومات حول سبب إلغاء التنشيط؟"
+
+#: extra-templates/wpswings-onboarding-template-display.php:44
+msgid "Skip For Now"
+msgstr "تخطي الآن"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:482
+msgid "Get this exclusive offer now !!"
+msgstr "احصل على هذا العرض الحصري الآن !!"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:480
+msgid "A unique and handy product that will benefit you on your existing purchase."
+msgstr "منتج فريد ومفيد سيفيدك في عملية الشراء الحالية."
+
+#: includes/class-wpswings-onboarding-helper.php:388
+msgid "What is your contact number?"
+msgstr "ما هو رقم الاتصال الخاص بك؟"
+
+#: includes/class-wpswings-onboarding-helper.php:378
+msgid "What is the best email address to contact you?"
+msgstr "ما هو أفضل عنوان بريد إلكتروني للاتصال بك؟"
+
+#: includes/class-wpswings-onboarding-helper.php:343
+msgid "What industry defines your business?"
+msgstr "ما هي الصناعة التي تحدد عملك؟"
+
+#: includes/class-wpswings-onboarding-helper.php:326
+msgid "What is your monthly revenue?"
+msgstr "ما هي ايراداتك الشهرية؟"
+
+#: upsell-order-bump-offer-for-woocommerce.php:227
+msgid "Support"
+msgstr "الدعم"
+
+#: upsell-order-bump-offer-for-woocommerce.php:225
+msgid "Documentation"
+msgstr "التوثيق"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:270
+msgid "All"
+msgstr "الكل"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:269
+msgid "None"
+msgstr "بدون"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:245
+msgid "Select categories&hellip;"
+msgstr "تحديد التصنيفات&hellip;"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:230
+msgid "Categories"
+msgstr "تصنيفات"
+
+#. translators: 1: total items sold 2: category name
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:117
+msgid "%1$s sales in %2$s"
+msgstr "٪ 1 $ s مبيعات في٪ 2 $ s "
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:470
+msgid "Net sales amount"
+msgstr "صافي مبلغ المبيعات"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:460
+msgid "Average net sales amount"
+msgstr "صافي مبلغ المبيعات"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:452
+msgid "Number of orders"
+msgstr "عدد الطلبات"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:444
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:612
+msgid "Number of items sold"
+msgstr "عدد العناصر المباعة"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:322
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:372
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:477
+msgid "Export CSV"
+msgstr "تصدير بصيغة CSV"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:319
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:368
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:474
+msgid "Date"
+msgstr "التاريخ"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:137
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:334
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:170
+msgid "Last 7 days"
+msgstr "آخر 7 أيام"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:136
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:333
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:169
+msgid "This month"
+msgstr "هذا الشهر"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:135
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:332
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:168
+msgid "Last month"
+msgstr "الشهر الماضي"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:134
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:331
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:167
+msgid "Year"
+msgstr "السنة"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:293
+msgid "As the Target product is removed the offer product associated with the target will also be removed from your customer's cart."
+msgstr "نظرًا لإزالة المنتج الهدف ، ستتم أيضًا إزالة منتج العرض المرتبط بالهدف من سلة تسوق العميل."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:292
+msgid "Remove offer when target product is removed:"
+msgstr "إزالة العرض عند إزالة المنتج المستهدف:"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:746
+msgid "Free version."
+msgstr "نسخة مجانية."
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:746
+msgid "is deactivated, Please Update the PRO version as this version is outdated and will not work with the current"
+msgstr "تم إلغاء تنشيطه ، يرجى تحديث إصدار PRO لأن هذا الإصدار قديم ولن يعمل مع الإصدار الحالي"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:746
+msgid "Upsell Order Bump Offer for WooCommerce Pro"
+msgstr "Upsell Order Bump Offer for WooCommerce Pro"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:634
+msgid "Some Error Occured while creating report."
+msgstr "حدثت بعض الأخطاء أثناء إنشاء التقرير."
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:595
+msgid "Order Bump Sales by category"
+msgstr "ترتيب المبيعات المفاجئة حسب الفئة"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:588
+msgid "Order Bump Sales by product"
+msgstr "ترتيب المبيعات المفاجئة حسب المنتج"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:581
+msgid "Order Bump Sales by date"
+msgstr "ترتيب المبيعات المفاجئة حسب التاريخ"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:241
+msgid "Sales Reports & Analytics"
+msgstr "تقارير المبيعات والتحليلات"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:236
+msgid "Order Bumps & Settings"
+msgstr "طلب المطبات والإعدادات"
+
+#: admin/reporting/templates/reporting.php:133
+msgid "%"
+msgstr "%"
+
+#: admin/reporting/templates/reporting.php:53
+msgid "Total Sales"
+msgstr "إجمالي المبيعات"
+
+#: admin/reporting/templates/reporting.php:52
+msgid "Conversion Rate"
+msgstr "معدل التحويل"
+
+#: admin/reporting/templates/reporting.php:51
+msgid "Offer Remove Count"
+msgstr "عرض إزالة العدد"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:208
+msgid "Showing reports for:"
+msgstr "عرض التقارير عن:"
+
+#. translators: %s: total items purchased
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:153
+msgid "%s purchases for the selected items"
+msgstr "٪s مشتريات للعناصر المحددة"
+
+#. translators: %s: total items sold
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:146
+msgid "%s sales for the selected items"
+msgstr "%s مبيعات للعناصر المحددة"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:336
+msgid "Choose a category to view stats"
+msgstr "اختر فئة لعرض الإحصائيات"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-category.php:271
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:254
+msgid "Show"
+msgstr "اظهار"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:318
+msgid "Total order bump refunded items from fully refunded orders."
+msgstr "إجمالي الطلبات التي تم استردادها من الطلبات المستردة بالكامل."
+
+#. translators: 1: total refunds 2: total refunded orders 3: refunded items
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:314
+msgid "%s order bump refunded items"
+msgstr "%s عثرة طلبية من العناصر المستردة"
+
+#. translators: %s: total items
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:305
+msgid "%s order bump items purchased"
+msgstr "تم شراء عناصر نتوء الطلب%s"
+
+#. translators: %s: total orders
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:295
+msgid "%s order bump orders placed"
+msgstr "تم تقديم%s من الطلبات المفاجئة"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:280
+msgid "This is the sum of the order bump item totals after any refunds ( whole order refunds ) and excluding shipping and taxes."
+msgstr "هذا هو مجموع إجمالي إجماليات عناصر الطلب بعد أي مبالغ مستردة (المبالغ المستردة للطلب بالكامل) باستثناء الشحن والضرائب."
+
+#. translators: %s: total sales
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:277
+msgid "%s net order bump sales in this period"
+msgstr "%s صافي مبيعات تضخم المبيعات في هذه الفترة"
+
+#. translators: %s: average total sales
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:268
+msgid "%s average net monthly order bump sales"
+msgstr "%s متوسط ​​صافي مبيعات الطلبات الشهرية"
+
+#. translators: %s: average total sales
+#: reporting/class-wps-upsell-order-bump-report-sales-by-date.php:260
+msgid "%s average net daily order bump sales"
+msgstr "%s متوسط ​​صافي مبيعات الطلبات اليومية"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:80
+msgid "Yes, now you can show Multiple Order Bumps simultaneously on the checkout page so that your customers can have more options to chose from."
+msgstr "نعم ، يمكنك الآن إظهار مطبات الطلبات المتعددة في وقت واحد على صفحة الدفع حتى يتمكن عملاؤك من الحصول على المزيد من الخيارات للاختيار من بينها."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:79
+msgid "Want to show more than one Order Bump on the checkout page, this plugin now supports Multiple Order Bumps."
+msgstr "إذا كنت تريد إظهار أكثر من طلب واحد على صفحة الخروج ، فإن هذا البرنامج المساعد يدعم الآن مطبات الطلبات المتعددة."
+
+#: upsell-order-bump-offer-for-woocommerce.php:224
+msgid "Demo"
+msgstr "نسخة تجريبية"
+
+#: upsell-order-bump-offer-for-woocommerce.php:202
+msgid "GO PRO"
+msgstr "GO PRO"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:620
+msgid "Sales amount"
+msgstr "مبلغ المبيعات"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:491
+msgid "Choose a product to view stats"
+msgstr "اختر منتجًا لعرض الإحصائيات"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:379
+msgid "Top earners"
+msgstr "أصحاب الدخول الأعلى"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:320
+msgid "Top freebies"
+msgstr "أعلى الهدايا المجانية"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:315
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:374
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:428
+msgid "No products found in range"
+msgstr "لا توجد منتجات في النطاق"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:266
+msgid "Top sellers"
+msgstr "أفضل البائعين"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:248
+msgid "Product search"
+msgstr "البحث عن المنتجات"
+
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:240
+msgid "Reset"
+msgstr "أعد ضبط"
+
+#: admin/reporting/upsell-order-bump-reporting-config-panel.php:35
+msgid "Sales Reports"
+msgstr "تقارير المبيعات"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:77
+msgid "Multiple Order Bumps"
+msgstr "مطبات ترتيب متعددة"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:556
+msgid "Enter the Multiple Order Bumps count that you want to display on the checkout page."
+msgstr "أدخل عدد مطبات الطلبات المتعددة التي تريد عرضها على صفحة الخروج."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:550
+msgid "Multiple Order Bumps Count"
+msgstr "عدد مطبات الطلب المتعددة"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:295
+msgid "As the Target product is removed the offer product associated with the target will be converted into a normal product in your customer's cart."
+msgstr "عند إزالة المنتج المستهدف ، سيتم تحويل منتج العرض المرتبط بالهدف إلى منتج عادي في عربة التسوق الخاصة بالعميل."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:294
+msgid "Keep offer when target product is removed:"
+msgstr "احتفظ بالعرض عند إزالة المنتج المستهدف:"
+
+#: admin/reporting/templates/reporting.php:50
+msgid "Offer Accept Count"
+msgstr "عرض قبول العد"
+
+#: admin/reporting/templates/reporting.php:49
+msgid "Success Count"
+msgstr "عدد النجاح"
+
+#: admin/reporting/templates/reporting.php:48
+msgid "View Count"
+msgstr "مشاهدة Count"
+
+#: admin/reporting/templates/reporting.php:36
+msgid "Order Bump - Behavioral Analytics"
+msgstr "اهتزاز الطلب - التحليلات السلوكية"
+
+#: admin/reporting/templates/reporting.php:31
+msgid "Visit here &rarr;"
+msgstr "زيارة هنا & rarr؛"
+
+#: admin/reporting/templates/reporting.php:30
+msgid "Order Bump Sales - Reports"
+msgstr "طلب مبيعات نتوء - تقارير"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:144
+msgid "Please enter in country code with two capital letters."
+msgstr "الرجاء إدخال رمز البلد بحرفين كبيرين."
+
+#. Translators: %s: price decimal separator.
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:143
+msgid "Please enter in monetary decimal (%s) format without thousand separators and currency symbols."
+msgstr "الرجاء إدخال تنسيق عشري نقدي (٪ s) بدون آلاف الفواصل ورموز العملات."
+
+#. Translators: %s: decimal.
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:141
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr "الرجاء إدخال تنسيق عشري (٪ s) بدون ألف فاصل."
+
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-admin-display.php:134
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-incompatible.php:84
+msgid "Regarding any issue, query or feature request for Order Bump Offers."
+msgstr "فيما يتعلق بأي مشكلة أو استعلام أو طلب ميزة لعروض الطلب المرتفعة."
+
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-admin-display.php:132
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-incompatible.php:82
+msgid "Connect"
+msgstr "أتصل"
+
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-admin-display.php:130
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-incompatible.php:80
+msgid "Connect with Us in one click"
+msgstr "تواصل معنا بنقرة واحدة"
+
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-admin-display.php:75
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-incompatible.php:54
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-admin-display.php:70
+msgid "License"
+msgstr "ترخيص"
+
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-admin-display.php:51
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-incompatible.php:51
+msgid "Global Settings"
+msgstr "إعدادات عامة"
+
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-admin-display.php:49
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-incompatible.php:49
+msgid "Order Bumps List"
+msgstr "ترتيب قائمة المطبات"
+
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-admin-display.php:47
+#: admin/partials/upsell-order-bump-offer-for-woocommerce-incompatible.php:47
+msgid "Save Order Bump"
+msgstr "حفظ نتوء الطلب"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:638
+msgid "Don't update"
+msgstr "لا تقم بالتحديث"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:637
+msgid "Update Now"
+msgstr "تحديث الآن"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:632
+msgid "Please Update 'Upsell Order Bump Offer For Woocommerce Pro' to use this feature."
+msgstr "يرجى التحديث 'Upsell Order Bump Offer For Woocommerce Pro' لاستخدام هذه الميزة."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:631
+msgid "Update Required!"
+msgstr "مطلوب التحديث!"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:293
+msgid "Activate"
+msgstr "التفعيل"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:150
+msgid "Export"
+msgstr "تصدير"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:149
+msgid "Import"
+msgstr "استيراد"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:145
+msgid "Please enter in a value less than the regular price."
+msgstr "فضلًا أدخل قيمة أقل من السعر الافتراضي."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:595
+msgid "Add your Custom JS without script tags."
+msgstr "أضف Custom JS بدون علامات البرنامج النصي."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:589
+msgid "Global Custom JS"
+msgstr "Global Custom JS"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:576
+msgid "Add your Custom CSS without style tags."
+msgstr "أضف CSS المخصص الخاص بك بدون علامات النمط."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:570
+msgid "Global Custom CSS"
+msgstr "CSS مخصص عالمي"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:461
+msgid "Skip the Order Bump offer for those customers who have already purchased the offer product anytime before in previous orders."
+msgstr "تخطي عرض \"ارتداد الطلب\" للعملاء الذين قاموا بالفعل بشراء منتج العرض في أي وقت من قبل في الطلبات السابقة."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:432
+msgid "Select the way to display Offer Price in Order Bumps."
+msgstr "حدد طريقة عرض سعر العرض في مطبات الطلب."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:424
+msgid " ̶S̶a̶l̶e̶ ̶P̶r̶i̶c̶e̶"
+msgstr " سعر البيع"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:423
+#: admin/partials/templates/wps-ubo-lite-settings.php:424
+msgid "Offer Price"
+msgstr "سعر العرض"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:423
+msgid "̶R̶e̶g̶u̶l̶a̶r̶ ̶P̶r̶i̶c̶e̶"
+msgstr "سعر عادي"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:417
+msgid "Offer Price Format"
+msgstr "تنسيق سعر العرض"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:218
+msgid "+Create New Order Bump"
+msgstr "+ إنشاء طلب جديد"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:199
+msgid "Delete"
+msgstr "إلغاء"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:196
+msgid "View / Edit"
+msgstr "معاينة ما تم تحريره"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:186
+msgid "No offers Added"
+msgstr "لا توجد عروض مضافة"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:167
+msgid "No Categories added"
+msgstr "لا توجد فئات مضافة"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:150
+msgid "Target Categories -"
+msgstr "الفئات المستهدفة -"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:140
+msgid "No Product(s) added"
+msgstr "لا يوجد منتج (منتجات) مضافة"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:89
+msgid "Action"
+msgstr "إجراء"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:88
+msgid "Offers"
+msgstr "العروض"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:87
+msgid "Target Product(s) and Categories"
+msgstr "المنتج (المنتجات) المستهدفة والفئات"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:86
+msgid "Status"
+msgstr "الحالة"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:85
+#: admin/reporting/templates/reporting.php:47
+msgid "Name"
+msgstr "الاسم"
+
+#: admin/partials/templates/wps-ubo-lite-list.php:78
+msgid "Only first Order Bump will work. Please activate pro version to make all working."
+msgstr "لن يعمل سوى Bump من الدرجة الأولى. يرجى تفعيل الإصدار المحترف لجعل كل شيء يعمل."
+
+#: admin/partials/templates/wps-ubo-lite-list.php:69
+#: admin/reporting/templates/reporting.php:40
+msgid "No Order Bumps added"
+msgstr "لم تتم إضافة مطبات الطلب"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:131
+msgid "Our Support is ready to assist you regarding any query, issue or feature request and if that doesn't help our Technical team will connect with you personally and have your query resolved."
+msgstr "دعمنا جاهز لمساعدتك فيما يتعلق بأي استفسار أو مشكلة أو طلب ميزة وإذا لم يساعد ذلك ، فسيقوم فريقنا الفني بالتواصل معك شخصيًا وحل استفسارك."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:41
+msgid "Upsell Order Bump Offer for WooCommerce allows its users to show exclusive special offers known as Order Bumps on the checkout page. These Order Bumps can be accepted in just a single click which is added instantly to customer's existing Order."
+msgstr "Upsell Order Bump Offer for WooCommerce يسمح لمستخدميه بإظهار عروض خاصة حصرية تُعرف باسم مطبات الطلب على صفحة الخروج. يمكن قبول مطبات الطلب هذه بنقرة واحدة تضاف على الفور إلى طلب العميل الحالي"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:39
+msgid "What is Upsell Order Bump Offer for WooCommerce?"
+msgstr "ما هو Upsell Order Bump Offer for WooCommerce?"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:26
+msgid "How Order Bump Offer Works and How to Set it Up"
+msgstr "كيف يعمل عرض Bump للطلب وكيفية إعداده"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1624
+#: admin/partials/templates/wps-ubo-lite-settings.php:264
+msgid "No"
+msgstr "لا"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1622
+#: admin/partials/templates/wps-ubo-lite-settings.php:262
+msgid "Yes"
+msgstr "نعم"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1618
+msgid "Changing layout will reset Design settings back to default."
+msgstr "سيؤدي تغيير التخطيط إلى إعادة تعيين إعدادات التصميم إلى الوضع الافتراضي."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1617
+msgid "Do you really want to change template layout ?"
+msgstr "هل تريد حقًا تغيير تخطيط النموذج؟"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1602
+#: admin/partials/templates/wps-ubo-lite-settings.php:612
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1582
+msgid "Offer Preview"
+msgstr "عرض المعاينة"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1558
+msgid "Bump Offer description content."
+msgstr "محتوى وصف عرض النتوء."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1553
+msgid "Offer Description "
+msgstr "وصف العرض "
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1534
+msgid "Bump offer Lead title content."
+msgstr "تقدم Bump محتوى عنوان الرصاص."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1529
+msgid " Lead Title "
+msgstr " عنوان الرصاص "
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1513
+msgid "Bump Offer Product description content."
+msgstr "عرض نتوء محتوى وصف المنتج."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1506
+msgid "Product Description"
+msgstr "وصف المنتج"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1185
+msgid "Select text color for Product section."
+msgstr "حدد لون النص لقسم المنتج."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1173
+msgid "Product Section"
+msgstr "قسم المنتج"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1154
+msgid "Select font size for Discount section."
+msgstr "حدد حجم الخط لقسم الخصم."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1149
+#: admin/partials/templates/wps-ubo-lite-creation.php:1219
+#: admin/partials/templates/wps-ubo-lite-creation.php:1378
+#: admin/partials/templates/wps-ubo-lite-creation.php:1440
+msgid "Select Text Size"
+msgstr "حدد حجم النص"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1134
+msgid "Select text color for Discount section."
+msgstr "حدد لون النص لقسم الخصم."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1129
+#: admin/partials/templates/wps-ubo-lite-creation.php:1180
+#: admin/partials/templates/wps-ubo-lite-creation.php:1339
+#: admin/partials/templates/wps-ubo-lite-creation.php:1424
+msgid "Select Text Color"
+msgstr "حدد لون النص"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1114
+msgid "Select background color for Discount section."
+msgstr "حدد لون الخلفية لقسم الخصم."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1020
+#: admin/partials/templates/wps-ubo-lite-creation.php:1109
+#: admin/partials/templates/wps-ubo-lite-creation.php:1320
+#: admin/partials/templates/wps-ubo-lite-creation.php:1406
+msgid "Select Background Color"
+msgstr "حدد لون الخلفية"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1103
+msgid "Discount Section"
+msgstr "قسم الخصم"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1082
+msgid "Add bottom spacing to the Bump Offer Box."
+msgstr "أضف تباعدًا سفليًا إلى Bump Offer Box."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1077
+msgid "Select Bottom Vertical Spacing"
+msgstr "حدد التباعد الرأسي السفلي"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1061
+msgid "Add top spacing to the Bump Offer Box."
+msgstr "أضف تباعدًا علويًا إلى صندوق عرض الارتداد."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1056
+msgid "Select Top Vertical Spacing"
+msgstr "حدد Top Vertical Spacing"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:993
+msgid "Select border color for Bump Offer."
+msgstr "حدد لون الحدود لعرض Bump."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:988
+msgid "Select Border Color"
+msgstr "حدد لون الحدود"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:827
+msgid "Appearance"
+msgstr "المظهر"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:792
+msgid "Specify new offer price or discount %"
+msgstr "تحديد سعر العرض الجديد أو النسبة المئوية للخصم"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:787
+msgid "Fixed price"
+msgstr "سعر ثابت"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:786
+msgid "Discount %"
+msgstr "النسبة المئوية للخصم"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:780
+msgid "Offer Price/Discount"
+msgstr "سعر العرض / الخصم"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:772
+msgid "Select the product you want to show as offer."
+msgstr "حدد المنتج الذي تريد إظهاره كعرض."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:747
+msgid "Offer Product"
+msgstr "عرض المنتج"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:739
+msgid "Offer Section"
+msgstr "قسم العرض"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:714
+msgid "Order Bump Offer"
+msgstr "طلب عرض نتوء"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:576
+msgid "This feature allows you to replace offer product to target product when added via order bump."
+msgstr "تتيح لك هذه الميزة استبدال منتج العرض لاستهداف المنتج عند إضافته عبر نتوء الطلب."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:570
+#: admin/partials/templates/wps-ubo-lite-overview.php:91
+msgid "Smart Offer Upgrade"
+msgstr "ترقية العرض الذكي"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:568
+#: admin/partials/templates/wps-ubo-lite-creation.php:593
+#: admin/partials/templates/wps-ubo-lite-creation.php:618
+#: admin/partials/templates/wps-ubo-lite-creation.php:643
+#: admin/partials/templates/wps-ubo-lite-creation.php:667
+#: admin/partials/templates/wps-ubo-lite-creation.php:691
+#: admin/partials/templates/wps-ubo-lite-creation.php:878
+#: admin/partials/templates/wps-ubo-lite-creation.php:888
+#: admin/partials/templates/wps-ubo-lite-creation.php:902
+#: admin/partials/templates/wps-ubo-lite-settings.php:190
+#: admin/partials/templates/wps-ubo-lite-settings.php:453
+#: admin/partials/templates/wps-ubo-lite-settings.php:476
+#: admin/partials/templates/wps-ubo-lite-settings.php:501
+#: admin/partials/templates/wps-ubo-lite-settings.php:549
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:551
+msgid "Search for a specific days&hellip;"
+msgstr "البحث عن أيام محددة & hellip؛"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:530
+msgid "Schedule your Order Bump for specific weekdays."
+msgstr "جدولة نتوء الطلب لأيام الأسبوع المحددة."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:523
+msgid "Order Bump Schedule"
+msgstr "طلب جدول نتوء"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:259
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:258
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:257
+msgid "Monday"
+msgstr "الاثنين"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:256
+msgid "Daily"
+msgstr "يومياً"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:245
+#: admin/partials/templates/wps-ubo-lite-settings.php:71
+msgid "Settings saved"
+msgstr "تم حفظ الإعدادات"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2439
+msgid "Category not found"
+msgstr "الفئة غير موجودة"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2417
+msgid "Product Unavailable"
+msgstr "المنتج غير متوفر"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2409
+msgid "Product not found"
+msgstr "لم يتم العثور على المنتج"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:141
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2350
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2386
+msgid "Upgrade to Premium"
+msgstr "الترقية إلى Premium"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2344
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2380
+msgid "Go with our premium version and make unlimited numbers of order bumps. Get more smart features and make the most attractive offers with all of your products. Set Relevant offers for specific targets which will ensure customer satisfaction and higher conversion rates."
+msgstr "انتقل مع الإصدار المتميز الخاص بنا وقم بعمل عدد غير محدود من مطبات الطلب. احصل على المزيد من الميزات الذكية وقدم أكثر العروض جاذبية مع جميع منتجاتك. حدد العروض ذات الصلة لأهداف محددة تضمن رضا العملاء ومعدلات تحويل أعلى."
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2327
+msgid "Want More? Go Pro !!"
+msgstr "هل تريد المزيد؟ انطلق برو !!"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2316
+msgid "Stucked to just one order bump? Unlock your power to explore more."
+msgstr "عالق في عثرة طلب واحد فقط؟ أطلق العنان لقوتك لاستكشاف المزيد."
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:2312
+msgid "Want some more super cool features? Unlock your power to explore more."
+msgstr "هل تريد المزيد من الميزات الرائعة؟ أطلق العنان لقوتك لاستكشاف المزيد."
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1657
+msgid "Choose an option"
+msgstr "تحديد أحد الخيارات"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1566
+msgid "Add this offer to cart"
+msgstr "أضف هذا العرض إلى عربة التسوق"
+
+#. Plugin Name of the plugin
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:746
+#: upsell-order-bump-offer-for-woocommerce.php:308
+msgid "Upsell Order Bump Offer for WooCommerce"
+msgstr "Upsell Order Bump Offer for WooCommerce"
+
+#. translators: %s is replaced with "days remaining"
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:296
+msgid " the license key before %s or you may risk losing data and the plugin will also become dysfunctional."
+msgstr " مفتاح الترخيص قبل%s أو قد تخاطر بفقدان البيانات وسيصبح المكون الإضافي أيضًا معطلًا."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:384
+msgid "Choose the location where the Bump Offer will be displayed on the Checkout page."
+msgstr "اختر الموقع حيث سيتم عرض Bump Offer في صفحة Checkout."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:369
+#: admin/partials/templates/wps-ubo-lite-settings.php:376
+msgid "Before Place Order Button"
+msgstr "قبل زر تقديم الطلب"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:353
+msgid "Offer Location"
+msgstr "عرض الموقع"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:332
+msgid "If Free Width, the Order Bump Offer will adapt to the complete width of it's parent location area else it will be fixed."
+msgstr "إذا كان Free Width ، فسيتم تكييف عرض Order Bump مع العرض الكامل لمنطقة الموقع الأصلي ، وإلا فسيتم إصلاحه."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:324
+msgid "Fixed Width"
+msgstr "عرض ثابت"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:323
+msgid "Free Width"
+msgstr "عرض مجاني"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:317
+msgid "Offer Adaption settings"
+msgstr "عرض إعدادات التكيف"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:282
+msgid "Keep Offer even When Target is Removed"
+msgstr "حافظ على العرض حتى عند إزالة الهدف"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:281
+msgid "Remove Offer When Target Product is Removed"
+msgstr "إزالة العرض عند إزالة المنتج المستهدف"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:275
+msgid "Offer Target Dependency"
+msgstr "عرض التبعية المستهدفة"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:255
+msgid "Skip Bump offer if offer product is already present in cart."
+msgstr "عرض Skip Bump إذا كان المنتج المعروض موجودًا بالفعل في سلة التسوق."
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:250
+msgid "Skip for Same Offers"
+msgstr "تخطي لنفس العروض"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:147
+msgid "Enable Upsell Order Bump Offer plugin."
+msgstr "تفعيل المكوّن الإضافي Upsell Order Bump Offer."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:46
+msgid "Capture Customer’s attention by displaying appealing offers on the checkout page."
+msgstr "اجذب انتباه العميل من خلال عرض عروض جذابة على صفحة الخروج."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:43
+msgid "The Store owner can set the offers specifically for Target Products or Categories so that relevant Order Bumps can be offered which are hard to resist."
+msgstr "يمكن لمالك المتجر تعيين العروض على وجه التحديد للمنتجات أو الفئات المستهدفة بحيث يمكن تقديم مطبات الطلب ذات الصلة التي يصعب مقاومتها."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1494
+msgid "For Fixed Price"
+msgstr "للحصول على سعر ثابت"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1489
+msgid "For Discount %"
+msgstr "للخصم%"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1478
+msgid "for fixed discount price."
+msgstr "لسعر الخصم الثابت."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1476
+msgid "for % discount."
+msgstr "للحصول على خصم %."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1474
+msgid "Discount title content. Please use at respective places :"
+msgstr "محتوى عنوان الخصم. الرجاء استخدام في الأماكن المعنية:"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1467
+msgid "Discount Title"
+msgstr "عنوان الخصم"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1444
+msgid "Select font size for Offer Description section."
+msgstr "حدد حجم الخط لقسم وصف العرض."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1428
+msgid "Select text color for Offer Description section."
+msgstr "حدد لون النص لقسم وصف العرض."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1410
+msgid "Select background color for Offer Description section."
+msgstr "حدد لون الخلفية لقسم وصف العرض."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1400
+msgid "Offer Description Section"
+msgstr "قسم وصف العرض"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1382
+msgid "Select font size for Accept Offer section."
+msgstr "حدد حجم الخط لقسم قبول العرض."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1344
+msgid "Select text color for Accept Offer section."
+msgstr "حدد لون النص لقسم قبول العرض."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1325
+msgid "Select background color for Accept Offer section."
+msgstr "حدد لون الخلفية لقسم قبول العرض."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:832
+msgid "Design"
+msgstr "تصميم"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:831
+msgid "Template"
+msgstr "قالب"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:450
+msgid "Search for a category&hellip;"
+msgstr "البحث عن تصنيف..."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:444
+msgid "If any one of these Target categories is checked out then this Order Bump will be triggered and the below offer will be shown."
+msgstr "إذا تم سحب أي من هذه الفئات المستهدفة ، فسيتم تشغيل هذا الطلب ، وسيظهر العرض أدناه."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:437
+msgid "Select target categories"
+msgstr "حدد الفئات المستهدفة"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:403
+#: admin/partials/templates/wps-ubo-lite-creation.php:752
+#: reporting/class-wps-upsell-order-bump-report-sales-by-product.php:253
+msgid "Search for a product&hellip;"
+msgstr "البحث عن منتج&hellip;"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:397
+msgid "If any one of these Target Products is checked out then this Order Bump will be triggered and the below offer will be shown."
+msgstr "إذا تم سحب أي من هذه المنتجات المستهدفة ، فسيتم تشغيل هذا الطلب وسيظهر العرض أدناه."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:390
+msgid "Select target product(s)"
+msgstr "حدد المنتج (المنتجات) المستهدفة"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:328
+msgid "Provide the name of your Order Bump."
+msgstr "أدخل اسم ملف الطلب الخاص بك."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:321
+msgid "Name of the Order Bump"
+msgstr "اسم نتوء الطلب"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:313
+#: admin/partials/templates/wps-ubo-lite-list.php:112
+msgid "Sandbox"
+msgstr "صندوق الرّمل"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:312
+#: admin/partials/templates/wps-ubo-lite-list.php:109
+msgid "Live"
+msgstr "مباشر Live"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:224
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:225
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:577
+#: admin/partials/templates/wps-ubo-lite-creation.php:292
+msgid "Order Bump"
+msgstr "طلب Bump"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:263
+msgid "Sunday"
+msgstr "الأحد"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:262
+msgid "Saturday"
+msgstr "السبت"
+
+#: public/class-upsell-order-bump-offer-for-woocommerce-public.php:513
+msgid "Sorry, this variation is not available."
+msgstr "عذرا ، هذا الاختلاف غير متوفر."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/upsell-order-bump-offer-for-woocommerce/"
+msgstr "https://wordpress.org/plugins/upsell-order-bump-offer-for-woocommerce/"
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:557
+msgid "Order Bump: "
+msgstr "طلب نتوء: "
+
+#: admin/class-upsell-order-bump-offer-for-woocommerce-admin.php:312
+msgid "Upsell Order Bump Offers Pro"
+msgstr "Upsell Order Bump Offers Pro"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:142
+msgid "Enable Upsell Order Bumps"
+msgstr "تمكين مطبات ترتيب البيع"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:125
+msgid "Receive dedicated 24*7 Phone, Email & Skype support."
+msgstr "احصل على دعم مخصص على مدار الساعة طوال أيام الأسبوع عبر الهاتف والبريد الإلكتروني وسكايب."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:121
+msgid "Exclusive Support"
+msgstr "دعم حصري"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:111
+msgid "This feature will allow you to Skip the Order Bump offer for those customers who have already purchased the offer product anytime before in previous orders."
+msgstr "ستسمح لك هذه الميزة بتخطي عرض ارتداد الطلبات للعملاء الذين قاموا بالفعل بشراء منتج العرض في أي وقت من قبل في الطلبات السابقة."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:109
+#: admin/partials/templates/wps-ubo-lite-settings.php:455
+msgid "Smart Skip if Already Purchased"
+msgstr "التخطي الذكي إذا تم شراؤه بالفعل"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:101
+msgid "The Smart Upgrade offer feature will replace the existing product with the offer product as soon as they accept the Order Bump offer."
+msgstr "ستحل ميزة عرض الترقية الذكية محل المنتج الحالي بمنتج العرض بمجرد قبولهم عرض الطلب المتنامي."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:95
+msgid "Want to Offer an Upgrade on the Existing purchase to your customers."
+msgstr "تريد تقديم ترقية على الشراء الحالي لعملائك."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:69
+msgid "So, get our Premium version today to create multiple Order Bumps. Introduce your customers to the most relevant offers which will benefit them on their existing purchase. Give your sales a great boost ahead."
+msgstr "لذا ، احصل على الإصدار المميز اليوم لإنشاء مطبات متعددة للطلب. عرّف عملائك على العروض الأكثر صلة والتي ستفيدهم في عملية الشراء الحالية. امنح مبيعاتك دفعة كبيرة في المستقبل."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:68
+msgid "With our Free version, you have limited access to create just one Order Bump."
+msgstr "مع نسختنا المجانية ، لديك وصول محدود لإنشاء عثرة طلب واحدة فقط."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:66
+msgid "Unlock the power to create unlimited Order Bumps"
+msgstr "أطلق العنان للقوة لإنشاء مطبات غير محدودة للطلب"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:56
+msgid "Premium Plugin Additional Features"
+msgstr "ميزات البرنامج المساعد الإضافية المتميزة"
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:49
+msgid "Ask them to Act and Accept the offer."
+msgstr "اطلب منهم التصرف وقبول العرض."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:48
+msgid "Convince them that this is an Exclusive offer only available here at this Discount."
+msgstr "أقنعهم أن هذا عرض حصري متاح فقط هنا في هذا الخصم."
+
+#: admin/partials/templates/wps-ubo-lite-overview.php:47
+msgid "Develop Interest for the offer by mentioning how the offer will benefit them on their existing purchase."
+msgstr "قم بتنمية الاهتمام بالعرض من خلال ذكر كيف سيعود العرض بالفائدة على عملية الشراء الحالية."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1313
+msgid "Accept Offer Section"
+msgstr "قبول العرض القسم"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:1224
+msgid "Select font size for Product section."
+msgstr "حدد حجم الخط لقسم المنتج."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:970
+msgid "----Select Border Type----"
+msgstr "---- حدد نوع الحدود ----"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:965
+msgid "Dotted"
+msgstr "منقط"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:964
+msgid "Double"
+msgstr "مزدوج"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:963
+msgid "Dashed"
+msgstr "متقطع"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:962
+msgid "Solid"
+msgstr "صلب"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:961
+msgid "No Border"
+msgstr "بدون حدود"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:947
+msgid "Select among different border types for Bump Offer."
+msgstr "حدد من بين أنواع الحدود المختلفة لعرض Bump."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:942
+msgid "Select Border type"
+msgstr "حدد نوع الحدود"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:920
+msgid "Bump Offer Box"
+msgstr "صندوق عرض نتوء"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:877
+msgid "Elegant Summers"
+msgstr "صيف أنيق"
+
+#: upsell-order-bump-offer-for-woocommerce.php:308
+msgid "."
+msgstr "."
+
+#: upsell-order-bump-offer-for-woocommerce.php:308
+msgid " is not activated, Please activate WooCommerce first to activate "
+msgstr " لم يتم تنشيطه ، يرجى تنشيط WooCommerce أولاً للتنشيط "
+
+#: upsell-order-bump-offer-for-woocommerce.php:308
+msgid "WooCommerce"
+msgstr "ووكومرس"
+
+#: upsell-order-bump-offer-for-woocommerce.php:201
+msgid "Settings"
+msgstr "الاعدادات"
+
+#: public/class-upsell-order-bump-offer-for-woocommerce-public.php:527
+msgid "Out of stock."
+msgstr "إنتهى من المخزن."
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:868
+msgid "Alluring Lakeside"
+msgstr "مغرية ليكسايد"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:859
+msgid "Dazzling Bliss"
+msgstr "النعيم المبهر"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:833
+msgid "Content"
+msgstr "المحتوى"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:261
+msgid "Friday"
+msgstr "الجمعة"
+
+#: admin/partials/templates/wps-ubo-lite-creation.php:260
+msgid "Thursday"
+msgstr "الخميس"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1243
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1266
+msgid "Before Place order button"
+msgstr "قبل زر \"وضع الطلب\""
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:368
+#: admin/partials/templates/wps-ubo-lite-settings.php:375
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1238
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1261
+msgid "After Payment Gateways"
+msgstr "بعد بوابات الدفع"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:367
+#: admin/partials/templates/wps-ubo-lite-settings.php:374
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1233
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1256
+msgid "Before Payment Gateways"
+msgstr "قبل بوابات الدفع"
+
+#: admin/partials/templates/wps-ubo-lite-settings.php:366
+#: admin/partials/templates/wps-ubo-lite-settings.php:373
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1228
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:1251
+msgid "Before Order Summary"
+msgstr "قبل ملخص الطلب"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:484
+msgid "Hey there, you can get access to this offer by just clicking the checkbox above. Add this offer to your order, you will never get such a discount on any other place on this site."
+msgstr "مرحبًا ، يمكنك الوصول إلى هذا العرض بمجرد النقر فوق مربع الاختيار أعلاه. أضف هذا العرض إلى طلبك ، فلن تحصل على مثل هذا الخصم على أي مكان آخر على هذا الموقع."
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:478
+msgid "off only for you !!"
+msgstr "فقط من أجلك !!"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:476
+msgid "!!"
+msgstr "!!"
+
+#: includes/class-upsell-order-bump-offer-for-woocommerce-global-functions.php:476
+msgid "AT JUST"
+msgstr "في فقط"

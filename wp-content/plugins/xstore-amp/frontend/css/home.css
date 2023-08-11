@@ -1,0 +1,82 @@
+
+amp-carousel .caption-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+amp-carousel .caption-wrapper .button {
+    display: inline-block;
+}
+amp-carousel .caption {
+    width: 100%;
+}
+amp-carousel .text-start .caption {
+    margin-right: auto;
+}
+amp-carousel .text-end .caption {
+    margin-left: auto;
+}
+#homeSlider01 {
+    --et_amp-btn-bg-c: #222;
+    --et_amp-btn-c: #fff;
+    --et_amp-h-c: #222;
+}
+#homeSlider01 amp-img {
+    min-height: 250px;
+}
+#homeSlider01 > div {
+    position: static;
+}
+#homeSlider01 ::-webkit-scrollbar {
+    display: none;
+}
+#homeSlider01 h2 {
+    font-size: 2.3rem;
+}
+/* global */
+.amp-carousel-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+}
+.amp-carousel-dots span {
+    display: inline-block;
+    background: #ccc;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+}
+.amp-carousel-dots span.current {
+    background-color: #222;
+}
+.amp-banner {
+    position: relative;
+    overflow: hidden;
+}
+.amp-banner .content-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.amp-banner .content-inner .title {
+    margin-bottom: 7px;
+}
+.amp-banner .content {
+    margin-bottom: 1.43rem;
+}
+.amp-banner .content > p:last-child {
+    margin-bottom: 0;
+}
+.amp-banner .button {
+    display: inline-block;
+}

@@ -1,0 +1,52 @@
+.et-facebook-login-button,
+.et-google-login-button {
+    font-size: .85rem;
+    color: #fff;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.et-facebook-login-button {
+    background: #4f699e;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-color: transparent;
+}
+
+.et-google-login-wrapper~.et-facebook-login-wrapper {
+    margin-top: 15px;
+}
+
+.et-google-login-button {
+    background: #4285f4;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-color: transparent;
+}
+
+.et-or-wrapper {
+    color: var(--et_amp-d-2-w);
+    overflow: hidden;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: .84rem;
+    flex-basis: 100%;
+}
+
+.et-or-wrapper div {
+    display: flex;
+    align-items: center;
+}
+
+.et-or-wrapper div:after,
+.et-or-wrapper div:before {
+    content: '';
+    height: 1px;
+    background: currentColor;
+    flex: 1;
+    opacity: .1;
+}
+
+.et-or-wrapper span {
+    padding: 0 5px;
+}

@@ -1,0 +1,262 @@
+
+/* YWPAR TABS */
+#ywpar_tabs {
+    &{
+        margin: 20px 0;
+    }
+
+    ul {
+        list-style: none;
+        padding:0;
+        margin: 0;
+    }
+
+    .ywpar_tabcontent {
+        display: none;
+    }
+
+}
+.ywpar_best_users,
+.widget_ywpar_customers_points{
+    .ywpar_tabcontent {
+        position: relative;
+    }
+}
+
+.ywpar_tabs_header {
+    margin-bottom: 30px;
+
+    ul {
+        & {
+            border-bottom: 1px inset lightgray;
+            box-sizing: border-box;
+        }
+
+        li {
+            & {
+                display: inline-block;
+                padding: 10px 20px;
+                cursor: pointer;
+                color: #939393;
+            }
+
+            &.active {
+                font-weight: bold;
+                color: #333;
+                border-bottom: 2px outset #333;
+            }
+        }
+    }
+}
+
+.ywpar_best_users_tab {
+    ul li {
+        & {
+            display: flex;
+            margin-bottom: 40px;
+        }
+
+        img {
+            width: 60px;
+            height: fit-content;
+            height: intrinsic;
+            border-radius: 7px;
+        }
+
+        & > div {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+
+    .user_info p {
+        padding-left: 10px;
+        margin-bottom: 5px;
+    }
+
+}
+
+.ywpar_best_users {
+    .user_points {
+        display: flex;
+        font-size: 80%;
+        font-weight: bold;
+        gap: 5px;
+        align-items: center;
+
+        .level {
+            align-items: center;
+            display: flex;
+        }
+
+        img {
+            max-width: 30px;
+            margin-right: 10px;
+        }
+
+        & > span {
+            vertical-align: middle;
+        }
+
+        .points {
+            color: #939393;
+
+            &:before {
+                display: inline-block;
+                content: '';
+                background: transparent url('../images/points.svg') no-repeat left center;
+                background-size: cover;
+                height: 16px;
+                width: 16px;
+                vertical-align: middle;
+                margin: -3px 4px 0 4px;
+            }
+        }
+    }
+
+    .user_name {
+        font-weight: bold;
+        font-size: 0.9em;
+    }
+}
+
+.ywpar_best_users.boxed {
+    .ywpar_best_users_tab{
+        li {
+            & {
+                -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+                -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+                box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+                padding: 20px;
+                margin: 20px 0;
+                position: relative;
+                border-radius: 10px;
+            }
+
+            & > img {
+                position: absolute;
+            }
+        }
+        .user_points {
+            &{
+                margin-left: 0;
+                justify-content: space-between;
+            }
+
+
+            .points {
+            float: right;
+            margin-right: 20px;
+            }
+        }
+
+        .user_info {
+            width: 100%;
+            padding-left: 70px;
+            min-height: 60px;
+
+            p {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+
+#ywpar_tabs.ywpar_best_users.no_tabs .ywpar_tabcontent {
+    display: block;
+}
+
+.product .yith-par-message.yith-par-message-loop {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.products .yith-par-message{
+    border: 1px solid ;
+    border-radius: 5px;
+
+    display: inline-block;
+    margin: 10px 0 30px 0;
+    padding: 7px 15px;
+    width: auto;
+}
+
+.products .product .yith-par-message {
+    margin-top: 0;
+    border-radius: 10px;
+    padding: 7px 15px!important;
+}
+
+.type-product.product .yith-par-message.yith-par-message-loop {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.type-product.product .yith-par-message-variation,
+.type-product.product .yith-par-message{
+
+    &{
+        display: inline-block;
+        margin: 10px 0 30px 0;
+        padding:10px 25px;
+        width: auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        font-size:13px;
+    }
+
+    img{
+        margin-right:10px!important;
+        display:block;
+        float:left;
+        width:16px;
+    }
+
+    &.yith-par-message-product{
+        margin-bottom: 40px;
+    }
+
+    .yith-par-message-inner-content{
+
+        &{
+
+            width: auto;
+            display: flex;
+            align-items: center;
+
+            justify-content: center;
+        }
+
+        strong{
+            margin: 0 5px;
+        }
+        svg{
+            &{
+                height: 35px;
+                margin-left: -5px;
+            }
+            path{
+                fill:#a8a8a8;
+            }
+        }
+    }
+}
+
+.yith-par-message.hide{
+    display: none!important;
+}
+
+.yith-par-message-variation.hide{
+    display: none!important;
+}
+
+div#yith-par-message-reward-cart strong {
+    margin: 0 2px;
+}

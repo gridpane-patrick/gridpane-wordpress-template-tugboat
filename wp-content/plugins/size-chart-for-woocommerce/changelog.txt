@@ -1,0 +1,22 @@
+*** Size Chart for WooCommerce Change log ***
+
+
+2021-06-10 - version 1.2.0
+* Added compatibility for WooCommerce Brands.
+
+2021-03-30 - version 1.1.1
+* Change log correction.
+
+2021-03-30 - version 1.1.0
+* Ability to set height and width of size chart popup.
+* Improved popup layout.
+
+2021-02-03 - version 1.0.2
+* Fixed "3 characters of unexpected output" error on activation.
+
+2020-06-18 - version 1.0.1
+* More than 5 size chart not working issue has been resolved.
+* Issue fixed with the position of x in the popup.
+
+2020-05-15 - version 1.0.0
+* Initial release of the plugin.

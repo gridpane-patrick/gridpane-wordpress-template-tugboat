@@ -1,0 +1,66 @@
+<wpml-config>
+  <custom-fields>
+    <custom-field action="translate">ywpar_banner_title</custom-field>
+    <custom-field action="translate">_title</custom-field>
+    <custom-field action="translate">_subtitle</custom-field>
+    <custom-field action="translate">ywpar_banner_subtitle</custom-field>
+    <custom-field action="copy" >_points_to_collect</custom-field>
+    <custom-field action="copy" >_image</custom-field>
+    <custom-field action="copy" >_banner_colors</custom-field>
+    <custom-field action="copy" >ywpar_banner_colors</custom-field>
+    <custom-field action="copy" >ywpar_banner_type</custom-field>
+    <custom-field action="copy" >ywpar_banner_action_type</custom-field>
+  </custom-fields>
+    <admin-texts>
+      <key name="ywpar_points_label_singular" />
+      <key name="ywpar_points_label_plural" />
+      <key name="ywpar_label_order_completed" />
+      <key name="ywpar_label_order_cancelled" />
+      <key name="ywpar_label_order_processing" />
+      <key name="ywpar_label_admin_action" />
+      <key name="ywpar_label_reviews_exp" />
+      <key name="ywpar_label_registration_exp" />
+      <key name="ywpar_label_login_exp" />
+      <key name="ywpar_label_points_exp" />
+      <key name="ywpar_label_amount_spent_exp" />
+      <key name="ywpar_label_num_of_orders_exp" />
+      <key name="ywpar_label_checkout_threshold_exp" />
+      <key name="ywpar_label_birthday_exp" />
+      <key name="ywpar_label_expired_points" />
+      <key name="ywpar_label_daily_login_exp" />
+      <key name="ywpar_label_referral_registration_exp" />
+      <key name="ywpar_label_ref_removed_registration_exp" />
+      <key name="ywpar_label_referral_purchase_exp" />
+      <key name="ywpar_label_collected_points_exp" />
+      <key name="ywpar_label_completed_profile_exp" />
+      <key name="ywpar_label_level_achieved_exp" />
+      <key name="ywpar_label_ref_removed_purchase_exp" />
+      <key name="ywpar_label_order_refund" />
+      <key name="ywpar_label_refund_deleted" />
+      <key name="ywpar_label_redeemed_points" />
+      <key name="ywpar_label_shared_points" />
+      <key name="ywpar_label_apply_discounts" />
+      <key name="ywpar_single_product_message" />
+      <key name="ywpar_cart_message" />
+      <key name="ywpar_checkout_message" />
+      <key name="ywpar_rewards_cart_message" />
+      <key name="ywpar_expiration_email_content" />
+      <key name="ywpar_update_point_email_content" />
+      <key name="ywpar_my_account_page_label" />
+      <key name="ywpar_label_affiliates" />
+      <key name="ywpar_my_account_page_endpoint" />
+      <key name="ywpar_label_applied_coupon" />
+      <key name="ywpar_loop_message" />
+      <key name="ywpar_max_points_discount" />
+      <key name="ywpar_minimum_amount_to_redeem" />
+      <key name="ywpar_minimum_amount_discount_to_redeem" />
+      <key name="ywpar_max_points_product_discount" />
+      <key name="ywpar_min_percentual_discount" />
+      <key name="ywpar_max_percentual_discount" />
+    </admin-texts>
+  <custom-types>
+    <custom-type translate="1">ywpar-level-badge</custom-type>
+    <custom-type translate="1">ywpar-banner</custom-type>
+  </custom-types>
+
+</wpml-config>

@@ -1,0 +1,12 @@
+** Changelog untuk Cepatlakoo Contact Rotator plugin **
+** Author: http://cepatlakoo.com **
+
+November 29, 2021 - Version 1.1.1
+- UPDATED: Update link for the geo location vendor that fixed the issue with logs not tracking any data
+
+January 26, 2021 - Version 1.1.0
+- ADDED: Add %twwr_chat_page_url% and %twwr_chat_page_title% shortcodes to display url of page and also page title in the WhatsApp message
+- UPDATED: Modify text in email report title
+
+9 October 2020 -- Version 1.0.0
+- Initial release

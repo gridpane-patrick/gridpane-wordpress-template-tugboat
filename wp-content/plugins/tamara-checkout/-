@@ -1,0 +1,8 @@
+<?php
+$textDomain = 'tamara';
+?>
+<div class="tamara-checkout-icon">
+    <a class="tamara-checkout-icon__text" href="<?php echo __('https://tamara.co',
+        $textDomain) ?>" target="_blank"><?php echo __('What is Tamara?',
+            $textDomain) ?></a>
+</div>

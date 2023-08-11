@@ -1,0 +1,32 @@
+main.amp-container amp-accordion section header {
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 1px solid var(--et_amp-br-c);
+    background-color: transparent;
+    justify-content: space-between;
+    color: var(--et_amp-d-2-w);
+    outline: none;
+    padding: 10px 0;
+}
+
+amp-accordion section[expanded] > header:after {
+    content: '\e903';
+}
+
+amp-accordion section header:after {
+    content: '\e905';
+    font-family: 'xstore-icons';
+    position: absolute;
+    right: 10px;
+    font-size: .85em;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.accordion-content {
+    padding: 15px 0;
+}
+
+.accordion-content h2 {
+    font-size: 1.5rem;
+}

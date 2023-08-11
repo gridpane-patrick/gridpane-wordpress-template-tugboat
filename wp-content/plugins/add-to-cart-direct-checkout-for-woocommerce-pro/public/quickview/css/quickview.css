@@ -1,0 +1,200 @@
+.pisol_quick_view_button {
+    padding: 10px 15px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block !important;
+    text-align: center;
+    width: 100% !important;
+    cursor: pointer;
+}
+
+.pisol-quick-view-box {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.pisol-quick-view-box .images,
+.pisol-quick-view-box .summary {
+    float: none !important;
+}
+
+.pisol-quick-view-box .images {
+    width: 100% !important;
+}
+
+.pisol-quick-view-box .summary {
+    padding: 20px;
+}
+
+.quick-view-container {
+    display: flex;
+}
+
+.quick-view-container .quick-view-product-image {
+    width: 35%;
+}
+
+.quick-view-container .woocommerce-product-gallery__image img {
+    margin: auto;
+}
+
+.quick-view-container .summary {
+    width: 65%;
+}
+
+.mfp-close-btn-in .mfp-close {
+    border-radius: 0px;
+}
+
+.mfp-close:hover {
+    background-color: transparent;
+}
+
+.pisol-quick-view-box .input-text {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.pisol-quick-view-box button[type="submit"] {
+    width: 100%;
+}
+
+.pisol-quick-view-box .summary h1 {
+    font-size: 32px;
+}
+
+.flex-direction-nav {
+    display: none;
+}
+
+.pisol-quick-view-box .woocommerce-variation-add-to-cart {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.pisol-quick-view-box .woocommerce-variation-add-to-cart div.quantity .qty {
+    height: 100%;
+    width: 100px !important;
+}
+
+
+.pisol-quick-view-box .woocommerce-product-gallery {
+    max-width: 600px;
+    position: relative;
+    margin-bottom: 2rem
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery figure {
+    margin: 0;
+    padding: 0
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery .woocommerce-product-gallery__wrapper {
+    margin: 0;
+    padding: 0
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery .zoomImg {
+    background-color: #fff;
+    opacity: 0
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery .woocommerce-product-gallery__image--placeholder {
+    border: 1px solid #f2f2f2
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery .woocommerce-product-gallery__image:nth-child(n+2) {
+    width: 25%;
+    display: inline-block
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery .flex-control-thumbs li {
+    list-style: none;
+    cursor: pointer;
+    float: left
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery .flex-control-thumbs img {
+    opacity: .5
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery .flex-control-thumbs img.flex-active,
+.pisol-quick-view-box .woocommerce-product-gallery .flex-control-thumbs img:hover {
+    opacity: 1
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery img {
+    display: block;
+    height: auto
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery--columns-3 .flex-control-thumbs li {
+    width: 33.3333%
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n+1) {
+    clear: left
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery--columns-4 ol {
+    margin-left: 0;
+    margin-bottom: 0
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery--columns-4 .flex-control-thumbs li {
+    width: 14.2857142857%;
+    margin: 0 14.2857142857% 1.6em 0
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n) {
+    margin-right: 0
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {
+    clear: left
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery--columns-5 .flex-control-thumbs li {
+    width: 20%
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery--columns-5 .flex-control-thumbs li:nth-child(5n+1) {
+    clear: left
+}
+
+.pisol-quick-view-box .woocommerce-product-gallery__trigger {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 99
+}
+
+.pisol-quick-view-box .onsale {
+    margin-top: 25px;
+    z-index: 1000;
+}
+
+.pisol-quick-view-box .flex-control-nav li {
+    padding-top: 10px;
+}
+
+@media (max-width:768px) {
+    .pisol-quick-view-box {
+        width: 96% !important;
+    }
+
+    .quick-view-container {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .quick-view-product-image {
+        width: 100% !important;
+    }
+
+    .woocommerce-page .quick-view-container .summary {
+        width: 100% !important;
+    }
+}

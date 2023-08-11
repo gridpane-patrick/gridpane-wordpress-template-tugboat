@@ -1,0 +1,570 @@
+/* my account view points page */
+.ywpar_myaccount_entry_info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+.ywpar_myaccount_entry_info > div {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 10px;
+  min-width: 250px;
+  margin: 0 10px 0 0; }
+.ywpar_myaccount_entry_info span.ywpar_entry_info_title {
+  display: block; }
+.ywpar_myaccount_entry_info .ywpar_badge {
+  max-width: 40px;
+  display: block;
+  margin: 0 auto; }
+.ywpar_myaccount_entry_info .ywpar_badge > p {
+  text-align: center;
+  margin: 0; }
+.ywpar_myaccount_entry_info .ywpar_levels_badges .ywpar_level.ywpar_level {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 10px; }
+.ywpar_myaccount_entry_info .ywpar_levels_badges .ywpar_level.ywpar_level img {
+  max-width: 50px;
+  display: block;
+  margin: 0 auto; }
+.ywpar_myaccount_entry_info .points_collected {
+  font-size: 30px;
+  display: block;
+  justify-content: center;
+  gap: 10px;
+  line-height: 30px; }
+.ywpar_myaccount_entry_info .points_collected img {
+  display: block;
+  margin: 0 auto;
+  width: 35px; }
+.ywpar_myaccount_entry_info span.ywpar_total_collected_title {
+  text-transform: uppercase;
+  font-size: 0.85em;
+  margin-top: 10px;
+  display: block; }
+  .ywpar_myaccount_entry_info span.ywpar_total_collected_title span {
+    padding-left: 5px; }
+.ywpar_myaccount_entry_info span.rank {
+  font-size: 30px;
+  padding: 30px 0;
+  display: block; }
+.ywpar_myaccount_entry_info .points_worth {
+  font-size: 0.8em;
+  font-weight: 600;
+  display: block; }
+.ywpar_myaccount_entry_info span.ywpar_to_redeem_title {
+  display: block;
+  text-transform: uppercase;
+  color: #9f9c9c;
+  font-size: 0.85em;
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+.ywpar_points_rewards td {
+  font-size: 16px; }
+.ywpar_points_rewards td.ywpar_points_rewards-order,
+.ywpar_points_rewards td.ywpar_points_rewards-points,
+.ywpar_points_rewards th.ywpar_points_rewards-order {
+  text-align: center; }
+.ywpar_points_rewards td.ywpar_points_rewards-points {
+  min-width: 150px;
+  font-size: 0.8em;
+  color: #949494; }
+  .ywpar_points_rewards td.ywpar_points_rewards-points > span {
+    display: block;
+    font-size: 1.3em; }
+  .ywpar_points_rewards td.ywpar_points_rewards-points > span.ywpar_minus {
+    color: red; }
+  .ywpar_points_rewards td.ywpar_points_rewards-points > span.ywpar_plus {
+    color: green; }
+.ywpar_points_rewards th.ywpar_points_rewards-action,
+.ywpar_points_rewards th.ywpar_points_rewards-date {
+  text-align: left; }
+
+.theme-yith-proteo .ywpar_points_rewards td {
+  padding: 25px 15px; }
+
+ywpar_tabs_content_container {
+  position: relative; }
+
+.ywpar_tabcontent.active {
+  position: relative; }
+.ywpar_tabcontent #ywpar_banner {
+  padding: 20px 40px 20px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative; }
+.ywpar_tabcontent #ywpar_banner a {
+  text-decoration: none;
+  font-size: 12px;
+  display: block; }
+.ywpar_tabcontent #ywpar_banner.with_image {
+  padding-left: 90px; }
+  .ywpar_tabcontent #ywpar_banner.with_image img.banner_image {
+    max-width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin-right: 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+.ywpar_tabcontent #ywpar_banner .banner_header {
+  margin-bottom: 20px; }
+.ywpar_tabcontent #ywpar_banner .banner_header h3, .ywpar_tabcontent #ywpar_banner .banner_header h4 {
+  margin: 0;
+  padding: 0;
+  clear: none;
+  font-weight: normal; }
+.ywpar_tabcontent #ywpar_banner .banner_header h3 {
+  font-size: 18px;
+  margin-bottom: 8px; }
+.ywpar_tabcontent #ywpar_banner .banner_header h4 {
+  font-size: 14px; }
+.ywpar_tabcontent #ywpar_banner #ywpar_progress_bar, .ywpar_tabcontent #ywpar_banner .pbar_back, .ywpar_tabcontent #ywpar_banner .pbar_fill {
+  position: relative; }
+.ywpar_tabcontent #ywpar_banner #ywpar_progress_bar .pbar_back {
+  height: 10px;
+  border-radius: 5px;
+  margin: 50px 0 40px 0px; }
+.ywpar_tabcontent #ywpar_banner #ywpar_progress_bar .step {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px; }
+  .ywpar_tabcontent #ywpar_banner #ywpar_progress_bar .step.final_step {
+    right: 0; }
+  .ywpar_tabcontent #ywpar_banner #ywpar_progress_bar .step .step_label {
+    width: 80px;
+    margin-left: -150%;
+    font-size: 11px;
+    top: auto;
+    bottom: 25px;
+    padding: 5px;
+    display: none; }
+  .ywpar_tabcontent #ywpar_banner #ywpar_progress_bar .step:hover .step_label {
+    display: block; }
+  .ywpar_tabcontent #ywpar_banner #ywpar_progress_bar .step .step_points {
+    top: 40px;
+    width: 80px;
+    margin-left: -150%;
+    font-size: 11px; }
+.ywpar_tabcontent #ywpar_banner #ywpar_progress_bar .pbar_fill {
+  height: 10px;
+  border-radius: 5px 0 0 5px; }
+
+#ywpar_banner #ywpar_progress_bar .step > span {
+  position: absolute;
+  top: 25px;
+  width: 50px;
+  text-align: center;
+  margin-left: -70%;
+  font-size: 14px;
+  line-height: 100%; }
+
+.ywpar_arrow_go {
+  width: 10px;
+  height: 10px;
+  transition: .5s;
+  float: left;
+  box-shadow: -2px 2px 0 black;
+  transform: rotate(-135deg);
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 5px); }
+
+#ywpar_share_points_to_share {
+  min-width: 100px;
+  max-width: 100px;
+  border-radius: 5px;
+  font-weight: bolder;
+  margin: 0 10px;
+  text-align: right; }
+
+#share_points {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 40px; }
+#share_points h3 {
+  margin: 0 0 20px 0;
+  padding: 0; }
+#share_points .ywpar-share-points-error {
+  display: block;
+  margin: 0 0 40px 0;
+  height: 30px; }
+#share_points .error {
+  display: none;
+  color: red;
+  font-size: 0.8rem; }
+  #share_points .error.show {
+    display: block;
+    margin-bottom: 20px; }
+#share_points .input-error {
+  border: 1px solid red; }
+#share_points input#ywpar-share-points__submit {
+  margin-left: 20px;
+  background: #5B5B5B;
+  border-color: #5B5B5B; }
+#share_points .ywpar-share-status {
+  font-style: italic; }
+#share_points .ywpar-share-status.used {
+  color: #7FA82B; }
+#share_points .ywpar-share-status.not-used {
+  color: #d38a0b; }
+#share_points .ywpar-share-status.deleted, #share_points .ywpar-share-status.expired {
+  color: #C1000E; }
+#share_points table.shop_table.ywpar_points_rewards.my_account_orders th, #share_points table.shop_table.ywpar_points_rewards.my_account_orders td {
+  text-align: left !important;
+  padding-left: 0 !important;
+  padding-right: 30px; }
+#share_points table.shop_table.ywpar_points_rewards.my_account_orders th {
+  font-size: 1rem; }
+#share_points table.shop_table.ywpar_points_rewards.my_account_orders td.ywpar-share-points-code {
+  padding-right: 40px !important; }
+
+/* copy to clipboard field */
+[class^="yith-icon-"], [class*=" yith-icon-"] {
+  font-family: yith-icon !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  font-size: 20px; }
+
+#ywpar-copy-to-clipboard-wrapper {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  max-width: 400px;
+  box-sizing: border-box; }
+#ywpar-copy-to-clipboard-wrapper input[type="text"].ywpar-copy-to-clipboard__field {
+  color: #999;
+  cursor: default;
+  height: 38px;
+  width: 100%;
+  background: transparent;
+  padding: 0 10px 0 0;
+  border: 0 !important;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  font-size: 12px; }
+#ywpar-copy-to-clipboard-wrapper #ywpar-copy-to-clipboard-wrapper {
+  background: #f1f1f1;
+  border: 1px dashed #cccccc; }
+#ywpar-copy-to-clipboard-wrapper .ywpar-copy-to-clipboard_field-wrap {
+  position: relative;
+  flex: 1; }
+#ywpar-copy-to-clipboard-wrapper .ywpar-copy-to-clipboard__tip {
+  display: none;
+  position: absolute;
+  background: rgba(30, 30, 30, 0.9);
+  color: #ffffff;
+  padding: 7px 10px;
+  border-radius: 3px;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 12px;
+  line-height: 1; }
+#ywpar-copy-to-clipboard-wrapper .ywpar-copy-to-clipboard__copy {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 1px;
+  user-select: none;
+  line-height: 1;
+  transition: all .2s ease-in-out; }
+#ywpar-copy-to-clipboard-wrapper .ywpar-copy-to-clipboard__copy__icon {
+  margin-right: 4px;
+  font-size: 14px; }
+#ywpar-copy-to-clipboard-wrapper .ywpar-copy-to-clipboard__copy__text {
+  font-size: 12px;
+  font-weight: 600; }
+
+.getpoints_banner.enable_review_exp a:hover {
+  text-decoration: none;
+  box-shadow: none; }
+.getpoints_banner.enable_review_exp .product * {
+  display: inline-block;
+  vertical-align: middle; }
+.getpoints_banner.enable_review_exp .product {
+  box-sizing: border-box;
+  padding: 10px 0;
+  position: relative; }
+.getpoints_banner.enable_review_exp .product img {
+  max-width: 90px;
+  margin-right: 10px;
+  box-shadow: none; }
+.getpoints_banner.enable_review_exp .product p {
+  padding: 0;
+  margin: 0; }
+.getpoints_banner.enable_review_exp .product span {
+  display: block; }
+  .getpoints_banner.enable_review_exp .product span.title {
+    font-weight: bolder; }
+  .getpoints_banner.enable_review_exp .product span.date {
+    font-size: 80%; }
+
+@media (max-width: 991px) {
+  .ywpar_myaccount_entry_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px; }
+    .ywpar_myaccount_entry_info > div {
+      margin: 0; }
+
+  input#ywpar-share-points__submit {
+    margin-top: 10px; } }
+@media (max-width: 768px) {
+  .ywpar_myaccount_entry_info {
+    display: block; }
+    .ywpar_myaccount_entry_info > div {
+      margin: 10px 0; }
+
+  table.shop_table_responsive tbody tr td[data-title]::before {
+    padding-right: 10px; }
+
+  .ywpar_points_rewards td.ywpar_points_rewards-points {
+    width: 100%; }
+    .ywpar_points_rewards td.ywpar_points_rewards-points::before {
+      color: initial;
+      font-size: initial; }
+    .ywpar_points_rewards td.ywpar_points_rewards-points span.ywpar_plus {
+      display: inline-block !important;
+      margin-right: 10px; } }
+input#ywpar-points-max {
+  text-align: center;
+  max-width: 80px;
+  min-width: 30px;
+  padding: 0 5px; }
+
+.ywpar_apply_discounts_container {
+  display: none;
+  margin-top: 20px; }
+
+.ywpar-button-message {
+  cursor: pointer; }
+
+#yith-par-message-cart {
+  display: flex;
+  align-items: center;
+  gap: 5px; }
+#yith-par-message-cart img {
+  padding-right: 10px;
+  box-sizing: content-box; }
+
+div#yith-par-message-checkout_threshold p {
+  margin: 5px 0; }
+div#yith-par-message-checkout_threshold h4 {
+  margin: 0 0 15px 0; }
+
+.ywpar_apply_discounts {
+  display: flex;
+  align-items: center; }
+  .ywpar_apply_discounts .form-row.form-row-first {
+    padding: 0; }
+  .ywpar_apply_discounts .form-row.form-row-last,
+  .ywpar_apply_discounts .form-row.form-row-first {
+    width: auto;
+    margin-bottom: 0; }
+  .ywpar_apply_discounts .button {
+    margin-bottom: 0; }
+
+.ywpar_min_reedem_value_error {
+  color: red; }
+
+.default-layout .ywpar_apply_discounts {
+  display: inline-block; }
+
+.theme-yith-proteo div#yith-par-message-checkout_threshold h4 {
+  color: var(--proteo-general_link_color, #448a85); }
+.theme-yith-proteo #yith_birthday_field.form-row {
+  padding: 0 !important; }
+
+@media (max-width: 768px) {
+  #yith-par-message-cart {
+    display: block; } }
+/* YWPAR TABS */
+#ywpar_tabs {
+  margin: 20px 0; }
+#ywpar_tabs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+#ywpar_tabs .ywpar_tabcontent {
+  display: none; }
+
+.ywpar_best_users .ywpar_tabcontent,
+.widget_ywpar_customers_points .ywpar_tabcontent {
+  position: relative; }
+
+.ywpar_tabs_header {
+  margin-bottom: 30px; }
+  .ywpar_tabs_header ul {
+    border-bottom: 1px inset lightgray;
+    box-sizing: border-box; }
+  .ywpar_tabs_header ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #939393; }
+  .ywpar_tabs_header ul li.active {
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px outset #333; }
+
+.ywpar_best_users_tab ul li {
+  display: flex;
+  margin-bottom: 40px; }
+.ywpar_best_users_tab ul li img {
+  width: 60px;
+  height: fit-content;
+  height: intrinsic;
+  border-radius: 7px; }
+.ywpar_best_users_tab ul li > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; }
+  .ywpar_best_users_tab ul li > div p {
+    padding: 0;
+    margin: 0; }
+.ywpar_best_users_tab .user_info p {
+  padding-left: 10px;
+  margin-bottom: 5px; }
+
+.ywpar_best_users .user_points {
+  display: flex;
+  font-size: 80%;
+  font-weight: bold;
+  gap: 5px;
+  align-items: center; }
+  .ywpar_best_users .user_points .level {
+    align-items: center;
+    display: flex; }
+  .ywpar_best_users .user_points img {
+    max-width: 30px;
+    margin-right: 10px; }
+  .ywpar_best_users .user_points > span {
+    vertical-align: middle; }
+  .ywpar_best_users .user_points .points {
+    color: #939393; }
+    .ywpar_best_users .user_points .points:before {
+      display: inline-block;
+      content: '';
+      background: transparent url("../images/points.svg") no-repeat left center;
+      background-size: cover;
+      height: 16px;
+      width: 16px;
+      vertical-align: middle;
+      margin: -3px 4px 0 4px; }
+.ywpar_best_users .user_name {
+  font-weight: bold;
+  font-size: 0.9em; }
+
+.ywpar_best_users.boxed .ywpar_best_users_tab li {
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+  padding: 20px;
+  margin: 20px 0;
+  position: relative;
+  border-radius: 10px; }
+.ywpar_best_users.boxed .ywpar_best_users_tab li > img {
+  position: absolute; }
+.ywpar_best_users.boxed .ywpar_best_users_tab .user_points {
+  margin-left: 0;
+  justify-content: space-between; }
+.ywpar_best_users.boxed .ywpar_best_users_tab .user_points .points {
+  float: right;
+  margin-right: 20px; }
+.ywpar_best_users.boxed .ywpar_best_users_tab .user_info {
+  width: 100%;
+  padding-left: 70px;
+  min-height: 60px; }
+  .ywpar_best_users.boxed .ywpar_best_users_tab .user_info p {
+    padding-left: 0; }
+
+#ywpar_tabs.ywpar_best_users.no_tabs .ywpar_tabcontent {
+  display: block; }
+
+.product .yith-par-message.yith-par-message-loop {
+  margin-bottom: 15px;
+  margin-top: 5px; }
+
+.products .yith-par-message {
+  border: 1px solid;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px 0 30px 0;
+  padding: 7px 15px;
+  width: auto; }
+
+.products .product .yith-par-message {
+  margin-top: 0;
+  border-radius: 10px;
+  padding: 7px 15px !important; }
+
+.type-product.product .yith-par-message.yith-par-message-loop {
+  margin-bottom: 15px;
+  margin-top: 5px; }
+
+.type-product.product .yith-par-message-variation,
+.type-product.product .yith-par-message {
+  display: inline-block;
+  margin: 10px 0 30px 0;
+  padding: 10px 25px;
+  width: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 13px; }
+.type-product.product .yith-par-message-variation img,
+.type-product.product .yith-par-message img {
+  margin-right: 10px !important;
+  display: block;
+  float: left;
+  width: 16px; }
+.type-product.product .yith-par-message-variation.yith-par-message-product,
+.type-product.product .yith-par-message.yith-par-message-product {
+  margin-bottom: 40px; }
+.type-product.product .yith-par-message-variation .yith-par-message-inner-content,
+.type-product.product .yith-par-message .yith-par-message-inner-content {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.type-product.product .yith-par-message-variation .yith-par-message-inner-content strong,
+.type-product.product .yith-par-message .yith-par-message-inner-content strong {
+  margin: 0 5px; }
+.type-product.product .yith-par-message-variation .yith-par-message-inner-content svg,
+.type-product.product .yith-par-message .yith-par-message-inner-content svg {
+  height: 35px;
+  margin-left: -5px; }
+.type-product.product .yith-par-message-variation .yith-par-message-inner-content svg path,
+.type-product.product .yith-par-message .yith-par-message-inner-content svg path {
+  fill: #a8a8a8; }
+
+.yith-par-message.hide {
+  display: none !important; }
+
+.yith-par-message-variation.hide {
+  display: none !important; }
+
+div#yith-par-message-reward-cart strong {
+  margin: 0 2px; }
+
+/*# sourceMappingURL=frontend.css.map */

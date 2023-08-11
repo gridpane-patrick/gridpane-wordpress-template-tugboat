@@ -1,0 +1,182 @@
+#woocommerce-product-data ul.wc-tabs li.tiered-pricing-tab_tab a::before {
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\f323";
+    text-decoration: none;
+}
+
+.remove-price-rule {
+    display: inline-block;
+    position: relative;
+    padding: 2px 0 2px 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.remove-price-rule:focus {
+    box-shadow: none !important;
+}
+
+.price-quantity-rule {
+    margin-right: 2% !important;
+    height: auto !important;
+}
+
+.price-quantity-rule--variation:first-child {
+    margin-right: 1.6% !important;
+}
+
+.price-quantity-rule--simple {
+    width: 24% !important;
+}
+
+.price-quantity-rule--variation {
+    width: 23% !important;
+}
+
+/** Buttons **/
+.tpt-button {
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #fff;
+    transition: .3s all;
+}
+
+.tpt-button:focus, .tpt-button:focus {
+    outline: none;
+    color: #fff;
+}
+
+.tpt-button--default {
+    background: #3D4C53;
+    color: #fff;
+}
+
+.tpt-button--default:hover {
+    background-color: #4a5b63;
+    color: #fff;
+}
+
+.tpt-button--accent {
+
+    background: #08a6a6;
+    color: #fff;
+}
+
+.tpt-button--accent:hover {
+    background-color: #51cece;
+    color: #fff;
+}
+
+.tpt-button--bounce {
+    animation: tpt-bounce-animation 2s infinite;
+    -webkit-animation: tpt-bounce-animation 2s infinite;
+    -moz-animation: tpt-bounce-animation 2s infinite;
+}
+
+.tpt-button--bounce:hover, .tpt-button--bounce:active, .tpt-button--bounce:focus {
+    animation: none;
+    -webkit-animation: none;
+    -moz-animation: none;
+}
+
+/** Role based pricing **/
+
+.tpt-role-based-block {
+    padding: 0 9px 0 162px;
+    position: relative;
+    margin: 20px 0;
+}
+
+.tpt-role-based-block--variation {
+    padding: 0;
+}
+
+.tpt-role-based-role__header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    border: 1px solid #eee;
+    border-bottom: none;
+}
+
+.tpt-role-based-adding-form {
+    margin: 15px 0;
+}
+
+.tpt-role-based-adding-form__add-button {
+    margin-left: 10px !important;
+}
+
+.tpt-role-based-role:last-child .tpt-role-based-role__header {
+    border-bottom: 1px solid #eee;
+}
+
+.tpt-role-based-role:last-child .tpt-role-based-role__content {
+    border-top: none;
+    border-bottom: 1px solid #eee;
+}
+
+.tpt-role-based-role__content {
+    overflow: hidden;
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    display: none;
+    border-bottom: none;
+}
+
+.tpt-role-based-block--variation .tpt-role-based-role__content {
+    padding: 20px;
+    background: #fafafa;
+    border-color: #eee;
+}
+
+.tpt-role-based-block--variation .tpt-role-based-roles {
+    margin: 10px 0;
+}
+
+.tpt-role-based-role-action--delete {
+    color: red;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+}
+
+.tpt-role-based-role-action--delete:hover {
+    color: #a20000;
+}
+
+.tpt-role-based-role__action-toggle-view {
+    padding: 10px;
+    color: #888;
+    cursor: pointer;
+}
+
+.tpt-role-based-role__header .tpt-role-based-role__actions {
+    visibility: hidden;
+}
+
+.tpt-role-based-role:hover .tpt-role-based-role__actions {
+    visibility: visible;
+}
+
+.tpt-role-based-role__action-toggle-view:hover {
+    color: #000;
+}
+
+.tpt-role-based-role__action-toggle-view--open:before {
+    content: "▼" !important;
+}
+
+.tpt-role-based-role__action-toggle-view--close:before {
+    content: "▲" !important;
+}

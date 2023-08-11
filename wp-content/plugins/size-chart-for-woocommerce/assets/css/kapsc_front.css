@@ -1,0 +1,134 @@
+/* The Popup (background) */
+
+
+.kapsc-popup-overlay{
+	z-index: 999999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding: 35px;
+/*     background: #000000bd; */
+	border: 0;
+	bottom: 0;
+/*     overflow-y: hidden; */
+}
+.popuptext {
+	background-color: white;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out; 
+	-webkit-box-shadow: 0 0 18px 0 rgb(50 50 50 / 32%);
+	box-shadow: 0 0 18px 0 rgb(50 50 50 / 32%);
+	z-index: 9999999;
+	padding: 25px 25px;
+	position: absolute;
+	background-color: white;
+	height: 70%;
+	width: 70%;
+	top: 12%;
+	left: 50%;
+	display: none;
+	border-radius: 5px;
+	box-sizing: border-box;
+	transform: translate(-50%, 0%);
+	text-align: left;
+	overflow-y: scroll;
+}
+
+
+/* Popup Content */
+
+.popup-content {
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+}
+
+
+
+/* The Close Button */
+
+.close {
+
+  color: #aaaaaa;
+
+  font-size: 28px;
+
+  font-weight: bold;
+
+  position: absolute;
+
+  right: 13px;
+
+  top: 0;
+
+}
+
+
+
+.close:hover,
+
+.close:focus {
+
+  color: #000;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+}
+
+
+
+.kapsc_field_length {
+
+  width: 40%;
+
+}
+
+button.popup {
+
+  color: darkgray;
+  margin-bottom: 1%;
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .responsive {
+
+	overflow-x: auto;
+
+  }
+
+  table {
+
+	width: 100% !important;
+
+  }
+
+  .alignright{
+
+	margin-left: initial !important;
+
+  }
+
+  .popup-content {
+
+	width: 100% !important;
+
+  }
+
+}
+
+div.responsive table thead th {
+
+  background-color: white;
+
+}

@@ -1,0 +1,47 @@
+*** WooCommerce Shipping Aramex Changelog ***
+
+2019-04-29 - version 1.0.10
+* Update - Resolve pickup request bug.
+
+2018-09-27 - version 1.0.9
+* Update - WC 3.5 compatibility.
+
+2018-05-22 - version 1.0.8
+* Update - Privacy policy notification.
+* Update - Export/erasure hooks added.
+* Update - WC 3.4 compatibility.
+
+2018-01-24 - version 1.0.7
+* Fix - Additional fixes for Request Pickup button.
+
+2018-01-16 - version 1.0.6
+* Fix - Request Pickup button not seeing required information.
+
+2017-12-14 - version 1.0.5
+* Update - WC tested up to version.
+
+2017-10-19 - version 1.0.4
+* Fix - Changed parameters that are sent to the log file.
+
+2017-06-27 - version 1.0.3
+* Fix - Use KG for weight and CM for dimension to make Aramex happy.
+* Tweak - Added settings, doc, and support in plugin action links.
+* New - Added the new Woo plugin header, for WooCommerce 3.1 compatibility.
+
+2017-05-10 - version 1.0.2
+* Enhancement - Added shipping zones support.
+* Enhancement - Removed availability and countries settings that's no longer needed with shipping zones.
+* Fix - Bunch of notices/warnings/errors caused by deprecated API being used.
+* Fix - Issue where WSDL location could not be found by SoapClient.
+* Fix - Issue Test Mode doesn't work.
+* Fix - Incorrect use of box packing method.
+* Fix - Deprecated API from WC still used.
+* Fix - Issue where rates might not returned.
+* Fix - Issue where request pickup might not work in edit order screen.
+* Tweak - Better logging mechanism when debug is enabled. It now displays the debug message on the front-end if current user is administrator (or has capability `manage_options`).
+
+2016-09-30 - version 1.0.1
+* Fix - No shipping method error for local shipping.
+
+2015-06-04 - version 1.0.0
+ * Initial Release! Woo!

@@ -1,0 +1,17 @@
+/*
+Plugin Name:    XStore White Label Branding
+Author:         8theme
+Author URI:     http://www.8theme.com
+Version:        1.0.5
+License:        Themeforest Split Licence
+License URI:    https://themeforest.net/licenses/standard
+Text Domain:    xstore-white-label-branding
+*/
+
+.etheme-page-content-branding > .et-message strong {
+    font-size: 1.3em;
+}
+
+.etheme-page-content-branding > .et-message:before {
+    line-height: 2 !important;
+}

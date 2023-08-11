@@ -1,0 +1,362 @@
+ul.subsubsub{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.ywpar-remove-row.hide-remove {
+    display: none;
+}
+.yith-empty-list a.page-title-action {
+    display: none!important;
+}
+
+.ywpar-add-row, .ywpar-add-same-row {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #2a8db0;
+}
+
+.ywpar-remove-row{
+    opacity: 0.5;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.ywpar_type_sign{
+    margin: 10px;
+    display: inline-block;
+}
+
+.ui-state-default.ui-sortable-helper th, .ui-state-default.ui-sortable-helper td {
+    height: 100%!important;
+    padding-top:0!important;
+    padding-bottom:0!important;
+}
+
+.conversion-options {
+    padding-bottom: 20px !important;
+}
+
+.conversion-options,
+#ywpar_earn_points_conversion_rate-container {
+    .option {
+        @include little-flex-item;
+    }
+
+    input {
+        width: 70px !important;
+        display: inline-block;
+    }
+}
+
+#ywpar_earn_points_role_conversion_rate-container {
+    & {
+        max-width: 650px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+
+    .option {
+        @include little-flex-item;
+    }
+
+
+    .ywpar_role {
+        width: 150px;
+    }
+
+    input {
+        width: 70px !important;
+        display: inline-block;
+    }
+
+    .conversion-currencies,
+    .conversion-role {
+        display: flex;
+        align-items: baseline;
+
+        p {
+            @include little-flex-item;
+            padding-right: 20px;
+        }
+    }
+
+    .ywpar-remove-row {
+        display: inline-block;
+        margin: 2px;
+        cursor: pointer;
+        opacity: 0.5;
+        font-size: 18px;
+    }
+
+
+}
+
+.forminp-options-role-conversion {
+
+    .role-conversion-options-container {
+        border-bottom: 1px solid #eee;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        max-width: 650px;
+    }
+
+
+}
+
+#yith_woocommerce_points_and_rewards_points-standard .expire-options {
+    select {
+        max-width: 150px;
+    }
+
+    input {
+        max-width: 100px;
+    }
+
+}
+
+.post-type-ywpar-level-badge,
+.post-type-ywpar-banner,
+.post-type-ywpar-redeeming-rule,
+.post-type-ywpar-earning-rule {
+
+    .page-title-action{
+        text-transform: capitalize!important;
+        font-weight: normal!important;
+    }
+    .subtitle{
+        display: none;
+    }
+    .postbox-header {
+        display: none;
+    }
+
+    .ywpar_rule_schedule{
+        .yith-plugin-fw-datepicker-field-wrapper{
+            width: 200px!important;
+        }
+    }
+    .list-table-description{
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+
+    .ywpar_back_button{
+        &{
+            display: none;
+            text-decoration: none;
+            padding-bottom: 10px;
+        }
+
+        &.show{
+            display: block;
+        }
+    }
+
+    .yith-plugin-fw-wp-page-wrapper{
+        .yith-plugin-ui.yith-plugin-fw-wp-page-wrapper{
+           margin: 0!important;
+       }
+    }
+    .yith-plugin-fw-wp-page-wrapper .postbox {
+
+        & {
+            border: 0;
+        }
+
+        .inside {
+            padding: 0;
+            border: 0;
+        }
+
+        table{
+            border: 0;
+        }
+    }
+
+    #ywpar_point_earned,
+    #ywpar_priority,
+    .conversion-options input {
+        width: 100px !important;
+    }
+
+    #ywpar_lb_badge_image{
+        width: 300px;
+    }
+
+    input[type="number"] {
+        width: 100px !important;
+    }
+
+    .ywpar_lvl_badge{
+        width: 50px;
+    }
+}
+
+#ywpar_max_discount_percentage,
+#ywpar_max_discount{
+    width: 100px !important;
+}
+#yith_woocommerce_points_and_rewards_redeem-standard{
+    #ywpar_max_percentual_discount,
+    #ywpar_min_percentual_discount,
+    input[type="number"] {
+        width: 100px !important;
+    }
+
+
+    .forminp-options-restrictions-text-input{
+        input[type="text"] {
+            width: 100px !important;
+        }
+
+        .yith-plugin-fw-options-restrictions-text-input-field-wrapper div{
+            @include little-flex-item;
+        }
+    }
+}
+
+.role-conversion-options{
+    .option{
+        margin-bottom: 10px;
+        @include little-flex-item;
+
+        & > div, & > div > p{
+            @include little-flex-item;
+        }
+    }
+
+    .ywpar_role{
+        max-width: 150px!important;
+    }
+}
+.post-type-ywpar-level-badge img.yith-plugin-fw__list-table-blank-state__icon {
+    width: 60px;
+}
+
+.ywpar_apply_points_from_wc_points_rewards .response {
+    color: green;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+#yith_woocommerce_points_and_rewards_points-extra{
+    &{
+        padding-top: 0;
+    }
+
+    .yit-admin-panel-content-wrap.has-subnav {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 1px solid #d8d8d8;
+        border-top:0;
+        margin-top: 0;
+    }
+
+    .repeat.hide{
+        display:none;
+    }
+
+    form{
+
+        &{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        h2{
+            &:not(:first-child){
+                box-sizing: border-box !important;
+                cursor: pointer;
+                margin-bottom: 20px;
+                border: 1px solid #d8d8d8;
+                color: #1d2327;
+                font-size: 14px;
+            }
+            &:first-child {
+                border: 0;
+                padding-top: 15px;
+            }
+            &:not(:first-child):after{
+                font-family: "Dashicons";
+                content: "\f347";
+                float: right;
+            }
+            &.opened {
+                border-bottom: none;
+                margin-bottom: 0;
+            }
+            &.opened:after {
+                content: "\f343";
+            }
+
+        }
+
+        .form-table {
+            &{  display: none; }
+            &.opened { display: block; }
+
+            th label{
+                font-weight: normal!important;
+            }
+        }
+
+        .option{
+            margin-bottom: 10px;
+            @include little-flex-item;
+
+            & > div{
+                @include little-flex-item;
+            }
+        }
+
+        input[type="number"]{
+            width: 100px!important;
+        }
+
+        div#ywpar_amount_spent_exp-container,
+        div#ywpar_checkout_threshold_exp-container {
+          &{
+              border-bottom: 1px solid $lightGrey !important;
+              padding-bottom: 15px;
+              max-width: 500px;
+              margin-bottom: 15px;
+          }
+
+            .left-side div {
+                align-items: center;
+                display: flex;
+                gap: 10px;
+            }
+        }
+    }
+}
+
+.post-type-description{
+    margin: 20px 0;
+}
+.ywpar_processing_porting {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding-right: 0;
+
+    img {
+        width: 50px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    div{
+        display: inline-block;
+    }
+}
+
+body.ywpar-level-badge-edit .page-title-action,
+body.ywpar-banner-edit .page-title-action,
+body.ywpar-earning-rule-edit .page-title-action,
+body.ywpar-redeeming-rule-edit .page-title-action
+{
+    display: none!important;
+} 

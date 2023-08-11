@@ -1,0 +1,26 @@
+@mixin box-shadow($params) {
+    -webkit-box-shadow: $params;
+    -moz-box-shadow: $params;
+    box-shadow: $params;
+}
+
+@mixin little-flex-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/** VARIABLES **/
+
+$darkText: #000000;
+$selectText: #716269;
+$lightGrey: #d2ccd0;
+$lightGrey2: #f5f5f5;
+$blue: #0071a1;
+$lightBlue: #deebf1;
+$delete: #c41d04;
+$success: #98aa36;
+$shadows: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+
+@import "admin/customers";
+@import "admin/points";

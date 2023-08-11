@@ -1,0 +1,283 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: XStore White Label Branding\n"
+"POT-Creation-Date: 2023-03-31 12:05+0300\n"
+"PO-Revision-Date: 2023-03-31 12:05+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: xstore-white-label-branding.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/xstore-branding-admin.php:66
+msgid "extra"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:72 inc/xstore-branding-admin.php:86
+#: inc/xstore-branding-admin.php:87 inc/xstore-branding-admin.php:158
+#: inc/xstore-branding-admin.php:757
+msgid "White Label Branding"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:122
+msgid ""
+"All your settings will be reset to default values. Are you sure you want to "
+"do this ?"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:123
+msgid "Please, paste your options there."
+msgstr ""
+
+#: inc/xstore-branding-admin.php:124
+msgid "Loading options"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:125
+msgid "Ajax error"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:160
+msgid "Welcome to the White Label Branding panel!"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:161
+msgid ""
+"A better experience for both you and anyone else who will see the internal "
+"workings of your WordPress project. Once you have made all the changes you "
+"can delete the plugin and its settings will be saved and will be activated "
+"for your customers. You can also export options and use them in each of your "
+"next projects."
+msgstr ""
+
+#: inc/xstore-branding-admin.php:164
+msgid "Control Panel"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:165 inc/xstore-branding-admin.php:487
+msgid "Theme Options"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:166
+msgid "Advanced"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:167
+msgid "Import/Export"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:174 inc/xstore-branding-admin.php:214
+msgid "Main color"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:176
+msgid "Navigation background color"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:178
+msgid "Navigation text color"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:180
+msgid "Upload custom logo for dashboard"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:182
+msgid "Custom theme version in dashboard"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:184
+msgid "Custom menu label"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:186
+msgid "Upload custom icon"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:189
+msgid "Welcome to dashboard text"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:191
+msgid "Thank you text"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:193
+msgid "Hide registration form"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:195
+msgid "Hide buy license text "
+msgstr ""
+
+#: inc/xstore-branding-admin.php:197
+msgid "Hide update notices "
+msgstr ""
+
+#: inc/xstore-branding-admin.php:199
+msgid "Admin panel links"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:203 inc/xstore-branding-admin.php:219
+#: inc/xstore-branding-admin.php:232 inc/xstore-branding-admin.php:602
+msgid "Save changes"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:212
+msgid "Upload custom logo for customizer header"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:227
+msgid "Upload custom screenshot of theme"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:229
+msgid "Custom css for admin backend"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:302
+msgid "Login Screen Background Image"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:303
+msgid "Use Image"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:306
+msgid "Upload Image"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:310
+msgid "Remove Image"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:483
+msgid "Welcome"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:484
+msgid "System Requirements"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:485
+msgid "Import Demos"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:486
+msgid "Plugin Installer"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:488
+msgid "Built-in Email Builder"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:489
+msgid "Sales Booster"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:490
+msgid "Custom Fonts"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:491
+msgid "Maintenance Mode"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:492
+msgid "Patcher"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:493
+msgid "ChatGPT (Open AI)"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:494
+msgid "Instagram API"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:495
+msgid "Support"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:496
+msgid "Changelog"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:497
+msgid "Sponsors links"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:592
+msgid "Import"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:594
+msgid "You can import ET-Branding options from other site created with xstore"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:603
+msgid "Reset options"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:630
+msgid "Export"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:632
+msgid ""
+"You can export ET-Branding options from your site and import them on other "
+"one"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:638
+msgid "Loading options ..."
+msgstr ""
+
+#: inc/xstore-branding-admin.php:671 inc/xstore-branding-admin.php:698
+msgid "Settings successfully saved!"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:671
+msgid "Settings saving error!"
+msgstr ""
+
+#: inc/xstore-branding-admin.php:717
+msgid "Settings successfully reset!"
+msgstr ""
+
+#: xstore-white-label-branding.php:141
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "XStore White Label Branding"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://8theme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Take control of your branding and customize your website to perfection with "
+"our White Label Branding Plugin for XStore theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "8theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://xstore.8theme.com"
+msgstr ""

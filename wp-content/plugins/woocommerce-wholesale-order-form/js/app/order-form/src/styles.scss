@@ -1,0 +1,19 @@
+// Global CSS
+// Customize per component CSS is located at src/components/<component>/styles.scss
+body{
+    font-size: inherit !important;
+
+    // Storefront theme remove scroll
+    .site {
+        overflow-x: unset;
+    }
+
+    .ant-select-dropdown-menu{
+        margin: 0px;
+    }
+
+    .wwof-alert-message{
+        margin-bottom: 15px;
+    }
+}
+

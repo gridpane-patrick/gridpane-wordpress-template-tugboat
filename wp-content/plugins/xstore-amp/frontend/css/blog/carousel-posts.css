@@ -1,0 +1,11 @@
+.post-heading h2 {
+    font-size: 1.28rem;
+}
+.post-heading h2,
+.meta-post {
+    white-space: initial;
+}
+.meta-post {
+    font-size: .85rem;
+    margin-bottom: 7px;
+}

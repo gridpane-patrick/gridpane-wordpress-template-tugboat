@@ -1,0 +1,145 @@
+# Translation of Plugins - HyperPay Payments - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - HyperPay Payments - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-28 11:23:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - HyperPay Payments - Stable (latest release)\n"
+
+#: gateways/WC_Hyperpay_Zoodpay_Gateway.php:40
+msgid "service code"
+msgstr "رمز الخدمة"
+
+#: gateways/WC_Hyperpay_Zoodpay_Gateway.php:193
+msgid "Instalment of"
+msgstr "دفعات تُقسط على"
+
+#: gateways/WC_Hyperpay_Zoodpay_Gateway.php:193
+msgid "mo."
+msgstr "شهري."
+
+#: gateways/WC_Hyperpay_Zoodpay_Gateway.php:193
+msgid "Terms and Conditions"
+msgstr "تطبق الشروط و الأحكام"
+
+#: includes/Hyperpay_main_class.php:154
+msgid "Your payment has been processed successfully."
+msgstr "تمت العملية بنجاح."
+
+#: includes/Hyperpay_main_class.php:333
+msgid "Enable/Disable"
+msgstr "تمكين / تعطيل"
+
+#: includes/Hyperpay_main_class.php:335
+msgid "Enable Payment Module."
+msgstr "تفعيل طريقة الدفع."
+
+#: includes/Hyperpay_main_class.php:339
+msgid "Test mode"
+msgstr "وضع الاختبار"
+
+#: includes/Hyperpay_main_class.php:341
+msgid "Off"
+msgstr "ايقاف"
+
+#: includes/Hyperpay_main_class.php:341
+msgid "On"
+msgstr "تشغيل"
+
+#: includes/Hyperpay_main_class.php:344
+msgid "Title:"
+msgstr "الاسم:"
+
+#: includes/Hyperpay_main_class.php:346
+msgid "This controls the title which the user sees during checkout."
+msgstr "هذا العنوان سيظهر للمستخدمين خلال عملية الدفع."
+
+#: includes/Hyperpay_main_class.php:347
+msgid "Credit Card"
+msgstr "بطاقة ائتمانية"
+
+#: includes/Hyperpay_main_class.php:350
+msgid "Transaction type"
+msgstr "نوع الحركة"
+
+#: includes/Hyperpay_main_class.php:355
+msgid "Transaction mode"
+msgstr "وضع الحركة"
+
+#: includes/Hyperpay_main_class.php:361
+msgid "Access Token"
+msgstr "رمز الدخول"
+
+#: includes/Hyperpay_main_class.php:365
+msgid "Entity ID"
+msgstr "المعرف الخاص بالتاجر"
+
+#: includes/Hyperpay_main_class.php:379
+msgid "Brands"
+msgstr "العلامات التجارية"
+
+#: includes/Hyperpay_main_class.php:385
+msgid "Payment Style"
+msgstr "المظهر"
+
+#: includes/Hyperpay_main_class.php:392
+msgid "Custom Style"
+msgstr "مظهر خاص"
+
+#: includes/Hyperpay_main_class.php:398
+msgid "Enable error logging by email?"
+msgstr "هل تريد ارسال بريد الكتروني في حال وجود خطا ؟"
+
+#: includes/Hyperpay_main_class.php:400 includes/Hyperpay_main_class.php:407
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/Hyperpay_main_class.php:402
+msgid "If checked, an email will be sent to "
+msgstr "في حال الاختيار ، سيتم ارسال بريد الكتروني للمسؤول "
+
+#: includes/Hyperpay_main_class.php:412
+msgid "Return Page"
+msgstr "اعادة التوديه الى"
+
+#: includes/Hyperpay_main_class.php:415
+msgid "success page"
+msgstr "إعادة التوجيه بعد نجاح عملية الدفع"
+
+#: includes/Hyperpay_main_class.php:418
+msgid "Status Of Order"
+msgstr "حالة الطلب بعد اتمام عملية الدفع"
+
+#: includes/Hyperpay_main_class.php:421
+msgid "select order status after success transaction."
+msgstr "حالة الطلب بعد نجاح عملية الدفع."
+
+#: includes/Hyperpay_main_class.php:436
+msgid "Processing"
+msgstr "قيد المعالجة"
+
+#: includes/Hyperpay_main_class.php:437
+msgid "Completed"
+msgstr "مكتمل"
+
+#: includes/class-wp-webhook.php:58 includes/Hyperpay_main_class.php:953
+#: includes/Hyperpay_main_class.php:980
+msgid "Transaction ID: "
+msgstr ":رقم الحركة "
+
+#: includes/Hyperpay_main_class.php:776
+msgid "format error"
+msgstr "الصيغة غير صحيحة"
+
+#: includes/Hyperpay_main_class.php:780
+msgid "Email format not valid"
+msgstr "البريد الالكتروني غير صحيح"
+
+#: includes/Hyperpay_main_class.php:831
+msgid "Sorry! Please select \"mada\" payment option in order to be able to complete your purchase successfully."
+msgstr "عذراً يجب اختيار طريقة الدفع \" مدى \" لتتمكن من إتمام العملية بنجاح ."

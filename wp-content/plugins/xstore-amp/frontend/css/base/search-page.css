@@ -1,0 +1,4 @@
+.carousel-wrapper ~ .widget-title,
+ul.products ~ .widget-title {
+    margin-top: 10vw;
+}

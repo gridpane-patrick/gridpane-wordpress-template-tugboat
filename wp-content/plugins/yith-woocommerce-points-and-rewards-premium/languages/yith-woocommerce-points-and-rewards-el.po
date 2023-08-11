@@ -1,0 +1,5042 @@
+# Copyright (C) 2020 YITH WooCommerce Points and Rewards Premium
+# This file is distributed under the same license as the YITH WooCommerce Points and Rewards Premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Points and Rewards Premium 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/points\n"
+"POT-Creation-Date: 2022-02-24 09:28:51+00:00\n"
+"PO-Revision-Date: 2020-10-15 13:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:58
+#: templates/emails/latest-updates.php:51
+#: templates/myaccount/my-points-view.php:126
+#: templates/myaccount/my-points-view.php:135
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:59
+msgid "Amount"
+msgstr "Ποσό"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:60
+#: templates/emails/latest-updates.php:53
+#: templates/myaccount/my-points-view.php:128
+#: templates/myaccount/my-points-view.php:141
+msgid "Order No."
+msgstr "Αριθμός Παραγγελίας"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:61
+#: templates/myaccount/my-points-view.php:127
+#: templates/myaccount/my-points-view.php:138
+msgid "Reason"
+msgstr ""
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:62
+#: views/tabs/bulk-actions.php:162
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:185
+msgid "This user has not collected any point yet."
+msgstr "Αυτός ο χρήστης δεν έχει συγκεντρώσει κανέναν πόντο ακόμη."
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:48
+msgid "User"
+msgstr "Χρήστης"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:49
+#, fuzzy
+msgid "Points collected"
+msgstr "Συγκεντρωμένοι πόντοι:"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:50
+#: views/tabs/customer-history.php:64
+#, fuzzy
+msgid "Points to redeem"
+msgstr "Εξαργύρωση πόντων"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:51
+#: views/tabs/customer-history.php:74
+msgid "Rank"
+msgstr ""
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:173
+#, fuzzy
+msgid "Remove points"
+msgstr "Επαναφορά πόντων"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:174
+#, fuzzy
+msgid "Ban users"
+msgstr "Αποκλεισμός χρήστη"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:175
+msgid "Unban users"
+msgstr "Άρση αποκλεισμού χρηστών"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:176
+#, fuzzy
+msgid "Apply extrapoint rules"
+msgstr "Εφαρμογή Πόντων"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:258
+#: views/tabs/customer-history.php:44
+#, fuzzy
+msgid "banned"
+msgstr "αποκλεισμένος"
+
+#. translators: 1: user display name 2: user ID 3: user email
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:379
+msgid "Show All Customers"
+msgstr "Εμφάνιση Όλων των Πελατών"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:390
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:410
+msgid "Filter"
+msgstr "Ταξινόμηση"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:395
+#: plugin-options/metaboxes/points-earning-rules-options.php:27
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:38
+#: plugin-options/points/standard-options.php:53
+msgid "All Users"
+msgstr "Όλοι οι Χρήστες"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:396
+msgid "Only users with points"
+msgstr "Μόνο χρήστες με πόντους"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:397
+#, fuzzy
+msgid "Only banned customers"
+msgstr "Μόνο συγκεκριμένοι χρήστες"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:283
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:330
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:299
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:279
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:300
+#, fuzzy
+msgid "Update"
+msgstr "Ανανέωση Πόντων"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:284
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:331
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:300
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:280
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:301
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:287
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:303
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:304
+msgid "Save Rule"
+msgstr ""
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:444
+#, fuzzy
+msgid "Options"
+msgstr "Επιλογές Πόντων"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:98
+msgid "%s banner permanently deleted."
+msgid_plural "%s banners permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:133
+#: plugin-options/metaboxes/banners-options.php:52
+#, fuzzy
+msgid "Banner name"
+msgstr "αποκλεισμένος"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:134
+#: plugin-options/metaboxes/banners-options.php:79
+#, fuzzy
+msgid "Banner type"
+msgstr "αποκλεισμένος"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:135
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:118
+#: templates/myaccount/ywpar-share-points.php:83
+#: templates/myaccount/ywpar-share-points.php:101
+msgid "Status"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:166
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:164
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:166
+msgid "Duplicate"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:173
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:172
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:173
+msgid "Move"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:189
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:189
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:150
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:189
+msgid "Confirm delete"
+msgstr ""
+
+#. translators: %s is the title of the post object.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:191
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:191
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:152
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:191
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:191
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:191
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:152
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:191
+msgid ""
+"This action cannot be undone and you will not be able to recover this data."
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:192
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:192
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:153
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:192
+#: plugin-options/gutenberg/blocks.php:63
+msgid "No"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:244
+#, fuzzy
+msgid "back to banner list"
+msgstr "< Πίσω στη λίστα"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:313
+#, fuzzy
+msgid "Default title:"
+msgstr "Προεπιλεγμένο"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:313
+#, fuzzy
+msgid "Default text:"
+msgstr "Προεπιλεγμένο"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:334
+#, fuzzy
+msgid "Save Banner"
+msgstr "αποκλεισμένος"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:425
+#, fuzzy
+msgid "Create banner"
+msgstr "αποκλεισμένος"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:96
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:97
+msgid "%s rule permanently deleted."
+msgid_plural "%s rules permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:132
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:134
+#: plugin-options/metaboxes/points-earning-rules-options.php:112
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:150
+msgid "Rule name"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:133
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:135
+#, fuzzy
+msgid "Active"
+msgstr "Ενέργεια"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:242
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:240
+#, fuzzy
+msgid "back to rule list"
+msgstr "< Πίσω στη λίστα"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:328
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:401
+#, fuzzy
+msgid "Create rule"
+msgstr "Εισαγωγή"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:98
+msgid "%s badge permanently deleted."
+msgid_plural "%s badges permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:115
+#, fuzzy
+msgid "Level name"
+msgstr "Όνομα ιστότοπου"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:116
+#, fuzzy
+msgid "Points to collect"
+msgstr "Συγκεντρωμένοι πόντοι:"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:117
+msgid "Badge"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:166
+#: plugin-options/metaboxes/points-earning-rules-options.php:206
+#: views/panel/types/options-levels-badges-range.php:22
+msgid "From"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:167
+#: views/panel/types/options-levels-badges-range.php:24
+msgid "to"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:203
+#, fuzzy
+msgid "back to levels list"
+msgstr "< Πίσω στη λίστα"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:283
+msgid "Save Level"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:371
+#, fuzzy
+msgid "Create level"
+msgstr "Επιλέξτε ποιοι χρήστες"
+
+#: includes/class-yith-wc-points-rewards-admin.php:174
+msgid "Customers' points"
+msgstr "Πόντοι πελατών"
+
+#: includes/class-yith-wc-points-rewards-admin.php:175
+#: plugin-options/points-options.php:18
+msgid "Points Options"
+msgstr "Επιλογές Πόντων"
+
+#: includes/class-yith-wc-points-rewards-admin.php:176
+#: plugin-options/redeem-options.php:18
+#, fuzzy
+msgid "Redeem Options"
+msgstr "Εξαργύρωση πόντων"
+
+#: includes/class-yith-wc-points-rewards-admin.php:177
+#, fuzzy
+msgid "Customization"
+msgstr "Προσαρμογή"
+
+#: includes/class-yith-wc-points-rewards-admin.php:178
+msgid "Emails"
+msgstr "Email"
+
+#: includes/class-yith-wc-points-rewards-admin.php:470
+msgid "Best Point Earners"
+msgstr "Κορυφαίοι Εισοδηματίες Πόντων"
+
+#: includes/class-yith-wc-points-rewards-admin.php:471
+msgid "Best Point Rewards"
+msgstr "Κορυφαίες Επιβραβεύσεις Πόντων"
+
+#: includes/class-yith-wc-points-rewards-admin.php:496
+#: includes/class-yith-wc-points-rewards-admin.php:529
+msgid "View History"
+msgstr "Προβολή Ιστορικού"
+
+#: includes/class-yith-wc-points-rewards-admin.php:503
+#: includes/class-yith-wc-points-rewards-admin.php:535
+msgid "No users found"
+msgstr "Δεν βρέθηκαν χρήστες"
+
+#: includes/class-yith-wc-points-rewards-admin.php:628
+msgid "YITH WooCommerce Points and Rewards"
+msgstr "YITH WooCommerce Points and Rewards"
+
+#: includes/class-yith-wc-points-rewards-admin.php:632
+msgid ""
+"WooCommerce coupon system has been disabled. In order to make YITH "
+"WooCommerce Points and Rewards work correctly, you have to enable coupons."
+msgstr ""
+"Το σύστημα κουπονιού WooCommerce έχει απενεργοποιηθεί. Για την σωστή "
+"λειτουργία του YITH WooCommerce Request a Quote, θα πρέπει να ενεργοποιήσετε "
+"τα κουπόνια."
+
+#: includes/class-yith-wc-points-rewards-admin.php:636
+msgid "Enable the use of coupons"
+msgstr "Ενεργοποιήστε την χρήση κουπονιών"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:260
+msgid "An error occurred during the bulk operation"
+msgstr "Παρουσιάστηκε σφάλμα κατά την ομαδική διαδικασία"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:273
+msgid "Done!"
+msgstr "Έτοιμο!"
+
+#: includes/class-yith-wc-points-rewards-assets.php:90
+msgid "Start Import"
+msgstr "Έναρξη Εισαγωγής"
+
+#: includes/class-yith-wc-points-rewards-assets.php:91
+msgid "Start Export"
+msgstr "Έναρξη Εξαγωγής"
+
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:90
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:106
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:152
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:205
+msgid "Date of birth"
+msgstr "Ημερομηνία γέννησης"
+
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:95
+msgid ""
+"If you need to change the birthday date, please contact the website "
+"administrator."
+msgstr ""
+"Αν θέλετε να αλλάξετε την ημερομηνία γενεθλίων, παρακαλώ επικοινωνήστε με "
+"τον διαχειριστή ιστότοπου."
+
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:201
+msgid "Points and Rewards"
+msgstr "Points and Rewards"
+
+#: includes/class-yith-wc-points-rewards-frontend.php:408
+#: includes/class-yith-wc-points-rewards-frontend.php:597
+#: includes/class-yith-wc-points-rewards.php:454
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:133
+#: plugin-options/customization-options.php:195
+msgid "My Points"
+msgstr "Οι Πόντοι Μου"
+
+#: includes/class-yith-wc-points-rewards-frontend.php:509
+#, fuzzy
+msgid "The minimum value to redeem is "
+msgstr "Η ελάχιστη αξία εξαργύρωσης είναι "
+
+#: includes/class-yith-wc-points-rewards-frontend.php:546
+#, fuzzy
+msgid ""
+"You have {points} {points_label}. Use {points_field} points to get a "
+"discount of {max_discount} on this order."
+msgstr ""
+"Χρησιμοποιήστε <strong>{points}</strong> {points_label} για "
+"<strong>{max_discount}</strong> έκπτωση σε αυτή τη παραγγελία!"
+
+#: includes/class-yith-wc-points-rewards-frontend.php:563
+#, fuzzy
+msgid ""
+"Use {points} {points_label} for a {max_discount} discount on this order!"
+msgstr ""
+"Χρησιμοποιήστε <strong>{points}</strong> {points_label} για "
+"<strong>{max_discount}</strong> έκπτωση σε αυτή τη παραγγελία!"
+
+#: includes/class-yith-wc-points-rewards-porting.php:73
+msgid "Apply Points from WooCommerce Points and Rewards"
+msgstr "Εφαρμογή Πόντων από το WooCommerce Points and Rewards"
+
+#: includes/class-yith-wc-points-rewards-porting.php:74
+msgid "You can do this action only one time"
+msgstr "Μπορείτε να επιλέξετε αυτή την ενέργεια μόνο μια φορά"
+
+#: includes/class-yith-wc-points-rewards-porting.php:77
+msgid "Import points"
+msgstr "Εισαγωγή πόντων"
+
+#: includes/class-yith-wc-points-rewards-porting.php:79
+msgid "Import Points"
+msgstr "Εισαγωγή Πόντων"
+
+#: includes/class-yith-wc-points-rewards-porting.php:86
+msgid "WooCommerce Points and Rewards points import"
+msgstr "Εισαγωγή πόντων WooCommerce Points and Rewards"
+
+#: includes/class-yith-wc-points-rewards-porting.php:275
+#: includes/class-yith-wc-points-rewards-porting.php:288
+#, fuzzy
+msgid "The CSV cannot be imported."
+msgstr "Έχει γίνει εισαγωγή CSV."
+
+#: includes/class-yith-wc-points-rewards-porting.php:347
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: includes/class-yith-wc-points-rewards-porting.php:361
+msgid "The CSV has been imported."
+msgstr "Έχει γίνει εισαγωγή CSV."
+
+#: includes/class-yith-wc-points-rewards-porting.php:367
+msgid "The CSV is invalid."
+msgstr "Μη έγκυρο CSV."
+
+#: includes/class-yith-wc-points-rewards-post-types.php:102
+#: includes/class-yith-wc-points-rewards-post-types.php:104
+msgid "Add new level"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:103
+#, fuzzy
+msgid "+ Add new level"
+msgstr "+ Προσθήκη κανόνα"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:105
+msgid "Edit level"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:106
+msgid "View level"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:107
+msgid "Search level"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:108
+#: includes/class-yith-wc-points-rewards-post-types.php:143
+#: includes/class-yith-wc-points-rewards-post-types.php:178
+#: includes/class-yith-wc-points-rewards-post-types.php:213
+#, fuzzy
+msgid "Not found"
+msgstr "Δεν βρέθηκαν χρήστες"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:109
+#: includes/class-yith-wc-points-rewards-post-types.php:144
+#: includes/class-yith-wc-points-rewards-post-types.php:179
+#: includes/class-yith-wc-points-rewards-post-types.php:214
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:137
+msgid "Add banner"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:138
+#, fuzzy
+msgid "+ Add banner"
+msgstr "+ Προσθήκη κανόνα"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:139
+msgid "Add new banner"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:140
+msgid "Edit banner"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:141
+msgid "View banner"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:142
+msgid "Search banner"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:172
+#: includes/class-yith-wc-points-rewards-post-types.php:174
+#: includes/class-yith-wc-points-rewards-post-types.php:207
+#: includes/class-yith-wc-points-rewards-post-types.php:209
+#, fuzzy
+msgid "Add new rule"
+msgstr "+ Προσθήκη κανόνα"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:173
+#: includes/class-yith-wc-points-rewards-post-types.php:208
+#, fuzzy
+msgid "+ Add new rule"
+msgstr "+ Προσθήκη κανόνα"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:175
+#: includes/class-yith-wc-points-rewards-post-types.php:210
+#, fuzzy
+msgid "Edit rule"
+msgstr "+ Προσθήκη κανόνα"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:176
+#: includes/class-yith-wc-points-rewards-post-types.php:211
+msgid "View rule"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:177
+#: includes/class-yith-wc-points-rewards-post-types.php:212
+msgid "Search rule"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:942
+#: plugin-options/customization-options.php:560
+#, fuzzy
+msgid "Redeem points"
+msgstr "Εξαργυρωμένοι Πόντοι"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1022
+msgid "Reward Discount Applied Successfully"
+msgstr "Έκπτωση Επιβράβευσης Εφαρμόστηκε Επιτυχώς"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1027
+msgid ""
+"Reward Discount has been removed. You can't use this discount with other "
+"coupons."
+msgstr ""
+"Η Έκπτωση Επιβράβευσης αφαιρέθηκε. Δεν μπορείτε να χρησιμοποιήσετε αυτή την "
+"έκπτωση με αλλά κουπόνια."
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1029
+msgid "You can't use this coupon in conjunction with other coupons"
+msgstr ""
+"Δεν μπορείτε να χρησιμοποιήσετε αυτό το κουπόνι σε συνδυασμό με αλλά κουπόνια"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1034
+msgid ""
+"Coupon has been removed. You can't use this coupon with Rewards Discount"
+msgstr ""
+"Το κουπόνι έχει αφαιρεθεί. Δεν μπορείτε να χρησιμοποιήσετε αυτό το κουπόνι "
+"με την Έκπτωση Επιβράβευσης"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1036
+msgid "You can't use this coupon with Rewards Discount"
+msgstr ""
+"Δεν μπορείτε να χρησιμοποιήσετε αυτό το κουπόνι με την Έκπτωση Επιβράβευσης"
+
+#: includes/class-yith-wc-points-rewards-referral.php:221
+#, fuzzy
+msgid "Points get from referred purchase"
+msgstr "Πόντοι προς ανάθεση για κάθε αγορά προϊόντος"
+
+#. translators: placeholder is the user id.
+#: includes/class-yith-wc-points-rewards-referral.php:259
+msgid "A referred user has been deleted"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:231
+#, fuzzy
+msgid "Points you can get:"
+msgstr "Κερδισμένοι Πόντοι:"
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:309
+msgid "Your credit is "
+msgstr "Η πίστωσή σας είναι "
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:327
+#, fuzzy
+msgid "worth"
+msgstr "αξίας"
+
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:99
+#, fuzzy
+msgid ""
+"Update of YITH WooCommerce Points and Rewards: we are regenerating the "
+"points rules."
+msgstr "YITH WooCommerce Points And Rewards - Υπόλοιπο"
+
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:103
+msgid ""
+" The process is automatic, you will not lose any data and we need only few "
+"minutes. Don't worry if something is weird for now, please wait."
+msgstr ""
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:116
+msgid "Removed commission for refunded order"
+msgstr "Αφαιρέθηκε προμήθεια για την επιστραμμένη παραγγελία"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:153
+msgid "Points Earned:"
+msgstr "Κερδισμένοι Πόντοι:"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:292
+msgid "Removed commission"
+msgstr "Αφαιρέθηκε προμήθεια"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:311
+#, fuzzy
+msgid "Extra points to YITH WooCommerce affiliates"
+msgstr "Ενεργοποίηση διασύνδεσης με το πρόσθετο YITH WooCommerce Affiliates."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:317
+#, fuzzy
+msgid "Assign points to the affiliates"
+msgstr "Ανάθεση πόντων σε χρήστη"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:318
+msgid ""
+"Assign extra points to users that are affiliates after that an order is "
+"placed with their referral code"
+msgstr ""
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:326
+#: plugin-options/affiliates-options.php:29
+msgid "Points for affiliates"
+msgstr "Πόντοι για συνεργάτες"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:327
+#, fuzzy
+msgid "Select the method to calculate points for affiliates."
+msgstr "Επιλογή μεθόδου υπολογισμού πόντων για τους συνεργάτες σας."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:332
+#: plugin-options/affiliates-options.php:35
+msgid "Fixed amount of points for each order"
+msgstr "Σταθερό ποσό πόντων για κάθε παραγγελία"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:333
+#: plugin-options/affiliates-options.php:36
+#: plugin-options/affiliates-options.php:62
+msgid "Percent of points earned by customer"
+msgstr "Ποσοστό πόντων που έχει κερδίσει ο χρήστης"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:334
+#: plugin-options/affiliates-options.php:37
+msgid "Conversion based on order subtotal"
+msgstr "Μετατροπή βάσει υποσυνόλου παραγγελίας"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:344
+#: plugin-options/affiliates-options.php:47
+msgid "Number of points earned for each commission"
+msgstr "Αριθμός πόντων που έχει κερδηθεί για κάθε προμήθεια"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:345
+#, fuzzy
+msgid "Set a fix amount of points to assign for each commission."
+msgstr "Αριθμός πόντων που έχει κερδηθεί για κάθε προμήθεια"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:359
+#: plugin-options/affiliates-options.php:61
+msgid "Percent of points"
+msgstr "Ποσοστό πόντων"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:360
+#, fuzzy
+msgid "Percent of points earned by customer."
+msgstr "Ποσοστό πόντων που έχει κερδίσει ο χρήστης"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:378
+msgid "Assign points based on the order subtotal."
+msgstr "Ανάθεση πόντων βάσει του υποσυνόλου παραγγελίας."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:379
+msgid ""
+"Decide how many points will be assigned to each order based on the currency."
+msgstr ""
+"Επιλέξτε πόσους πόντους να αναθέσετε σε κάθε παραγγελία βάσει νομίσματος."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:396
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:400
+#: plugin-options/affiliates-options.php:98
+#: plugin-options/affiliates-options.php:102
+msgid "Affiliate commission"
+msgstr "Προμήθεια συνεργάτη"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:489
+msgid "Order refunded"
+msgstr "Η παραγγελία επιστράφηκε"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:90
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:122
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:168
+msgid "Users with a membership plan"
+msgstr ""
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:99
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:145
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:177
+msgid "Choose membership plans"
+msgstr ""
+
+#. translators: Placeholder are html tags.
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:103
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:148
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:180
+msgid "Search membership plan"
+msgstr ""
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:221
+#, fuzzy
+msgid "Extra points for members of specific plans"
+msgstr "Επιπλέον πόντοι ανά χρησιμοποιημένο ποσό"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:227
+#, fuzzy
+msgid "Assign points to the users of a membership"
+msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:228
+#, fuzzy
+msgid "Assign points to the members of a membership"
+msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:236
+#: plugin-options/points/extra-options.php:86
+#: plugin-options/points/extra-options.php:124
+#: plugin-options/points/extra-options.php:162
+#: plugin-options/points/extra-options.php:200
+#: plugin-options/points/extra-options.php:252
+#: plugin-options/points/extra-options.php:304
+#: plugin-options/points/extra-options.php:362
+#, fuzzy
+msgid "Points to assign:"
+msgstr "Πόντοι προς ανάθεση ανά κριτική"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:237
+#, fuzzy
+msgid "Set how many points to assign to members"
+msgstr "Ορίστε πόσοι πόντοι να ανατίθενται σε νέους χρήστες"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:288
+msgid "Achieved membership plan"
+msgstr ""
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:309
+msgid "Target - Membership Plan"
+msgstr ""
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:313
+#, fuzzy
+msgid "Target achieved - Membership Plan"
+msgstr "Στόχος επετεύχθη - Γενέθλια"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:151
+#, fuzzy
+msgid "Extra points for subscribers"
+msgstr "Επιπλέον πόντοι για παραγγελίες"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:157
+#, fuzzy
+msgid "Enable to earn points on the subscriptions fees"
+msgstr "Κερδίστε πόντους στη χρέωση συνδρομής"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:158
+msgid ""
+"Enable to earn points on the subscriptions fees. If disabled, the user will "
+"get points only for the price of subscription products."
+msgstr ""
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:166
+#, fuzzy
+msgid "Enable to earn points on each renewal order"
+msgstr "Κερδίστε πόντους στις ανανεώσεις παραγγελιών"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:167
+msgid ""
+"Enable to earn points on each renewal order (each subscription payment). If "
+"disabled, the user will get points only for the 1st payment."
+msgstr ""
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:176
+#, fuzzy
+msgid ""
+"Enter the renew order label to identify point assignment in the user's "
+"points history page"
+msgstr ""
+"Εισάγετε μια επιγραφή για να αναγνωρίζετε την ενότητα πόντων στη σελίδα Ο "
+"Λογαριασμός Μου"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:179
+msgid "Renew order"
+msgstr "Παραγγελία ανανέωσης"
+
+#: includes/emails/class-yith-ywpar-expiration.php:28
+msgid "Expiring Points"
+msgstr "Πόντοι που Λήγουν"
+
+#: includes/emails/class-yith-ywpar-expiration.php:29
+msgid "This email is sent to users, a few days before their points expire."
+msgstr ""
+"Αυτό το email στέλνεται στους χρήστες μερικές μέρες πριν την λήξη των πόντων "
+"τους."
+
+#: includes/emails/class-yith-ywpar-expiration.php:31
+msgid "Don't lose your points!"
+msgstr "Μην χάσετε τους πόντους σας!"
+
+#: includes/emails/class-yith-ywpar-expiration.php:32
+msgid "[Expiring points]"
+msgstr "[Πόντοι που λήγουν]"
+
+#: includes/emails/class-yith-ywpar-expiration.php:173
+#: includes/emails/class-yith-ywpar-update-points.php:167
+msgid "Enable/Disable"
+msgstr "Ενεργοποίηση/Απενεργοποίηση"
+
+#: includes/emails/class-yith-ywpar-expiration.php:175
+#: includes/emails/class-yith-ywpar-update-points.php:169
+msgid "Enable this email notification"
+msgstr "Ενεργοποιήστε αυτή την ειδοποίηση email"
+
+#: includes/emails/class-yith-ywpar-expiration.php:179
+#: includes/emails/class-yith-ywpar-update-points.php:173
+msgid "From (Name)"
+msgstr "Από (Όνομα)"
+
+#: includes/emails/class-yith-ywpar-expiration.php:186
+#: includes/emails/class-yith-ywpar-update-points.php:180
+msgid "From (Email Address)"
+msgstr "Από (Διεύθυνση Email)"
+
+#: includes/emails/class-yith-ywpar-expiration.php:193
+#: includes/emails/class-yith-ywpar-update-points.php:187
+msgid "Subject"
+msgstr "Θέμα"
+
+#: includes/emails/class-yith-ywpar-expiration.php:201
+#: includes/emails/class-yith-ywpar-update-points.php:195
+msgid "Recipient(s)"
+msgstr "Παραλήπτης (ες)"
+
+#: includes/emails/class-yith-ywpar-expiration.php:210
+#: includes/emails/class-yith-ywpar-update-points.php:203
+msgid "Email Heading"
+msgstr "Επικεφαλίδα Email"
+
+#: includes/emails/class-yith-ywpar-expiration.php:219
+#: includes/emails/class-yith-ywpar-update-points.php:212
+msgid "Email Description"
+msgstr "Περιγραφή Email"
+
+#: includes/emails/class-yith-ywpar-expiration.php:226
+#: includes/emails/class-yith-ywpar-update-points.php:219
+msgid "Email type"
+msgstr "Τύπος email"
+
+#: includes/emails/class-yith-ywpar-expiration.php:228
+#: includes/emails/class-yith-ywpar-update-points.php:221
+msgid "Choose the format of the email that has to be sent."
+msgstr "Επιλέξτε μορφή για το email που θα αποσταλεί."
+
+#: includes/emails/class-yith-ywpar-expiration.php:232
+#: includes/emails/class-yith-ywpar-update-points.php:225
+msgid "Plain text"
+msgstr "Απλό κείμενο"
+
+#: includes/emails/class-yith-ywpar-expiration.php:233
+#: includes/emails/class-yith-ywpar-update-points.php:226
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/emails/class-yith-ywpar-expiration.php:234
+#: includes/emails/class-yith-ywpar-update-points.php:227
+msgid "Multipart"
+msgstr "Με πολλαπλά μέρη"
+
+#: includes/emails/class-yith-ywpar-update-points.php:29
+msgid "Update Points"
+msgstr "Ανανέωση Πόντων"
+
+#: includes/emails/class-yith-ywpar-update-points.php:30
+msgid "This email is sent when the number of user-points change"
+msgstr "Αυτό το email στέλνεται όταν ο αριθμός των πόντων χρήστη αλλάζει"
+
+#: includes/emails/class-yith-ywpar-update-points.php:32
+msgid "Your Points in "
+msgstr "Οι Πόντοι σας στο "
+
+#: includes/emails/class-yith-ywpar-update-points.php:33
+msgid "[Points updated]"
+msgstr "[Πόντοι ενημερώθηκαν]"
+
+#: includes/functions-yith-wc-points-rewards.php:153
+#: plugin-options/customization-options.php:339
+#: plugin-options/customization-options.php:343
+msgid "Order Completed"
+msgstr "Παραγγελία ολοκληρώθηκε"
+
+#: includes/functions-yith-wc-points-rewards.php:154
+msgid "Payment Completed"
+msgstr "Πληρωμή Ολοκληρώθηκε"
+
+#: includes/functions-yith-wc-points-rewards.php:155
+#: plugin-options/customization-options.php:348
+#: plugin-options/customization-options.php:352
+msgid "Order Processing"
+msgstr "Επεξεργασία Παραγγελίας"
+
+#: includes/functions-yith-wc-points-rewards.php:374
+#: includes/functions-yith-wc-points-rewards.php:375
+msgid "When you achieve %points%"
+msgstr ""
+
+#: includes/functions-yith-wc-points-rewards.php:376
+msgid ""
+"When you spend a total of %amount% in our shop you will earn an extra %points"
+"%"
+msgstr ""
+
+#: includes/functions-yith-wc-points-rewards.php:377
+msgid "Get %points% for each user registered by clicking on your referral link"
+msgstr ""
+
+#: includes/functions-yith-wc-points-rewards.php:378
+#, fuzzy
+msgid ""
+"Get %points% for each user that complete an order by clicking on your "
+"referral link"
+msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#: includes/functions-yith-wc-points-rewards.php:379
+msgid ""
+"Get %points% extra, if you leave a review for %products% you've purchased"
+msgstr ""
+
+#: includes/functions-yith-wc-points-rewards.php:380
+#, fuzzy
+msgid "and get %points%"
+msgstr "Κανονικοί πόντοι"
+
+#: includes/functions-yith-wc-points-rewards.php:413
+msgid "Upgrade to %level%"
+msgstr ""
+
+#: includes/functions-yith-wc-points-rewards.php:414
+msgid "Get %points% Extra Points"
+msgstr ""
+
+#: includes/functions-yith-wc-points-rewards.php:415
+#, fuzzy
+msgid "Get %points% when you spend %amount%"
+msgstr "Ανάθεση πόντων βάσει του συνολικού ποσού που έχει ξοδευτεί"
+
+#: includes/functions-yith-wc-points-rewards.php:416
+#: includes/functions-yith-wc-points-rewards.php:417
+#: plugin-options/metaboxes/banners-options.php:20
+msgid "Refer a friend"
+msgstr ""
+
+#: includes/functions-yith-wc-points-rewards.php:418
+#: plugin-options/metaboxes/banners-options.php:22
+msgid "Leave a review"
+msgstr ""
+
+#: includes/functions-yith-wc-points-rewards.php:419
+msgid "Complete your profile"
+msgstr ""
+
+#: includes/functions-yith-wc-points-rewards.php:1195
+msgid "earned:"
+msgstr "κερδήθηκαν:"
+
+#: includes/functions-yith-wc-points-rewards.php:1200
+msgid "used:"
+msgstr "χρησιμοποιήθηκαν:"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:31
+#, fuzzy
+msgid "Show customers' points "
+msgstr "Πόντοι πελατών"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:33
+#, fuzzy
+msgid "YITH WooCommerce Points And Rewards - Customers Points"
+msgstr "YITH WooCommerce Points And Rewards - Υπόλοιπο"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:123
+#, fuzzy
+msgid "Best Users"
+msgstr "Αποκλεισμός Χρηστών"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:124
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:138
+#: plugin-options/metaboxes/banners-options.php:75
+msgid "Simple"
+msgstr ""
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:125
+msgid "Number of customers to show"
+msgstr ""
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:130
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:142
+msgid "Title:"
+msgstr "Τίτλος:"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:136
+msgid "Style:"
+msgstr ""
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:139
+msgid "Boxed"
+msgstr ""
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:144
+msgid "Number of customers to show:"
+msgstr ""
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:33
+msgid "Show points collected by the user so far"
+msgstr ""
+"Εμφάνιση των πόντων που έχουν συγκεντρωθεί από τον χρήστη μέχρι στιγμής"
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:35
+msgid "YITH WooCommerce Points And Rewards - Balance"
+msgstr "YITH WooCommerce Points And Rewards - Υπόλοιπο"
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:134
+msgid "Your balance is "
+msgstr "Το υπόλοιπό σας είναι "
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:147
+msgid "Label:"
+msgstr "Επιγραφή:"
+
+#: init.php:65
+msgid ""
+"YITH WooCommerce Points and Rewards is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"To YITH WooCommerce Points and Rewards είναι ενεργοποιημένο αλλά "
+"αναποτελεσματικό. Για σωστή λειτουργία, απαιτείται WooCommerce."
+
+#: plugin-options/affiliates-options.php:14
+msgid "YITH WooCommerce Affiliates Integration"
+msgstr "Διασύνδεση YITH WooCommerce Affiliates"
+
+#: plugin-options/affiliates-options.php:20
+msgid "Enable Integration"
+msgstr "Ενεργοποίηση Διασύνδεσης"
+
+#: plugin-options/affiliates-options.php:21
+#, fuzzy
+msgid "Enable the integration with YITH WooCommerce Affiliates plugin"
+msgstr "Ενεργοποίηση διασύνδεσης με το πρόσθετο YITH WooCommerce Affiliates."
+
+#: plugin-options/affiliates-options.php:30
+#, fuzzy
+msgid "Select the method to calculate points for your affiliates"
+msgstr "Επιλογή μεθόδου υπολογισμού πόντων για τους συνεργάτες σας."
+
+#: plugin-options/affiliates-options.php:80
+#, fuzzy
+msgid "Assign points based on the order subtotal"
+msgstr "Ανάθεση πόντων βάσει του υποσυνόλου παραγγελίας."
+
+#: plugin-options/affiliates-options.php:81
+#, fuzzy
+msgid ""
+"Decide how many points will be assigned to each order based on the currency"
+msgstr ""
+"Επιλέξτε πόσους πόντους να αναθέσετε σε κάθε παραγγελία βάσει νομίσματος."
+
+#: plugin-options/customers-tab/ranking-options.php:16
+#, fuzzy
+msgid "Customer's ranking"
+msgstr "Πόντοι πελατών"
+
+#: plugin-options/customers-tab/ranking-options.php:21
+#, fuzzy
+msgid "Enable customer ranking"
+msgstr "Ενεργοποίηση Διασύνδεσης"
+
+#: plugin-options/customers-tab/ranking-options.php:22
+#, fuzzy
+msgid "Enable the ranking of customers by points"
+msgstr "Ενεργοποίηση ανάθεσης πόντων σε γενέθλια πελάτη"
+
+#: plugin-options/customers-tab/ranking-options.php:33
+#: plugin-options/customers-tab/ranking-options.php:46
+#, fuzzy
+msgid "Show ranking in My Account"
+msgstr "Εμφάνιση πόντων στο Ο Λογαριασμός Μου"
+
+#: plugin-options/customers-tab/ranking-options.php:34
+#: plugin-options/customers-tab/ranking-options.php:47
+#, fuzzy
+msgid "Enable to show the customers' ranking in their \"My Account\" page"
+msgstr "Ενεργοποίηση εμφάνισης μηνύματος πόντων στη σελίδα ταμείου"
+
+#: plugin-options/customers-tab-options.php:21
+msgid "Customer points"
+msgstr "Πόντοι συνεργάτη"
+
+#: plugin-options/customers-tab-options.php:25 views/tabs/bulk-actions.php:219
+msgid "Bulk Actions"
+msgstr "Ομαδικές Ενέργειες"
+
+#: plugin-options/customers-tab-options.php:29
+msgid "Import/Export"
+msgstr "Εισαγωγή/Εξαγωγή"
+
+#: plugin-options/customers-tab-options.php:33
+msgid "Ranking"
+msgstr ""
+
+#: plugin-options/customization-options.php:18
+#, fuzzy
+msgid "General"
+msgstr "Γενικές επιλογές"
+
+#: plugin-options/customization-options.php:24
+msgid "Hide points messages to guest users"
+msgstr "Απόκρυψη μηνυμάτων πόντων για επισκέπτες"
+
+#: plugin-options/customization-options.php:25
+#, fuzzy
+msgid "Enable to hide point messages to guest users"
+msgstr "Ενεργοποίηση απόκρυψης μηνυμάτων πόντων για επισκέπτες."
+
+#: plugin-options/customization-options.php:39
+msgid "Points in shop pages"
+msgstr "Πόντοι σε σελίδες καταστήματος"
+
+#: plugin-options/customization-options.php:45
+msgid "Show points message in shop pages (loop)"
+msgstr "Εμφάνιση μηνύματος πόντων σε σελίδες καταστήματος (βρόχος)"
+
+#: plugin-options/customization-options.php:46
+msgid "Enable to show the message related to points in all shop pages"
+msgstr ""
+"Ενεργοποίηση εμφάνισης μηνύματος πόντων σε όλες τις σελίδες καταστήματος"
+
+#: plugin-options/customization-options.php:54
+msgid "Loop Message"
+msgstr "Μήνυμα Βρόχου"
+
+#: plugin-options/customization-options.php:72
+#: plugin-options/customization-options.php:148
+msgid "Colors"
+msgstr ""
+
+#: plugin-options/customization-options.php:76
+#: plugin-options/customization-options.php:152
+#: plugin-options/metaboxes/banners-options.php:173
+msgid "Text"
+msgstr ""
+
+#: plugin-options/customization-options.php:81
+#: plugin-options/customization-options.php:157
+#: plugin-options/metaboxes/banners-options.php:163
+#, fuzzy
+msgid "Background"
+msgstr "Χρώμα Φόντου"
+
+#: plugin-options/customization-options.php:86
+#, fuzzy
+msgid "Border"
+msgstr "παραγγελία (-ες) ="
+
+#: plugin-options/customization-options.php:99
+msgid "Show points message in product page"
+msgstr "Εμφάνιση μηνύματος πόντων στη σελίδα προϊόντος"
+
+#: plugin-options/customization-options.php:100
+msgid "Enable to show the message related to points in all product pages"
+msgstr ""
+"Ενεργοποίηση εμφάνισης μηνύματος πόντων σε όλες τις σελίδες καταστήματος"
+
+#: plugin-options/customization-options.php:108
+msgid "Message position"
+msgstr "Θέση μηνύματος"
+
+#: plugin-options/customization-options.php:109
+msgid "Choose where to show the points message in the product page"
+msgstr "Επιλέξτε πού να φαίνεται το μήνυμα πόντων στη σελίδα του προϊόντος"
+
+#: plugin-options/customization-options.php:114
+msgid "Before \"Add to cart\" button"
+msgstr "Πριν από κουμπί “Προσθήκη στο καλάθι”"
+
+#: plugin-options/customization-options.php:115
+msgid "After \"Add to cart\" button"
+msgstr "Μετά από κουμπί “Προσθήκη στο καλάθι”"
+
+#: plugin-options/customization-options.php:116
+msgid "Before excerpt"
+msgstr "Πριν από απόσπασμα"
+
+#: plugin-options/customization-options.php:117
+msgid "After excerpt"
+msgstr "Μετά από απόσπασμα"
+
+#: plugin-options/customization-options.php:118
+msgid "After product meta"
+msgstr "Μετά από meta προϊόντος"
+
+#: plugin-options/customization-options.php:130
+msgid "Single Product Page Message"
+msgstr "Μήνυμα Σελίδας Απλού Προϊόντος"
+
+#: plugin-options/customization-options.php:175
+msgid "Points in My Account"
+msgstr "Πόντοι στο Ο Λογαριασμός Μου"
+
+#: plugin-options/customization-options.php:182
+msgid "Show points on My Account"
+msgstr "Εμφάνιση πόντων στο Ο Λογαριασμός Μου"
+
+#: plugin-options/customization-options.php:183
+msgid "Enable to show points in the \"My Account\" page of all users"
+msgstr ""
+"Ενεργοποίηση εμφάνισης πόντων στη σελίδα “Ο Λογαριασμός Μου” όλων των χρηστών"
+
+#: plugin-options/customization-options.php:191
+msgid "Label for points section"
+msgstr "Επιγραφή ενότητας πόντων"
+
+#: plugin-options/customization-options.php:192
+msgid "Enter a label to identify the points section in My Account page"
+msgstr ""
+"Εισάγετε μια επιγραφή για να αναγνωρίζετε την ενότητα πόντων στη σελίδα Ο "
+"Λογαριασμός Μου"
+
+#: plugin-options/customization-options.php:205
+msgid "Endpoint for points section"
+msgstr "Τελικό σημείο για ενότητα πόντων"
+
+#: plugin-options/customization-options.php:206
+#, fuzzy
+msgid ""
+"Enter the endpoint of the Points in My account page. Endpoints cannot "
+"contain any spaces nor uppercase letters"
+msgstr ""
+"Εισάγετε το τελικό σημείο των Πόντων στη σελίδα Ο Λογαριασμός Μου. Τα τελικά "
+"σημεία δεν πρέπει να εμπεριέχουν κενά ή κεφαλαία γράμματα."
+
+#: plugin-options/customization-options.php:219
+msgid "Show Points Value"
+msgstr "Εμφάνιση Αξίας Πόντων"
+
+#: plugin-options/customization-options.php:220
+msgid "enable to show the points value. Example: \"You have 100 points - 15$"
+msgstr ""
+"ενεργοποίηση εμφάνισης της αξίας πόντων. Παράδειγμα: “Έχετε 100 πόντους - 15€"
+
+#: plugin-options/customization-options.php:233
+msgid "Show points earned and spent"
+msgstr "Εμφάνιση κερδισμένων και χρησιμοποιημένων πόντων"
+
+#: plugin-options/customization-options.php:234
+msgid "Show points earned and spent in My Account > Order details"
+msgstr ""
+"Εμφάνιση κερδισμένων και χρησιμοποιημένων πόντων στο Ο Λογαριασμός Μου > "
+"Στοιχεία παραγγελίας"
+
+#: plugin-options/customization-options.php:242
+msgid "Show points earned and spent in the email of Order completed"
+msgstr ""
+"Εμφάνιση κερδισμένων και χρησιμοποιημένων πόντων στο email του Παραγγελία "
+"ολοκληρώθηκε"
+
+#: plugin-options/customization-options.php:255
+msgid "Points in Cart & Checkout"
+msgstr "Πόντοι στο Καλάθι & Ταμείο"
+
+#: plugin-options/customization-options.php:261
+msgid "Show points in Cart page"
+msgstr "Εμφάνιση πόντων στη σελίδα Καλαθιού"
+
+#: plugin-options/customization-options.php:262
+msgid "Enable to show the points message in cart page"
+msgstr "Ενεργοποίηση εμφάνισης μηνύματος πόντων στη σελίδα καλαθιού"
+
+#: plugin-options/customization-options.php:270
+msgid "Message text in cart"
+msgstr "Κείμενο μηνύματος στο καλάθι"
+
+#: plugin-options/customization-options.php:271
+msgid "Enter the text to show in cart page"
+msgstr "Εισάγετε το κείμενο προς εμφάνιση στη σελίδα καλαθιού"
+
+#: plugin-options/customization-options.php:285
+msgid "Show points in Checkout page"
+msgstr "Εμφάνιση πόντων στη σελίδα Ταμείου"
+
+#: plugin-options/customization-options.php:286
+msgid "Enable to show the points message in checkout page"
+msgstr "Ενεργοποίηση εμφάνισης μηνύματος πόντων στη σελίδα ταμείου"
+
+#: plugin-options/customization-options.php:294
+msgid "Message text in checkout"
+msgstr "Κείμενο μηνύματος στο ταμείο"
+
+#: plugin-options/customization-options.php:295
+msgid "Enter the text to show in Checkout page"
+msgstr "Εισάγετε το κείμενο προς εμφάνιση στη σελίδα Ταμείου"
+
+#: plugin-options/customization-options.php:315
+msgid "Labels Settings"
+msgstr "Ρυθμίσεις Επιγραφών"
+
+#: plugin-options/customization-options.php:321
+msgid "Singular label replacing \"point\""
+msgstr "Επιγραφή ενικού αντικαθιστά “πόντος”"
+
+#: plugin-options/customization-options.php:325
+msgid "Point"
+msgstr "Πόντος"
+
+#: plugin-options/customization-options.php:330
+msgid "Plural label replacing \"points\""
+msgstr "Επιγραφή πληθυντικού αντικαθιστά “πόντοι”"
+
+#: plugin-options/customization-options.php:334
+#: views/panel/types/options-conversion-earning.php:44
+#: views/panel/types/options-conversion.php:39
+#: views/panel/types/options-percentage-conversion.php:42
+#: views/panel/types/options-role-conversion.php:79
+#: views/panel/types/options-role-conversion.php:88
+#: views/panel/types/options-role-percentage-conversion.php:66
+#: views/tabs/bulk-actions.php:147
+msgid "Points"
+msgstr "Πόντοι"
+
+#: plugin-options/customization-options.php:357
+#: plugin-options/customization-options.php:361
+msgid "Order Cancelled"
+msgstr "Παραγγελία Ακυρώθηκε"
+
+#: plugin-options/customization-options.php:366
+#: plugin-options/customization-options.php:370
+msgid "Admin Action"
+msgstr "Ενέργεια Διαχειριστή"
+
+#: plugin-options/customization-options.php:375
+#: plugin-options/customization-options.php:379
+msgid "Reviews"
+msgstr "Κριτικές"
+
+#: plugin-options/customization-options.php:384
+#: plugin-options/customization-options.php:388
+msgid "Registration"
+msgstr "Εγγραφή"
+
+#: plugin-options/customization-options.php:393
+msgid "Target - Total Points"
+msgstr "Στόχος - Σύνολο Πόντων"
+
+#: plugin-options/customization-options.php:397
+msgid "Target achieved - Points collected"
+msgstr "Στόχος επετεύχθη - Συγκεντρωμένοι πόντοι"
+
+#: plugin-options/customization-options.php:402
+msgid "Target - Total Amount"
+msgstr "Στόχος - Συνολικό Ποσό"
+
+#: plugin-options/customization-options.php:406
+msgid "Target achieved - Total spend"
+msgstr "Στόχος επετεύχθη - Σύνολο που έχει χρησιμοποιηθεί"
+
+#: plugin-options/customization-options.php:411
+msgid "Target - Total Orders"
+msgstr "Στόχος - Σύνολο Παραγγελιών"
+
+#: plugin-options/customization-options.php:415
+msgid "Target achieved - Total Orders"
+msgstr "Στόχος επετεύχθη - Σύνολο Παραγγελιών"
+
+#: plugin-options/customization-options.php:419
+msgid "Target Checkout Total Threshold"
+msgstr "Στόχος Ορίου Συνόλου Ταμείου"
+
+#: plugin-options/customization-options.php:423
+msgid "Target achieved - Checkout Total Threshold"
+msgstr "Στόχος επετεύχθη - Όριο Συνόλου Ταμείου"
+
+#: plugin-options/customization-options.php:427
+msgid "Birthday"
+msgstr "Γενέθλια"
+
+#: plugin-options/customization-options.php:431
+msgid "Target achieved - Birthday"
+msgstr "Στόχος επετεύχθη - Γενέθλια"
+
+#: plugin-options/customization-options.php:435
+msgid "Daily Login"
+msgstr ""
+
+#: plugin-options/customization-options.php:439
+#, fuzzy
+msgid "Target achieved - Daily Login"
+msgstr "Στόχος επετεύχθη - Σύνολο που έχει χρησιμοποιηθεί"
+
+#: plugin-options/customization-options.php:443
+#, fuzzy
+msgid "Registration by referral"
+msgstr "Φόρμα Εγγραφής"
+
+#: plugin-options/customization-options.php:447
+msgid "User registration by referral"
+msgstr ""
+
+#: plugin-options/customization-options.php:451
+#: plugin-options/customization-options.php:455
+msgid "Removed registration points due to a referred user cancellation"
+msgstr ""
+
+#: plugin-options/customization-options.php:459
+#: plugin-options/customization-options.php:463
+msgid "Purchase by referral"
+msgstr ""
+
+#: plugin-options/customization-options.php:468
+#: plugin-options/customization-options.php:472
+msgid "Removed points due to a referred user cancellation"
+msgstr ""
+
+#: plugin-options/customization-options.php:477
+#: plugin-options/customization-options.php:481
+#, fuzzy
+msgid "Collected Points"
+msgstr "Εξαργυρωμένοι Πόντοι"
+
+#: plugin-options/customization-options.php:486
+msgid "Level Achieved"
+msgstr ""
+
+#: plugin-options/customization-options.php:490
+#, fuzzy
+msgid "Target achieved - Level"
+msgstr "Στόχος επετεύχθη - Γενέθλια"
+
+#: plugin-options/customization-options.php:494
+#, fuzzy
+msgid "Profile Complete"
+msgstr "Παραγγελία ολοκληρώθηκε"
+
+#: plugin-options/customization-options.php:498
+#, fuzzy
+msgid "Target achieved - Profile Completed"
+msgstr "Στόχος επετεύχθη - Συγκεντρωμένοι πόντοι"
+
+#: plugin-options/customization-options.php:502
+#: plugin-options/customization-options.php:506
+msgid "Expired Points"
+msgstr "Πόντοι που Έληξαν"
+
+#: plugin-options/customization-options.php:511
+#: plugin-options/customization-options.php:515
+msgid "Order Refund"
+msgstr "Επιστροφή Παραγγελίας"
+
+#: plugin-options/customization-options.php:520
+#: plugin-options/customization-options.php:524
+msgid "Order Refund Deleted"
+msgstr "Επιστροφή Παραγγελίας Διεγράφη"
+
+#: plugin-options/customization-options.php:529
+msgid "Redeemed Points"
+msgstr "Εξαργυρωμένοι Πόντοι"
+
+#: plugin-options/customization-options.php:533
+msgid "Redeemed Points for order"
+msgstr "Εξαργυρωμένοι Πόντοι για παραγγελία"
+
+#: plugin-options/customization-options.php:538
+#, fuzzy
+msgid "Shared Points"
+msgstr "Πόντοι που Έληξαν"
+
+#: plugin-options/customization-options.php:542
+msgid "Shared point with a coupon"
+msgstr ""
+
+#: plugin-options/customization-options.php:547
+msgid "Apply Discount Button"
+msgstr "Εφαρμογή Κουμπιού Έκπτωσης"
+
+#: plugin-options/customization-options.php:551
+msgid "Apply Points"
+msgstr "Εφαρμογή Πόντων"
+
+#: plugin-options/customization-options.php:556
+#, fuzzy
+msgid "Applied Points Discount Label"
+msgstr "Έκπτωση Σταθερής Τιμής"
+
+#: plugin-options/emails-options.php:14
+#, fuzzy
+msgid "Expiring points"
+msgstr "[Πόντοι που λήγουν]"
+
+#: plugin-options/emails-options.php:19
+msgid "Send an email before the expiration date"
+msgstr "Αποστολή email πριν την ημερομηνία λήξης"
+
+#: plugin-options/emails-options.php:28
+msgid "Days before points expire"
+msgstr "Μέρες πριν την λήξη πόντων"
+
+#: plugin-options/emails-options.php:29
+msgid "Number of days before 'points expiration' when the email will be sent"
+msgstr "Αριθμός ημερών πριν την ‘λήξη πόντων’ όταν θα σταλεί το email"
+
+#: plugin-options/emails-options.php:42 plugin-options/emails-options.php:138
+msgid "Email content"
+msgstr "Περιεχόμενο email"
+
+#: plugin-options/emails-options.php:91
+#, fuzzy
+msgid "Updated Points"
+msgstr "Ανανέωση Πόντων"
+
+#: plugin-options/emails-options.php:97
+msgid "Enable this email notification on updated points"
+msgstr "Ενεργοποιήστε αυτή την ειδοποίηση email σε ενημερωμένους πόντους"
+
+#: plugin-options/emails-options.php:106
+msgid "Send Email"
+msgstr "Αποστολή Email"
+
+#: plugin-options/emails-options.php:110
+#, fuzzy
+msgid "Once a day if points have been updated"
+msgstr "Μία φορά την ημέρα, εάν οι πόντοι έχουν ενημερωθεί."
+
+#: plugin-options/emails-options.php:111
+#, fuzzy
+msgid "As soon as points are updated"
+msgstr "Μόλις ενημερωθούν οι πόντοι."
+
+#: plugin-options/emails-options.php:123
+#, fuzzy
+msgid "Avoid email sending for manual update"
+msgstr "Αποφύγετε την αποστολή email για αυτόματη ενημέρωση."
+
+#: plugin-options/emails-options.php:124
+#, fuzzy
+msgid "Enable to not send email when the admin updates points manually"
+msgstr ""
+"Ενεργοποιήστε τη μη αποστολή email όταν ο διαχειριστής ενημερώνει τους "
+"πόντους χειροκίνητα."
+
+#: plugin-options/emails-options.php:141
+msgid "You can use the following placeholders"
+msgstr "Μπορείτε να χρησιμοποιήσετε τα ακόλουθα κείμενα υποκατάστασης"
+
+#: plugin-options/emails-options.php:142
+msgid "customer's username"
+msgstr "όνομα χρήστη πελάτη"
+
+#: plugin-options/emails-options.php:143
+msgid "customer's first name"
+msgstr "όνομα πελάτη"
+
+#: plugin-options/emails-options.php:144
+msgid "customer's last name"
+msgstr "επίθετο πελάτη"
+
+#: plugin-options/emails-options.php:145
+msgid "latest updates of your points"
+msgstr "τελευταίες ενημερώσεις των πόντων σας"
+
+#: plugin-options/emails-options.php:146
+msgid "label for points"
+msgstr "επιγραφή πόντων"
+
+#: plugin-options/emails-options.php:147
+msgid "current balance"
+msgstr "τρέχον υπόλοιπο"
+
+#: plugin-options/emails-options.php:148
+msgid "Shop url"
+msgstr "URL Καταστήματος"
+
+#: plugin-options/emails-options.php:149
+msgid "Website name"
+msgstr "Όνομα ιστότοπου"
+
+#: plugin-options/gutenberg/blocks.php:62
+msgid "Yes"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:14
+#, fuzzy
+msgid "Points of next level"
+msgstr "Σύνολο Πόντων"
+
+#: plugin-options/metaboxes/banners-options.php:15
+#: plugin-options/points/extra-options.php:686
+msgid "Extra points for amount spent"
+msgstr "Επιπλέον πόντοι ανά χρησιμοποιημένο ποσό"
+
+#: plugin-options/metaboxes/banners-options.php:16
+#, fuzzy
+msgid "Extra points for points collected"
+msgstr "Πόντοι προς ανάθεση για συγκεντρωμένους πόντους"
+
+#: plugin-options/metaboxes/banners-options.php:21
+msgid "Refer a friend "
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:23
+msgid "Complete Profile"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:53
+#, fuzzy
+msgid "Enter a name to identify this banner"
+msgstr ""
+"Εισάγετε μια επιγραφή για να αναγνωρίζετε την ενότητα πόντων στη σελίδα Ο "
+"Λογαριασμός Μου"
+
+#: plugin-options/metaboxes/banners-options.php:76
+msgid "Target"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:77
+#, fuzzy
+msgid "Get points"
+msgstr "Επαναφορά πόντων"
+
+#: plugin-options/metaboxes/banners-options.php:80
+#, fuzzy
+msgid "Choose the banner type"
+msgstr "αποκλεισμένος"
+
+#: plugin-options/metaboxes/banners-options.php:88
+#: plugin-options/metaboxes/banners-options.php:104
+#, fuzzy
+msgid "Action type"
+msgstr "Ενέργεια"
+
+#: plugin-options/metaboxes/banners-options.php:89
+msgid ""
+"Choose the banner action type. To create target banners you need to enable "
+"extra points options first."
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:92
+#: plugin-options/metaboxes/banners-options.php:109
+#, fuzzy
+msgid " No extra rules found"
+msgstr "Δεν βρέθηκαν χρήστες"
+
+#: plugin-options/metaboxes/banners-options.php:119
+#, fuzzy
+msgid "Products to show"
+msgstr "ID προϊόντος"
+
+#: plugin-options/metaboxes/banners-options.php:120
+msgid ""
+"Enter the maximum number of products the user can review to earn extra points"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:132
+#, fuzzy
+msgid "Banner title"
+msgstr "αποκλεισμένος"
+
+#: plugin-options/metaboxes/banners-options.php:133
+#, fuzzy
+msgid "Enter the title to show in this banner"
+msgstr "Εισάγετε το κείμενο προς εμφάνιση στη σελίδα καλαθιού"
+
+#: plugin-options/metaboxes/banners-options.php:141
+#, fuzzy
+msgid "Banner text"
+msgstr "αποκλεισμένος"
+
+#: plugin-options/metaboxes/banners-options.php:142
+#, fuzzy
+msgid "Enter the text to show in this banner"
+msgstr "Εισάγετε το κείμενο προς εμφάνιση στη σελίδα καλαθιού"
+
+#: plugin-options/metaboxes/banners-options.php:150
+#, fuzzy
+msgid "Banner image"
+msgstr "αποκλεισμένος"
+
+#: plugin-options/metaboxes/banners-options.php:151
+msgid "Upload an image for this banner"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:158
+#, fuzzy
+msgid "Banner colors"
+msgstr "αποκλεισμένος"
+
+#: plugin-options/metaboxes/banners-options.php:168
+#, fuzzy
+msgid "Title"
+msgstr "Τίτλος:"
+
+#: plugin-options/metaboxes/banners-options.php:183
+msgid "Add link"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:184
+msgid "Enable to add a link to this banner"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:195
+#, fuzzy
+msgid "Banner links to"
+msgstr "αποκλεισμένος"
+
+#: plugin-options/metaboxes/banners-options.php:196
+msgid "Enter the url of this banner"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:207
+msgid "Show progress slider"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:208
+#, fuzzy
+msgid "Enable to show a slider with user progress"
+msgstr "Ενεργοποίηση εμφάνισης μηνύματος πόντων στη σελίδα καλαθιού"
+
+#: plugin-options/metaboxes/banners-options.php:220
+msgid "Banner progress bar colors"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:225
+#, fuzzy
+msgid "Bar"
+msgstr "αποκλεισμένος"
+
+#: plugin-options/metaboxes/banners-options.php:230
+msgid "Progress"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:243
+msgid "Show"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:244
+#, fuzzy
+msgid "Choose in which section to show this banner"
+msgstr "Εισάγετε το κείμενο προς εμφάνιση στη σελίδα καλαθιού"
+
+#: plugin-options/metaboxes/banners-options.php:246
+msgid "in Target tab"
+msgstr ""
+
+#: plugin-options/metaboxes/banners-options.php:247
+#, fuzzy
+msgid "in Get points tab"
+msgstr "Επαναφορά πόντων"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:28
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:39
+#: plugin-options/points/standard-options.php:54
+#: plugin-options/redeem/standard-options.php:41 views/tabs/bulk-actions.php:39
+msgid "Only specified user roles"
+msgstr "Μόνο συγκεκριμένοι ρόλοι χρήστη"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:29
+#: plugin-options/metaboxes/points-earning-rules-options.php:79
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:40
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:75
+msgid "Users with specific points level"
+msgstr ""
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:39
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:49
+#, fuzzy
+msgid "Choose user roles"
+msgstr "Επιλέξτε ρόλους"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:42
+#, fuzzy
+msgid "Search user role"
+msgstr "Συγκεκριμένοι ρόλοι χρήστη"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:50
+#: plugin-options/metaboxes/points-earning-rules-options.php:81
+#: plugin-options/metaboxes/points-earning-rules-options.php:251
+#, fuzzy
+msgid "Apply rule to:"
+msgstr "Εφαρμογή ενέργειας σε"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:113
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:151
+#, fuzzy
+msgid "Enter a name to identify this rule"
+msgstr ""
+"Εισάγετε μια επιγραφή για να αναγνωρίζετε την ενότητα πόντων στη σελίδα Ο "
+"Λογαριασμός Μου"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:127
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:165
+msgid "Priority"
+msgstr ""
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:128
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:166
+msgid ""
+"Set the priority to assign to this rule. This is important to overwrite "
+"rules. 1 is highest priority"
+msgstr ""
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:141
+#, fuzzy
+msgid "Points type"
+msgstr "Ιστορικό πόντων"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:142
+#, fuzzy
+msgid ""
+"Choose if to assign a fixed amount of points or calculate the points from "
+"the product price"
+msgstr "Ορίστε ένα ποσό % για πόντους βάσει των γενικών κανόνων πόντων"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:146
+#: plugin-options/metaboxes/points-earning-rules-options.php:159
+#: plugin-options/metaboxes/points-earning-rules-options.php:171
+#, fuzzy
+msgid "Points to assign"
+msgstr "Πόντοι προς ανάθεση ανά κριτική"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:155
+#: plugin-options/redeem/share-options.php:57
+#: plugin-options/redeem/share-options.php:74
+#: views/panel/types/options-extrapoints-multi.php:69
+#: views/panel/types/options-extrapoints.php:55
+msgid "points"
+msgstr "πόντοι"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:195
+#, fuzzy
+msgid "Rule will be valid"
+msgstr "Η παράκαμψη θα είναι έγκυρη"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:196
+#: plugin-options/metaboxes/points-earning-rules-options.php:236
+#, fuzzy
+msgid ""
+"Choose to schedule the global points overriding or if to start and end it "
+"manually"
+msgstr ""
+"Επιλέξτε τον προγραμματισμό της παράκαμψης γενικών πόντων ή αν θέλετε να "
+"ξεκινά και τερματίζει χειροκίνητα."
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:209
+#: views/tabs/bulk-actions.php:193
+msgid "Add points to orders placed from"
+msgstr "Πρόσθεση πόντων σε παραγγελίες τοποθετημένες από"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:210
+#: plugin-options/metaboxes/points-earning-rules-options.php:223
+#: views/tabs/bulk-actions.php:194
+msgid "Choose from which date to assign points to previous orders"
+msgstr ""
+"Επιλέξτε από ποια ημερομηνία να ανατίθενται πόντοι στις προηγούμενες "
+"παραγγελίες"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:219
+msgid "To"
+msgstr ""
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:245
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:241
+#, fuzzy
+msgid "All products"
+msgstr "Εξαίρεση προϊόντων σε έκπτωση"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:246
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:242
+#, fuzzy
+msgid "Specific products"
+msgstr "Συγκεκριμένοι χρήστες"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:247
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:243
+#, fuzzy
+msgid "On sale products"
+msgstr "Εξαίρεση προϊόντων σε έκπτωση"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:248
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:244
+msgid "Products of specific categories"
+msgstr ""
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:249
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:245
+msgid "Products of specific tags"
+msgstr ""
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:252
+msgid ""
+"Choose if to assign these points when the user purchases all products or "
+"only specific products or products of specific categories"
+msgstr ""
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:256
+#: plugin-options/metaboxes/points-earning-rules-options.php:319
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:256
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:319
+#, fuzzy
+msgid "Choose products"
+msgstr "Για αυτό το προϊόν"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:257
+#: plugin-options/metaboxes/points-earning-rules-options.php:274
+#: plugin-options/metaboxes/points-earning-rules-options.php:291
+#, fuzzy
+msgid "Choose for which products to apply these points"
+msgstr "Επιλέξτε σε ποιους χρήστες να εφαρμόζετε αυτή την ενέργεια"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:273
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:273
+#, fuzzy
+msgid "Choose categories"
+msgstr "Επιλέξτε ρόλους"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:279
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:279
+msgid "Search for a category"
+msgstr ""
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:290
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:290
+#, fuzzy
+msgid "Choose tags"
+msgstr "Επιλέξτε ρόλους"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:296
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:296
+msgid "Search for a tag"
+msgstr ""
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:311
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:311
+#, fuzzy
+msgid "Exclude products"
+msgstr "Εξαίρεση προϊόντων σε έκπτωση"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:312
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:312
+#, fuzzy
+msgid "Enable if you want to exclude some products from this rule"
+msgstr ""
+"Ενεργοποιήστε αν θέλετε να αποκλείσετε συγκεκριμένους χρήστες ή ρόλους χρήστη"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:320
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:320
+#, fuzzy
+msgid "Choose which products to exclude"
+msgstr "Επιλέξτε ποιοι ρόλοι να αποκλείονται"
+
+#. translators: Placeholder are html tags.
+#: plugin-options/metaboxes/points-earning-rules-options.php:345
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:349
+#, fuzzy
+msgid "Choose user levels"
+msgstr "Επιλέξτε ποιοι χρήστες"
+
+#. translators: Placeholder are html tags.
+#: plugin-options/metaboxes/points-earning-rules-options.php:349
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:351
+msgid "Search user level"
+msgstr ""
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:29
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:77
+#, fuzzy
+msgid "Apply rule to"
+msgstr "Εφαρμογή ενέργειας σε"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:105
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:125
+#: plugin-options/redeem/standard-options.php:87
+#: plugin-options/redeem/standard-options.php:106
+msgid "Reward Conversion Rate"
+msgstr "Ποσοστό Μετατροπής Επιβράβευσης"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:106
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:126
+#: plugin-options/redeem/standard-options.php:88
+#: plugin-options/redeem/standard-options.php:107
+#, fuzzy
+msgid ""
+"Choose how to calculate the discount when customers use their available "
+"points"
+msgstr ""
+"Επιλέξτε πώς να υπολογίζεται η έκπτωση όταν οι πελάτες χρησιμοποιούν τους "
+"διαθέσιμους πόντους τους."
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:174
+#, fuzzy
+msgid "Redeem conversion rate"
+msgstr "Ποσοστό Μετατροπής Επιβράβευσης"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:175
+#, fuzzy
+msgid "Redeem max discount rate"
+msgstr "Ορίστε αξία σταθερής μέγιστης έκπτωσης"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:177
+#, fuzzy
+msgid "Rule type"
+msgstr "Τύπος email"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:178
+#, fuzzy
+msgid ""
+"Choose how to apply the discount. The discount can either be a percentage or "
+"a fixed amount"
+msgstr ""
+"Επιλέξτε πώς να εφαρμόζεται η έκπτωση. Η έκπτωση μπορεί να είναι ποσοστό ή "
+"σταθερό ποσό."
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:191
+#, fuzzy
+msgid ""
+"Set a % max discount based on the global max discount.\n"
+"(Example: with a global max discount of 50$ if you set a max discount of 10% "
+"for this product the user will get a max discount of 5$ for this product)"
+msgstr ""
+"(Παράδειγμα: με γενική μέγιστη έκπτωση 50€ αν θέσετε μέγιστη έκπτωση 10% για "
+"αυτό το προϊόν, ο χρήστης θα λάβει μέγιστη έκπτωση 5€ για αυτό το προϊόν)."
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:196
+#, fuzzy
+msgid ""
+"Set a fixed max discount value\n"
+"(Example: max 5$ of discount for this product)"
+msgstr "(Παράδειγμα: μέγιστη έκπτωση 5€ για αυτό το προϊόν)."
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:203
+#, fuzzy
+msgid "Max discount type"
+msgstr "Μέγιστη αξία έκπτωσης"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:215
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:227
+msgid "Max discount value"
+msgstr "Μέγιστη αξία έκπτωσης"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:247
+#, fuzzy
+msgid "Apply rule to these products"
+msgstr "Εξαίρεση προϊόντων σε έκπτωση"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:248
+msgid ""
+"Choose if set a max discount when the user purchases all products or only "
+"specific products or products of specific categories"
+msgstr ""
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:257
+#, fuzzy
+msgid "Choose for which products to apply this rule"
+msgstr "Επιλέξτε σε ποιους χρήστες να εφαρμόζετε αυτή την ενέργεια"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:274
+#, fuzzy
+msgid "Choose for which category to apply this rule"
+msgstr "Επιλέξτε σε ποιους χρήστες να εφαρμόζετε αυτή την ενέργεια"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:291
+#, fuzzy
+msgid "Choose for which tags to apply this rule"
+msgstr "Επιλέξτε σε ποιους χρήστες να εφαρμόζετε αυτή την ενέργεια"
+
+#: plugin-options/points/extra-options.php:14
+msgid "My Account Page"
+msgstr "Ο Λογαριασμός Μου"
+
+#: plugin-options/points/extra-options.php:15
+msgid "Registration Form"
+msgstr "Φόρμα Εγγραφής"
+
+#: plugin-options/points/extra-options.php:16
+msgid "Checkout Page"
+msgstr "Σελίδα Ταμείου"
+
+#: plugin-options/points/extra-options.php:22
+#, fuzzy
+msgid "Extra Points"
+msgstr "Επιπλέον πόντοι"
+
+#: plugin-options/points/extra-options.php:33
+#: plugin-options/points/extra-options.php:71
+msgid "Extra points for user registration"
+msgstr "Επιπλέον πόντοι για εγγραφή χρήστη"
+
+#: plugin-options/points/extra-options.php:39
+#: plugin-options/points/extra-options.php:77
+msgid "Assign points when a user registers"
+msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#: plugin-options/points/extra-options.php:40
+#: plugin-options/points/extra-options.php:78
+msgid "Assign extra points to newly registered users"
+msgstr "Ανάθεση επιπλέον πόντων σε νέους εγγεγραμμένους χρήστες"
+
+#: plugin-options/points/extra-options.php:48
+msgid "Points to assign to new users"
+msgstr "Πόντοι προς ανάθεση για νέους χρήστες"
+
+#: plugin-options/points/extra-options.php:49
+#, fuzzy
+msgid "Set how many points to assign to new users"
+msgstr "Ορίστε πόσοι πόντοι να ανατίθενται σε νέους χρήστες"
+
+#: plugin-options/points/extra-options.php:87
+#, fuzzy
+msgid "Set how many points to assing"
+msgstr "Ορίστε πόσοι πόντοι να ανατίθενται σε νέους χρήστες"
+
+#: plugin-options/points/extra-options.php:109
+#, fuzzy
+msgid "Extra points for the first daily login"
+msgstr "Επιπλέον πόντοι για εγγραφή χρήστη"
+
+#: plugin-options/points/extra-options.php:115
+#, fuzzy
+msgid "Assign points each first time the user logs in daily"
+msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#: plugin-options/points/extra-options.php:116
+#, fuzzy
+msgid "Assign extra points for the each first daily login"
+msgstr "Ανάθεση επιπλέον πόντων σε γενέθλια πελάτη"
+
+#: plugin-options/points/extra-options.php:125
+#: plugin-options/points/extra-options.php:163
+#: plugin-options/points/extra-options.php:201
+#: plugin-options/points/extra-options.php:253
+#, fuzzy
+msgid "Set how many points to assign"
+msgstr "Ορίστε πόσοι πόντοι να ανατίθενται σε νέους χρήστες"
+
+#: plugin-options/points/extra-options.php:147
+#, fuzzy
+msgid "Extra points for completed profile"
+msgstr "Επιπλέον πόντοι για παραγγελίες"
+
+#: plugin-options/points/extra-options.php:153
+#, fuzzy
+msgid "Assign points when the user completes all fields in the user profile"
+msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#: plugin-options/points/extra-options.php:154
+#, fuzzy
+msgid "Assign extra points for a completed profile"
+msgstr "Επιπλέον πόντοι για παραγγελίες"
+
+#: plugin-options/points/extra-options.php:185
+#, fuzzy
+msgid "Extra points for referrals"
+msgstr "Επιπλέον πόντοι για παραγγελίες"
+
+#: plugin-options/points/extra-options.php:191
+msgid "Referral link signup"
+msgstr ""
+
+#: plugin-options/points/extra-options.php:192
+#, fuzzy
+msgid ""
+"Assign extra points when a new user signs up using a customer created "
+"referral link"
+msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#: plugin-options/points/extra-options.php:217
+msgid "Revoke referral points if referred user account is deleted or banned"
+msgstr ""
+
+#: plugin-options/points/extra-options.php:218
+#: plugin-options/points/extra-options.php:270
+#, fuzzy
+msgid ""
+"Enable to automatically delete referral points if the referred user account "
+"is deleted or banned"
+msgstr "Ενεργοποίηση αυτόματης εφαρμογής πόντων στη σελίδα καλαθιού/ταμείου"
+
+#: plugin-options/points/extra-options.php:237
+#, fuzzy
+msgid "Extra points for referral purchase"
+msgstr "Επιπλέον πόντοι για παραγγελίες"
+
+#: plugin-options/points/extra-options.php:243
+#, fuzzy
+msgid "Assign points when a user purchases through the user's referral link"
+msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#: plugin-options/points/extra-options.php:244
+#, fuzzy
+msgid "Assign extra points when a user places an order using the referral link"
+msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#: plugin-options/points/extra-options.php:269
+msgid "Revoke referral if referred user account is deleted or banned"
+msgstr ""
+
+#: plugin-options/points/extra-options.php:289
+#, fuzzy
+msgid "Extra points for user that collected the most points"
+msgstr "Επιπλέον πόντοι για εγγραφή χρήστη"
+
+#: plugin-options/points/extra-options.php:295
+#, fuzzy
+msgid "Assign points to the user that collected the most points"
+msgstr "Ανάθεση πόντων σε χρήστες που αφήνουν κριτική προϊόντος"
+
+#: plugin-options/points/extra-options.php:296
+#, fuzzy
+msgid "Assign extra points to the user that collected the most points"
+msgstr "Ανάθεση πόντων σε χρήστες που αφήνουν κριτική προϊόντος"
+
+#: plugin-options/points/extra-options.php:305
+#, fuzzy
+msgid ""
+"Set how many points to assign to the user that collected the most points"
+msgstr "Ανάθεση πόντων σε χρήστες που αφήνουν κριτική προϊόντος"
+
+#: plugin-options/points/extra-options.php:321
+#, fuzzy
+msgid "Check and assign points on:"
+msgstr "Να μην γίνει ανάθεση πόντων"
+
+#: plugin-options/points/extra-options.php:322
+msgid "Set when to check points of all users and assign these extra points"
+msgstr ""
+
+#: plugin-options/points/extra-options.php:347
+#, fuzzy
+msgid "Extra points for users that achieve specific levels"
+msgstr "Επιπλέον πόντοι για εγγραφή χρήστη"
+
+#: plugin-options/points/extra-options.php:353
+#, fuzzy
+msgid "Assign points to the users that achieve levels"
+msgstr "Ανάθεση πόντων σε χρήστες που αφήνουν κριτική προϊόντος"
+
+#: plugin-options/points/extra-options.php:354
+#, fuzzy
+msgid "Assign extra points to users that achieve specific levels"
+msgstr "Ανάθεση πόντων σε χρήστες που αφήνουν κριτική προϊόντος"
+
+#: plugin-options/points/extra-options.php:363
+#, fuzzy
+msgid ""
+"Set how many points to assign to users when they achieve a specific level"
+msgstr ""
+"Ορίστε πόσοι πόντοι να ανατίθενται στους χρήστες την ημέρα γενεθλίων τους"
+
+#: plugin-options/points/extra-options.php:392
+msgid "Enable points incentive on total collected points"
+msgstr ""
+"Ενεργοποίηση επιβράβευσης πόντων για τους συνολικά συγκεντρωμένους πόντους"
+
+#: plugin-options/points/extra-options.php:398
+msgid "Assign extra points based on the total number of points collected"
+msgstr ""
+"Ανάθεση επιπλέον πόντων βάσει του συνολικού αριθμού συγκεντρωμένων πόντων"
+
+#: plugin-options/points/extra-options.php:399
+#, fuzzy
+msgid "Assign extra points to users that achieve a set number points collected"
+msgstr ""
+"Ανάθεση επιπλέον πόντων βάσει του συνολικού αριθμού συγκεντρωμένων πόντων"
+
+#: plugin-options/points/extra-options.php:407
+#, fuzzy
+msgid "Points to assign per points collected"
+msgstr "Πόντοι προς ανάθεση για συγκεντρωμένους πόντους"
+
+#: plugin-options/points/extra-options.php:408
+#, fuzzy
+msgid "Set how many points to assign based on the total of points collected"
+msgstr ""
+"Ορίστε πόσοι πόντοι να ανατίθενται βάσει του συνόλου των συγκεντρωμένων "
+"πόντων"
+
+#: plugin-options/points/extra-options.php:411
+msgid "points ="
+msgstr "πόντοι ="
+
+#: plugin-options/points/extra-options.php:437
+msgid "Extra points for users' birthday"
+msgstr "Επιπλέον πόντοι για γενέθλια χρήστη"
+
+#: plugin-options/points/extra-options.php:443
+msgid "Assign extra points on customer's birthday"
+msgstr "Ανάθεση επιπλέον πόντων σε γενέθλια πελάτη"
+
+#: plugin-options/points/extra-options.php:444
+#, fuzzy
+msgid "Enable to assign points on customer's birthday"
+msgstr "Ενεργοποίηση ανάθεσης πόντων σε γενέθλια πελάτη"
+
+#: plugin-options/points/extra-options.php:452
+msgid "Points to assign per birthday"
+msgstr "Πόντοι προς ανάθεση ανά γενέθλια"
+
+#: plugin-options/points/extra-options.php:453
+msgid "Set how many points to assign to users on their birthday"
+msgstr ""
+"Ορίστε πόσοι πόντοι να ανατίθενται στους χρήστες την ημέρα γενεθλίων τους"
+
+#: plugin-options/points/extra-options.php:469
+msgid "Show birthday input field in"
+msgstr "Εμφάνιση πεδίου εισαγωγής γενεθλίων σε"
+
+#: plugin-options/points/extra-options.php:470
+#, fuzzy
+msgid "Choose where to show the Birthday Date Field"
+msgstr "Επιλέξτε πού να εμφανίζεται το Πεδίο Ημερομηνίας Γενεθλίων."
+
+#: plugin-options/points/extra-options.php:485
+msgid "Birthday input date format"
+msgstr "Μορφή ημερομηνίας εισαγωγής γενεθλίων"
+
+#: plugin-options/points/extra-options.php:486
+#, fuzzy
+msgid "Choose the format to use for the Birthday Date Field"
+msgstr ""
+"Επιλέξτε την μορφή που θέλετε να χρησιμοποιήσετε για το Πεδίο Ημερομηνίας "
+"Γενεθλίων."
+
+#: plugin-options/points/extra-options.php:507
+#, fuzzy
+msgid "Extra Points for reviews"
+msgstr "Επιπλέον Πόντοι για κριτική"
+
+#: plugin-options/points/extra-options.php:513
+msgid "Assign points to users that leave a product review"
+msgstr "Ανάθεση πόντων σε χρήστες που αφήνουν κριτική προϊόντος"
+
+#: plugin-options/points/extra-options.php:514
+#, fuzzy
+msgid "Enable to assign points to users that leave a product review"
+msgstr "Ενεργοποίηση ανάθεσης πόντων σε χρήστη που αφήνει κριτική προϊόντος"
+
+#: plugin-options/points/extra-options.php:522
+msgid "Points to assign for reviews"
+msgstr "Πόντοι προς ανάθεση για κριτικές"
+
+#: plugin-options/points/extra-options.php:523
+#, fuzzy
+msgid ""
+"Set how many points to assign for reviews. Check \"repeat\" to repeat the "
+"rules: if you set 5 reviews = 10 points. Check repeat, and 10 reviews will "
+"get 20 points and so on"
+msgstr ""
+"Ορίστε πόσοι πόντοι να ανατίθενται για κριτικές. Κάντε κλικ στην “επανάληψη” "
+"για να επαναληφθούν οι κανόνες: αν ορίσετε 5 κριτικές = 10 πόντοι και κάνετε "
+"κλικ στην επανάληψη για 10 κριτικές, θα ορίζονται 20 πόντοι και ούτω καθεξής."
+
+#: plugin-options/points/extra-options.php:553
+msgid "Extra points for orders"
+msgstr "Επιπλέον πόντοι για παραγγελίες"
+
+#: plugin-options/points/extra-options.php:559
+msgid "Assign points based on orders placed"
+msgstr "Ανάθεση πόντων βάσει τοποθετημένων παραγγελιών"
+
+#: plugin-options/points/extra-options.php:560
+#: plugin-options/points/extra-options.php:693
+#, fuzzy
+msgid "Enable to assign points to a user, when an order is placed"
+msgstr ""
+"Ενεργοποίηση ανάθεσης πόντων σε χρήστη, κατα την τοποθέτηση παραγγελίας."
+
+#: plugin-options/points/extra-options.php:568
+msgid "Points to assign per order"
+msgstr "Πόντοι προς ανάθεση ανά κριτική"
+
+#: plugin-options/points/extra-options.php:569
+msgid "Set how many points to assign per order placed"
+msgstr "Ορίστε πόσοι πόντοι να ανατίθενται ανά τοποθετημένη παραγγελία"
+
+#: plugin-options/points/extra-options.php:572
+msgid "order(s) ="
+msgstr "παραγγελία (-ες) ="
+
+#: plugin-options/points/extra-options.php:599
+msgid "Extra Points for cart total"
+msgstr "Επιπλέον Πόντοι για σύνολο καλαθιού"
+
+#: plugin-options/points/extra-options.php:605
+msgid "Assign points based on the cart total"
+msgstr "Ανάθεση πόντων βάσει συνόλου καλαθιού"
+
+#: plugin-options/points/extra-options.php:606
+msgid "Enable to assign points to user, based on the cart total"
+msgstr "Ενεργοποίηση ανάθεσης πόντων σε χρήστη, βάσει συνόλου καλαθιού"
+
+#: plugin-options/points/extra-options.php:614
+msgid "Points to assign on cart total"
+msgstr "Πόντοι προς ανάθεση στο σύνολο καλαθιού"
+
+#: plugin-options/points/extra-options.php:615
+msgid "Set how many points to assign based on cart total"
+msgstr "Ορίστε πόσοι πόντοι να ανατίθενται βάσει του συνόλου καλαθιού"
+
+#: plugin-options/points/extra-options.php:637
+msgid "Based on cart total, allow user to achieve multiple thresholds"
+msgstr ""
+"Βάσει του συνόλου καλαθιού, επιτρέψτε στον χρήστη να επιτύχει πολλαπλά όρια"
+
+#: plugin-options/points/extra-options.php:638
+#, fuzzy
+msgid ""
+"If you created multiple points based rules on cart total, choose whether to "
+"apply all rules or just the highest value rule"
+msgstr ""
+"Εάν δημιουργήσατε πολλούς κανόνες βάσει πόντων στο σύνολο καλαθιού, επιλέξτε "
+"αν θα εφαρμόσετε όλους τους κανόνες ή απλώς τον κανόνα υψηλότερης αξίας."
+
+#: plugin-options/points/extra-options.php:643
+msgid "Apply all rules and sum up the points"
+msgstr "Εφαρμογή όλων των κανόνων και άθροισμα πόντων"
+
+#: plugin-options/points/extra-options.php:644
+msgid "Apply only the rule with the highest number of points in cart"
+msgstr "Εφαρμόστε μόνο τον κανόνα με τον μεγαλύτερο αριθμό πόντων στο καλάθι"
+
+#: plugin-options/points/extra-options.php:655
+msgid "Show threshold message in cart and checkout"
+msgstr "Εμφάνιση μηνύματος ορίου στο καλάθι και ταμείο"
+
+#: plugin-options/points/extra-options.php:656
+msgid ""
+"Enable to show messages about thresholds achieved on Cart & Checkout pages"
+msgstr ""
+"Ενεργοποίηση εμφάνισης μηνυμάτων σχετικά με τα όρια που επετεύχθησαν στις "
+"σελίδες Καλαθιού & Ταμείου"
+
+#: plugin-options/points/extra-options.php:668
+msgid "Title of threshold message"
+msgstr ""
+
+#: plugin-options/points/extra-options.php:669
+#, fuzzy
+msgid "Set the text to show as title of threshold message"
+msgstr "Εισάγετε το κείμενο προς εμφάνιση στη σελίδα Ταμείου"
+
+#: plugin-options/points/extra-options.php:672
+#, fuzzy
+msgid "Get points based on your order amount!"
+msgstr "Ανάθεση πόντων βάσει του υποσυνόλου παραγγελίας."
+
+#: plugin-options/points/extra-options.php:692
+msgid "Assign points based on the total amount spent"
+msgstr "Ανάθεση πόντων βάσει του συνολικού ποσού που έχει ξοδευτεί"
+
+#: plugin-options/points/extra-options.php:701
+msgid "Points to assign per amount reached"
+msgstr "Πόντοι προς ανάθεση ανά συμπληρωμένο ποσό"
+
+#: plugin-options/points/extra-options.php:702
+msgid "Set how many points to allocate for each amount reached"
+msgstr "Ορίστε πόσοι πόντοι να μοιράζονται για κάθε συμπληρωμένο ποσό"
+
+#: plugin-options/points/standard-options.php:18
+msgid "Points Assignments"
+msgstr "Ανάθεση Πόντων"
+
+#: plugin-options/points/standard-options.php:24
+msgid "Allow shop manager to manage this plugin"
+msgstr ""
+"Επιτρέψτε στον διαχειριστή καταστήματος να διαχειριστεί αυτό το πρόσθετο"
+
+#: plugin-options/points/standard-options.php:25
+#, fuzzy
+msgid ""
+"Enable to allow your shop manager to access and manage the plugin settings"
+msgstr ""
+"Ενεργοποιήστε να επιτρέπετε στον διαχειριστή καταστήματος να έχει πρόσβαση "
+"και να μπορεί να διαχειριστεί τις ρυθμίσεις πρόσθετου."
+
+#: plugin-options/points/standard-options.php:33
+msgid "Assign points to user"
+msgstr "Ανάθεση πόντων σε χρήστη"
+
+#: plugin-options/points/standard-options.php:34
+msgid "Choose whether to award points to users automatically or manually"
+msgstr ""
+"Επιλέξτε αν θέλετε η αμοιβή πόντων στους χρήστες να είναι αυτόματη ή "
+"χειροκίνητη"
+
+#: plugin-options/points/standard-options.php:38
+msgid "Automatically - Points will be assigned automatically for each purchase"
+msgstr "Αυτόματα - Οι πόντοι θα ανατίθενται αυτόματα για κάθε αγορά"
+
+#: plugin-options/points/standard-options.php:39
+msgid "Manually - You can assign points manually in 'Customer Points' tab"
+msgstr ""
+"Χειροκίνητα - Μπορείτε να αναθέσετε πόντους χειροκίνητα στην καρτέλα ‘Πόντοι "
+"Πελάτη’"
+
+#: plugin-options/points/standard-options.php:46
+msgid "Assign points to"
+msgstr "Ανάθεση πόντων σε"
+
+#: plugin-options/points/standard-options.php:47
+#, fuzzy
+msgid "Choose if to assign points to all users or only to specified user roles"
+msgstr ""
+"Επιλέξτε αν θέλετε να ανατίθενται πόντοι σε όλους τους χρήστες ή μόνο σε "
+"συγκεκριμένους ρόλους χρηστών"
+
+#: plugin-options/points/standard-options.php:64
+#, fuzzy
+msgid "Assign points to roles"
+msgstr "Ανάθεση πόντων σε"
+
+#: plugin-options/points/standard-options.php:65
+#, fuzzy
+msgid "Choose which user roles can collect points with their purchases"
+msgstr "Επιλέξτε ποιοι ρόλοι χρήστη μπορούν να εξαργυρώνουν πόντους"
+
+#: plugin-options/points/standard-options.php:80
+#, fuzzy
+msgid "Default points assigned"
+msgstr "Ορίστε πόσοι πόντοι να ανατίθενται σε νέους χρήστες"
+
+#: plugin-options/points/standard-options.php:81
+#, fuzzy
+msgid ""
+"Set how many points per product will be earned based on the product value. "
+"You can override this value for specific products or users using the points "
+"rules.%sPlease, note: points are awarded on a product basis and not on the "
+"cart total"
+msgstr ""
+"Ορίστε πόσοι πόντοι ανά προϊόν θα κερδίζονται βάσει της αξίας προϊόντος. "
+"Παρακαλώ, σημειώστε: οι πόντοι αμείβονται με βάση το προϊόν και όχι το "
+"σύνολο καλαθιού."
+
+#: plugin-options/points/standard-options.php:101
+msgid "Calculate points considering product price with:"
+msgstr ""
+
+#: plugin-options/points/standard-options.php:102
+msgid ""
+"Choose whether to calculate points considering prices with taxes or without "
+"taxes"
+msgstr ""
+
+#: plugin-options/points/standard-options.php:107
+#: plugin-options/redeem/standard-options.php:130
+msgid "taxes included"
+msgstr ""
+
+#: plugin-options/points/standard-options.php:108
+#: plugin-options/redeem/standard-options.php:131
+msgid "taxes excluded"
+msgstr ""
+
+#: plugin-options/points/standard-options.php:118
+#, fuzzy
+msgid "Exclude on sale products from points collection"
+msgstr "(Απόκλιση προϊόντος από συγκέντρωση πόντων)"
+
+#: plugin-options/points/standard-options.php:119
+msgid "If enabled, sale products will not assign points to your users"
+msgstr ""
+"Αν ενεργοποιηθεί, τα προϊόντα σε έκπτωση δεν θα αναθέτουν πόντους στους "
+"χρήστες"
+
+#: plugin-options/points/standard-options.php:131
+msgid "Assign points to a guest if his billing email is registered"
+msgstr "Ανάθεση πόντων σε επισκέπτη αν έχει καταγραφεί το email χρέωσης"
+
+#: plugin-options/points/standard-options.php:132
+#, fuzzy
+msgid ""
+"Enable to assign points to guests if the billing e-mail matches with a "
+"registered user"
+msgstr ""
+"Ενεργοποίηση ανάθεσης πόντων σε επισκέπτες αν το email χρέωσης ταιριάζει με "
+"εγγεγραμμένο χρήστη."
+
+#: plugin-options/points/standard-options.php:144
+#, fuzzy
+msgid ""
+"Assign points to a new registered user if his billing e-mail is registered"
+msgstr ""
+"Ανάθεση πόντων σε νέο εγγεγραμμένο χρήστη αν έχει καταγραφεί το email χρέωσης"
+
+#: plugin-options/points/standard-options.php:145
+#, fuzzy
+msgid ""
+"Enable to assign points to newly registered users if they use the same "
+"billing email address for previous orders"
+msgstr ""
+"Ενεργοποίηση ανάθεσης πόντων σε νέους εγγεγραμμένους χρήστες αν "
+"χρησιμοποιούν την ίδια διεύθυνση email χρέωσης για προηγούμενες παραγγελίες."
+
+#: plugin-options/points/standard-options.php:157
+#, fuzzy
+msgid "Assign points when the order has status"
+msgstr "Ανάθεση πόντων βάσει του υποσυνόλου παραγγελίας."
+
+#: plugin-options/points/standard-options.php:158
+#, fuzzy
+msgid "Choose based on which order status to assign points to users"
+msgstr ""
+"Επιλέξτε βάσει ποιας κατάστασης παραγγελίας να ανατίθενται πόντοι σε χρήστες."
+
+#: plugin-options/points/standard-options.php:174
+#, fuzzy
+msgid "Remove earned points if order is cancelled"
+msgstr ""
+"Ενεργοποιήστε αν θέλετε να αφαιρείτε κερδισμένους πόντους όταν μια "
+"παραγγελία έχει ακυρωθεί"
+
+#: plugin-options/points/standard-options.php:175
+msgid "Enable if you want to remove earned points when an order is cancelled"
+msgstr ""
+"Ενεργοποιήστε αν θέλετε να αφαιρείτε κερδισμένους πόντους όταν μια "
+"παραγγελία έχει ακυρωθεί"
+
+#: plugin-options/points/standard-options.php:187
+msgid "Reassign points when an order is refunded"
+msgstr "Επανάληψη ανάθεσης πόντων κατα την επιστροφή μιας παραγγελίας"
+
+#: plugin-options/points/standard-options.php:188
+#, fuzzy
+msgid ""
+"Enable if you want to reassign all the redeemed points to a customer when an "
+"order is refunded"
+msgstr ""
+"Ενεργοποιήστε αν θέλετε να γίνει επανάληψη ανάθεσης των εξαργυρωμένων πόντων "
+"σε έναν πελάτη κατα την επιστροφή μιας παραγγελίας."
+
+#: plugin-options/points/standard-options.php:200
+#, fuzzy
+msgid "Remove earned points if order is refunded"
+msgstr "Επανάληψη ανάθεσης πόντων κατα την επιστροφή μιας παραγγελίας"
+
+#: plugin-options/points/standard-options.php:201
+msgid ""
+"Enable to remove points when applying a total or partial refund of the order"
+msgstr ""
+"Ενεργοποίηση αφαίρεσης πόντων κατα την εφαρμογή συνολικής ή μερικής "
+"επιστροφής για την παραγγελία"
+
+#: plugin-options/points/standard-options.php:213
+#, fuzzy
+msgid "Not assign points to the full order amount if a coupon is used"
+msgstr ""
+"Ενεργοποιήστε να μην ανατίθενται πόντοι όταν ο χρήστης τοποθετεί μια "
+"παραγγελία χρησιμοποιώντας κουπόνι έκπτωσης."
+
+#: plugin-options/points/standard-options.php:214
+msgid ""
+"Enable this option if you do not want the user to earn points on a full "
+"order amount if they use a coupon. Instead they will only earn points on the "
+"amount minus the coupon discount. For example: order total €30 minus €10 "
+"coupon discount, so the user earns points on €20 order value only"
+msgstr ""
+
+#: plugin-options/points/standard-options.php:226
+msgid "Do not assign points to orders in which the user is redeeming points"
+msgstr ""
+"Να μην ανατίθενται πόντοι σε παραγγελίες από τις οποίες ο χρήστης "
+"εξαργυρώνει πόντους"
+
+#: plugin-options/points/standard-options.php:227
+msgid "Enable to not assign points to orders in which the user redeems points"
+msgstr ""
+"Ενεργοποιήστε να μην ανατίθενται πόντοι σε παραγγελίες από τις οποίες ο "
+"χρήστης εξαργυρώνει πόντους"
+
+#: plugin-options/points/standard-options.php:239
+#, fuzzy
+msgid "Points Rounding"
+msgstr "Εξαργύρωση πόντων"
+
+#: plugin-options/points/standard-options.php:240
+#, fuzzy
+msgid ""
+"Select how to round the points. For example, if points are 1.5 and Round Up "
+"is selected, points will be 2. If Round Down is selected, points will be 1"
+msgstr ""
+"Επιλέξτε πώς να στρογγυλοποιήσετε τους πόντους. Για παράδειγμα, αν οι πόντοι "
+"είναι 1.5 και επιλεχθεί Στρογγυλοποίηση προς τα Πάνω, οι πόντοι θα είναι 2. "
+"Αν επιλεχθεί Στρογγυλοποίηση προς τα Κάτω, οι πόντοι θα είναι 1."
+
+#: plugin-options/points/standard-options.php:245
+msgid "Round Up"
+msgstr "Στρογγυλοποίηση προς τα Πάνω"
+
+#: plugin-options/points/standard-options.php:246
+msgid "Round Down"
+msgstr "Στρογγυλοποίηση προς τα Κάτω"
+
+#: plugin-options/points/standard-options.php:256
+#, fuzzy
+msgid "Set an expire time for points"
+msgstr "Ορίστε σταθερό αριθμό πόντων"
+
+#: plugin-options/points/standard-options.php:257
+msgid ""
+"Enable if you want to set an expiration time on points assigned to users"
+msgstr ""
+"Ενεργοποιήστε αν θέλετε να θέσετε χρόνο λήξης των πόντων που έχουν ανατεθεί "
+"σε χρήστες"
+
+#: plugin-options/points/standard-options.php:269
+msgid "Points will expire after"
+msgstr "Οι πόντοι θα λήξουν μετά από"
+
+#: plugin-options/points/standard-options.php:270
+msgid "Set a default expiration on points earned in your shop"
+msgstr "Ορίστε προεπιλεγμένη λήξη σε πόντους κερδισμένους στο κατάστημά σας"
+
+#: plugin-options/points-options.php:21
+#, fuzzy
+msgid "Points Rules"
+msgstr "Στρογγυλοποίηση Πόντων"
+
+#: plugin-options/points-options.php:24
+msgid "Extra points"
+msgstr "Επιπλέον πόντοι"
+
+#: plugin-options/points-options.php:27
+msgid "Levels & Badges"
+msgstr ""
+
+#: plugin-options/points-options.php:30
+#, fuzzy
+msgid "Banners"
+msgstr "αποκλεισμένος"
+
+#: plugin-options/redeem/share-options.php:17
+#: plugin-options/redeem-options.php:24
+#, fuzzy
+msgid "Share points"
+msgstr "Κανονικοί πόντοι"
+
+#: plugin-options/redeem/share-options.php:23
+msgid "Allow users to convert points in a coupon to share"
+msgstr ""
+
+#: plugin-options/redeem/share-options.php:24
+#, fuzzy
+msgid ""
+"Enable to allow customers to convert their points in a coupon code in the My "
+"Account page"
+msgstr ""
+"Εισάγετε μια επιγραφή για να αναγνωρίζετε την ενότητα πόντων στη σελίδα Ο "
+"Λογαριασμός Μου"
+
+#: plugin-options/redeem/share-options.php:32
+msgid "Apply limits to points coupons"
+msgstr ""
+
+#: plugin-options/redeem/share-options.php:33
+#, fuzzy
+msgid ""
+"Enable to set a minimum or maximum of points that can be converted into a "
+"coupon code"
+msgstr "Σταθερό ποσό πόντων για κάθε παραγγελία"
+
+#: plugin-options/redeem/share-options.php:46
+#, fuzzy
+msgid "Minimum amount of points that can be converted"
+msgstr "Σταθερό ποσό πόντων για κάθε παραγγελία"
+
+#: plugin-options/redeem/share-options.php:47
+msgid ""
+"Set the minimum number of points that the user can convert into a coupon code"
+msgstr ""
+
+#: plugin-options/redeem/share-options.php:63
+#, fuzzy
+msgid "Maximum amount of points that can be converted"
+msgstr "Σταθερό ποσό πόντων για κάθε παραγγελία"
+
+#: plugin-options/redeem/share-options.php:64
+msgid ""
+"Set the maximum number of points that the user can convert into a coupon code"
+msgstr ""
+
+#: plugin-options/redeem/share-options.php:80
+#, fuzzy
+msgid "Set the expiration for points coupon codes"
+msgstr "Ορίστε προεπιλεγμένη λήξη σε πόντους κερδισμένους στο κατάστημά σας"
+
+#: plugin-options/redeem/share-options.php:81
+#, fuzzy
+msgid "Enable to set an expiry date for points coupon codes to be used"
+msgstr ""
+"Ενεργοποιήστε αν θέλετε να θέσετε χρόνο λήξης των πόντων που έχουν ανατεθεί "
+"σε χρήστες"
+
+#: plugin-options/redeem/share-options.php:94
+#, fuzzy
+msgid "Points coupon will expire after"
+msgstr "Οι πόντοι θα λήξουν μετά από"
+
+#: plugin-options/redeem/share-options.php:95
+msgid "Set after how many days a points coupon code will expire"
+msgstr ""
+
+#: plugin-options/redeem/share-options.php:105
+msgid "days"
+msgstr ""
+
+#: plugin-options/redeem/standard-options.php:16
+msgid "Points redeeming"
+msgstr "Εξαργύρωση πόντων"
+
+#: plugin-options/redeem/standard-options.php:22
+#, fuzzy
+msgid "Allow users to redeem points"
+msgstr "Επιτρέψτε στους χρήστες να εξαργυρώνουν πόντους"
+
+#: plugin-options/redeem/standard-options.php:23
+#, fuzzy
+msgid ""
+"Choose if a user can redeem points automatically or if you want to manage "
+"points redeeming manually"
+msgstr ""
+"Επιλέξτε αν ο χρήστης μπορεί να εξαργυρώνει πόντους αυτόματα ή αν θέλετε να "
+"διαχειρίζεται την εξαργύρωση πόντων χειροκίνητα."
+
+#: plugin-options/redeem/standard-options.php:31
+msgid "User that can redeem points"
+msgstr "Χρήστης που μπορεί να εξαργυρώνει πόντους"
+
+#: plugin-options/redeem/standard-options.php:32
+#, fuzzy
+msgid ""
+"Choose if all users can redeem points or only specified user roles can do "
+"that. "
+msgstr ""
+"Επιλέξτε αν όλοι οι χρήστες μπορούν να εξαργυρώνουν πόντους ή αν μπορούν "
+"μόνο συγκεκριμένοι ρόλοι χρήστη"
+
+#: plugin-options/redeem/standard-options.php:40
+msgid "All"
+msgstr "Όλοι"
+
+#: plugin-options/redeem/standard-options.php:52
+#, fuzzy
+msgid "User roles"
+msgstr "Συγκεκριμένοι ρόλοι χρήστη"
+
+#: plugin-options/redeem/standard-options.php:53
+msgid "Choose which user roles can redeem points"
+msgstr "Επιλέξτε ποιοι ρόλοι χρήστη μπορούν να εξαργυρώνουν πόντους"
+
+#: plugin-options/redeem/standard-options.php:70
+msgid "Reward Conversion Method"
+msgstr "Μέθοδος Μετατροπής Επιβράβευσης"
+
+#: plugin-options/redeem/standard-options.php:71
+#, fuzzy
+msgid ""
+"Choose how to apply the discount. The discount can either be a percent or a "
+"fixed amount"
+msgstr ""
+"Επιλέξτε πώς να εφαρμόζεται η έκπτωση. Η έκπτωση μπορεί να είναι ποσοστό ή "
+"σταθερό ποσό."
+
+#: plugin-options/redeem/standard-options.php:76
+msgid "Fixed Price Discount"
+msgstr "Έκπτωση Σταθερής Τιμής"
+
+#: plugin-options/redeem/standard-options.php:77
+msgid "Percentage Discount"
+msgstr "Έκπτωση Ποσοστού"
+
+#: plugin-options/redeem/standard-options.php:124
+#, fuzzy
+msgid "When redeeming, calculate the discount on the product price with:"
+msgstr "Ορίστε την μέγιστη έκπτωση που μπορεί να εφαρμοστεί σε αυτό το προϊόν."
+
+#: plugin-options/redeem/standard-options.php:125
+#, fuzzy
+msgid ""
+"Choose whether to calculate the redeem discount on prices with prices with "
+"taxes or without taxes"
+msgstr ""
+"Επιλέξτε πώς να υπολογίζεται η έκπτωση όταν οι πελάτες χρησιμοποιούν τους "
+"διαθέσιμους πόντους τους."
+
+#: plugin-options/redeem/standard-options.php:141
+#, fuzzy
+msgid "Exclude on sale products from the discount amount calculation"
+msgstr "(Απόκλιση προϊόντος από συγκέντρωση πόντων)"
+
+#: plugin-options/redeem/standard-options.php:142
+#, fuzzy
+msgid "If enabled, sale products will not be used to redeem points"
+msgstr ""
+"Αν ενεργοποιηθεί, τα προϊόντα σε έκπτωση δεν θα αναθέτουν πόντους στους "
+"χρήστες"
+
+#: plugin-options/redeem/standard-options.php:154
+msgid "Automatically redeem points on Cart/Checkout Page"
+msgstr "Αυτόματη εξαργύρωση πόντων στην Σελίδα Καλαθιού/Ταμείου"
+
+#: plugin-options/redeem/standard-options.php:155
+msgid "Enable to automatically apply points on the cart/checkout page"
+msgstr "Ενεργοποίηση αυτόματης εφαρμογής πόντων στη σελίδα καλαθιού/ταμείου"
+
+#: plugin-options/redeem/standard-options.php:168
+msgid "Redeem box style"
+msgstr "Στυλ κουτιού εξαργύρωσης"
+
+#: plugin-options/redeem/standard-options.php:169
+msgid "Choose the style for the redeem points section"
+msgstr "Επιλέξτε το στυλ για την ενότητα εξαργύρωσης πόντων"
+
+#: plugin-options/redeem/standard-options.php:173
+msgid "Default"
+msgstr "Προεπιλεγμένο"
+
+#: plugin-options/redeem/standard-options.php:174
+msgid "Custom"
+msgstr "Προσαρμογή"
+
+#: plugin-options/redeem/standard-options.php:186
+msgid "Redeem message in Cart and Checkout"
+msgstr "Μήνυμα εξαργύρωσης στο Καλάθι και Ταμείο"
+
+#: plugin-options/redeem/standard-options.php:200
+msgid "Offer free shipping when user redeem"
+msgstr "Προσφέρετε δωρεάν αποστολή κατα την εξαργύρωση χρήστη"
+
+#: plugin-options/redeem/standard-options.php:201
+#, fuzzy
+msgid ""
+"Enable to offer free shipping to users that redeem their points. A free "
+"shipping method must be enabled and set up in your shipping zones to "
+"generate “a valid free shipping coupon”"
+msgstr ""
+"Ενεργοποίηση προσφοράς δωρεάν αποστολής σε χρήστες που εξαργυρώνουν τους "
+"πόντους τους. Η δωρεάν μέθοδος αποστολής θα πρέπει να ενεργοποιηθεί και "
+"οριστεί στις ζώνες αποστολής σας δημιουργώντας “ένα έγκυρο κουπόνι δωρεάν "
+"αποστολής“."
+
+#: plugin-options/redeem/standard-options.php:213
+msgid "Coupons allowed"
+msgstr "Κουπόνια που επιτρέπονται"
+
+#: plugin-options/redeem/standard-options.php:214
+#, fuzzy
+msgid ""
+"Select if you want to allow the use of point-redemption coupons, WooCommerce "
+"coupons or both"
+msgstr ""
+"Επιλέξτε αν θέλετε να επιτρέπετε την χρήση κουπονιών εξαργύρωσης πόντων, των "
+"κουπονιών WooCommerce ή και τα δυο."
+
+#: plugin-options/redeem/standard-options.php:218
+msgid "Use only WooCommerce coupons"
+msgstr "Χρησιμοποιήστε μόνο κουπόνια WooCommerce"
+
+#: plugin-options/redeem/standard-options.php:219
+msgid "Use only points-redemption coupon"
+msgstr "Χρησιμοποιήστε μόνο κουπόνια εξαργύρωσης πόντων"
+
+#: plugin-options/redeem/standard-options.php:220
+msgid "Use both coupons"
+msgstr "Χρησιμοποιήστε και τα δυο κουπόνια"
+
+#: plugin-options/redeem/standard-options.php:237
+msgid "Redeeming restrictions"
+msgstr "Περιορισμοί εξαργύρωσης"
+
+#: plugin-options/redeem/standard-options.php:243
+msgid "Apply redeeming restrictions"
+msgstr "Εφαρμογή περιορισμών εξαργύρωσης"
+
+#: plugin-options/redeem/standard-options.php:244
+#, fuzzy
+msgid "Enable to setup redeeming restrictions for your users"
+msgstr "Ενεργοποίηση ορισμού περιορισμών εξαργύρωσης για τους χρήστες σας."
+
+#: plugin-options/redeem/standard-options.php:257
+#, fuzzy
+msgid "Minimum discount users can get"
+msgstr "Οι χρήστες μέγιστης έκπτωσης λαμβάνουν"
+
+#: plugin-options/redeem/standard-options.php:258
+#: plugin-options/redeem/standard-options.php:272
+#, fuzzy
+msgid ""
+"( in %) Set minimum discount percentage allowed in cart when redeeming points"
+msgstr ""
+"( σε %) Ορίστε το επιτρεπόμενο ποσοστό μέγιστης έκπτωσης για το καλάθι κατα "
+"την εξαργύρωση πόντων."
+
+#: plugin-options/redeem/standard-options.php:271
+#: plugin-options/redeem/standard-options.php:285
+msgid "Maximum discount users can get"
+msgstr "Οι χρήστες μέγιστης έκπτωσης λαμβάνουν"
+
+#: plugin-options/redeem/standard-options.php:286
+#, fuzzy
+msgid ""
+"Set the maximum discount amount that your users can get when they redeem "
+"their points"
+msgstr ""
+"Ορίστε το ποσοστό μέγιστης έκπτωσης που μπορούν να λάβουν κατα την "
+"εξαργύρωση των πόντων τους."
+
+#: plugin-options/redeem/standard-options.php:297
+msgid "Minimum cart amount to redeem points"
+msgstr "Ελάχιστο ποσό καλαθιού για εξαργύρωση πόντων"
+
+#: plugin-options/redeem/standard-options.php:298
+#, fuzzy
+msgid "Set the minimum cart amount required to redeem points"
+msgstr "Ορίστε το ελάχιστο απαιτούμενο ποσό καλαθιού για εξαργύρωση πόντων."
+
+#: plugin-options/redeem/standard-options.php:312
+msgid "Minimum discount required to redeem"
+msgstr "Ελάχιστη απαιτούμενη έκπτωση για εξαργύρωση"
+
+#: plugin-options/redeem/standard-options.php:313
+#, fuzzy
+msgid "Set the minimum discount to redeem points"
+msgstr "Ορίστε την ελάχιστη έκπτωση για εξαργύρωση πόντων."
+
+#: plugin-options/redeem/standard-options.php:325
+msgid "Maximum discount for a single product"
+msgstr "Μέγιστη έκπτωση για απλό προϊόν"
+
+#: plugin-options/redeem/standard-options.php:326
+#, fuzzy
+msgid "Set the maximum discount that can be applied per product"
+msgstr "Ορίστε την μέγιστη έκπτωση που μπορεί να εφαρμοστεί σε αυτό το προϊόν."
+
+#: plugin-options/redeem-options.php:21
+#, fuzzy
+msgid "Redeem Rules"
+msgstr "Στυλ κουτιού εξαργύρωσης"
+
+#: templates/emails/latest-updates.php:52 views/tabs/bulk-actions.php:16
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: templates/myaccount/my-points-view.php:15
+msgid "You must to be logged in to view your points."
+msgstr "Πρέπει να είστε συνδεδεμένοι για να δείτε τους πόντους σας."
+
+#: templates/myaccount/my-points-view.php:24
+msgid "You are not enabled to see this page."
+msgstr ""
+
+#: templates/myaccount/my-points-view.php:99 views/tabs/customer-history.php:83
+msgid "Points history"
+msgstr "Ιστορικό πόντων"
+
+#: templates/myaccount/my-points-view.php:104
+#, fuzzy
+msgid "Targets to achieve"
+msgstr "Στόχος επετεύχθη - Γενέθλια"
+
+#: templates/myaccount/my-points-view.php:109
+#, fuzzy
+msgid "Get points!"
+msgstr "Επαναφορά πόντων"
+
+#: templates/myaccount/my-points-view.php:114
+#, fuzzy
+msgid "Manage points"
+msgstr "Κανονικοί πόντοι"
+
+#: templates/myaccount/ywpar-banner-get-points-review.php:36
+#, fuzzy
+msgid "product"
+msgid_plural "products"
+msgstr[0] "ID προϊόντος"
+msgstr[1] "ID προϊόντος"
+
+#: templates/myaccount/ywpar-banner-get-points-review.php:74
+msgid "Purchased on "
+msgstr ""
+
+#: templates/myaccount/ywpar-share-points.php:79
+#: templates/myaccount/ywpar-share-points.php:97
+#, fuzzy
+msgid "Date of creation"
+msgstr "Ημερομηνία γέννησης"
+
+#: templates/myaccount/ywpar-share-points.php:80
+#: templates/myaccount/ywpar-share-points.php:98
+msgid "Value"
+msgstr ""
+
+#: templates/myaccount/ywpar-share-points.php:81
+#: templates/myaccount/ywpar-share-points.php:99
+msgid "Code"
+msgstr ""
+
+#: templates/myaccount/ywpar-share-points.php:82
+#: templates/myaccount/ywpar-share-points.php:100
+#, fuzzy
+msgid "Expire on"
+msgstr "Πόντοι που Έληξαν"
+
+#: templates/shortcodes/ywpar-customers-points.php:27
+msgid "All time"
+msgstr ""
+
+#: templates/shortcodes/ywpar-customers-points.php:29
+msgid "Last 30 days"
+msgstr ""
+
+#: templates/shortcodes/ywpar-customers-points.php:31
+msgid "This week"
+msgstr ""
+
+#: templates/shortcodes/ywpar-customers-points.php:33
+msgid "Today"
+msgstr ""
+
+#: templates/shortcodes/ywpar-customers-points.php:90
+msgid "No results"
+msgstr ""
+
+#: views/panel/types/options-conversion-earning.php:39
+msgid "For each"
+msgstr "Για κάθε"
+
+#: views/panel/types/options-conversion-earning.php:41
+#: views/panel/types/options-role-conversion.php:74
+msgid "assign"
+msgstr "αναθέστε"
+
+#: views/panel/types/options-conversion.php:43
+#: views/panel/types/options-percentage-conversion.php:46
+#: views/panel/types/options-role-conversion.php:95
+#: views/panel/types/options-role-percentage-conversion.php:72
+msgid "discount"
+msgstr "έκπτωση"
+
+#: views/panel/types/options-expire.php:22
+msgid "Days"
+msgstr "Μέρες"
+
+#: views/panel/types/options-expire.php:23
+msgid "Months"
+msgstr "Μήνες"
+
+#: views/panel/types/options-extrapoints-levels.php:32
+#: views/panel/types/options-extrapoints-membership-plans.php:32
+#, fuzzy
+msgid "Assign"
+msgstr "αναθέστε"
+
+#: views/panel/types/options-extrapoints-levels.php:37
+#, fuzzy
+msgid "points to users with level"
+msgstr "Προσθήκη πόντων σε χρήστες"
+
+#: views/panel/types/options-extrapoints-levels.php:56
+#: views/panel/types/options-extrapoints-membership-plans.php:56
+#: views/panel/types/options-extrapoints-multi.php:92
+#: views/panel/types/options-extrapoints.php:75
+msgid "+ Add rule"
+msgstr "+ Προσθήκη κανόνα"
+
+#: views/panel/types/options-extrapoints-membership-plans.php:37
+#, fuzzy
+msgid "points to member of"
+msgstr "Προσθήκη πόντων σε χρήστες"
+
+#: views/panel/types/options-extrapoints-multi.php:59
+msgid " spent ="
+msgstr " ξοδεύτηκε ="
+
+#: views/panel/types/options-extrapoints-multi.php:67
+#: views/panel/types/options-extrapoints.php:53
+msgid "points extra"
+msgstr "επιπλέον πόντοι"
+
+#: views/panel/types/options-extrapoints-multi.php:80
+#: views/panel/types/options-extrapoints.php:64
+msgid "repeat"
+msgstr "επανάληψη"
+
+#: views/panel/types/options-extrapoints-timing.php:18
+msgid "1st day"
+msgstr ""
+
+#: views/panel/types/options-extrapoints-timing.php:19
+msgid "Last day"
+msgstr ""
+
+#: views/panel/types/options-extrapoints-timing.php:23
+msgid "Each month"
+msgstr ""
+
+#: views/panel/types/options-extrapoints-timing.php:24
+msgid "Each week"
+msgstr ""
+
+#: views/panel/types/options-extrapoints-timing.php:41
+msgid "of:"
+msgstr ""
+
+#: views/panel/types/options-role-conversion.php:45
+#: views/panel/types/options-role-percentage-conversion.php:43
+msgid "For"
+msgstr "Για"
+
+#: views/panel/types/options-role-conversion.php:65
+#, fuzzy
+msgid "each"
+msgstr "Για κάθε"
+
+#: views/panel/types/options-role-conversion.php:109
+#: views/panel/types/options-role-percentage-conversion.php:81
+msgid "+ Add rule for same user role"
+msgstr "+ Προσθήκη κανόνα για τον ίδιο ρόλο χρήστη"
+
+#: views/panel/types/options-role-conversion.php:114
+#: views/panel/types/options-role-percentage-conversion.php:86
+msgid "+ Add rule for another user role"
+msgstr "+ Προσθήκη κανόνα για διαφορετικό ρόλο χρήστη"
+
+#: views/panel/types/shortcode-list.php:13 views/tabs/ranking-tab.php:13
+#, fuzzy
+msgid "Simple customers list"
+msgstr "επίθετο πελάτη"
+
+#: views/panel/types/shortcode-list.php:19 views/tabs/ranking-tab.php:19
+#, fuzzy
+msgid "Boxed customers list"
+msgstr "επίθετο πελάτη"
+
+#: views/panel/types/shortcode-list.php:31 views/tabs/ranking-tab.php:32
+msgid "Rank Shortcodes"
+msgstr ""
+
+#: views/panel/types/shortcode-list.php:32 views/tabs/ranking-tab.php:33
+msgid ""
+"Copy and paste these shortcodes in a custom page to show a list of your "
+"customers' points. You can also use Gutenberg Block."
+msgstr ""
+
+#: views/tabs/bulk-actions.php:19
+msgid "Reset points"
+msgstr "Επαναφορά πόντων"
+
+#: views/tabs/bulk-actions.php:20
+msgid "Add points to previous orders"
+msgstr "Πρόσθεση πόντων σε προηγούμενες παραγγελίες"
+
+#: views/tabs/bulk-actions.php:21
+msgid "Add points to users"
+msgstr "Προσθήκη πόντων σε χρήστες"
+
+#: views/tabs/bulk-actions.php:22
+msgid "Remove points to users"
+msgstr "Αφαίρεση πόντων σε χρήστες"
+
+#: views/tabs/bulk-actions.php:23
+msgid "Ban Users"
+msgstr "Αποκλεισμός Χρηστών"
+
+#: views/tabs/bulk-actions.php:24
+#, fuzzy
+msgid "Unban Users"
+msgstr "Άρση αποκλεισμού Χρήστη"
+
+#: views/tabs/bulk-actions.php:25
+#, fuzzy
+msgid "Recalculate total points"
+msgstr "Επαναφορά πόντων"
+
+#: views/tabs/bulk-actions.php:28
+msgid "Choose the action you want to execute"
+msgstr "Επιλέξτε την ενέργεια που θέλετε να εκτελέσετε"
+
+#: views/tabs/bulk-actions.php:34
+msgid "Apply action to"
+msgstr "Εφαρμογή ενέργειας σε"
+
+#: views/tabs/bulk-actions.php:35
+msgid "Choose to which users apply this action"
+msgstr "Επιλέξτε σε ποιους χρήστες να εφαρμόζετε αυτή την ενέργεια"
+
+#: views/tabs/bulk-actions.php:38
+msgid "All users"
+msgstr "Όλοι οι χρήστες"
+
+#: views/tabs/bulk-actions.php:40
+msgid "Only specified users"
+msgstr "Μόνο συγκεκριμένοι χρήστες"
+
+#: views/tabs/bulk-actions.php:52
+msgid "Choose which roles"
+msgstr "Επιλέξτε ρόλους"
+
+#: views/tabs/bulk-actions.php:53
+msgid "Choose which user roles to apply the action"
+msgstr "Επιλέξτε σε ποιους ρόλους χρήστη να εφαρμόζετε αυτή την ενέργεια"
+
+#: views/tabs/bulk-actions.php:70
+msgid "Choose which users"
+msgstr "Επιλέξτε ποιοι χρήστες"
+
+#: views/tabs/bulk-actions.php:71
+msgid "Choose which users to apply the action"
+msgstr "Επιλέξτε σε ποιους χρήστες να εφαρμόζετε αυτή την ενέργεια"
+
+#: views/tabs/bulk-actions.php:84
+msgid "Exclude users"
+msgstr "Απόκλιση χρηστών"
+
+#: views/tabs/bulk-actions.php:85
+msgid "Enable if you want to exclude specific users or user roles"
+msgstr ""
+"Ενεργοποιήστε αν θέλετε να αποκλείσετε συγκεκριμένους χρήστες ή ρόλους χρήστη"
+
+#: views/tabs/bulk-actions.php:97
+msgid "Don't apply action to"
+msgstr "Να μην εφαρμόζεται η ενέργεια σε"
+
+#: views/tabs/bulk-actions.php:98
+msgid "Set which users to apply the selected action"
+msgstr "Ορίστε σε ποιους χρήστες να εφαρμόζεται η επιλεγμένη ενέργεια"
+
+#: views/tabs/bulk-actions.php:101
+msgid "Specified users"
+msgstr "Συγκεκριμένοι χρήστες"
+
+#: views/tabs/bulk-actions.php:102
+msgid "Specified user roles"
+msgstr "Συγκεκριμένοι ρόλοι χρήστη"
+
+#: views/tabs/bulk-actions.php:114
+msgid "Choose which roles to exclude"
+msgstr "Επιλέξτε ποιοι ρόλοι να αποκλείονται"
+
+#: views/tabs/bulk-actions.php:115
+#, fuzzy
+msgid "Choose which user roles to exclude from this bulk action"
+msgstr "Επιλέξτε ποιοι ρόλοι χρήστη να αποκλείονται από την επαναφορά πόντων"
+
+#: views/tabs/bulk-actions.php:133
+msgid "Choose which users to exclude"
+msgstr "Επιλέξτε ποιοι χρήστες να αποκλείονται"
+
+#: views/tabs/bulk-actions.php:134
+#, fuzzy
+msgid "Choose which users to exclude from this bulk action"
+msgstr "Επιλέξτε ποιοι χρήστες να αποκλείονται από την επαναφορά πόντων"
+
+#: views/tabs/bulk-actions.php:148
+msgid "Set how many points."
+msgstr "Ορίστε πόσοι πόντοι."
+
+#: views/tabs/bulk-actions.php:163
+msgid ""
+"Enter a description to explain to your users the reason for the points action"
+msgstr ""
+"Εισάγετε μια περιγραφή που να εξηγείτε στους χρήστες σας την αιτία της "
+"ενέργειας των πόντων"
+
+#: views/tabs/bulk-actions.php:176
+msgid "Add points to"
+msgstr "Προσθήκη πόντων σε"
+
+#: views/tabs/bulk-actions.php:177
+msgid ""
+"Choose to assign points to all previous orders or only orders placed from a "
+"specific date. All orders from this date will be checked and points will be "
+"added to the customer's profile."
+msgstr ""
+"Επιλέξτε την ανάθεση πόντων σε όλες τις προηγούμενες παραγγελίες ή μόνο σε "
+"παραγγελίες τοποθετημένες μετά από συγκεκριμένη ημερομηνία. Όλες οι "
+"παραγγελίες από την ορισμένη ημερομηνία θα επιλέγονται και θα προσθέτονται "
+"πόντοι στο προφίλ του πελάτη."
+
+#: views/tabs/bulk-actions.php:180
+msgid "All previous orders"
+msgstr "Όλες οι προηγούμενες παραγγελίες"
+
+#: views/tabs/bulk-actions.php:181
+msgid "Orders placed from a specific date"
+msgstr "Παραγγελίες τοποθετημένες από συγκεκριμένη ημερομηνία"
+
+#: views/tabs/bulk-actions.php:218 views/tabs/customers-tab.php:20
+#, fuzzy
+msgid "< back to list"
+msgstr "< Πίσω στη λίστα"
+
+#: views/tabs/bulk-actions.php:272
+msgid "Apply Action"
+msgstr "Εφαρμογή Ενέργειας"
+
+#: views/tabs/customer-history.php:18
+#, fuzzy
+msgid "Unban user"
+msgstr "Άρση αποκλεισμού χρηστών"
+
+#: views/tabs/customer-history.php:18
+msgid "Ban user"
+msgstr "Αποκλεισμός χρήστη"
+
+#: views/tabs/customer-history.php:53
+#, fuzzy
+msgid "Email:"
+msgstr "Email: "
+
+#: views/tabs/customer-history.php:57
+msgid "Level:"
+msgstr ""
+
+#: views/tabs/customer-history.php:67
+#, fuzzy
+msgid "Total collected"
+msgstr "Συγκεντρωμένοι πόντοι:"
+
+#: views/tabs/customer-history.php:86 views/tabs/customer-list.php:19
+msgid "Search"
+msgstr ""
+
+#: views/tabs/customer-history.php:126
+msgid "Points:"
+msgstr "Πόντοι:"
+
+#: views/tabs/customer-history.php:132
+#, fuzzy
+msgid "Optional description:"
+msgstr "Προαιρετική περιγραφή:"
+
+#: views/tabs/customers-tab.php:23
+msgid "Customers' Points"
+msgstr "Πόντοι Πελατών"
+
+#: views/tabs/import_export-tab.php:21
+msgid "Import points from a CSV file"
+msgstr "Εισαγωγή πόντων από αρχείο CSV"
+
+#: views/tabs/import_export-tab.php:22
+msgid "Export points into a CSV file"
+msgstr "Εξαγωγή πόντων σε αρχείο CSV"
+
+#: views/tabs/import_export-tab.php:25 views/tabs/import_export-tab.php:38
+msgid "Choose if you want to import or export"
+msgstr "Επιλέξτε αν θέλετε να εισάγετε ή εξάγετε"
+
+#: views/tabs/import_export-tab.php:31
+#, fuzzy
+msgid "Choose the CSV format"
+msgstr "Μορφή CSV"
+
+#: views/tabs/import_export-tab.php:34
+msgid "User ID / Points"
+msgstr "ID Χρήστη / Πόντοι"
+
+#: views/tabs/import_export-tab.php:35
+msgid "User email / Points"
+msgstr "Email Χρήστη / Πόντοι"
+
+#: views/tabs/import_export-tab.php:44
+msgid "CSV import action"
+msgstr "Ενέργεια εισαγωγής CSV"
+
+#: views/tabs/import_export-tab.php:47
+msgid "Add points to current balance"
+msgstr "Πρόσθεση πόντων σε τρέχον υπόλοιπο"
+
+#: views/tabs/import_export-tab.php:48
+msgid "Override points"
+msgstr "Παράκαμψη πόντων"
+
+#: views/tabs/import_export-tab.php:51
+msgid ""
+"Choose if imported points will be added or will override the current balance."
+msgstr ""
+"Επιλέξτε αν οι εισαχθέντες πόντοι θα προστίθενται ή θα παρακάμπτονται απο το "
+"τρέχον υπόλοιπο."
+
+#: views/tabs/import_export-tab.php:57
+msgid "Delimiter Type"
+msgstr "Τύπος Οριοθέτη"
+
+#: views/tabs/import_export-tab.php:60
+msgid "Enter the delimiter type. You can use for example , / ;"
+msgstr "Εισάγετε τον τύπο οριοθέτη. Μπορείτε να επιλέξετε για παράδειγμα , / ;"
+
+#: views/tabs/import_export-tab.php:72
+msgid "Import/Export Points"
+msgstr "Εισαγωγή/Εξαγωγή Πόντων"
+
+#: views/tabs/import_export-tab.php:94
+msgid "Upload CSV file"
+msgstr "Ανέβασμα αρχείου CSV"
+
+#: views/tabs/import_export-tab.php:97
+msgid "Upload"
+msgstr "Ανέβασμα"
+
+#: views/tabs/import_export-tab.php:100
+msgid "Upload the CSV file to import points"
+msgstr "Ανέβασμα αρχείου CSV για εισαγωγή πόντων"
+
+#: views/tabs/import_export-tab.php:110
+msgid "Start"
+msgstr "Έναρξη"
+
+#. Description of the plugin/theme
+msgid ""
+"With <code><strong>YITH WooCommerce Points and Rewards</strong></code> you "
+"can start a rewards program with points to gain your customers' loyalty. "
+"Your customers will be able to use their points to get discounts making it a "
+"perfect marketing strategy for your store. <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</"
+"strong></a>."
+msgstr ""
+"Με το <code><strong>YITH WooCommerce Points and Rewards</strong></code> "
+"μπορείτε να ξεκινήσετε ένα πρόγραμμα επιβραβεύσεων με πόντους κερδίζοντας "
+"την εμπιστοσύνη του πελάτη σας. Οι πελάτες σας θα μπορούν να χρησιμοποιήσουν "
+"τους πόντους τους για να κερδίσουν εκπτώσεις, δημιουργώντας την τέλεια "
+"στρατηγική marketing για το κατάστημά σας. <a href=“https://yithemes.com/“ "
+"target=“_blank”>Βρείτε περισσότερα πρόσθετα για το ηλεκτρονικό σας κατάστημα "
+"στο <strong>YITH</strong></a>."
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:214
+#, fuzzy
+msgctxt "Customer Points action"
+msgid "Add points"
+msgstr "Προσθήκη πόντων σε"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:224
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:299
+#, fuzzy
+msgctxt "Customer Points action"
+msgid "Remove points"
+msgstr "Επαναφορά πόντων"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:235
+#, fuzzy
+msgctxt "Customer Points action"
+msgid "Remove all points"
+msgstr "Επαναφορά πόντων"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:285
+#, fuzzy
+msgctxt "Customer Points action"
+msgid "View history"
+msgstr "Προβολή Ιστορικού"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:314
+#, fuzzy
+msgctxt "Customer Points action"
+msgid "Unban user"
+msgstr "Άρση αποκλεισμού χρηστών"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:328
+#, fuzzy
+msgctxt "Customer Points action"
+msgid "Ban user"
+msgstr "Αποκλεισμός χρήστη"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:355
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:258
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:218
+msgctxt "Admin action label to activate post type"
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:356
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:259
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:219
+msgctxt "Admin action label to deactivate post type"
+msgid "Deactivate"
+msgstr ""
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:357
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:260
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:221
+msgctxt "Admin action label to delete a post type"
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:80
+#, fuzzy
+msgctxt "Message that appears when a post is updated"
+msgid "Banner updated"
+msgstr "αποκλεισμένος"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:78
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:79
+#, fuzzy
+msgctxt "Message that appears when a post is updated"
+msgid "Rule updated"
+msgstr "Τύπος email"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:79
+#, fuzzy
+msgctxt "Message that appears when a post is updated"
+msgid "Level updated"
+msgstr "Όνομα ιστότοπου"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:81
+#, fuzzy
+msgctxt "Message that appears when a post is published"
+msgid "Banner published"
+msgstr "αποκλεισμένος"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:79
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:80
+#, fuzzy
+msgctxt "Message that appears when a post is published"
+msgid "Rule published"
+msgstr "Τύπος email"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:80
+msgctxt "Message that appears when a post is published"
+msgid "Level published"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:118
+msgctxt "Description for Banner list table"
+msgid ""
+"Banners are shown in the “My Account” page. You can use banners to create "
+"targets to achieve for your users and push them to collect points."
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:184
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:184
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:145
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:184
+msgctxt "Post action"
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:193
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:193
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:154
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:193
+msgctxt "Delete confirmation action"
+msgid "Yes, delete"
+msgstr ""
+
+#. translators: placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:423
+msgctxt "placeholder is an html tag"
+msgid ""
+"You have no banners created yet.%1$sCreate your first one to show in your "
+"customer's account %1$sand push him to collect points."
+msgstr ""
+
+#. translators:placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:326
+msgctxt "placeholder is an html tag"
+msgid "You have no points rules created yet.%1$sCreate now your first one!"
+msgstr ""
+
+#. translators: placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:369
+msgctxt "placeholder is an html tag"
+msgid "You have no points levels created yet.%1$sCreate now your first one!"
+msgstr ""
+
+#. translators: placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:399
+msgctxt "placeholder is an html tag"
+msgid "You have no redeeming rules created yet.%1$sCreate now your first one!"
+msgstr ""
+
+#. translators: placeholder is an html tag.
+#: plugin-options/metaboxes/banners-options.php:106
+msgctxt "placeholder is an html tag"
+msgid ""
+"Choose the banner action type.%s To create target banners you need to enable "
+"extra points options first."
+msgstr ""
+
+#. translators:Description of Points Rules. Placeholder are tag html.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:112
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:113
+msgctxt "Description of Points Rules. Placeholder are tag html."
+msgid ""
+"Please note: rules applied to products have a higher priority by default. "
+"%1$sRead the documentation to better understand how rules work >%2$s"
+msgstr ""
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:220
+#, fuzzy
+msgctxt "Admin action label to associate the levels to the customers"
+msgid "Associate to customers"
+msgstr "Ανάθεση πόντων σε χρήστη"
+
+#: includes/class-yith-wc-points-rewards-admin.php:201
+msgctxt "[HELP TAB] Video title"
+msgid ""
+"Check this video to learn how to set up a <b>points and rewards system</b> "
+"in your shop:"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-ajax.php:208
+msgctxt "Name of duplicated rule"
+msgid " - Copy"
+msgstr ""
+
+#. translators: subscription number.
+#: includes/class-yith-wc-points-rewards-ajax.php:287
+#: includes/class-yith-wc-points-rewards-ajax.php:323
+#: includes/class-yith-wc-points-rewards-ajax.php:349
+#: includes/class-yith-wc-points-rewards-ajax.php:375
+#: includes/class-yith-wc-points-rewards-ajax.php:401
+#: includes/class-yith-wc-points-rewards-ajax.php:426
+#: includes/class-yith-wc-points-rewards-ajax.php:450
+msgctxt "Error message during admin actions"
+msgid "Some fields are missing"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-ajax.php:463
+msgctxt "Error message during share points coupon creation"
+msgid "You have not enough points to create this coupon"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-ajax.php:474
+#, fuzzy
+msgctxt "Error message during share points coupon creation"
+msgid "Please check the number of points to share."
+msgstr "Αυτό το email στέλνεται όταν ο αριθμός των πόντων χρήστη αλλάζει"
+
+#: includes/class-yith-wc-points-rewards-assets.php:82
+#, fuzzy
+msgctxt "Customer add points title"
+msgid "Add points to the customer"
+msgstr "Προσθήκη πόντων σε χρήστες"
+
+#: includes/class-yith-wc-points-rewards-assets.php:83
+#, fuzzy
+msgctxt "Customer add points save button"
+msgid "Add points"
+msgstr "Προσθήκη πόντων σε"
+
+#: includes/class-yith-wc-points-rewards-assets.php:84
+#, fuzzy
+msgctxt "Customer remove points title"
+msgid "Remove points from the customer"
+msgstr "Αφαίρεση πόντων σε χρήστες"
+
+#: includes/class-yith-wc-points-rewards-assets.php:85
+#, fuzzy
+msgctxt "Customer remove points save button"
+msgid "Remove points"
+msgstr "Επαναφορά πόντων"
+
+#: includes/class-yith-wc-points-rewards-assets.php:86
+#, fuzzy
+msgctxt "Customer remove points save button"
+msgid "Remove all points "
+msgstr "Αφαίρεση πόντων σε χρήστες"
+
+#: includes/class-yith-wc-points-rewards-assets.php:87
+#, fuzzy
+msgctxt "Customer remove points confirmation message"
+msgid "Are you sure to remove all points of the customer?"
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να επαναφέρετε όλους τους πόντους; Αυτή η "
+"διαδικασία είναι μη αναστρέψιμη"
+
+#: includes/class-yith-wc-points-rewards-assets.php:88
+#, fuzzy
+msgctxt "Customer remove points confirmation message for bulk action"
+msgid "Are you sure to remove all points of the selected customers?"
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να επαναφέρετε όλους τους πόντους; Αυτή η "
+"διαδικασία είναι μη αναστρέψιμη"
+
+#. translators:First placeholder: user id; second placeholder: user first name;
+#. third placeholder: user last name.
+#: includes/class-yith-wc-points-rewards-customer.php:437
+msgctxt ""
+"First placeholder: user id; second placeholder: user first name; third "
+"placeholder: user last name"
+msgid "#%1$d - %2$s %3$s"
+msgstr "#%1$d - %2$s %3$s"
+
+#. translators:First placeholder: user id; second placeholder: user display
+#. name.
+#: includes/class-yith-wc-points-rewards-customer.php:440
+msgctxt "First placeholder: user id; second placeholder: user display name"
+msgid "#%1$d - %2$s"
+msgstr "#%1$d - %2$s"
+
+#. translators: First placeholder: number of points; second placeholder: label
+#. of points.
+#: includes/class-yith-wc-points-rewards-earning.php:228
+#: includes/class-yith-wc-points-rewards-orders.php:320
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:131
+msgctxt ""
+"First placeholder: number of points; second placeholder: label of points"
+msgid "Customer earned %1$d %2$s for this purchase."
+msgstr "Ο πελάτης κέρδισε %1$d %2$s για αυτή την αγορά."
+
+#. translators:First placeholder: number of points; second placeholder: label
+#. of points.
+#: includes/class-yith-wc-points-rewards-orders.php:145
+msgctxt ""
+"First placeholder: number of points; second placeholder: label of points"
+msgid "Removed %1$d %2$s for order %3$s."
+msgstr "Αφαιρέθηκαν %1$d %2$s για την παραγγελία %3$s."
+
+#. translators:First placeholder: number of points; second placeholder: label
+#. of points.
+#: includes/class-yith-wc-points-rewards-orders.php:576
+#, fuzzy
+msgctxt ""
+"First placeholder: number of points; second placeholder: label of points"
+msgid "Customer redeemed %1$d %2$s to get a reward"
+msgstr "%1$d %2$s για να λάβετε μια επιβράβευση"
+
+#. translators: 'First placeholder: number of points; second placeholder:
+#. reason'.
+#: includes/class-yith-wc-points-rewards-orders.php:611
+#, fuzzy
+msgctxt ""
+"First placeholder: number of points; second placeholder: label of points"
+msgid "Removed %1$s for %2$s."
+msgstr "Αφαιρέθηκαν %1$d %2$s για την παραγγελία %3$s."
+
+#. translators: First placeholder: number of points; second and third
+#. placeholders: label of points plural and singular.
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:98
+#, fuzzy
+msgctxt ""
+"First placeholder: number of points; second placeholder: label of points"
+msgid "<strong>%1$s</strong> %2$s"
+msgid_plural "<strong>%1$s</strong> %3$s"
+msgstr[0] "<strong>%1$s</strong> %2$s"
+msgstr[1] "<strong>%3$s</strong> %4$s"
+
+#. translators: Total number of orders updated.
+#: includes/class-yith-wc-points-rewards-orders.php:285
+msgctxt "Total number of orders updated."
+msgid "<strong>%d</strong> order has been updated"
+msgid_plural "<strong>%d</strong> orders have been updated"
+msgstr[0] "<strong>%d</strong> παραγγελία έχει ενημερωθεί"
+msgstr[1] "<strong>%d</strong> παραγγελίες έχουν ενημερωθεί"
+
+#. translators: 'First placeholder: number of points; second placeholder:
+#. reason of action'.
+#: includes/class-yith-wc-points-rewards-orders.php:648
+#, fuzzy
+msgctxt ""
+"First placeholder: number of points; second placeholder: reason of action"
+msgid "Returned %1$s to customer for %2$s."
+msgstr "Προστέθηκαν %1$d %2$s για την παραγγελία %3$s."
+
+#. translators:First placeholder: number of point; second placeholder: label of
+#. points.
+#: includes/class-yith-wc-points-rewards-orders.php:737
+#, fuzzy
+msgctxt ""
+"First placeholder: number of point; second placeholder: label of points"
+msgid "Removed %1$d %2$s to customer for order refund."
+msgstr "Αφαιρέθηκαν %1$d %2$s για την επιστροφή παραγγελίας."
+
+#: includes/class-yith-wc-points-rewards-post-types.php:100
+msgctxt "Post Type General Name"
+msgid "Levels & Badges"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:135
+#, fuzzy
+msgctxt "Post Type General Name"
+msgid "Banners"
+msgstr "αποκλεισμένος"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:170
+#, fuzzy
+msgctxt "Post Type General Name"
+msgid "Points assignment rules"
+msgstr "Ανάθεση Πόντων"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:205
+#, fuzzy
+msgctxt "Post Type General Name"
+msgid "Points redeeming rules"
+msgstr "Εξαργύρωση πόντων"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:101
+msgctxt "Post Type Singular Name"
+msgid "Levels & Badges"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-post-types.php:136
+#, fuzzy
+msgctxt "Post Type Singular Name"
+msgid "Banner"
+msgstr "αποκλεισμένος"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:171
+#, fuzzy
+msgctxt "Post Type Singular Name"
+msgid "Points assignment rule"
+msgstr "Ανάθεση Πόντων"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:206
+#, fuzzy
+msgctxt "Post Type Singular Name"
+msgid "Points redeeming rule"
+msgstr "Εξαργύρωση πόντων"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:322
+msgctxt "Name of duplicated post type"
+msgid " - Copy"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:165
+msgctxt "20% on order total"
+msgid "on order total"
+msgstr "στο σύνολο παραγγελίας"
+
+#. translators: Placeholder is the id of the customer.
+#: includes/class-yith-wc-points-rewards-referral.php:233
+#, fuzzy
+msgctxt "Placeholder is the id of the customer."
+msgid "Points from registration of a new customer"
+msgstr "Πόντοι προς ανάθεση για νέους χρήστες"
+
+#. translators: Placeholder is the if of the order.
+#: includes/class-yith-wc-points-rewards-referral.php:323
+msgctxt " Placeholder is the if of the order."
+msgid "Points removed from order with id %1$s because the user has been banned"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-referral.php:383
+#: includes/class-yith-wc-points-rewards-share-points.php:281
+msgctxt "Copy-to-clipboard message"
+msgid "Copied!"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-referral.php:387
+#: includes/class-yith-wc-points-rewards-share-points.php:285
+msgctxt "Copy-to-clipboard button text"
+msgid "Copy"
+msgstr ""
+
+#. translators: Placeholder number of points and customer name.
+#: includes/class-yith-wc-points-rewards-share-points.php:190
+msgctxt "Placeholder number of points and customer name"
+msgid "Converted %1$s by the customer %2$s"
+msgstr ""
+
+#. translators:Placeholder is the coupon code.
+#: includes/class-yith-wc-points-rewards-share-points.php:203
+#, fuzzy
+msgctxt ""
+"Text displayed inside the history table. Placeholder is the coupon code."
+msgid "Created coupon: %s"
+msgstr "Διαγραφή χρησιμοποιημένων κουπονιών"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:229
+msgctxt "the shared point coupon has beed used"
+msgid "Used"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-share-points.php:231
+#, fuzzy
+msgctxt "the shared point coupon has beed used"
+msgid "Expired"
+msgstr "Πόντοι που Έληξαν"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:233
+#, fuzzy
+msgctxt "the shared point coupon is still valid"
+msgid "Not used"
+msgstr "Δεν βρέθηκαν χρήστες"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:239
+msgctxt "the shared point coupon is still valid"
+msgid "Deleted"
+msgstr ""
+
+#. translators: First placeholder: number of points; second and third
+#. placeholder: labels of points.
+#: includes/class-yith-wc-points-rewards-shortcodes.php:325
+#, fuzzy
+msgctxt ""
+"First placeholder: number of points; second and third placeholder: labels of "
+"points"
+msgid "<strong>%1$s</strong> %2$s"
+msgid_plural "<strong>%1$s</strong> %3$s"
+msgstr[0] "<strong>%1$s</strong> %2$s"
+msgstr[1] "<strong>%3$s</strong> %4$s"
+
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:343
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:348
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:413
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:419
+#, fuzzy
+msgctxt "yith-woocommerce-points-and-rewards"
+msgid "Imported rule"
+msgstr "Εισαγωγή"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:175
+#, fuzzy
+msgctxt "Reason to show when the customer earns points from recurring payment"
+msgid "Renew order label"
+msgstr "Επιγραφή παραγγελίας ανανέωσης"
+
+#. translators: Placeholder: subject.
+#: includes/emails/class-yith-ywpar-expiration.php:196
+#: includes/emails/class-yith-ywpar-update-points.php:190
+msgctxt "Placeholder: subject"
+msgid ""
+"This field lets you edit the email subject line. Leave it blank to use the "
+"default subject text: <code>%s</code>."
+msgstr ""
+"Αυτό το πεδίο σας επιτρέπει να αλλάξετε την γραμμή θέματος email. Διατηρήστε "
+"κενό για να χρησιμοποιήσετε το προεπιλεγμένο κείμενο θέματος: <code>%s</"
+"code>."
+
+#. translators: Placeholder: admin email.
+#: includes/emails/class-yith-ywpar-expiration.php:204
+#: includes/emails/class-yith-ywpar-update-points.php:198
+msgctxt "Placeholder: admin email"
+msgid ""
+"Enter recipients (separated by commas) for this email. Defaults to <code>%s</"
+"code>"
+msgstr ""
+"Εισάγετε παραλήπτες (διαχωρίστε με κόμμα) για αυτό το email. Προεπιλεγμένα "
+"σε <code>%s</code>"
+
+#. translators: Placeholder: email heading.
+#: includes/emails/class-yith-ywpar-expiration.php:213
+#: includes/emails/class-yith-ywpar-update-points.php:206
+msgctxt "Placeholder: email heading"
+msgid ""
+"This field lets you change the main heading in email notification. Leave it "
+"blank to use the default heading type: <code>%s</code>."
+msgstr ""
+"Αυτό το πεδίο σας επιτρέπει να αλλάξετε την βασική επικεφαλίδα της "
+"ειδοποίησης email. Διατηρήστε κενό για να χρησιμοποιήσετε τoν προεπιλεγμένο "
+"τύπο επικεφαλίδας: <code>%s</code>."
+
+#: plugin-options/customization-options.php:55
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"{points} number of points earned;<br>{points_label} of points;"
+"<br>{price_discount_fixed_conversion} the value corresponding to points"
+msgstr ""
+"{points} αριθμός κερδισμένων πόντων;<br>{points_label} πόντων;"
+"<br>{price_discount_fixed_conversion} η αξία που αντιστοιχεί σε πόντους"
+
+#: plugin-options/customization-options.php:58
+msgctxt "do not translate the text inside the brackets"
+msgid "<strong>{points}</strong> {points_label}"
+msgstr "<strong>{points}</strong> {points_label}"
+
+#: plugin-options/customization-options.php:131
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"{points} number of points earned;<br>{points_label} of points;"
+"<br>{price_discount_fixed_conversion} the value corresponding to points "
+msgstr ""
+"{points} αριθμός κερδισμένων πόντων;<br>{points_label} πόντων;"
+"<br>{price_discount_fixed_conversion} η αξία που αντιστοιχεί σε πόντους "
+
+#: plugin-options/customization-options.php:134
+#, fuzzy
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"Purchase this item and get <strong>{points} {points_label}</strong> - a "
+"worth of <strong>{price_discount_fixed_conversion}</strong>"
+msgstr ""
+"Αν αγοράσετε αυτό το προϊόν θα κερδίσετε <strong>{points}</strong> "
+"{points_label} αξίας {price_discount_fixed_conversion}!"
+
+#: plugin-options/customization-options.php:274
+#: plugin-options/customization-options.php:298
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"If you proceed to checkout, you will earn <strong>{points}</strong> "
+"{points_label}!"
+msgstr ""
+"Αν μεταβείτε στο ταμείο, θα κερδίσετε <strong>{points}</strong> "
+"{points_label}!"
+
+#: plugin-options/emails-options.php:43
+#, fuzzy
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"You can use the following placeholders,<br>\n"
+"                {username} = customer's username <br>\n"
+"                {first_name} = customer's  first name <br>\n"
+"                {last_name} = customer's last name <br>\n"
+"                {expiring_points} = expiring points <br>\n"
+"                {label_points} = label for points <br>\n"
+"                {expiring_date} = points expiry date<br>\n"
+"                {total_points} = current balance<br>\n"
+"                {shop_url} = url of the shop<br>\n"
+"                {discount} = value of the discount<br>\n"
+"\t\t\t\t{website_name} = website name"
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε τα ακόλουθα κείμενα υποκατάστασης,<br>\n"
+"\n"
+"                {username} = όνομα χρήστη πελάτη <br>\n"
+"\n"
+"                {first_name} = όνομα  χρήστη <br>\n"
+"\n"
+"                {last_name} = επίθετο χρήστη <br>\n"
+"\n"
+"                {expiring_points} = πόντοι προς λήξη <br>\n"
+"\n"
+"                {label_points} = επιγραφή πόντων <br>\n"
+"\n"
+"                {expiring_date} = ημερομηνία λήξης πόντων <br>\n"
+"\n"
+"                {total_points} = τρέχον υπόλοιπο <br>\n"
+"\n"
+"                {shop_url} = url καταστήματος<br>\n"
+"\n"
+"                {discount} = αξία έκπτωσης<br>\n"
+"\n"
+"\t\t\t\t{website_name} = όνομα ιστότοπου"
+
+#: plugin-options/emails-options.php:60
+#, fuzzy
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"Hi {username}!\n"
+"\t\t\t\n"
+"We send you this message because the <b>{expiring_points} {label_points}</b> "
+"you've already earned in our shop will expire on {expiring_date}.\n"
+"\n"
+"<div class=\"points_banner\">\n"
+"Use them now to get a <b>discount of {discount}</b> in your purchase!\n"
+"<a href=\"{shop_url}\">Check our shop now ></a>\n"
+"</div>\n"
+"\n"
+"Regards,\n"
+"{website_name} staff\n"
+msgstr ""
+"Γεια σας {username}!\n"
+"\n"
+"\t\t\t\n"
+"\n"
+"Σας στέλνουμε αυτό το μήνυμα γιατί οι <b>{expiring_points} {label_points}</"
+"b> που έχετε κερδίσει μέχρι στιγμής στο κατάστημά μας θα λήξουν στις "
+"{expiring_date}.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"<div class=“points_banner”>\n"
+"\n"
+"Χρησιμοποιήστε τους τώρα για να λάβετε μια <b>έκπτωση των {discount}</b> για "
+"την αγορά σας!\n"
+"\n"
+"<a href=“{shop_url}”>Ανακαλύψτε το κατάστημά μας τώρα ></a>\n"
+"\n"
+"</div>\n"
+"\n"
+"\n"
+"\n"
+"Φιλικά,\n"
+"\n"
+"{website_name} προσωπικό\n"
+"\n"
+
+#: plugin-options/emails-options.php:153
+#, fuzzy
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"Hi {username}!\n"
+"\t\t\t\n"
+"Here you can find the updated balance of your {label_points}.\n"
+" \n"
+" <div class=\"points_banner\">\n"
+" Total points collected: <b>{total_points}</b>\n"
+" <a href=\"{shop_url}\">Redeem them in your next order ></a>\n"
+"</div>\n"
+"\n"
+" Well done!\n"
+" {website_name} staff"
+msgstr ""
+"Γεια σας{username}!\n"
+"\n"
+"\t\t\t\n"
+"\n"
+"Εδώ μπορείτε να βρείτε το ενημερωμένο υπόλοιπο των {label_points}.\n"
+"\n"
+" \n"
+"\n"
+" <div class=“points_banner”>\n"
+"\n"
+"Σύνολο συγκεντρωμένων πόντων: <b>{total_points}</b>\n"
+"\n"
+" <a href=“{shop_url}”>Εξαργυρώστε τους στην επόμενη παραγγελία σας></a>\n"
+"\n"
+"</div>\n"
+"\n"
+"\n"
+"\n"
+"Συγχαρητήρια!\n"
+"\n"
+" {website_name} προσωπικό"
+
+#: plugin-options/redeem/standard-options.php:187
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+" Enter the redeem message to show in cart and checkout page. <br />You can "
+"use these placeholders:<br />{points} number of points earned;"
+"<br>{points_label} of points;<br>{max_discount} maximum discount value"
+msgstr ""
+" Εισάγετε το μήνυμα εξαργύρωσης που θα εμφανίζεται στη σελίδα καλαθιού και "
+"ταμείου. <br />Μπορείτε να χρησιμοποιήσετε αυτά τα κείμενα υποκατάστασης:"
+"<br />{points} αριθμός κερδισμένων πόντων;<br>{points_label} πόντων;"
+"<br>{max_discount} μέγιστη αξία έκπτωσης"
+
+#: plugin-options/redeem/standard-options.php:190
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"Use <strong>{points}</strong> {points_label} for a <strong>{max_discount}</"
+"strong> discount on this order!"
+msgstr ""
+"Χρησιμοποιήστε <strong>{points}</strong> {points_label} για "
+"<strong>{max_discount}</strong> έκπτωση σε αυτή τη παραγγελία!"
+
+#: plugin-options/gutenberg/blocks.php:36
+#, fuzzy
+msgctxt "[gutenberg]: block name"
+msgid "Best user list - YITH WooCommerce Points and Rewards"
+msgstr "Points and Rewards"
+
+#: plugin-options/gutenberg/blocks.php:75
+#, fuzzy
+msgctxt "[gutenberg]: block name"
+msgid "Customer Total points - YITH WooCommerce Points and Rewards"
+msgstr "YITH WooCommerce Points and Rewards"
+
+#: plugin-options/gutenberg/blocks.php:95
+#, fuzzy
+msgctxt "[gutenberg]: block name"
+msgid "Points message on product page - YITH WooCommerce Points and Rewards"
+msgstr "Εφαρμογή Πόντων από το WooCommerce Points and Rewards"
+
+#: plugin-options/gutenberg/blocks.php:37
+#, fuzzy
+msgctxt "[gutenberg]: block description"
+msgid "Show the list of best customers."
+msgstr "Εμφάνιση Όλων των Πελατών"
+
+#: plugin-options/gutenberg/blocks.php:76
+#, fuzzy
+msgctxt "[gutenberg]: block description"
+msgid "Show customer credit points."
+msgstr "Πόντοι πελατών"
+
+#: plugin-options/gutenberg/blocks.php:96
+#, fuzzy
+msgctxt "[gutenberg]: block description"
+msgid "Show a single product page message"
+msgstr "Μήνυμα Σελίδας Απλού Προϊόντος"
+
+#: plugin-options/gutenberg/blocks.php:43
+#, fuzzy
+msgctxt "[gutenberg]: keywords"
+msgid "YITH"
+msgstr "YITH"
+
+#: plugin-options/gutenberg/blocks.php:44
+#: plugin-options/gutenberg/blocks.php:82
+#: plugin-options/gutenberg/blocks.php:102
+#, fuzzy
+msgctxt "[gutenberg]: keywords"
+msgid "Points and Rewards"
+msgstr "Points and Rewards"
+
+#: plugin-options/gutenberg/blocks.php:45
+#, fuzzy
+msgctxt "[gutenberg]: keywords"
+msgid "Points and Rewards Widget"
+msgstr "Points and Rewards"
+
+#: plugin-options/gutenberg/blocks.php:83
+#, fuzzy
+msgctxt "[gutenberg]: keywords"
+msgid "Points"
+msgstr "Πόντοι"
+
+#: plugin-options/gutenberg/blocks.php:103
+#, fuzzy
+msgctxt "[gutenberg]: keywords"
+msgid "Points message"
+msgstr "Στρογγυλοποίηση Πόντων"
+
+#: plugin-options/gutenberg/blocks.php:50
+#, fuzzy
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Style of list"
+msgstr "Ημερομηνία γέννησης"
+
+#: plugin-options/gutenberg/blocks.php:88
+#, fuzzy
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Text before points"
+msgstr "επιγραφή πόντων"
+
+#: plugin-options/gutenberg/blocks.php:108
+#, fuzzy
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Product id"
+msgstr "ID προϊόντος"
+
+#: plugin-options/gutenberg/blocks.php:113
+#, fuzzy
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: plugin-options/gutenberg/blocks.php:53
+msgctxt "[gutenberg]: Label for gutenberg attribute"
+msgid "Simple"
+msgstr ""
+
+#: plugin-options/gutenberg/blocks.php:54
+msgctxt "[gutenberg]: Label for gutenberg attribute"
+msgid "Boxed"
+msgstr ""
+
+#: plugin-options/gutenberg/blocks.php:89
+#, fuzzy
+msgctxt "[gutenberg]: Label for gutenberg attribute"
+msgid "Your credit is "
+msgstr "Η πίστωσή σας είναι "
+
+#: plugin-options/gutenberg/blocks.php:59
+msgctxt "[gutenberg]: show or hide the tabs"
+msgid "Tabs"
+msgstr ""
+
+#: plugin-options/gutenberg/blocks.php:68
+#, fuzzy
+msgctxt "[gutenberg]: number od customers to show"
+msgid "Number of customers"
+msgstr "Μόνο αποκλεισμένοι πελάτες"
+
+#: plugin-options/gutenberg/blocks.php:118
+msgctxt "[gutenberg]: title of widget"
+msgid "Text Color"
+msgstr ""
+
+#: plugin-options/gutenberg/blocks.php:123
+#, fuzzy
+msgctxt "[gutenberg]: title of widget"
+msgid "Background Color"
+msgstr "Χρώμα Φόντου"
+
+#: plugin-options/metaboxes/levels-badges-options.php:18
+#, fuzzy
+msgctxt "Admin option title"
+msgid "Level name"
+msgstr "Όνομα ιστότοπου"
+
+#: plugin-options/metaboxes/levels-badges-options.php:33
+#, fuzzy
+msgctxt "Admin option title"
+msgid "Points to collect"
+msgstr "Συγκεντρωμένοι πόντοι:"
+
+#: plugin-options/metaboxes/levels-badges-options.php:41
+msgctxt "Admin option title"
+msgid "Add a badge image"
+msgstr ""
+
+#: plugin-options/metaboxes/levels-badges-options.php:49
+#, fuzzy
+msgctxt "Admin option title"
+msgid "Upload badge"
+msgstr "Ανέβασμα"
+
+#: plugin-options/metaboxes/levels-badges-options.php:61
+msgctxt "Admin option title"
+msgid "Level text color"
+msgstr ""
+
+#: plugin-options/metaboxes/levels-badges-options.php:19
+#, fuzzy
+msgctxt "Admin option description"
+msgid "Enter a name to identify this level"
+msgstr ""
+"Εισάγετε μια επιγραφή για να αναγνωρίζετε την ενότητα πόντων στη σελίδα Ο "
+"Λογαριασμός Μου"
+
+#: plugin-options/metaboxes/levels-badges-options.php:34
+#, fuzzy
+msgctxt "Admin option description"
+msgid "Set how many points the user has to collect to achieve this level."
+msgstr ""
+"Ορίστε πόσοι πόντοι να ανατίθενται βάσει του συνόλου των συγκεντρωμένων "
+"πόντων"
+
+#: plugin-options/metaboxes/levels-badges-options.php:34
+msgctxt "Admin option description"
+msgid "Leave \"to\" empty if this level is the last achievable."
+msgstr ""
+
+#: plugin-options/metaboxes/levels-badges-options.php:42
+msgctxt "Admin option description"
+msgid "Enable if you want to upload a badge image to identify this level"
+msgstr ""
+
+#: plugin-options/metaboxes/levels-badges-options.php:50
+msgctxt "Admin option description"
+msgid "Upload an image to identify this level"
+msgstr ""
+
+#: plugin-options/metaboxes/levels-badges-options.php:62
+msgctxt "Admin option description"
+msgid "Set the color for level label text (shown in shortcodes and widgets)"
+msgstr ""
+
+#. translators: Placeholder are html tags.
+#: plugin-options/metaboxes/points-earning-rules-options.php:52
+#: plugin-options/metaboxes/points-earning-rules-options.php:83
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:31
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:79
+msgctxt "Placeholder are html tags."
+msgid ""
+"Choose to which users apply this rule. %1$sNote:%2$s you can apply rules "
+"only to user roles enabled in the global option. If you want to create rules "
+"for all users or other user roles you need to %3$sedit the global option%4$s"
+msgstr ""
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:136
+#, fuzzy
+msgctxt "Admin option"
+msgid "Assign a fixed amount of points"
+msgstr "Ορίστε σταθερό αριθμό πόντων"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:137
+#, fuzzy
+msgctxt "Admin option"
+msgid "Set a % amount of points based on global points rules"
+msgstr "Ορίστε ένα ποσό % για πόντους βάσει των γενικών κανόνων πόντων"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:138
+#, fuzzy
+msgctxt "Admin option"
+msgid "Set a fixed amount of points based on product prices"
+msgstr "Ορίστε ένα ποσό % για πόντους βάσει των γενικών κανόνων πόντων"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:139
+#, fuzzy
+msgctxt "Admin option"
+msgid "Don't assign points"
+msgstr "Να μην γίνει ανάθεση πόντων"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:192
+#, fuzzy
+msgctxt "Admin option"
+msgid "From now, until\tit's ended manually"
+msgstr "Από τώρα, μέχρι να τερματιστεί χειροκίνητα"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:193
+#, fuzzy
+msgctxt "Admin option"
+msgid "Schedule a start and end date"
+msgstr "Προγραμματισμός ημερομηνίας έναρξης και τερματισμού"
+
+#: plugin-options/points/extra-options.php:526
+#, fuzzy
+msgctxt "Part of an option where for each renew are assigned some points"
+msgid "review(s) is equivalent to"
+msgstr "Η κριτική(-ες) είναι ίση με"
+
+#. translators:Placeholder: label of points.
+#: templates/myaccount/my-points-view.php:46
+msgctxt "Placeholder: label of points;"
+msgid "My %s"
+msgstr "Οι %s Μου"
+
+#: templates/myaccount/my-points-view.php:52
+#, fuzzy
+msgctxt "sub title inside my account recap points badge"
+msgid "to redeem"
+msgstr "Εξαργύρωση πόντων"
+
+#: templates/myaccount/my-points-view.php:59
+#, fuzzy
+msgctxt "sub title inside my account recap points badge"
+msgid "total collected:"
+msgstr "Συγκεντρωμένοι πόντοι:"
+
+#: templates/myaccount/my-points-view.php:56
+#, fuzzy
+msgctxt "label to show the worth amount"
+msgid "worth"
+msgstr "αξίας"
+
+#: templates/myaccount/my-points-view.php:64
+msgctxt "My account banner title"
+msgid "My level"
+msgstr ""
+
+#: templates/myaccount/my-points-view.php:71
+msgctxt "My account banner title"
+msgid "My rank"
+msgstr ""
+
+#: templates/myaccount/ywpar-banner-get-points-review.php:76
+msgctxt "link to leave a review inside the review banner on My Account page"
+msgid "Leave a review >"
+msgstr ""
+
+#: templates/myaccount/ywpar-share-points.php:20
+#, fuzzy
+msgctxt "My account title on tab to share points "
+msgid "Convert points in a coupon code"
+msgstr "Εξαγωγή πόντων σε αρχείο CSV"
+
+#: templates/myaccount/ywpar-share-points.php:21
+msgctxt "Description of share points My account tab"
+msgid ""
+"Do you want to share your points? Create a coupon code and share it so it "
+"can be used"
+msgstr ""
+
+#: templates/myaccount/ywpar-share-points.php:33
+msgctxt "Error message on My account share points tab"
+msgid "At the moment you don't have enough points to convert."
+msgstr ""
+
+#. translators:Placeholder is the minimum amount of points that can be used.
+#. Error message on My account share points tab.
+#: templates/myaccount/ywpar-share-points.php:38
+#: templates/myaccount/ywpar-share-points.php:69
+msgctxt ""
+"Placeholder is the minimum amount of points that can be used. Error message "
+"on My account share points tab"
+msgid "You need to convert a minimum of %s"
+msgstr ""
+
+#. translators:Placeholder is the maximum amount of points that can be used.
+#. Error message on My account share points tab.
+#: templates/myaccount/ywpar-share-points.php:63
+msgctxt ""
+"Placeholder is the minimum amount of points that can be used. Error message "
+"on My account share points tab"
+msgid "You can convert a maximum of %s"
+msgstr ""
+
+#: templates/myaccount/ywpar-share-points.php:51
+msgctxt "part of a sentence on My account page share points tab"
+msgid "Convert"
+msgstr ""
+
+#: templates/myaccount/ywpar-share-points.php:55
+msgctxt "part of a sentence on My account page share points tab"
+msgid "points for a coupon value of %s"
+msgstr ""
+
+#: templates/myaccount/ywpar-share-points.php:57
+msgctxt "Label of button to convert point on My account page share points tab"
+msgid "Convert"
+msgstr ""
+
+#: templates/myaccount/ywpar-share-points.php:75
+#, fuzzy
+msgctxt "Title of table for the shared coupon in My account page"
+msgid "Your coupons:"
+msgstr "Χρησιμοποιήστε και τα δυο κουπόνια"
+
+#: views/tabs/import_export-tab.php:18
+#, fuzzy
+msgctxt "Import export panel option"
+msgid "Action to execute"
+msgstr "Ενέργεια προς εκτέλεση"
+
+#, fuzzy
+#~ msgid "Points to redeem:"
+#~ msgstr "Εξαργύρωση πόντων"
+
+#~ msgid "Points Total"
+#~ msgstr "Σύνολο Πόντων"
+
+#~ msgid "Points collected:"
+#~ msgstr "Συγκεντρωμένοι πόντοι:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Choose how to apply the discount. The discount can either be a percentual "
+#~ "or a fixed amount"
+#~ msgstr ""
+#~ "Επιλέξτε πώς να εφαρμόζεται η έκπτωση. Η έκπτωση μπορεί να είναι ποσοστό "
+#~ "ή σταθερό ποσό."
+
+#, fuzzy
+#~ msgid ""
+#~ "Assign extra points to users that are member of a specific membership "
+#~ "plans"
+#~ msgstr "Ανάθεση πόντων σε χρήστες που αφήνουν κριτική προϊόντος"
+
+#, fuzzy
+#~ msgctxt "[gutenberg]: block name"
+#~ msgid "YITH Points and Rewards - Points message on product page"
+#~ msgstr "Εμφάνιση μηνύματος πόντων στη σελίδα προϊόντος"
+
+#, fuzzy
+#~ msgid "Assign extra points when user complete the profile"
+#~ msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#, fuzzy
+#~ msgid ""
+#~ "Assign points when a new user signup through the user's referral link"
+#~ msgstr "Ανάθεση πόντων κατα την εγγραφή ενός χρήστη"
+
+#~ msgid "Enable to assign points to user based on the points he collected"
+#~ msgstr ""
+#~ "Ενεργοποίηση ανάθεσης πόντων σε χρήστη βάσει των πόντων που έχει "
+#~ "συγκεντρώσει"
+
+#~ msgid "Points assigned for each product purchase"
+#~ msgstr "Πόντοι προς ανάθεση για κάθε αγορά προϊόντος"
+
+#~ msgid "Delete points of cancelled orders"
+#~ msgstr "Διαγραφή πόντων ακυρωμένων παραγγελιών"
+
+#, fuzzy
+#~ msgid "Remove points for total or partial refunds"
+#~ msgstr "Ενεργοποίηση αφαίρεσης πόντων για συνολικές ή μερικές επιστροφές"
+
+#, fuzzy
+#~ msgctxt "[gutenberg]: block name"
+#~ msgid "YITH Points and Rewards: Customers list"
+#~ msgstr "Ιστορικό YITH Points and Rewards"
+
+#, fuzzy
+#~ msgctxt "[gutenberg]: block description"
+#~ msgid "Show customer list."
+#~ msgstr "Εμφάνιση Όλων των Πελατών"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Reset Points"
+#~ msgstr "Επαναφορά Πόντων"
+
+#~ msgid "Ban User"
+#~ msgstr "Αποκλεισμός Χρήστη"
+
+#~ msgid "Due to some bugs, the point expiration system has been disabled."
+#~ msgstr "Λόγω σφαλμάτων, το σύστημα λήξης πόντων έχει απενεργοποιηθεί."
+
+#~ msgid "To enable it, please follow these instructions."
+#~ msgstr "Για να το ενεργοποιήσετε, παρακαλώ ακολουθήστε αυτές τις οδηγίες."
+
+#~ msgid "The import file is empty"
+#~ msgstr "Το αρχείο εισαγωγής είναι άδειο"
+
+#~ msgid "Do you want to reset points for user"
+#~ msgstr "Θέλετε να επαναφέρετε πόντους για τον χρήστη"
+
+#~ msgid "Labels"
+#~ msgstr "Επιγραφές"
+
+#~ msgid "Override points options"
+#~ msgstr "Παράκαμψη επιλογών πόντων"
+
+#~ msgid "Enable to override the global points options for this product."
+#~ msgstr ""
+#~ "Ενεργοποίηση παράκαμψης των γενικών επιλογών πόντων για αυτό το προϊόν."
+
+#~ msgid "(Example: 10 points only for this product)"
+#~ msgstr "(Παράδειγμα: 10 πόντοι μόνο για αυτό το προϊόν)"
+
+#~ msgid "Set a % amount of points based on global points rules."
+#~ msgstr "Ορίστε ένα ποσό % για πόντους βάσει των γενικών κανόνων πόντων."
+
+#~ msgid ""
+#~ "(Example: with a global rule of 10 points for each 10$, if you set a 50% "
+#~ "amount for this product, the user will get 5 points for each 10$)"
+#~ msgstr ""
+#~ "(Παράδειγμα: με έναν γενικό κανόνα 10 πόντων για κάθε 10€, αν ορίσετε ένα "
+#~ "ποσό 50% για το προϊόν, ο χρήστης θα λαμβάνει 5 πόντους για κάθε 10€)"
+
+#~ msgid "Points to apply"
+#~ msgstr "Πόντοι προς εφαρμογή"
+
+#~ msgid "Set how many points to apply for this product."
+#~ msgstr "Ορίστε πόσοι πόντοι να εφαρμόζονται για αυτό το προϊόν."
+
+#~ msgid "Override rules will be valid"
+#~ msgstr "Οι κανόνες παράκαμψης θα είναι έγκυροι"
+
+#~ msgid ""
+#~ "Set a start and end time for these overriding rules. When the rules end, "
+#~ "the global points options will be applied on this product."
+#~ msgstr ""
+#~ "Ορισμός ώρας έναρξης και τερματισμού για τους κανόνες παράκαμψης. Κατα "
+#~ "τον τερματισμό κανόνων, οι γενικές επιλογές πόντων θα εφαρμόζονται σε "
+#~ "αυτό το προϊόν."
+
+#~ msgid "Override maximum discount"
+#~ msgstr "Παράκαμψη μέγιστης έκπτωσης"
+
+#~ msgid "Enable to override the global max discount for this product."
+#~ msgstr ""
+#~ "Ενεργοποίηση παράκαμψης της γενικής μέγιστης έκπτωσης για αυτό το προϊόν."
+
+#~ msgid "Don't set a max discount"
+#~ msgstr "Μην ορίσετε μέγιστη έκπτωση"
+
+#~ msgid "Set a % max discount based on the global max discount."
+#~ msgstr "Ορίστε μέγιστη έκπτωση % βάσει της γενικής μέγιστης έκπτωσης."
+
+#~ msgid "Set the max percentage discount that can be applied to this product."
+#~ msgstr ""
+#~ "Ορίστε το μέγιστο ποσοστό έκπτωσης που μπορεί να εφαρμοστεί σε αυτό το "
+#~ "προϊόν."
+
+#~ msgid "Points options"
+#~ msgstr "Επιλογές πόντων"
+
+#~ msgid "Override global points rules for products of this category"
+#~ msgstr "Παράκαμψη γενικών κανόνων πόντων για προϊόντα αυτής της κατηγορίας"
+
+#~ msgid ""
+#~ "Enable if you want to override the global rules for the collection of "
+#~ "points for all products belonging to this category. Rules applied to this "
+#~ "category can be overridden by rules specified for single product."
+#~ msgstr ""
+#~ "Ενεργοποιήστε αν θέλετε να παρακάμψετε τους γενικούς κανόνες συγκέντρωσης "
+#~ "πόντων για όλα τα προϊόντα που ανήκουν σε αυτή την κατηγορία. Οι κανόνες "
+#~ "που εφαρμόζονται σε αυτή τη κατηγορία μπορούν να παρακαμφθούν από "
+#~ "συγκεκριμένους κανόνες απλού προϊόντος."
+
+#~ msgid "For products this category:"
+#~ msgstr "Αυτή η κατηγορία για προϊόντα:"
+
+#~ msgid ""
+#~ "Choose if exclude the products of this category from the points "
+#~ "collection, if set a specific amount of points for all products of this "
+#~ "category or if set a % amount of points based on the global amount of "
+#~ "points."
+#~ msgstr ""
+#~ "Επιλέξτε αν θέλετε να αποκλείονται τα προϊόντα αυτής της κατηγορίας από "
+#~ "την συγκέντρωση πόντων, αν θέλετε να ορίσετε ένα συγκεκριμένο ποσό πόντων "
+#~ "για όλα τα προϊόντα αυτής της κατηγορίας ή αν θέλετε να ορίσετε ένα ποσό "
+#~ "πόντων % βάσει του γενικού ποσού πόντων."
+
+#~ msgid ""
+#~ "When a user purchases a product of this category, the buyer would get:"
+#~ msgstr ""
+#~ "Όταν ένας χρήστης αγοράζει ένα προϊόν αυτής της κατηγορίας, ο αγοραστής "
+#~ "θα λάβει:"
+
+#~ msgid "Override max discount for products of this category"
+#~ msgstr "Παράκαμψη μέγιστης έκπτωσης για προϊόντα αυτής της κατηγορίας"
+
+#~ msgid "When the user redeems points, for products of this category:"
+#~ msgstr ""
+#~ "Όταν ο χρήστης εξαργυρώνει πόντους για προϊόντα αυτής της κατηγορίας:"
+
+#~ msgid "Set no discount limit"
+#~ msgstr "Μην ορίσετε όριο έκπτωσης"
+
+#~ msgid "Set a % max discount based on global max discount"
+#~ msgstr "Ορίστε μέγιστη έκπτωση % βάσει της γενικής μέγιστης έκπτωσης"
+
+#~ msgid "For products of this category the user can get a max discount of:"
+#~ msgstr ""
+#~ "Για προϊόντα αυτής της κατηγορίας ο χρήστης μπορεί να λάβει μέγιστη "
+#~ "έκπτωση:"
+
+#~ msgid ""
+#~ "For products of this category the user can get a max percentage discount "
+#~ "of:"
+#~ msgstr ""
+#~ "Για προϊόντα αυτής της κατηγορίας ο χρήστης μπορεί να λάβει μέγιστη "
+#~ "έκπτωση τοις εκατό:"
+
+#~ msgid "Operation Complete"
+#~ msgstr "Διαδικασία Ολοκληρώθηκε"
+
+#~ msgid "Added Points from previous not registered orders"
+#~ msgstr "Προστέθηκαν Πόντοι από προηγούμενες μη εγγεγραμμένες παραγγελίες"
+
+#~ msgid "Checkout total thresholds"
+#~ msgstr "Όριο συνόλου ταμείου"
+
+#~ msgid "Order Amount"
+#~ msgstr "Ποσό Παραγγελίας"
+
+#~ msgid "This widget shows point history to logged-in users."
+#~ msgstr ""
+#~ "Αυτή η μικροεφαρμογή εμφανίζει το ιστορικό πόντων σε συνδεδεμένους "
+#~ "χρήστες."
+
+#~ msgid "YITH Points and Rewards Product Points"
+#~ msgstr "Πόντοι Προϊόντων YITH Points and Rewards"
+
+#~ msgid "Leave empty for single product page"
+#~ msgstr "Διατηρήστε κενό για την σελίδα απλού προϊόντος"
+
+#~ msgid "YITH Points and Rewards Total Points"
+#~ msgstr "Συνολικοί Πόντοι YITH Points and Rewards"
+
+#~ msgid "Label"
+#~ msgstr "Επιγραφή"
+
+#~ msgid "Affiliates"
+#~ msgstr "Συνεργάτες"
+
+#~ msgid "Subscription Settings"
+#~ msgstr "Ρυθμίσεις Συνδρομής"
+
+#~ msgid "YYYY-MM-DD"
+#~ msgstr "YYYY-MM-DD"
+
+#~ msgid "YYYY/MM/DD"
+#~ msgstr "YYYY/MM/DD"
+
+#~ msgid "MM-DD-YYYY"
+#~ msgstr "MM-DD-YYYY"
+
+#~ msgid "MM/DD/YYYY"
+#~ msgstr "MM/DD/YYYY"
+
+#~ msgid "DD-MM-YYYY"
+#~ msgstr "DD-MM-YYYY"
+
+#~ msgid "DD/MM/YYYY"
+#~ msgstr "DD/MM/YYYY"
+
+#~ msgid "(%) Percent of points earned by customer."
+#~ msgstr "(%) Ποσοστό πόντων που έχει κερδίσει ο χρήστης."
+
+#~ msgid "Email before expiration - Settings"
+#~ msgstr "Email πριν από λήξη - Ρυθμίσεις"
+
+#~ msgid "Updated Points - Email Settings"
+#~ msgstr "Ενημερωμένοι Πόντοι - Ρυθμίσεις Email"
+
+#~ msgid "Use different redeem conversion rules based on the user roles"
+#~ msgstr ""
+#~ "Επιλέξτε διαφορετικούς κανόνες μετατροπής εξαργύρωσης βάσει ρόλων χρήστη"
+
+#~ msgid ""
+#~ "Enable if you want to set different conversion rules based on user roles"
+#~ msgstr ""
+#~ "Ενεργοποιήστε αν θέλετε να ορίσετε διαφορετικούς κανόνες μετατροπής βάσει "
+#~ "ρόλων χρήστη"
+
+#~ msgid "Redeem conversion rules based on user roles"
+#~ msgstr "Εξαργύρωση κανόνων μετατροπής βάσει ρόλων χρήστη"
+
+#~ msgid "For users with more than one rule"
+#~ msgstr "Για χρήστες με πάνω από έναν κανόνα"
+
+#~ msgid ""
+#~ "Choose which redeem rule to apply to users with more than one role, when "
+#~ "different redeem rules are applied for roles"
+#~ msgstr ""
+#~ "Επιλέξτε ποιος κανόνα εξαργύρωσης να εφαρμόζεται σε χρήστες με πάνω από "
+#~ "έναν κανόνα, όταν διαφορετικοί κανόνες εξαργύρωσης εφαρμόζονται για ρόλους"
+
+#~ msgid "Use the rule with lowest rewards"
+#~ msgstr "Χρησιμοποιήστε τον κανόνα με τις λιγότερες επιβραβεύσεις"
+
+#~ msgid "Use the rule with highest rewards"
+#~ msgstr "Χρησιμοποιήστε τον κανόνα με τις περισσότερες επιβραβεύσεις"
+
+#~ msgid "Enable if you want to automatically delete the used coupons"
+#~ msgstr ""
+#~ "Ενεργοποιήστε αν θέλετε να διαγράφονται αυτόματα τα χρησιμοποιημένα "
+#~ "κουπόνια"
+
+#~ msgid ""
+#~ "Set the maximum points-generated discount that can be applied per product."
+#~ msgstr ""
+#~ "Ορίστε τη μέγιστη έκπτωση που δημιουργείται βάσει πόντων και μπορεί να "
+#~ "εφαρμοστεί ανά προϊόν."
+
+#~ msgid "Assign different amounts of points based on the user role"
+#~ msgstr "Ανάθεση διαφορετικών ποσών πόντων βάσει του ρόλου χρήστη"
+
+#~ msgid ""
+#~ "Choose the rule you want to apply to assign a different number of points "
+#~ "according to the user roles"
+#~ msgstr ""
+#~ "Επιλέξτε τον κανόνα που θέλετε να εφαρμόσετε για να ανατίθεται "
+#~ "διαφορετικός αριθμός πόντων σύμφωνα με τους ρόλους χρήστη"
+
+#~ msgid "Priority Level Conversion"
+#~ msgstr "Μετατροπή Επιπέδου Προτεραιότητας"
+
+#~ msgid "Use the rule with the Lowest Conversion Rate"
+#~ msgstr "Χρησιμοποιήστε τον κανόνα με το Χαμηλότερο Ποσοστό Μετατροπής"
+
+#~ msgid "Use the rule with the Highest Conversion Rate"
+#~ msgstr "Χρησιμοποιήστε τον κανόνα με το Υψηλότερο Ποσοστό Μετατροπής"
+
+#~ msgid "Assign points when"
+#~ msgstr "Ανάθεση πόντων όταν"
+
+#~ msgid "Enable points expiration"
+#~ msgstr "Ενεργοποίηση λήξης πόντων"
+
+#~ msgid "Unban the user"
+#~ msgstr "Άρση αποκλεισμού χρήστη"
+
+#~ msgid "Update user's points"
+#~ msgstr "Ενημέρωση πόντων χρήστη"
+
+#~ msgid "Action:"
+#~ msgstr "Ενέργεια:"
+
+#~ msgid "Add"
+#~ msgstr "Πρόσθεση"
+
+#~ msgid "Remove"
+#~ msgstr "Αφαίρεση"
+
+#~ msgctxt "Do not translate"
+#~ msgid "YITH WooCommerce Points and Rewards"
+#~ msgstr "YITH WooCommerce Points and Rewards"
+
+#~ msgctxt "Plugin name, do not translate"
+#~ msgid "Points and Rewards"
+#~ msgstr "Points and Rewards"
+
+#~ msgctxt "placeholder"
+#~ msgid "From&hellip;"
+#~ msgstr "Από&hellip;"
+
+#~ msgctxt "placeholder"
+#~ msgid "To&hellip;"
+#~ msgstr "Σε&hellip;"
+
+#~ msgctxt ""
+#~ "First placeholder: number of points; second placeholder: label of points"
+#~ msgid "Added %1$d %2$s for cancelled refund."
+#~ msgstr "Προστέθηκαν %1$d %2$s για την ακυρωμένη επιστροφή."
+
+#~ msgctxt ""
+#~ "First placeholder: number of points; second placeholder: label of points;"
+#~ msgid "<strong>%1$s</strong> %2$s"
+#~ msgid_plural "<strong>%3$s</strong> %4$s"
+#~ msgstr[0] "<strong>%1$s</strong> %2$s"
+#~ msgstr[1] "<strong>%3$s</strong> %4$s"
+
+#~ msgctxt ""
+#~ "First placeholder: number of points; second placeholder: label of points;"
+#~ msgid "You have %1$s%2$s."
+#~ msgstr "Έχετε %1$s%2$s."
+
+#~ msgctxt "Points label"
+#~ msgid "My %s History"
+#~ msgstr "Το Ιστορικό %s Μου"
+
+#~ msgctxt "Plugin name, do not translate"
+#~ msgid "YITH WooCommerce Points and Rewards"
+#~ msgstr "YITH WooCommerce Points and Rewards"
+
+#~ msgid "Do not assign points to an order if the user is using a coupon"
+#~ msgstr ""
+#~ "Να μην ανατίθενται πόντοι σε μια παραγγελία αν ο χρήστης χρησιμοποιεί "
+#~ "κουπόνι"
+
+#~ msgid "Choose the background Color"
+#~ msgstr "Επιλέξτε το Χρώμα φόντου"
+
+#~ msgid "YITH WooCommerce Points and Rewards Premium"
+#~ msgstr "YITH WooCommerce Points and Rewards Premium"
+
+#~ msgid ""
+#~ "https://yithemes.com/themes/plugins/yith-woocommerce-points-and-rewards/"
+#~ msgstr ""
+#~ "https://yithemes.com/themes/plugins/yith-woocommerce-points-and-rewards/"
+
+#~ msgid "https://yithemes.com/"
+#~ msgstr "https://yithemes.com/"

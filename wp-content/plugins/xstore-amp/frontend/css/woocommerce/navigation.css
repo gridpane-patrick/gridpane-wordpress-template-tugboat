@@ -1,0 +1,26 @@
+.woocommerce-pagination .page-numbers li {
+    display: inline-block;
+}
+
+.woocommerce-pagination .page-numbers li .page-numbers {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4px;
+    border: 2px solid var(--et_amp-br-c);
+    border-radius: 3px;
+}
+
+.woocommerce-pagination .page-numbers li .current {
+    background: var(--et_amp-a-c);
+    border-color: var(--et_amp-a-c);
+    color: #fff;
+}
+
+.woocommerce-pagination .page-numbers {
+    text-align: center;
+    margin-top: 30px;
+}

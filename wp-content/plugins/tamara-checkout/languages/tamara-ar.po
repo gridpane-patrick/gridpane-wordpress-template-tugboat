@@ -1,0 +1,488 @@
+msgid ""
+msgstr ""
+"X-Domain: tamara\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgid "Tamara Checkout Session created."
+msgstr "جلسة الدفع مع تمارا تكونت"
+
+msgid "To continue, please confirm your payment with Tamara."
+msgstr "قبل المتابعة، تأكد من المبالغ المدوفعة مع تمارا"
+
+msgid "Proceed to Tamara Payment"
+msgstr "الاستمرار للدفع مع تمارا"
+
+msgid "Cancel Order"
+msgstr "إلغي الطلب"
+
+msgid "https://tamara.co/orders"
+msgstr "https://tamara.co/ar/index.html"
+
+msgid "View and Pay your order"
+msgstr "معاينة الطلب و الدفع"
+
+msgid "https://tamara.co/paynext"
+msgstr "https://tamara.co/ar/index.html"
+
+msgid "Go to Tamara and pay"
+msgstr "زور تمارا و ادفع"
+
+msgid "https://tamara.co/en/index.html"
+msgstr "https://tamara.co/ar/index.html"
+
+msgid "What is Tamara?"
+msgstr "مين تمارا؟"
+
+msgid "Tamara service is having problem. Please try again later!"
+msgstr "خدمة تمارا متعطلة شوي، حاول مرة ثانية بعدين"
+
+msgid "Tamara Gateway Settings"
+msgstr "إعدادات بوابة تمارا"
+
+msgid "Pay Later with Tamara"
+msgstr "ادفع بعدين مع تمارا"
+
+msgid "Pay 30 days later with Tamara."
+msgstr "ادفع بعد 30 يوم مع تمارا"
+
+msgid "You will be redirected to Tamara Payment."
+msgstr "سيتم توجيهك إلى تمارا"
+
+msgid "SANDBOX ENABLED. See the %s for more details."
+msgstr "SANDBOX ENABLED. See the %s for more details."
+
+msgid "Use Tamara Gateway with WooCommerce"
+msgstr "استخدم خدمة تمارا مع ووكومرس"
+
+msgid "Enable/Disable"
+msgstr "تفعيل/الغاء"
+
+msgid "Enable Tamara Gateway"
+msgstr "تفعيل خدمة تمارا"
+
+msgid "Logo Image URL"
+msgstr "رابط صورة الشعار"
+
+msgid "URL of image icon to appear on payment method selecting. The recommended size must be no larger than 230x60, image format."
+msgstr "رابط أيقونة الصورة ليظهر على خيارات الدفعالصورة يجب ألا تزيد عن حجم 230x60، صيغة الصورة"
+
+msgid "Order status for payment cancelled from Tamara"
+msgstr ""
+
+msgid "Map status for order when the payment is cancelled from Tamara during checkout."
+msgstr ""
+
+msgid "Order status for payment failed from Tamara"
+msgstr ""
+
+msgid "Map status for order when the payment is failed from Tamara during checkout."
+msgstr ""
+
+msgid "Order status for Authorise success from Tamara"
+msgstr ""
+
+msgid "Map status for order when the payment is authorised successfully from Tamara."
+msgstr ""
+
+msgid "Order status for Authorise failed from Tamara"
+msgstr ""
+
+msgid "Map status for order when the payment is failed in authorising from Tamara."
+msgstr ""
+
+msgid "Order status for cancelling an order and cancel the payment on Tamara"
+msgstr ""
+
+msgid "The default \"Cancelled\" status of WooCommerce is used to cancel the order as well as trigger the Cancel payment to Tamara (before it is captured)."
+msgstr ""
+
+msgid "Order status to proceed Tamara Capture Payment"
+msgstr ""
+
+msgid "Map status for order to proceed the Capture payment process and send API to Tamara."
+msgstr ""
+
+msgid "Order status for Capture failed from Tamara"
+msgstr ""
+
+msgid "Map status for order when the Capture process is failed."
+msgstr ""
+
+msgid "Order status for cancelling the order from Tamara through Webhook"
+msgstr ""
+
+msgid "Map status for order when it is cancelled from Tamara (Order Expired, Order Declined...) through Webhook."
+msgstr ""
+
+msgid "Tamara Working Mode"
+msgstr "خدمة تمارا في وضع التشغيل"
+
+msgid "Choose Tamara Working Mode"
+msgstr "اختر وضع التشغيل لخدمة تمارا"
+
+msgid "This setting specifies whether you will process live transactions, or whether you will process simulated transactions using the Tamara Sandbox."
+msgstr ""
+
+msgid "Live API URL"
+msgstr "Live API URL"
+
+msgid "The Tamara Live API URL (https://api.tamara.co)."
+msgstr "The Tamara Live API URL (https://api.tamara.co)."
+
+msgid "Live Merchant Token"
+msgstr "Live Merchant Token"
+
+msgid "Get your API credentials from Tamara."
+msgstr "احصل على معلومات الـ API من تمارا "
+
+msgid "Live Notification Token"
+msgstr "Live Notification Token"
+
+msgid "Sandbox API URL"
+msgstr "Sandbox API URL"
+
+msgid "The Tamara Sandbox API URL (https://api-sandbox.tamara.co)."
+msgstr "The Tamara Sandbox API URL (https://api-sandbox.tamara.co)."
+
+msgid "Sandbox Merchant Token"
+msgstr "Sandbox Merchant Token"
+
+msgid "Get your API Token credentials for testing from Tamara."
+msgstr "احصل على معلومات الـAPI للتجربة من تمارا "
+
+msgid "Sandbox Notification Token"
+msgstr "Sandbox Notification Token"
+
+msgid "Get your API Notification Token credentials for testing from Tamara."
+msgstr "احصل على معلومات الـAPI notification token للتجربة من تمارا"
+
+msgid "The Payment has been captured successfully"
+msgstr ""
+
+msgid "The Payment can not be captured - "
+msgstr ""
+
+msgid "The order can not be captured as it was already captured."
+msgstr ""
+
+msgid "The order has been cancelled successfully"
+msgstr ""
+
+msgid "The order can not be cancelled - "
+msgstr ""
+
+msgid "The order can not be cancelled as it was captured. Please try \"Refund\" function instead."
+msgstr ""
+
+msgid "Plugin `%s` needs Woocommerce to be activated"
+msgstr "Plugin `%s` needs Woocommerce to be activated"
+
+msgid "Plugin `%s` deactivated because WooCommerce is not active. Please activate WooCommerce first."
+msgstr "Plugin `%s` deactivated because WooCommerce is not active. Please activate WooCommerce first."
+
+msgid "If you use Tamara Payment, this should be your full Tamara registered phone number (e.g. +966504449999...)"
+msgstr "إذا اخترت تمارا للدفع، يجب أن يكون رقمك المسجل بهالطريقة (على سبيل المثال +966504449999)"
+
+msgid "Order has been refunded successfully - Refund ID: #%1$s"
+msgstr "طلب الاسترجاع تنفذ - Refund ID: #%1$s"
+
+msgid "Error! Tamara is having a problem. Please contact Tamara and try again later"
+msgstr "خدمة تمارا متعطلة، حاول مرة ثانية في وقت ثاني أو تواصل معنا"
+
+msgid "Pay Later Information"
+msgstr "معلومات عن الدفع لاحقا"
+
+msgid "Min Limit: "
+msgstr " الحد الأدنى"
+
+msgid "Max Limit: "
+msgstr " الحد الأعلى"
+
+msgid "*The grand total of order is over/under limit of Tamara"
+msgstr "المبلغ الإجمالي خارج حدود خدمة تمارا (أعلى أو أقل من الحد المطلوب)"
+
+msgid "Thank you for choosing Tamara! We will inform you once the merchant ships your order."
+msgstr "شكرا لاختيارك تمارا! سيتم تنويهك عند شحن الطلب."
+
+msgid "View Your Orders"
+msgstr "عرض طلباتك"
+
+msgid "Your phone number is invalid. Please check again"
+msgstr "الرجاء مراجعة رقم الجوال"
+
+msgid "We do not support your delivery country"
+msgstr "خدماتنا لا تدعم البلد في عنوان الشحن"
+
+msgid "We do not support cross currencies. Please select the correct currency for your country."
+msgstr "خدماتنا لا تدعم تحويل العملات. يرجى تحديد العملة الصحيحة لبلدك."
+
+msgid "Your order information is invalid"
+msgstr "معلومات الطلب غير صحيحة"
+
+msgid "consumer_invalid_phone_number"
+msgstr "الرجاء مراجعة رقم الجوال"
+
+msgid "invalid_phone_number"
+msgstr "الرجاء مراجعة رقم الجوال"
+
+msgid "billing_address_invalid_phone_number"
+msgstr "الرجاء مراجعة رقم الجوال"
+
+msgid "shipping_address_invalid_phone_number"
+msgstr "الرجاء مراجعة رقم الجوال"
+
+msgid "Invalid Consumer Phone Number"
+msgstr "الرجاء مراجعة رقم الجوال"
+
+msgid "Invalid Phone Number"
+msgstr "الرجاء مراجعة رقم الجوال"
+
+msgid "Invalid Billing Address Phone Number"
+msgstr "الرجاء مراجعة رقم الجوال"
+
+msgid "Invalid Shipping Address Phone Number"
+msgstr "الرجاء مراجعة رقم الجوال"
+
+msgid "Please don't close this window."
+msgstr "الرجاء عدم إغلاق الصفحة"
+
+msgid "Your order paying with Tamara is still under process."
+msgstr "يتم حاليا تأكيد طلبك للدفع بواسطة تمارا"
+
+msgid "Pay later in 30 days"
+msgstr "استلم الطلب وادفع بعد 30 يوم"
+
+msgid "Split into 3 payments, no fees"
+msgstr "ادفع على ٣ دفعات بدون رسوم"
+
+msgid "Due today"
+msgstr "اليوم"
+
+msgid "1 month later"
+msgstr "بعد شهر"
+
+msgid "2 months later"
+msgstr "بعد شهرين"
+
+msgid "Buy now, pay later"
+msgstr "اﺷﺘﺮي اﻟﺂن وادﻓﻊ ﺑﻌﺪﻳﻦ"
+
+msgid "*Exclusive for shoppers in KSA and UAE"
+msgstr "*للمتسوقين من السعودية والإمارات"
+
+msgid "SAR"
+msgstr "ر.س"
+
+msgid "SAR %d"
+msgstr "%d ر.س"
+
+msgid "AED"
+msgstr "د.إ"
+
+msgid "AED %d"
+msgstr "%d د.إ"
+
+msgid "Learn more."
+msgstr "للمزيد من المعلومات."
+
+msgid "This order is paid via Tamara Pay Later."
+msgstr ""
+
+msgid "You need to enter the full shipping amount to refund."
+msgstr ""
+
+msgid "Refund item is empty. Please choose your item to refund."
+msgstr ""
+
+msgid "Tamara Capture ID not found. Please capture the payment before making a refund."
+msgstr ""
+
+msgid "Add a default billing country code (%s, e.g. AE, SA) to use with Tamara if none is set during the checkout progress."
+msgstr ""
+
+msgid "We are not able to process your order via Tamara currently, please try again later or proceed with a different payment method."
+msgstr "لا نستطيع إتمام طلبك باستخدام تمارا في الوقت الحالي ، فضلًا حاول مرة أخرى لاحقًا أو أكمل طلبك بطريقة دفع مختلفة."
+
+msgid "Tamara is currently unavailable, please try again later."
+msgstr "خدمة تمارا غير متاحة حاليًا يرجى المحاولة في وقت لاحق."
+
+msgid "Order Received by Tamara"
+msgstr "تمارا تلقت طلبك"
+
+msgid "Pay By Later English Title"
+msgstr ""
+
+msgid "Enter the English title to display for Tamara Pay By Later method on checkout page."
+msgstr ""
+
+msgid "Pay By Later Arabic Title"
+msgstr ""
+
+msgid "Enter the Arabic title to display for Tamara Pay By Later method on checkout page."
+msgstr ""
+
+msgid "Pay By Instalments English Title"
+msgstr ""
+
+msgid "Enter the English title to display for Tamara Pay By Instalments method on checkout page."
+msgstr ""
+
+msgid "Pay By Instalments Arabic Title"
+msgstr ""
+
+msgid "Enter the Arabic title to display for Tamara Pay By Instalments method on checkout page."
+msgstr ""
+
+msgid "No immediate payment needed. Buy now and pay within 30 days."
+msgstr "بدون أي دفع اليوم. اشتري منتجاتك المفضلة الآن وادفع خلال 30 يوم."
+
+msgid "Enter your data"
+msgstr "أدخل معلوماتك"
+
+msgid "Receive your order... and pay later"
+msgstr "استلم طلبك وسدده بعدين"
+
+msgid "Pay however you want"
+msgstr "ادفع بالطريقة المناسبة لك"
+
+msgid "Mobile number, ID details (first order only) and payment details to confirm your order"
+msgstr "رقم الجوال، معلومات الهوية (للطلب الأول فقط) وبيانات الدفع"
+
+msgid "without any payment today"
+msgstr "بدون أي دفع وقت الطلب"
+
+msgid "Pay your order value only within 30 days via Tamara App"
+msgstr "ادفع قيمة طلبك بس خلال 30 يوم عبر تطبيق تمارا"
+
+msgid "Pay the third today and the rest on two payments made over the next two months."
+msgstr "ادفع ثلث المبلغ وقسم الباقي على دفعتين يتم سدادهما خلال الشهرين المقبلين."
+
+msgid "Pay the first payment"
+msgstr "ادفع الدفعة الأولى"
+
+msgid "Mobile number, ID details (first order only) and payment details"
+msgstr "رقم الجوال، معلومات الهوية (للطلب الأول فقط) وبيانات الدفع"
+
+msgid "Pay easily via any bank card or Apple Pay to confirm your order"
+msgstr "ادفع بسهولة بأي بطاقة بنكية أو Apple Pay لتأكيد طلبك"
+
+msgid "Pay the remaining dues within 2 months via Tamara App"
+msgstr "ادفع الدفعات المتبقية خلال شهرين عبر تطبيق تمارا"
+
+msgid "We are unable to proceed your payment via Tamara."
+msgstr "لم نتمكن من معالجة عملية الدفع تمارا"
+
+msgid "Please contact us if you need assistance."
+msgstr "يرجى التواصل معنا في حال احتياج المساعدة."
+
+msgid "We are unable to authorise your payment from Tamara. Please contact us if you need assistance."
+msgstr "لم نتمكن من السماح بعملية الدفع عبر تمارا. يرجى التواصل معنا في حال احتياج المساعدة."
+
+msgid "Payment Failed From Tamara"
+msgstr "فشل الدفع عبر تمارا"
+
+msgid "Payment Canceled From Tamara"
+msgstr "ألغيت الدفع عبر تمارا"
+
+msgid "Pay the first today and the rest on remaining dues over the next %d months."
+msgstr "ادفع دفعتك الأولى اليوم والباقي خلال 60 يوم."
+
+msgid "Pay the remaining dues within 60 days via Tamara App"
+msgstr "ادفع باقي الدفعات خلال 60 يوم عبر تطبيق تمارا"
+
+msgid "Know more?"
+msgstr "للمزيد من المعلومات؟"
+
+msgid "Pay In %d with Tamara"
+msgstr ""
+
+msgid "Pay In %d"
+msgstr ""
+
+msgid "Please %s if you are not redirected automatically after 30 seconds."
+msgstr "يرجى %s إذا لم تتم إعادة توجيهك إلى الصفحة بشكل تلقائي بعد مرور ٣٠ ثانية."
+
+msgid "click here"
+msgstr "النقر هنا"
+
+msgid "Pay In X Options in %s currency unavailable."
+msgstr ""
+
+msgid "Manage Pay In X in %s"
+msgstr ""
+
+msgid "Pay Later Options Unavailable."
+msgstr ""
+
+msgid "Manage Pay Later Options"
+msgstr ""
+
+msgid "Please make sure the Tamara payment status of the order is <strong>captured</strong> before making a refund."
+msgstr ""
+
+msgid "The Tamara payment of this order was already captured."
+msgstr ""
+
+# Pay In X description
+msgid "Pay the first today and the rest on remaining dues over the next %d months. "
+msgstr "ادفع دفعتك الأولى اليوم والباقي خلال %d أشهر."
+
+msgid "Pay the remaining dues within %d months via Tamara App"
+msgstr "ادفع باقي الدفعات خلال %d أشهر عبر تطبيق تمارا"
+
+msgid "Your payment via Tamara has failed, please try again with a different payment method."
+msgstr "لم تتم عملية الدفع بنجاح، يرجى المحاولة مجددًا بطريقة دفع مختلفة."
+
+msgid "Pay a fraction of your total now, and the rest over time. No hidden fees, no interest!"
+msgstr "ادفع جزء من المبلغ الآن والباقي على حسب خطة الدفع، بدون فوائد ورسوم خفية!"
+
+msgid "Tamara: Split in %d, interest-free"
+msgstr "تمارا: قسم فاتورتك على ( %d ) دفعات بدون فوائد"
+
+msgid "Tamara: Split in 4, interest-free"
+msgstr "تمارا: قسم فاتورتك على ( 4 ) دفعات بدون فوائد"
+
+msgid "Saudi Arabia"
+msgstr "السعودية"
+
+msgid "United Emirates"
+msgstr "الإمارات العربية المتحدة"
+
+msgid "Kuwait"
+msgstr "الكويت"
+
+msgid "Bahrain"
+msgstr "البحرين"
+
+msgid "Qatar"
+msgstr "قطر"
+
+msgid "Tamara pay now using Mada, Apple Pay, or credit card"
+msgstr "Tamara ادفع باستخدام مدى, Apple Pay أو البطاقة الائتمانية"
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in %s only."
+msgstr "ادفع باستخدام وسيلة الدفع المفضلة لك بدون أي رسوم إضافية. للعملاء في %s فقط."
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in Saudi Arabia only."
+msgstr "ادفع باستخدام وسيلة الدفع المفضلة لك بدون أي رسوم إضافية. للعملاء في السعودية فقط."
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in United Arab Emirates only."
+msgstr "ادفع باستخدام وسيلة الدفع المفضلة لك بدون أي رسوم إضافية. للعملاء في الإمارات العربية المتحدة فقط."
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in Kuwait only."
+msgstr "ادفع باستخدام وسيلة الدفع المفضلة لك بدون أي رسوم إضافية. للعملاء في الكويت فقط."
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in Bahrain only."
+msgstr "ادفع باستخدام وسيلة الدفع المفضلة لك بدون أي رسوم إضافية. للعملاء في البحرين فقط."
+
+msgid "Pay using your preferred payment method without any additional fees! For customers in Qatar only."
+msgstr "ادفع باستخدام وسيلة الدفع المفضلة لك بدون أي رسوم إضافية. للعملاء في قطر فقط."

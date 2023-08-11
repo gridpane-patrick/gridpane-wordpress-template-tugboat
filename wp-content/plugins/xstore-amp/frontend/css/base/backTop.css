@@ -1,0 +1,22 @@
+.backTop {
+    right: 15px;
+    bottom: calc(var(--et_amp-extra-bottom-space-h, 0px) + 15px);
+    color: var(--et_amp-d-2-w);
+    width: 46px;
+    height: 46px;
+    background-color: var(--et_amp-w-2-d);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px var(--et_amp-b-sdw-c);
+    z-index: 3;
+}
+.backTop svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#backTopAnchor {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

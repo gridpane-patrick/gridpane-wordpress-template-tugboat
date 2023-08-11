@@ -1,0 +1,69 @@
+*** WooCommerce Extension Template Changelog ***
+
+2022-01-20 - version 4.4.0
+* Tweak: Raise WooCommerce Supported Version to 6.2
+* Added: WooCommerce REST API
+* Updated: Languages
+
+2022-01-14 - version 4.3.0
+* Tweak: Raise Woo Supported Version
+* Fixed: Variable Subscription table displaying
+* Fixed: Minor fixes & improvements
+
+2021-10-10 - version 4.2.0
+* Fixed: Category rules - wrong prices for variations
+* Fixed: Role-based rules
+* Fixed: WooCommerce import
+* Fixed: WPAllImport cron importing
+* Fixed: Minor fixes & improvements
+
+2021-07-27 - version 4.1.0
+* Added: Role-based WP All Import support
+* Fixed: Minimum product quantity issue
+* Fixed: Settings JS issues
+* Fixed: Minor fixes & improvements
+
+2021-04-03 - version 4.0.0
+* Added: Role-based pricing addon
+* Added: Porto theme compatibility
+* Added: WPML Config file
+* Fixed: Minor fixes & improvements
+
+2020-07-24 - version 3.1.1
+* Fixed: Order discounts issue
+
+2020-03-17 - version 3.1.0
+* Added: Ability to add rules for product categories
+* Added: Calculate tiered pricing for manually-created orders
+* Added: Real restriction for minimum order value
+* Fixed: Respect empty rules via import
+* Fixed: Tax suffix for price formatting
+* Fixed: Other minor fixes
+
+2020-03-17 - version 3.0.4
+* Fix WC saving variable product issue
+
+2020-02-08 - version 3.0.3
+* Fix ajax on subpath issue
+* Fix summary css issue
+
+2019-09-02 - version 3.0.2
+* Fix import issues
+* Summary block
+* Bulk variation rules
+* Option to taking into account all variation during the tiered pricing calculation
+* Support product add-ons
+* Support Mix&Match
+* Support popular themes
+* Support WPAllImport
+* Minimum quantity for table
+* Change labels
+* Update WooCommerce version
+
+2019-09-02 - version 3.0.1
+* Fix import issue
+* Add installation message
+* Minor fixes
+
+2019-08-14 - version 3.0.0
+* WooCommerce initial release

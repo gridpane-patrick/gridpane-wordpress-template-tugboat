@@ -1,0 +1,17 @@
+- 1.2.4
+	- Fixed a bug in product information sent to the api, product information did not contain product names
+- 1.2.5
+	- Updated main.css, fixed gateways styles
+- 1.2.6
+	- Updated mobile wallet field in checkout page, the field is not a popup
+	- Updated mobile wallet field HTML filter
+- 1.2.7
+	- Updated Fawry Payment message
+- 1.2.8
+	- Added custom option to redirect users if the order is pending or failed
+- 1.2.10
+	- Fixed missing aman ref number in order page.
+- 1.2.10
+	- Updated payment message for Fawry
+- 1.2.11
+	- Fixed a bug when user apply discount coupon

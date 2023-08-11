@@ -1,0 +1,33 @@
+.step-breadcrumbs {
+    font-size: 1.35rem;
+    color: var(--et_amp-d-2-w);
+    background: var(--et_amp-l-g-c);
+    padding: 2.9vw 0;
+    text-align: center;
+    margin-bottom: 2.3vw;
+    text-transform: uppercase;
+}
+
+.step-breadcrumbs [data-step]:before {
+    content: attr(data-step);
+    color: var(--et_amp-w-2-d);
+    background-color: var(--et_amp-d-2-w);
+    border: 1px solid var(--et_amp-br-color);
+    font-size: .8em;
+    width: 1.8em;
+    height: 1.8em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.step-breadcrumbs span {
+    display: inline-flex;
+    align-items: center;
+}
+
+.step-breadcrumbs span:not(.active) {
+    display: none;
+}

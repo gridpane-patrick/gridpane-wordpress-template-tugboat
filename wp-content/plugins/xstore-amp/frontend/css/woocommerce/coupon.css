@@ -1,0 +1,5 @@
+.coupon button {
+    margin-left: 10px;
+    min-width: unset;
+    white-space: nowrap;
+}

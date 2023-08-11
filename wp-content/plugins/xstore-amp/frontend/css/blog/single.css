@@ -1,0 +1,32 @@
+/* could be in global */
+blockquote {
+    border-left: 3px solid var(--et_amp-br-c);
+    padding: 20px 0 20px 20px;
+    margin-bottom: 1.43rem;
+    font-style: italic;
+    opacity: .9;
+}
+
+blockquote > p:last-child {
+    margin-bottom: 0;
+}
+/*.author-info {*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.author-info .avatar {*/
+/*    border-radius: 50%;*/
+/*}*/
+/*.author-info {*/
+/*    display: flex;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+/*.author-info .media-body {*/
+/*    margin-left: 20px;*/
+/*}*/
+/*.author-info h4 {*/
+/*    margin-bottom: 5px;*/
+/*}*/
+/*.author-info p:empty {*/
+/*    display: none;*/
+/*}*/

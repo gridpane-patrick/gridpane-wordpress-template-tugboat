@@ -1,0 +1,1182 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TW WhatsApp Chat Rotator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-18 11:22+0700\n"
+"PO-Revision-Date: 2018-03-14 09:20+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ThemeWarrior <support@themewarrior.com>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _e;esc_html__;__;esc_html_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../TWWR.php:159
+msgid "Agent Daily Report"
+msgstr ""
+
+#: ../TWWR.php:176 ../TWWR.php:202
+msgid "Unknown"
+msgstr ""
+
+#: ../TWWR.php:410 ../includes/database.php:216
+msgid "Your log has been deleted"
+msgstr ""
+
+#: ../TWWR.php:411 ../includes/database.php:196
+msgid "Delete action failed"
+msgstr ""
+
+#: ../TWWR.php:433
+msgid "Error on request geo data by IP."
+msgstr ""
+
+#: ../TWWR.php:549 ../TWWR.php:678 ../TWWR.php:807
+msgid "Close"
+msgstr ""
+
+#: ../TWWR.php:570 ../TWWR.php:698 ../TWWR.php:828 ../TWWR.php:881
+msgid "Online"
+msgstr ""
+
+#: ../TWWR.php:700 ../TWWR.php:830 ../TWWR.php:885
+msgid "Offline"
+msgstr ""
+
+#: ../TWWR.php:702 ../TWWR.php:832 ../TWWR.php:888
+msgid "Be back soon"
+msgstr ""
+
+#: ../TWWR.php:905
+msgid "Need Help? Chat us via Whatsapp"
+msgstr ""
+
+#: ../TWWR.php:906
+msgid "WA :"
+msgstr ""
+
+#: ../TWWR.php:908
+msgid "Chat"
+msgstr ""
+
+#: ../TWWR.php:1017 ../TWWR.php:1105
+msgid "WhatsApp Chat Rotator Settings"
+msgstr ""
+
+#: ../TWWR.php:1018 ../TWWR.php:1029
+msgid "Welcome to TW WhatsApp Chat Rotator"
+msgstr ""
+
+#: ../TWWR.php:1030
+msgid ""
+"To start using this plugin please add an agent, then create a new "
+"WhatsApp Chat"
+msgstr ""
+
+#: ../TWWR.php:1033 ../includes/agents.php:102 ../includes/agents.php:103
+msgid "Add Agent"
+msgstr ""
+
+#: ../TWWR.php:1035 ../includes/post-type.php:58
+#: ../includes/post-type.php:59
+msgid "Add WhatsApp Chat"
+msgstr ""
+
+#: ../TWWR.php:1055
+msgid "Contact Button Rotator"
+msgstr ""
+
+#: ../TWWR.php:1066
+msgid "Please activate plugin ThemeWarrior WA Rotator first."
+msgstr ""
+
+#: ../TWWR.php:1082
+msgid "Choose Button Contact Rotator :"
+msgstr ""
+
+#: ../TWWR.php:1084
+msgid "Global Setting"
+msgstr ""
+
+#: ../TWWR.php:1085
+msgid "Non-active"
+msgstr ""
+
+#: ../TWWR.php:1093
+#, php-format
+msgid "Please add a <a href=\"%s\">Whatsapp Chat</a> first"
+msgstr ""
+
+#: ../TWWR.php:1109
+msgid "General Settings"
+msgstr ""
+
+#: ../TWWR.php:1110
+msgid "Appearance"
+msgstr ""
+
+#: ../TWWR.php:1141
+msgid "Date Time Server"
+msgstr ""
+
+#: ../TWWR.php:1147
+msgid "Timezone: "
+msgstr ""
+
+#: ../TWWR.php:1161
+#, php-format
+msgid ""
+"If the timezone doesn't match your current location, you can change it "
+"from %s"
+msgstr ""
+
+#: ../TWWR.php:1167
+msgid "WhatsApp Chat on All Pages"
+msgstr ""
+
+#: ../TWWR.php:1173
+msgid "Default WhatsApp Chat on All pages"
+msgstr ""
+
+#: ../TWWR.php:1177 ../TWWR.php:1246
+msgid "Choose WhatsApp a chat..."
+msgstr ""
+
+#: ../TWWR.php:1182
+msgid ""
+"Set default WhatsApp chat for all pages, only floating WhatsApp chat "
+"will be displayed."
+msgstr ""
+
+#: ../TWWR.php:1188 ../includes/post-type.php:594
+msgid "Button Position"
+msgstr ""
+
+#: ../TWWR.php:1192
+msgid "Bottom right"
+msgstr ""
+
+#: ../TWWR.php:1193
+msgid "Bottom left"
+msgstr ""
+
+#: ../TWWR.php:1200
+msgid "Margin from edge (Desktop)"
+msgstr ""
+
+#: ../TWWR.php:1209
+msgid "Margin from bottom (Desktop)"
+msgstr ""
+
+#: ../TWWR.php:1218
+msgid "Margin from edge (Mobile)"
+msgstr ""
+
+#: ../TWWR.php:1227
+msgid "Margin from bottom (Mobile)"
+msgstr ""
+
+#: ../TWWR.php:1237
+msgid "WhatsApp Chat for WooCommerce Products"
+msgstr ""
+
+#: ../TWWR.php:1242
+msgid "Default WhatsApp Chat for WooCommerce Products"
+msgstr ""
+
+#: ../TWWR.php:1251
+msgid "Default WhatsApp chat on WooCommerce product page."
+msgstr ""
+
+#: ../TWWR.php:1256
+msgid "Chat Button Position"
+msgstr ""
+
+#: ../TWWR.php:1260
+msgid "After Add to cart button"
+msgstr ""
+
+#: ../TWWR.php:1261
+msgid "Before Add to cart button"
+msgstr ""
+
+#: ../TWWR.php:1263
+msgid "Set WhatsApp chat button on woocomerce pages."
+msgstr ""
+
+#: ../TWWR.php:1268
+msgid "Display Chat Button on Product Loop"
+msgstr ""
+
+#: ../TWWR.php:1271
+msgid "Yes"
+msgstr ""
+
+#: ../TWWR.php:1272 ../TWWR.php:1290
+msgid ""
+"Set the hour to send daily email report containing chat performance."
+msgstr ""
+
+#: ../TWWR.php:1279
+msgid "WhatsApp Chat Performance Report"
+msgstr ""
+
+#: ../TWWR.php:1280
+msgid "System will automatically send daily email report. "
+msgstr ""
+
+#: ../TWWR.php:1286
+msgid "Time to Send Email Report"
+msgstr ""
+
+#: ../TWWR.php:1296
+msgid "Chat Slug"
+msgstr ""
+
+#: ../TWWR.php:1302
+msgid "WhatsApp Chat Slug"
+msgstr ""
+
+#: ../TWWR.php:1306
+msgid "Url slug in WhatsApp chat permalink."
+msgstr ""
+
+#: ../TWWR.php:1316
+msgid "Redirect Page"
+msgstr ""
+
+#: ../TWWR.php:1322
+msgid "Page Background Color"
+msgstr ""
+
+#: ../TWWR.php:1331
+msgid "Loading Text"
+msgstr ""
+
+#: ../TWWR.php:1334 ../includes/template-chat.php:10
+msgid "Please wait, you will immediately connected to one of our agents."
+msgstr ""
+
+#: ../TWWR.php:1340
+msgid "Heading Text"
+msgstr ""
+
+#: ../TWWR.php:1349
+msgid "Heading Text Color"
+msgstr ""
+
+#: ../TWWR.php:1358
+msgid "Sub Heading Text"
+msgstr ""
+
+#: ../TWWR.php:1367
+msgid "Sub Heading Text Color"
+msgstr ""
+
+#: ../TWWR.php:1376
+msgid "Chat Button Color"
+msgstr ""
+
+#: ../TWWR.php:1385
+msgid "Chat Button Text Color"
+msgstr ""
+
+#: ../TWWR.php:1394
+msgid "Floating Button"
+msgstr ""
+
+#: ../TWWR.php:1400
+msgid "Floating Chat Widget"
+msgstr ""
+
+#: ../TWWR.php:1406
+msgid "Button Type"
+msgstr ""
+
+#: ../TWWR.php:1410
+msgid "Icon and text"
+msgstr ""
+
+#: ../TWWR.php:1411
+msgid "Icon"
+msgstr ""
+
+#: ../TWWR.php:1413
+msgid "Choose button type."
+msgstr ""
+
+#: ../TWWR.php:1419
+msgid "Floating Background Header Color"
+msgstr ""
+
+#: ../TWWR.php:1428
+msgid "Floating Text Header Color"
+msgstr ""
+
+#: ../TWWR.php:1437
+msgid "Floating Button Color"
+msgstr ""
+
+#: ../TWWR.php:1446
+msgid "Floating Button Text Color"
+msgstr ""
+
+#: ../TWWR.php:1455
+msgid "Agent Box Color"
+msgstr ""
+
+#: ../TWWR.php:1464
+msgid "Agent Box shadow"
+msgstr ""
+
+#: ../TWWR.php:1473
+msgid "Agent Box Text Color"
+msgstr ""
+
+#: ../TWWR.php:1482
+msgid "Agent Box Name Color"
+msgstr ""
+
+#: ../TWWR.php:1491
+msgid "Agent Box Online Status Color"
+msgstr ""
+
+#: ../TWWR.php:1500
+msgid "Agent Box Offline Status Color"
+msgstr ""
+
+#: ../TWWR.php:1509
+msgid "Standard Button"
+msgstr ""
+
+#: ../TWWR.php:1515
+msgid "Background Color"
+msgstr ""
+
+#: ../TWWR.php:1524
+msgid "Text Color"
+msgstr ""
+
+#: ../TWWR.php:1533
+msgid "Agent Name Color"
+msgstr ""
+
+#: ../TWWR.php:1542
+msgid "Online Status Color"
+msgstr ""
+
+#: ../TWWR.php:1551
+msgid "Offline Status Color"
+msgstr ""
+
+#: ../includes/agents.php:34 ../includes/post-type.php:33
+#, php-format
+msgid ""
+"In WhatsApp Chat list page, click is calculated when %s page is loaded "
+"for the first time, before it is being redirected to a WhatsApp number. "
+"While in Agents list page, click is calculated when %s page has been "
+"clicked and the redirect process to WhatsApp number has begun."
+msgstr ""
+
+#: ../includes/agents.php:44 ../includes/agents.php:498
+#: ../includes/report.php:715
+msgid "Agent Name"
+msgstr ""
+
+#: ../includes/agents.php:100 ../includes/agents.php:238
+msgid "Agents"
+msgstr ""
+
+#: ../includes/agents.php:101 ../includes/report.php:609
+msgid "Agent"
+msgstr ""
+
+#: ../includes/agents.php:104
+msgid "Edit Agent"
+msgstr ""
+
+#: ../includes/agents.php:105
+msgid "New Agent"
+msgstr ""
+
+#: ../includes/agents.php:106
+msgid "View Agent"
+msgstr ""
+
+#: ../includes/agents.php:107
+msgid "Search Agent"
+msgstr ""
+
+#: ../includes/agents.php:108
+msgid "Nothing found"
+msgstr ""
+
+#: ../includes/agents.php:109 ../includes/post-type.php:65
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../includes/agents.php:111
+msgid "Agent Avatar"
+msgstr ""
+
+#: ../includes/agents.php:112
+msgid "Set Agent Avatar"
+msgstr ""
+
+#: ../includes/agents.php:113
+msgid "Remove Agent Avatar"
+msgstr ""
+
+#: ../includes/agents.php:114
+msgid "Use Agent Avatar"
+msgstr ""
+
+#: ../includes/agents.php:136
+msgid "Departement"
+msgstr ""
+
+#: ../includes/agents.php:302 ../includes/agents.php:492
+#: ../includes/agents.php:500
+msgid "Email"
+msgstr ""
+
+#: ../includes/agents.php:306
+msgid "Agent email address."
+msgstr ""
+
+#: ../includes/agents.php:312
+msgid "Gender"
+msgstr ""
+
+#: ../includes/agents.php:316
+msgid "Male"
+msgstr ""
+
+#: ../includes/agents.php:317
+msgid "Female"
+msgstr ""
+
+#: ../includes/agents.php:324 ../includes/agents.php:336
+#: ../includes/agents.php:359 ../includes/agents.php:469
+#: ../includes/agents.php:491 ../includes/agents.php:499
+#: ../includes/post-type.php:358 ../includes/post-type.php:400
+#: ../includes/post-type.php:568
+msgid "WhatsApp Number"
+msgstr ""
+
+#: ../includes/agents.php:333
+msgid " Drag to reorder"
+msgstr ""
+
+#: ../includes/agents.php:337 ../includes/agents.php:360
+#: ../includes/agents.php:470
+msgid "Ex: 628170912180"
+msgstr ""
+
+#: ../includes/agents.php:341 ../includes/agents.php:364
+#: ../includes/agents.php:474
+msgid "Notes"
+msgstr ""
+
+#: ../includes/agents.php:342 ../includes/agents.php:365
+#: ../includes/agents.php:475
+msgid "Label"
+msgstr ""
+
+#: ../includes/agents.php:346 ../includes/agents.php:369
+#: ../includes/agents.php:479
+msgid "Status"
+msgstr ""
+
+#: ../includes/agents.php:347 ../includes/agents.php:370
+#: ../includes/agents.php:480
+msgid "Active"
+msgstr ""
+
+#: ../includes/agents.php:377
+msgid "One Agent can have more than 1 WhatsApp number."
+msgstr ""
+
+#: ../includes/agents.php:383
+msgid "Day & Work Hours"
+msgstr ""
+
+#: ../includes/agents.php:389
+msgid "Day"
+msgstr ""
+
+#: ../includes/agents.php:390 ../includes/agents.php:410
+#: ../includes/agents.php:417 ../includes/agents.php:424
+#: ../includes/agents.php:431 ../includes/agents.php:438
+#: ../includes/agents.php:445 ../includes/agents.php:452
+msgid "Start Working Hours"
+msgstr ""
+
+#: ../includes/agents.php:391
+msgid "Start Work Break"
+msgstr ""
+
+#: ../includes/agents.php:392
+msgid "End Work Break"
+msgstr ""
+
+#: ../includes/agents.php:393 ../includes/agents.php:413
+#: ../includes/agents.php:420 ../includes/agents.php:427
+#: ../includes/agents.php:434 ../includes/agents.php:441
+#: ../includes/agents.php:448 ../includes/agents.php:455
+msgid "End Working Hours"
+msgstr ""
+
+#: ../includes/agents.php:399
+msgid "WhatsApp number will always active 24 hours, 7 days a week."
+msgstr ""
+
+#: ../includes/agents.php:400
+msgid ""
+"Hours and minutes can be changed by selecting the hours & minutes from "
+"the form below."
+msgstr ""
+
+#: ../includes/agents.php:405
+msgid "Manually set the hours & minutes"
+msgstr ""
+
+#: ../includes/agents.php:409
+msgid "Monday"
+msgstr ""
+
+#: ../includes/agents.php:411 ../includes/agents.php:418
+#: ../includes/agents.php:425 ../includes/agents.php:432
+#: ../includes/agents.php:439 ../includes/agents.php:446
+#: ../includes/agents.php:453
+msgid "Rest Start Hour"
+msgstr ""
+
+#: ../includes/agents.php:412 ../includes/agents.php:419
+#: ../includes/agents.php:426 ../includes/agents.php:433
+#: ../includes/agents.php:440 ../includes/agents.php:447
+#: ../includes/agents.php:454
+msgid "Break Time Over"
+msgstr ""
+
+#: ../includes/agents.php:416
+msgid "Tuesday"
+msgstr ""
+
+#: ../includes/agents.php:423
+msgid "Wednesday"
+msgstr ""
+
+#: ../includes/agents.php:430
+msgid "Thursday"
+msgstr ""
+
+#: ../includes/agents.php:437
+msgid "Friday"
+msgstr ""
+
+#: ../includes/agents.php:444
+msgid "Saturday"
+msgstr ""
+
+#: ../includes/agents.php:451
+msgid "Sunday"
+msgstr ""
+
+#: ../includes/agents.php:490 ../includes/agents.php:497
+msgid "Avatar"
+msgstr ""
+
+#: ../includes/agents.php:493 ../includes/agents.php:501
+#: ../includes/post-type.php:598 ../includes/report.php:512
+#: ../includes/report.php:559
+msgid "Today"
+msgstr ""
+
+#: ../includes/agents.php:502 ../includes/post-type.php:599
+#: ../includes/report.php:513 ../includes/report.php:561
+msgid "Yesterday"
+msgstr ""
+
+#: ../includes/agents.php:502
+msgid "Compared to the same day's data a week ago."
+msgstr ""
+
+#: ../includes/agents.php:537 ../includes/agents.php:539
+#: ../includes/agents.php:555
+msgid "View: "
+msgstr ""
+
+#: ../includes/agents.php:545 ../includes/agents.php:547
+#: ../includes/agents.php:576
+msgid "Click: "
+msgstr ""
+
+#: ../includes/email-reports.php:4
+msgid "Email Report"
+msgstr ""
+
+#: ../includes/email-reports.php:156
+msgid "Yesterday's Chat Report"
+msgstr ""
+
+#: ../includes/email-reports.php:214 ../includes/email-reports.php:392
+#: ../includes/report.php:680
+msgid "Views"
+msgstr ""
+
+#: ../includes/email-reports.php:249 ../includes/email-reports.php:427
+#: ../includes/report.php:681
+msgid "Clicks"
+msgstr ""
+
+#: ../includes/email-reports.php:284 ../includes/email-reports.php:462
+#: ../includes/report.php:599 ../includes/report.php:750
+msgid "Click Percentage"
+msgstr ""
+
+#: ../includes/email-reports.php:331
+msgid "Yesterday's Agents Report"
+msgstr ""
+
+#: ../includes/email-reports.php:368
+#, php-format
+msgid "(Included in %s chat(s))"
+msgstr ""
+
+#: ../includes/post-type.php:56 ../includes/post-type.php:57
+#: ../includes/report.php:604
+msgid "WhatsApp Chat"
+msgstr ""
+
+#: ../includes/post-type.php:60
+msgid "Edit WhatsApp Chat"
+msgstr ""
+
+#: ../includes/post-type.php:61
+msgid "New WhatsApp Chat"
+msgstr ""
+
+#: ../includes/post-type.php:62
+msgid "View WhatsApp Chat"
+msgstr ""
+
+#: ../includes/post-type.php:63
+msgid "Search WhatsApp Chat"
+msgstr ""
+
+#: ../includes/post-type.php:235
+msgid "Contact Button Settings"
+msgstr ""
+
+#: ../includes/post-type.php:262
+msgid "Reach us on WhatsApp"
+msgstr ""
+
+#: ../includes/post-type.php:263
+msgid "Hi!"
+msgstr ""
+
+#: ../includes/post-type.php:264
+msgid "Chat with one of our agent."
+msgstr ""
+
+#: ../includes/post-type.php:265
+msgid "Use this feature to chat with our agent."
+msgstr ""
+
+#: ../includes/post-type.php:266
+msgid "Hi %twwr_chat_agent_name%, can you help me?"
+msgstr ""
+
+#: ../includes/post-type.php:280
+msgid "Button Label"
+msgstr ""
+
+#: ../includes/post-type.php:284
+msgid "Text label for the button"
+msgstr ""
+
+#: ../includes/post-type.php:289
+msgid "Floating Rotator Heading Text"
+msgstr ""
+
+#: ../includes/post-type.php:293
+msgid "Heading text on floating WhatsApp chat."
+msgstr ""
+
+#: ../includes/post-type.php:298
+msgid "Floating Rotator  Description"
+msgstr ""
+
+#: ../includes/post-type.php:302
+msgid "Description text for heading when is used in Floating mode."
+msgstr ""
+
+#: ../includes/post-type.php:307
+msgid "Rotator Description"
+msgstr ""
+
+#: ../includes/post-type.php:311
+msgid "Text on button when is used in Standard button mode."
+msgstr ""
+
+#: ../includes/post-type.php:317
+msgid "Display Mode"
+msgstr ""
+
+#: ../includes/post-type.php:321
+msgid "Show All Agents"
+msgstr ""
+
+#: ../includes/post-type.php:322
+msgid "Show Random Agents"
+msgstr ""
+
+#: ../includes/post-type.php:329
+msgid "Choose Agent & WhatsApp Number"
+msgstr ""
+
+#: ../includes/post-type.php:336
+msgid "Drag to adjust position"
+msgstr ""
+
+#: ../includes/post-type.php:339 ../includes/post-type.php:548
+msgid "Choose Agent"
+msgstr ""
+
+#: ../includes/post-type.php:352
+msgid "Add Agent first"
+msgstr ""
+
+#: ../includes/post-type.php:360 ../includes/post-type.php:380
+#: ../includes/post-type.php:383 ../includes/post-type.php:551
+msgid "Select an agent"
+msgstr ""
+
+#: ../includes/post-type.php:367
+msgid "View Percentage"
+msgstr ""
+
+#: ../includes/post-type.php:377 ../includes/post-type.php:545
+msgid "Drag to reorder"
+msgstr ""
+
+#: ../includes/post-type.php:394 ../includes/post-type.php:402
+msgid "Please add an agent first."
+msgstr ""
+
+#: ../includes/post-type.php:408 ../includes/post-type.php:577
+msgid "Views Percentage"
+msgstr ""
+
+#: ../includes/post-type.php:416
+msgid "Add an agent for this WhatsApp chat."
+msgstr ""
+
+#: ../includes/post-type.php:422
+msgid "Text Message"
+msgstr ""
+
+#: ../includes/post-type.php:426
+msgid "Default greeting message."
+msgstr ""
+
+#: ../includes/post-type.php:428 ../includes/post-type.php:588
+#: ../includes/post-type.php:595
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/post-type.php:431
+msgid "Display agent name"
+msgstr ""
+
+#: ../includes/post-type.php:432
+msgid "Display site name"
+msgstr ""
+
+#: ../includes/post-type.php:436
+msgid "Shortcode for WooCommerce"
+msgstr ""
+
+#: ../includes/post-type.php:439
+msgid "Display product name"
+msgstr ""
+
+#: ../includes/post-type.php:440
+msgid "Display product price"
+msgstr ""
+
+#: ../includes/post-type.php:441
+msgid "Display product url"
+msgstr ""
+
+#: ../includes/post-type.php:447
+msgid "Facebook Pixel"
+msgstr ""
+
+#: ../includes/post-type.php:452 ../includes/post-type.php:469
+msgid "Facebook Pixel ID"
+msgstr ""
+
+#: ../includes/post-type.php:460
+msgid " Facebook Pixel ID"
+msgstr ""
+
+#: ../includes/post-type.php:475
+msgid ""
+"Type your Facebook Pixel ID, you can add more than one Pixel ID "
+"(opsional)."
+msgstr ""
+
+#: ../includes/post-type.php:481
+msgid "Facebook Pixel Event"
+msgstr ""
+
+#: ../includes/post-type.php:493 ../includes/post-type.php:496
+msgid "Custom Event"
+msgstr ""
+
+#: ../includes/post-type.php:501
+msgid "Google Tag Manager"
+msgstr ""
+
+#: ../includes/post-type.php:506
+msgid "Google Tag Manager ID"
+msgstr ""
+
+#: ../includes/post-type.php:509
+msgid "Example: GTM-XXXXXXX"
+msgstr ""
+
+#: ../includes/post-type.php:510
+msgid "Your Google Tag Manager ID, for example: GTM-XXXXXXX (opsional)."
+msgstr ""
+
+#: ../includes/post-type.php:562
+msgid "Please add a customer service first"
+msgstr ""
+
+#: ../includes/post-type.php:570
+msgid "Select a customer service first"
+msgstr ""
+
+#: ../includes/post-type.php:589
+msgid "Today's Views"
+msgstr ""
+
+#: ../includes/post-type.php:593 ../includes/report.php:679
+#: ../includes/report.php:747
+msgid "WhatsApp Chat Name"
+msgstr ""
+
+#: ../includes/post-type.php:596
+msgid "Rotator Url"
+msgstr ""
+
+#: ../includes/post-type.php:597
+msgid "WhatsApp number in the chat."
+msgstr ""
+
+#: ../includes/post-type.php:599
+msgid "Today's data compared to data from same day last week."
+msgstr ""
+
+#: ../includes/post-type.php:618
+msgid "Floating Widget Button"
+msgstr ""
+
+#: ../includes/post-type.php:620
+msgid "Next to Add to Cart Bitton"
+msgstr ""
+
+#: ../includes/post-type.php:634 ../includes/post-type.php:636
+#: ../includes/post-type.php:652
+msgid "Views: "
+msgstr ""
+
+#: ../includes/post-type.php:642 ../includes/post-type.php:644
+#: ../includes/post-type.php:673
+msgid "Clicks: "
+msgstr ""
+
+#: ../includes/report.php:18
+msgid "Reports"
+msgstr ""
+
+#: ../includes/report.php:19
+msgid "Logs"
+msgstr ""
+
+#: ../includes/report.php:56
+msgid "WhatsApp Chat Logs"
+msgstr ""
+
+#: ../includes/report.php:63 ../includes/report.php:535
+msgid "Filter by category"
+msgstr ""
+
+#: ../includes/report.php:65
+msgid "By Chat & Agent Logs"
+msgstr ""
+
+#: ../includes/report.php:66
+msgid "By Chat Logs"
+msgstr ""
+
+#: ../includes/report.php:67
+msgid "By Agent Logs"
+msgstr ""
+
+#: ../includes/report.php:69
+msgid "Filter by Type"
+msgstr ""
+
+#: ../includes/report.php:71
+msgid "By Click & View Logs"
+msgstr ""
+
+#: ../includes/report.php:72
+msgid "By Click Logs"
+msgstr ""
+
+#: ../includes/report.php:73
+msgid "By View Logs"
+msgstr ""
+
+#: ../includes/report.php:75 ../includes/report.php:540
+msgid "Filter"
+msgstr ""
+
+#: ../includes/report.php:83
+msgid "IP Address"
+msgstr ""
+
+#: ../includes/report.php:84
+msgid "Category"
+msgstr ""
+
+#: ../includes/report.php:85
+msgid "Type"
+msgstr ""
+
+#: ../includes/report.php:86
+msgid "Location"
+msgstr ""
+
+#: ../includes/report.php:87
+msgid "Referral"
+msgstr ""
+
+#: ../includes/report.php:88
+msgid "Operating System"
+msgstr ""
+
+#: ../includes/report.php:89
+msgid "Browser"
+msgstr ""
+
+#: ../includes/report.php:90
+msgid "Date Time"
+msgstr ""
+
+#: ../includes/report.php:115
+msgid "&laquo;"
+msgstr ""
+
+#: ../includes/report.php:116
+msgid "&raquo;"
+msgstr ""
+
+#: ../includes/report.php:124 ../includes/report.php:126
+msgid "Remove Logs Data"
+msgstr ""
+
+#: ../includes/report.php:131 ../includes/report.php:519
+#: ../includes/report.php:571
+msgid "Last Month"
+msgstr ""
+
+#: ../includes/report.php:132
+msgid "Last 3 Month"
+msgstr ""
+
+#: ../includes/report.php:133
+msgid "Last 6 Month"
+msgstr ""
+
+#: ../includes/report.php:134 ../includes/report.php:521
+#: ../includes/report.php:575
+msgid "Last Year"
+msgstr ""
+
+#: ../includes/report.php:135
+msgid "Lifetime"
+msgstr ""
+
+#: ../includes/report.php:137
+msgid "Remove Now"
+msgstr ""
+
+#: ../includes/report.php:139
+msgid "WARNING: This action is undoable. Please use with caution."
+msgstr ""
+
+#: ../includes/report.php:502 ../includes/report.php:671
+#: ../includes/report.php:673
+msgid "WhatsApp Chat Statistics"
+msgstr ""
+
+#: ../includes/report.php:509
+msgid "Filter by date"
+msgstr ""
+
+#: ../includes/report.php:511 ../includes/report.php:557
+msgid "All Time"
+msgstr ""
+
+#: ../includes/report.php:514 ../includes/report.php:555
+#: ../includes/report.php:579
+msgid "Last 7 Days"
+msgstr ""
+
+#: ../includes/report.php:515 ../includes/report.php:563
+msgid "This Week"
+msgstr ""
+
+#: ../includes/report.php:516 ../includes/report.php:565
+msgid "Last Week"
+msgstr ""
+
+#: ../includes/report.php:517 ../includes/report.php:567
+msgid "Last 14 Days"
+msgstr ""
+
+#: ../includes/report.php:518 ../includes/report.php:569
+msgid "This Month"
+msgstr ""
+
+#: ../includes/report.php:520 ../includes/report.php:573
+msgid "This Year"
+msgstr ""
+
+#: ../includes/report.php:522 ../includes/report.php:577
+msgid "Custom"
+msgstr ""
+
+#: ../includes/report.php:526
+msgid "From"
+msgstr ""
+
+#: ../includes/report.php:530
+msgid "To"
+msgstr ""
+
+#: ../includes/report.php:537
+msgid "By WhatsApp Chat"
+msgstr ""
+
+#: ../includes/report.php:538
+msgid "By Agent"
+msgstr ""
+
+#: ../includes/report.php:548
+msgid "Report:"
+msgstr ""
+
+#: ../includes/report.php:589 ../includes/report.php:716
+msgid "Total Views"
+msgstr ""
+
+#: ../includes/report.php:594
+msgid "Total Click"
+msgstr ""
+
+#: ../includes/report.php:616 ../includes/report.php:618
+msgid "WhatsApp Chat Graph"
+msgstr ""
+
+#: ../includes/report.php:707 ../includes/report.php:709
+msgid "Agent Statistics"
+msgstr ""
+
+#: ../includes/report.php:717
+msgid "Total Clicks"
+msgstr ""
+
+#: ../includes/report.php:742
+msgid "Report"
+msgstr ""
+
+#: ../includes/report.php:748
+msgid "Number of Views"
+msgstr ""
+
+#: ../includes/report.php:749
+msgid "Number of Clicks"
+msgstr ""
+
+#: ../includes/report.php:772
+msgid "Best Hour by Clicks"
+msgstr ""
+
+#: ../includes/report.php:830 ../includes/report.php:832
+msgid "Browser Statistics (Views)"
+msgstr ""
+
+#: ../includes/report.php:845
+msgid "Statistik View Browser"
+msgstr ""
+
+#: ../includes/report.php:897 ../includes/report.php:899
+msgid "Browser Statistics (Clicks)"
+msgstr ""
+
+#: ../includes/report.php:912
+msgid "Browser Click Statistics"
+msgstr ""
+
+#: ../includes/report.php:964 ../includes/report.php:966
+#: ../includes/report.php:980
+msgid "Location Statistics (Views)"
+msgstr ""
+
+#: ../includes/report.php:1033 ../includes/report.php:1035
+#: ../includes/report.php:1049
+msgid "Location Statistics (Clicks)"
+msgstr ""
+
+#: ../includes/report.php:1101 ../includes/report.php:1103
+#: ../includes/report.php:1130 ../includes/report.php:1132
+msgid "Url Statistics"
+msgstr ""
+
+#: ../includes/report.php:1109 ../includes/report.php:1138
+msgid "URL"
+msgstr ""
+
+#: ../includes/report.php:1110
+msgid "Number of WhatsApp Chat Views"
+msgstr ""
+
+#: ../includes/report.php:1139
+msgid "Number of WhatsApp Chat Clicks"
+msgstr ""
+
+#: ../includes/template-chat.php:6
+msgid "Redirect..."
+msgstr ""
+
+#: ../includes/template-chat.php:471
+msgid "Choose an Agent"
+msgstr ""
+
+#: ../includes/template-chat.php:472
+msgid "Choose one of of the agent to initiate chat in WhatsApp."
+msgstr ""

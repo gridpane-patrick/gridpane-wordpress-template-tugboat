@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_toll</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Public-page-with-users-points" transform="translate(-1353.000000, -825.000000)">
+            <g id="Group-2" transform="translate(389.000000, 655.000000)">
+                <g id="Group-3" transform="translate(19.000000, 144.000000)">
+                    <g id="ic_toll" transform="translate(100.000000, 24.000000)" filter="url(#filter-1)">
+                        <g transform="translate(845.000000, 2.000000)" filter="url(#filter-2)" id="Icon-24px">
+                            <g>
+                                <path d="M13.75,3.66666667 C9.69833333,3.66666667 6.41666667,6.94833333 6.41666667,11 C6.41666667,15.0516667 9.69833333,18.3333333 13.75,18.3333333 C17.8016667,18.3333333 21.0833333,15.0516667 21.0833333,11 C21.0833333,6.94833333 17.8016667,3.66666667 13.75,3.66666667 L13.75,3.66666667 Z M13.75,16.5 C10.7158333,16.5 8.25,14.0341667 8.25,11 C8.25,7.96583333 10.7158333,5.5 13.75,5.5 C16.7841667,5.5 19.25,7.96583333 19.25,11 C19.25,14.0341667 16.7841667,16.5 13.75,16.5 L13.75,16.5 Z" id="Shape" fill="#000000"></path>
+                                <polygon id="Shape" points="0 0 22 0 22 22 0 22"></polygon>
+                                <path d="M2.75,11 C2.75,8.6075 4.28083333,6.5725 6.41666667,5.82083333 L6.41666667,3.905 C3.25416667,4.72083333 0.916666667,7.58083333 0.916666667,11 C0.916666667,14.4191667 3.25416667,17.2791667 6.41666667,18.095 L6.41666667,16.1791667 C4.28083333,15.4275 2.75,13.3925 2.75,11 L2.75,11 Z" id="Shape" fill="#000000"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

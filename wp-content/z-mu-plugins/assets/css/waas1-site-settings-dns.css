@@ -1,0 +1,94 @@
+.div-table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #ccc;         
+	background-color: #fff;
+}
+
+
+.div-table-row.even {
+	background-color: #eee;
+}
+
+.div-table-row.heading {
+	font-weight: bold;
+	background-color: transparent;
+	border: none;
+}
+
+.div-table-row:hover {
+	background-color: #ccc;
+}
+
+.div-table-col {
+	padding: 10px 0;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+.div-table-col.no-dns-entries{
+	width: 100%;
+}
+
+
+.div-table-col.count{
+	width: 5%;
+    padding-left: 1%;
+}
+
+.div-table-col.type{
+	width: 6%;
+	font-weight: bold;
+}
+
+.div-table-col.name{
+	width: 25%;
+}
+
+.div-table-col.content{
+	width: 53%;
+}
+
+
+
+.div-table-col.ttl{
+	width: 7%;
+	text-align: center;
+}
+.div-table-col.proxied{
+	width: 7%;
+	text-align: center;
+}
+.div-table-col.action{
+	width: 7%;
+	text-align: right;
+	padding-right: 1%;
+}
+
+
+
+
+
+.addDnsRecordWrapper{
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+
+.addDnsRecordWrapper td.type{
+	width: 30%;
+}
+
+.addDnsRecordWrapper td.name{
+	width: 22%;
+}
+.addDnsRecordWrapper td.content{
+	width: 35%;
+}
+
+.addDnsRecordWrapper td.name input,
+.addDnsRecordWrapper td.content input{
+	width: 80%;
+}
+
+

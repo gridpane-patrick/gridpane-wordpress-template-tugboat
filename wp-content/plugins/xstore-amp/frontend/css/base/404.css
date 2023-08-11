@@ -1,0 +1,31 @@
+.page-404 h2 {
+    font-size: 7.7rem;
+    line-height: 1.055em;
+    margin-bottom: 0;
+    background: var(--et_amp_404-page-bg-image);
+    background-size: auto 200%;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: bgImageAnim 7s linear infinite;
+}
+.page-404 .button {
+    display: inline-block;
+}
+@-webkit-keyframes bgImageAnim {
+    from {
+        background-position: center 0;
+    }
+    to {
+        background-position: center 200%;
+    }
+}
+@keyframes bgImageAnim {
+    from {
+        background-position: center 0;
+    }
+    to {
+        background-position: center 200%;
+    }
+}

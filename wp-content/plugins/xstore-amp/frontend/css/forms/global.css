@@ -1,0 +1,95 @@
+form {
+    position: relative;
+}
+
+form div[submitting]:before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    display: block;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -14px;
+    border: 3px solid #e1e1e1;
+    border-left-color: #888;
+    animation: rotate .3s linear infinite;
+    z-index: 10;
+}
+
+form div[submitting]:after {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--et_amp-w-2-d);
+    opacity: .5;
+    z-index: 9;
+}
+
+form [submit-success],
+form [submit-error] {
+    width: 100%;
+}
+form [submit-success] .form-success,
+form [submit-error] .form-error {
+    position: relative;
+    margin-bottom: 5px;
+    color: var(--et_amp-r-c);
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+}
+
+form [submit-success] .form-success p,
+form [submit-error] .form-error p {
+    margin: 0;
+}
+
+form [submit-success] .form-success {
+    color: var(--et_amp-g-c);
+}
+
+form [submit-success] .form-success:empty,
+form [submit-error] .form-error:empty {
+    display: none;
+}
+
+form [submit-success] .form-success:before,
+form [submit-error] .form-error:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: currentColor;
+    opacity: .15;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+form [submit-success] > div:not(:empty),
+form [submit-error] > div:not(:empty) {
+    margin: 10px 0 10px;
+}
+
+form [submit-error] .form-errors-list:empty {
+    margin: -10px 0;
+}
+
+form [submit-success] .form-success .button,
+form [submit-error] .form-error .button {
+    width: auto;
+    display: inline-block;
+    margin-left: auto;
+    padding: 5px 15px;
+}
+
+form [submit-success] .form-success .button *,
+form [submit-error] .form-error .button * {
+    color: inherit;
+}

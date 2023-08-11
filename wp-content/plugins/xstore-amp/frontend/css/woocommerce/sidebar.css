@@ -1,0 +1,144 @@
+.filters-button {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    min-width: 140px;
+    background: var(--et_amp-w-2-d);
+    color: var(--et_amp-d-2-w);
+    font-size: 1.14rem;
+    border-radius: 30px;
+    min-height: 42px;
+    z-index: 3;
+}
+
+.sticky .filters-button {
+    position: absolute;
+    top: auto;
+}
+
+/* recent comments */
+.recentcomments + .recentcomments {
+    margin-top: 12px;
+}
+.recentcomments > a,
+.recentcomments > span {
+    display: block;
+}
+
+.sidebar-widget li[data-tooltip]:after {
+    content: attr(data-tooltip);
+    vertical-align: -webkit-baseline-middle;
+}
+
+.wc-layered-nav-rating .star-rating {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+amp-sidebar [class*=_filter] ul li a,
+amp-sidebar [class*=_layered_nav] ul li a{
+    position: relative;
+    padding: 0 0 0 24px;
+}
+
+amp-sidebar [class*=_filter] ul li a:before,
+amp-sidebar [class*=_layered_nav] ul li a:before{
+    content: '';
+    width: 13px;
+    height: 13px;
+    border: 1px solid var(--et_amp-br-c);
+    transition: inherit;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 8px);
+}
+
+amp-sidebar [class*=_filter] ul .current-item a:after,
+amp-sidebar [class*=_layered_nav] ul .current-item a:after,
+amp-sidebar [class*=_filter] ul .chosen a:after,
+amp-sidebar [class*=_layered_nav] ul .chosen a:after,
+amp-sidebar [class*=_filter] ul a:hover:after,
+amp-sidebar [class*=_layered_nav] ul a:hover:after{
+    content: "\e918";
+    font-family: 'xstore-icons';
+    position: absolute;
+    left: 2.5px;
+    z-index: 1;
+    font-size: 10px;
+    line-height: 1;
+    top: calc(50% - 5px);
+    color: var(--et_amp-d-2-w);
+}
+
+amp-sidebar [class*=_filter] ul .current-item a:hover:after,
+amp-sidebar [class*=_layered_nav] ul .current-item a:hover:after,
+amp-sidebar [class*=_filter] ul .chosen a:hover:after,
+amp-sidebar [class*=_layered_nav] ul .chosen a:hover:after{
+    content: "\e90a";
+}
+
+/* instagram */
+.widget .instagram-pics li {
+    line-height: 1;
+    display: flex;
+    border: 5px solid transparent;
+    width: 50%;
+    float: left;
+}
+
+.widget .instagram-pics {
+    margin: -5px;
+}
+
+.sidebar-widget select {
+    width: 100%;
+}
+
+.sidebar-widget:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.sidebar-widget ul ul {
+    padding-left: 15px;
+}
+
+.sidebar-widget ul ~ .button {
+    margin-top: 15px;
+}
+
+.sidebar-widget li {
+    list-style: none;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.sidebar-widget li > a:hover {
+    opacity: .7;
+}
+
+.sidebar-widget li .count {
+    margin-left: auto;
+}
+
+.sidebar-widget input ~ button,
+.sidebar-widget select ~ button {
+    margin-top: 12px;
+}
+
+/* price filter */
+.price_slider_amount {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px -7px;
+}
+
+.price_slider_amount input {
+    width: calc(50% - 10px);
+    min-width: unset;
+}
+
+.price_slider_amount input, .price_slider_amount button {
+    margin: 0 5px 7px;
+}

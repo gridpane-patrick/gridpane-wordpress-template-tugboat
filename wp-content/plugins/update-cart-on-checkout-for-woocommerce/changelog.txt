@@ -1,0 +1,11 @@
+* Update Cart On Checkout For Woocommerce *
+
+2022-03-29 - version 1.0.2
+* Add feature to hide/show delete all products button
+* Bug fixes
+
+2021-12-22 - version 1.0.1
+* Add feature to delete all products from checkout
+
+2021-12-12 - version 1.0.0
+* Initial Release

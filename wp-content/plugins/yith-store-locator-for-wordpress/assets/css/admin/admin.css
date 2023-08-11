@@ -1,0 +1,444 @@
+.yith-plugins_page_yith_sl_panel .yith-plugin-fw-upload-button,
+.yith-plugins_page_yith_sl_panel .yith-plugin-fw-upload-button-reset{
+    vertical-align: top!important;
+}
+
+
+#yit_store-locator_options_title-container h2.my-title{
+    border: none;
+    margin-left: -256px!important;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.post-type-yith_sl_store .tabs-panel .the-metabox:first-child {
+    width: 100%!important;
+    margin-left: 0;
+}
+
+.post-type-yith_sl_store div#address-settings .the-metabox,
+.post-type-yith_sl_store div#contact-info-settings .the-metabox{
+    margin: 0;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.post-type-yith_sl_store #_yith_sl_gmap_location{
+    background-image: url( '../../images/admin-panel/search.svg' );
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 10px 50%;
+}
+
+.post-type-yith_sl_store div#yith_sl_metabox_address.show,
+.post-type-yith_sl_store div#yith_sl_metabox_contact_info,
+.post-type-yith_sl_store div#yith_sl_metabox_advanced-settings{
+    display: inline-block;
+    width: 100%;
+}
+
+.post-type-yith_sl_store .metaboxes-tab div.tabs-panel:after {
+    content: '';
+    display: block;
+}
+
+.post-type-yith_sl_store .tabs-panel .the-metabox:after {
+    content: '';
+    display: block;
+}
+
+.post-type-yith_sl_store .tabs-panel .the-metabox label {
+    display: block;
+    margin-left: 0;
+    width: 100%;
+    font-weight: 400;
+}
+
+.post-type-yith_sl_store .tabs-panel .yith-plugin-fw-metabox-field-row {
+    padding: 10px 10px 10px 0;
+}
+
+
+.post-type-yith_sl_store .postbox h2{
+    border: none;
+    pointer-events: none;
+}
+
+.post-type-yith_sl_store .postbox > button {
+    display: none!important;
+}
+
+.post-type-yith_sl_store .yith-plugin-fw-metabox-field-row input {
+    width: 100%!important;
+}
+
+.post-type-yith_sl_store #yith_sl_metabox_address{
+    display: none;
+}
+
+.post-type-yith_sl_store div#address-settings .the-metabox.custom {
+    width: 100%;
+}
+
+.post-type-yith_sl_store div#contact-info-settings .the-metabox:last-child {
+    display: block;
+    float: none;
+}
+
+.post-type-yith_sl_store #advanced-settings .the-metabox {
+    margin: 0;
+}
+
+.post-type-yith_sl_store #advanced-settings .the-metabox input {
+    width: auto!important;
+    float: left;
+    margin-right: 15px;
+}
+
+.post-type-yith_sl_store #advanced-settings .the-metabox label,
+.post-type-yith_sl_store #advanced-settings .the-metabox label[for="yith_sl_store_name_link"] + .yith-plugin-fw-radio-field-wrapper{
+    display: inline-block!important;
+    float: left;
+    max-width: 200px;
+}
+
+.post-type-yith_sl_store #_yith_sl_store_name_link-container .yith-plugin-fw-radio-field-wrapper{
+    display: inline-block!important;
+    float: left;
+    max-width: 400px;
+}
+
+.post-type-yith_sl_store #advanced-settings .the-metabox #_yith_sl_featured {
+    top: 6px;
+    position: relative;
+}
+
+.post-type-yith_sl_store #_yith_sl_store_name_link-container .description,
+.post-type-yith_sl_store #_yith_sl_featured-container .description,
+.post-type-yith_sl_store #_yith_sl_marker_icon-container .description{
+    position: relative;
+    left: 200px;
+}
+
+.post-type-yith_sl_store #advanced-settings .yith-plugin-fw-checkbox-field-wrapper {
+    display: inline-block!important;
+    width: auto;
+}
+
+
+.post-type-yith_sl_store #_yith_sl_store_name_link-container {
+    height: 100px;
+}
+
+.post-type-yith_sl_store label[for="_yith_sl_opening_hours_text"] {
+    margin-bottom: 30px;
+}
+
+td.contact_info.column-contact_info li {
+    margin-bottom: 0;
+}
+
+td.contact_info.column-contact_info ul {
+    margin: 0;
+}
+
+#yit_store-locator_options_loader-icon-container > .option {
+    width: 100%;
+}
+
+#yit_store-locator_options_loader-icon-container .yith-plugin-fw-select-images__list li{
+    min-width: 0;
+    width: 100px;
+}
+
+
+
+/******************************************************************
+          Custom fields in panel settings
+*******************************************************************/
+
+.yith_sl_store .yith-plugin-fw-text-array-field-wrapper table{
+    display: block;
+}
+
+.yith_sl_store .yith-plugin-fw-text-array-field-wrapper table tr{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.yith_sl_store .yith-plugin-fw-text-array-field-wrapper table td{
+    display: block;
+    padding: 0;
+    margin-right: 20px;
+}
+
+/******************************************************************
+          Fix for plugin framework fields inside plugin panel
+*******************************************************************/
+.yith-plugins_page_yith_sl_panel .yith-plugin-fw  input[type=text]:not(.select2-search__field){
+    height: 38px;
+}
+
+.yith_sl_store .yith-plugin-fw-upload-img-preview + input {
+    position: relative;
+    top: 2px;
+}
+
+.yith_sl_store .yith-plugin-fw-upload-img-preview {
+    margin-bottom: 20px;
+    margin-top: 0!important;
+}
+
+.yith_sl_store .yith-plugin-fw input[type=text]:not(.select2-search__field){
+    height: 38px;
+}
+
+#yit_store-locator_options_map-default-position-container table,
+#yit_store-locator_options_side-padding-full-width-container table{
+    display: inline;
+}
+
+#yit_store-locator_options_map-default-position-container tbody,
+#yit_store-locator_options_side-padding-full-width-container tbody{
+    display: inherit;
+}
+
+#yit_store-locator_options_map-default-position-container tr,
+#yit_store-locator_options_side-padding-full-width-container tr{
+    display: inline-block;
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+}
+
+#yit_store-locator_options_map-default-position-container td,
+#yit_store-locator_options_side-padding-full-width-container td{
+    display: block;
+    padding: 0;
+}
+
+#yit_store-locator_options_map-default-position-container .option,
+#yit_store-locator_options_side-padding-full-width-container .option{
+    width: 100%;
+}
+
+
+label[for="yit_store-locator_options_map-default-position"]{
+    top: 33px;
+    position: relative;
+}
+
+
+.yith-plugins_page_yith_sl_panel .yith-plugin-fw-upload-img-preview {
+    margin-top: 0!important;
+    margin-bottom: 10px;
+}
+
+#yit_store-locator_options_background-color-search-button-container,
+#yit_store-locator_options_background-color-geolocation-button-container,
+#yit_store-locator_options_stores-list-background-color-get-direction-button,
+#yit_store-locator_options_stores-list-background-color-contact-store-button-container,
+#yit_store-locator_options_stores-list-background-color-visit-website-button{
+    margin-top: -20px;
+}
+
+#yit_store-locator_options_stores-list-featured-colors .yith-single-colorpicker{
+    width: 190px;
+}
+
+input#filter_show_label + .description {
+    top: -6px;
+    position: relative;
+    margin-left: 26px;
+}
+
+#yit_store-locator_options_loader-default-icon-wrapper img{
+    width: 50px;
+}
+
+#yit_store-locator_options_color-shades label {
+    display: none;
+}
+
+/**************************************************************************+
+    FILTERS
+****************************************************************************/
+#yith-sl-add-filter #filter_icon{
+    margin-bottom: 10px;
+}
+
+#yith-sl-add-filter #filter_type{
+    width: 95%;
+}
+
+#yith-sl-add-filter .form-field {
+    margin-bottom: 20px;
+}
+
+#yith-sl-add-filter label{
+    margin-bottom: 5px;
+}
+
+.wrap.yith-sl-filters.yith-plugin-fw-panel-custom-tab-container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrap.yith-sl-filters .notice {
+    padding: 10px;
+}
+
+
+.yith-sl-delete-filter{
+    color: #a00!important;
+}
+
+.wrap.yith-sl-filters.yith-plugin-fw-panel-custom-tab-container{
+    margin-top: 0;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    margin-left: 0;
+}
+
+#yith-sl-edit-filter table{
+    border: none;
+}
+
+#yith-sl-add-filter #filter_type,
+#yith-sl-edit-filter #filter_type
+{
+    background-color: #ffffff;
+    border: 1px solid #d8d8d8;
+    height: 38px;
+    max-width: 700px;
+}
+
+button[name="add_new_filter"]{
+    width: 100%;
+}
+
+form#yith-sl-add-filter #filter_icon-button,
+form#yith-sl-add-filter #filter_icon-button-reset {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+form#yith-sl-edit-filter #filter_icon {
+    width: 400px;
+}
+
+form#yith-sl-edit-filter input{
+    max-width: 700px;
+}
+
+form#yith-sl-add-filter #yith-sl-add-filter #filter_icon,
+form#yith-sl-add-filter #yith-sl-edit-filter  #filter_icon{
+    margin-bottom: 10px;
+}
+
+#yith-sl-add-filter label[for="filter_type"] + .yith-plugin-fw-upload-container,
+#yith-sl-edit-filter label[for="filter_type"] + .yith-plugin-fw-upload-container{
+    margin-bottom: 10px;
+}
+
+#yith-sl-add-filter .submit{
+    margin-top: 30px;
+}
+
+#yith-sl-loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    background-image: url( '../../images/admin-panel/loader.gif' );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    display: none;
+}
+
+input#filter_show_label,
+label[for="filter_show_label"] {
+    display: inline-block;
+    float: left;
+}
+
+label[for="filter_show_label"]{
+    margin-top: -5px;
+}
+
+label[for="filter_show_label"] + .description{
+    clear: both;
+
+}
+
+.hidden-field{
+    display: none;
+}
+
+.taxonomy-yisl_radius.edit-tags-php .term-slug-wrap p{
+    display: none;
+}
+
+.taxonomy-yisl_radius #the-list tr input.yith-sl-set-default{
+    opacity: 0;
+}
+
+.taxonomy-yisl_radius #the-list tr:hover{
+    background-color: #eef5f6;
+}
+
+.taxonomy-yisl_radius #the-list tr.checked{
+    background-color: #f3f4e4;
+}
+
+.taxonomy-yisl_radius #the-list tr:hover .wrap-default-input{
+    background-image: url( '../../images/admin-panel/default-hover.png' );
+    background-size: contain;
+    display: inline-block;
+}
+
+.taxonomy-yisl_radius #the-list tr.checked .wrap-default-input{
+    background-image: url( '../../images/admin-panel/default.png' );
+}
+
+.taxonomy-yisl_radius #the-list .wrap-default-input{
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.taxonomy-yisl_radius table .default_value .label{
+    color: #00a0d2;
+    display: none;
+    text-transform: uppercase;
+}
+.taxonomy-yisl_radius #the-list tr:not(.checked):hover .default_value .label{
+    display: inline-block;
+}
+
+
+
+/* Filters sortable */
+.filter-item-row{
+    cursor: pointer;
+}
+
+/* Hide description and parent fields for filters */
+.post-type-yith_sl_store .term-description-wrap,
+.post-type-yith_sl_store .term-parent-wrap, .column-description{
+    display: none;
+}
+

@@ -1,0 +1,4378 @@
+# Translation of YITH WooCommerce Points and Rewards in Dutch
+# This file is distributed under the same license as the YITH WooCommerce Points and Rewards package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Points and Rewards\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/points\n"
+"POT-Creation-Date: 2022-02-24 10:41:08+00:00\n"
+"PO-Revision-Date: 2022-01-10 12:48:30+0000\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:58
+#: templates/emails/latest-updates.php:51
+#: templates/myaccount/my-points-view.php:126
+#: templates/myaccount/my-points-view.php:135
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:59
+msgid "Amount"
+msgstr "Bedrag"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:60
+#: templates/emails/latest-updates.php:53
+#: templates/myaccount/my-points-view.php:128
+#: templates/myaccount/my-points-view.php:141
+msgid "Order No."
+msgstr "Bestelling nr."
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:61
+#: templates/myaccount/my-points-view.php:127
+#: templates/myaccount/my-points-view.php:138
+msgid "Reason"
+msgstr "Reden"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:62
+#: views/tabs/bulk-actions.php:162
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:185
+msgid "This user has not collected any point yet."
+msgstr "Deze gebruiker heeft nog geen punten verzamelt."
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:48
+msgid "User"
+msgstr "Gebruiker"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:49
+msgid "Points collected"
+msgstr "Verzamelde punten"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:50
+#: views/tabs/customer-history.php:64
+msgid "Points to redeem"
+msgstr "In te lossen punten"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:51
+#: views/tabs/customer-history.php:74
+msgid "Rank"
+msgstr "Rangorde"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:173
+msgid "Remove points"
+msgstr "Punten verwijderen"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:174
+msgid "Ban users"
+msgstr "Gebruikers verbannen"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:175
+msgid "Unban users"
+msgstr "Gebruikers weer toelaten"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:176
+msgid "Apply extrapoint rules"
+msgstr "Extra punten regels toepassen"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:258
+#: views/tabs/customer-history.php:44
+msgid "banned"
+msgstr "Verbannen"
+
+#. translators: 1: user display name 2: user ID 3: user email
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:379
+msgid "Show All Customers"
+msgstr "Alle klanten Weergeven"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:390
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:410
+msgid "Filter"
+msgstr "Filter"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:395
+#: plugin-options/metaboxes/points-earning-rules-options.php:27
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:38
+#: plugin-options/points/standard-options.php:53
+msgid "All Users"
+msgstr "Alle gebruikers"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:396
+msgid "Only users with points"
+msgstr "Alleen gebruikers met punten"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:397
+msgid "Only banned customers"
+msgstr "Alleen verbannen klanten"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:283
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:330
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:299
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:279
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:300
+msgid "Update"
+msgstr "Update"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:284
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:331
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:300
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:280
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:301
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:287
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:303
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:304
+msgid "Save Rule"
+msgstr "Regel opslaan"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:444
+msgid "Options"
+msgstr "Opties"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:98
+msgid "%s banner permanently deleted."
+msgid_plural "%s banners permanently deleted."
+msgstr[0] "%s banner permanent verwijderd."
+msgstr[1] "%s banners permanent verwijderd."
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:133
+#: plugin-options/metaboxes/banners-options.php:52
+msgid "Banner name"
+msgstr "Banner naam"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:134
+#: plugin-options/metaboxes/banners-options.php:79
+msgid "Banner type"
+msgstr "Banner type"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:135
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:118
+#: templates/myaccount/ywpar-share-points.php:83
+#: templates/myaccount/ywpar-share-points.php:101
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:166
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:164
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:166
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:173
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:172
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:173
+msgid "Move"
+msgstr "Verplaatsen"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:189
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:189
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:150
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:189
+msgid "Confirm delete"
+msgstr "Verwijderen bevestigen"
+
+#. translators: %s is the title of the post object.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:191
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:191
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:152
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:191
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "Weet je zeker dat je \"%s\" wilt verwijderen?"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:191
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:191
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:152
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:191
+msgid ""
+"This action cannot be undone and you will not be able to recover this data."
+msgstr ""
+"Deze actie kan niet ongedaan gemaakt worden en je bent niet in staat deze "
+"gegevens te herstellen."
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:192
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:192
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:153
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:192
+#: plugin-options/gutenberg/blocks.php:63
+msgid "No"
+msgstr "Nee"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:244
+msgid "back to banner list"
+msgstr "terug naar banner lijst"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:313
+msgid "Default title:"
+msgstr "Standaard titel:"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:313
+msgid "Default text:"
+msgstr "Standaard tekst:"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:334
+msgid "Save Banner"
+msgstr "Banner opslaan"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:425
+msgid "Create banner"
+msgstr "Banner aanmaken"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:96
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:97
+msgid "%s rule permanently deleted."
+msgid_plural "%s rules permanently deleted."
+msgstr[0] "%s regel permanent verwijderd."
+msgstr[1] "%s regels permanent verwijderd."
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:132
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:134
+#: plugin-options/metaboxes/points-earning-rules-options.php:112
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:150
+msgid "Rule name"
+msgstr "Regelnaam"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:133
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:135
+msgid "Active"
+msgstr "Actief"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:242
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:240
+msgid "back to rule list"
+msgstr "Terug naar regel lijst"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:328
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:401
+msgid "Create rule"
+msgstr "Regel aanmaken"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:98
+msgid "%s badge permanently deleted."
+msgid_plural "%s badges permanently deleted."
+msgstr[0] "%s badge permanent verwijderd."
+msgstr[1] "%s badges permanent verwijderd."
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:115
+msgid "Level name"
+msgstr "Niveau naam"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:116
+msgid "Points to collect"
+msgstr "Verzamelde punten"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:117
+msgid "Badge"
+msgstr "Badge"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:166
+#: plugin-options/metaboxes/points-earning-rules-options.php:206
+#: views/panel/types/options-levels-badges-range.php:22
+msgid "From"
+msgstr "Van"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:167
+#: views/panel/types/options-levels-badges-range.php:24
+msgid "to"
+msgstr "tot"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:203
+msgid "back to levels list"
+msgstr "terug naar niveaus lijst"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:283
+msgid "Save Level"
+msgstr "Niveau opslaan"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:371
+msgid "Create level"
+msgstr "Niveau aanmaken"
+
+#: includes/class-yith-wc-points-rewards-admin.php:174
+msgid "Customers' points"
+msgstr "Punten klant"
+
+#: includes/class-yith-wc-points-rewards-admin.php:175
+#: plugin-options/points-options.php:18
+msgid "Points Options"
+msgstr "Punten opties"
+
+#: includes/class-yith-wc-points-rewards-admin.php:176
+#: plugin-options/redeem-options.php:18
+msgid "Redeem Options"
+msgstr "Inlossen opties"
+
+#: includes/class-yith-wc-points-rewards-admin.php:177
+msgid "Customization"
+msgstr "Maatwerk"
+
+#: includes/class-yith-wc-points-rewards-admin.php:178
+msgid "Emails"
+msgstr "E-mails"
+
+#: includes/class-yith-wc-points-rewards-admin.php:470
+msgid "Best Point Earners"
+msgstr "Beste verdieners van punten"
+
+#: includes/class-yith-wc-points-rewards-admin.php:471
+msgid "Best Point Rewards"
+msgstr "Beste beloningen van punten"
+
+#: includes/class-yith-wc-points-rewards-admin.php:496
+#: includes/class-yith-wc-points-rewards-admin.php:529
+msgid "View History"
+msgstr "Bekijk geschiedenis"
+
+#: includes/class-yith-wc-points-rewards-admin.php:503
+#: includes/class-yith-wc-points-rewards-admin.php:535
+msgid "No users found"
+msgstr "Geen gebruikers gevonden"
+
+#: includes/class-yith-wc-points-rewards-admin.php:628
+msgid "YITH WooCommerce Points and Rewards"
+msgstr "YITH WooCommerce Points and Rewards"
+
+#: includes/class-yith-wc-points-rewards-admin.php:632
+msgid ""
+"WooCommerce coupon system has been disabled. In order to make YITH "
+"WooCommerce Points and Rewards work correctly, you have to enable coupons."
+msgstr ""
+"Het WooCommerce kortingsbonnensysteem is uitgeschakeld. Om YITH WooCommerce "
+"Points and Rewards juist te laten werken, moeten de kortingsbonnen worden "
+"ingeschakeld."
+
+#: includes/class-yith-wc-points-rewards-admin.php:636
+msgid "Enable the use of coupons"
+msgstr "Gebruik van kortingsbonnen inschakelen"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:260
+msgid "An error occurred during the bulk operation"
+msgstr "Er is een fout opgetreden tijdens de bulk operatie"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:273
+msgid "Done!"
+msgstr "Klaar!"
+
+#: includes/class-yith-wc-points-rewards-assets.php:90
+msgid "Start Import"
+msgstr "Importeren starten"
+
+#: includes/class-yith-wc-points-rewards-assets.php:91
+msgid "Start Export"
+msgstr "Exporteren starten"
+
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:90
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:106
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:152
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:205
+msgid "Date of birth"
+msgstr "Geboortedatum"
+
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:95
+msgid ""
+"If you need to change the birthday date, please contact the website "
+"administrator."
+msgstr ""
+"Indien je de geboortedatum moet wijzigen, neem dan contact op met de "
+"websitebeheerder."
+
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:201
+msgid "Points and Rewards"
+msgstr "Punten en Beloningen"
+
+#: includes/class-yith-wc-points-rewards-frontend.php:408
+#: includes/class-yith-wc-points-rewards-frontend.php:597
+#: includes/class-yith-wc-points-rewards.php:454
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:133
+#: plugin-options/customization-options.php:195
+msgid "My Points"
+msgstr "Mijn Punten"
+
+#: includes/class-yith-wc-points-rewards-frontend.php:509
+msgid "The minimum value to redeem is "
+msgstr "De minimumwaarde om in te lossen is"
+
+#: includes/class-yith-wc-points-rewards-frontend.php:546
+msgid ""
+"You have {points} {points_label}. Use {points_field} points to get a "
+"discount of {max_discount} on this order."
+msgstr ""
+"Je hebt {points} {points_label}. Gebruik {points_field} punten om een "
+"korting van {max_discount} te krijgen op deze bestelling."
+
+#: includes/class-yith-wc-points-rewards-frontend.php:563
+msgid ""
+"Use {points} {points_label} for a {max_discount} discount on this order!"
+msgstr ""
+"Gebruik {points} {points_label} voor een {max_discount} korting op deze "
+"bestelling!"
+
+#: includes/class-yith-wc-points-rewards-porting.php:73
+msgid "Apply Points from WooCommerce Points and Rewards"
+msgstr "Punten van WooCommerce Points and Rewards toepassen"
+
+#: includes/class-yith-wc-points-rewards-porting.php:74
+msgid "You can do this action only one time"
+msgstr "Je kunt deze actie maar een keer uitvoeren"
+
+#: includes/class-yith-wc-points-rewards-porting.php:77
+msgid "Import points"
+msgstr "Importeer punten"
+
+#: includes/class-yith-wc-points-rewards-porting.php:79
+msgid "Import Points"
+msgstr "Importeer punten"
+
+#: includes/class-yith-wc-points-rewards-porting.php:86
+msgid "WooCommerce Points and Rewards points import"
+msgstr "WooCommerce Points and Rewards points importeren"
+
+#: includes/class-yith-wc-points-rewards-porting.php:275
+#: includes/class-yith-wc-points-rewards-porting.php:288
+msgid "The CSV cannot be imported."
+msgstr "De CSV kan niet worden geïmporteerd."
+
+#: includes/class-yith-wc-points-rewards-porting.php:347
+msgid "Import"
+msgstr "Importeren"
+
+#: includes/class-yith-wc-points-rewards-porting.php:361
+msgid "The CSV has been imported."
+msgstr "De CSV is geïmporteerd."
+
+#: includes/class-yith-wc-points-rewards-porting.php:367
+msgid "The CSV is invalid."
+msgstr "De CSV is ongeldig."
+
+#: includes/class-yith-wc-points-rewards-post-types.php:102
+#: includes/class-yith-wc-points-rewards-post-types.php:104
+msgid "Add new level"
+msgstr "Nieuw niveau toevoegen"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:103
+msgid "+ Add new level"
+msgstr "+ Nieuw niveau toevoegen"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:105
+msgid "Edit level"
+msgstr "Niveau bewerken"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:106
+msgid "View level"
+msgstr "Niveau bekijken"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:107
+msgid "Search level"
+msgstr "Niveau zoeken"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:108
+#: includes/class-yith-wc-points-rewards-post-types.php:143
+#: includes/class-yith-wc-points-rewards-post-types.php:178
+#: includes/class-yith-wc-points-rewards-post-types.php:213
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:109
+#: includes/class-yith-wc-points-rewards-post-types.php:144
+#: includes/class-yith-wc-points-rewards-post-types.php:179
+#: includes/class-yith-wc-points-rewards-post-types.php:214
+msgid "Not found in Trash"
+msgstr "Niet gevonden in prullenbak"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:137
+msgid "Add banner"
+msgstr "Banner toevoegen"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:138
+msgid "+ Add banner"
+msgstr "+ Banner toevoegen"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:139
+msgid "Add new banner"
+msgstr "Nieuwe banner toevoegen"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:140
+msgid "Edit banner"
+msgstr "Banner bewerken"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:141
+msgid "View banner"
+msgstr "Banner bekijken"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:142
+msgid "Search banner"
+msgstr "Banner zoeken"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:172
+#: includes/class-yith-wc-points-rewards-post-types.php:174
+#: includes/class-yith-wc-points-rewards-post-types.php:207
+#: includes/class-yith-wc-points-rewards-post-types.php:209
+msgid "Add new rule"
+msgstr "Nieuwe regel toevoegen"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:173
+#: includes/class-yith-wc-points-rewards-post-types.php:208
+msgid "+ Add new rule"
+msgstr "+ Nieuwe regel toevoegen"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:175
+#: includes/class-yith-wc-points-rewards-post-types.php:210
+msgid "Edit rule"
+msgstr "Regel bewerken"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:176
+#: includes/class-yith-wc-points-rewards-post-types.php:211
+msgid "View rule"
+msgstr "Regel bekijken"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:177
+#: includes/class-yith-wc-points-rewards-post-types.php:212
+msgid "Search rule"
+msgstr "Regel zoeken"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:942
+#: plugin-options/customization-options.php:560
+msgid "Redeem points"
+msgstr "Punten inlossen"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1022
+msgid "Reward Discount Applied Successfully"
+msgstr "Beloningskorting Succesvol Toegepast"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1027
+msgid ""
+"Reward Discount has been removed. You can't use this discount with other "
+"coupons."
+msgstr ""
+"Beloningskorting is verwijderd. Je kunt deze korting niet gebruiken in "
+"combinatie met andere kortingsbonnen."
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1029
+msgid "You can't use this coupon in conjunction with other coupons"
+msgstr ""
+"Je kunt deze kortingsbon niet gebruiken in combinatie met andere "
+"kortingsbonnen"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1034
+msgid ""
+"Coupon has been removed. You can't use this coupon with Rewards Discount"
+msgstr ""
+"Kortingsbon is verwijderd. Je kunt deze kortingsbon niet gebruiken in "
+"combinatie met Beloningskorting"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1036
+msgid "You can't use this coupon with Rewards Discount"
+msgstr ""
+"Je kunt deze kortingsbon niet gebruiken in combinatie met Beloningskorting"
+
+#: includes/class-yith-wc-points-rewards-referral.php:221
+msgid "Points get from referred purchase"
+msgstr "Punten verkregen via verwijzingsaankoop"
+
+#. translators: placeholder is the user id.
+#: includes/class-yith-wc-points-rewards-referral.php:259
+msgid "A referred user has been deleted"
+msgstr "Een doorverwezen gebruiker is verwijderd"
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:231
+msgid "Points you can get:"
+msgstr "Punten die je kunt verdienen:"
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:309
+msgid "Your credit is "
+msgstr "Je krediet is "
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:327
+msgid "worth"
+msgstr "waarde"
+
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:99
+msgid ""
+"Update of YITH WooCommerce Points and Rewards: we are regenerating the "
+"points rules."
+msgstr ""
+"Update YITH WooCommerce Points and Rewards: we gaan de punten regels "
+"regenereren."
+
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:103
+msgid ""
+" The process is automatic, you will not lose any data and we need only few "
+"minutes. Don't worry if something is weird for now, please wait."
+msgstr ""
+"De voortgang is automatisch, je verliest geen gegevens en we hebben maar een "
+"paar minuten nodig. Maak je geen zorgen als je nu iets raars ziet, even "
+"geduld a.u.b."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:116
+msgid "Removed commission for refunded order"
+msgstr "Verwijderde commissie voor gerestitueerde bestelling"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:153
+msgid "Points Earned:"
+msgstr "Verdiende punten:"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:292
+msgid "Removed commission"
+msgstr "Verwijderde commissie"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:311
+msgid "Extra points to YITH WooCommerce affiliates"
+msgstr "Extra punten voor YITH WooCommerce Affiliates"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:317
+msgid "Assign points to the affiliates"
+msgstr "Punten toewijzen aan de affiliaties"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:318
+msgid ""
+"Assign extra points to users that are affiliates after that an order is "
+"placed with their referral code"
+msgstr ""
+"Extra punten toewijzen aan affiliatie gebruikers, nadat een bestelling is "
+"geplaatst met hun verwijzingscode"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:326
+#: plugin-options/affiliates-options.php:29
+msgid "Points for affiliates"
+msgstr "Punten voor affiliates"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:327
+msgid "Select the method to calculate points for affiliates."
+msgstr "Selecteer de methode voor het berekenen van punten voor affiliaties."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:332
+#: plugin-options/affiliates-options.php:35
+msgid "Fixed amount of points for each order"
+msgstr "Vaste hoeveelheid punten voor iedere bestelling"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:333
+#: plugin-options/affiliates-options.php:36
+#: plugin-options/affiliates-options.php:62
+msgid "Percent of points earned by customer"
+msgstr "Percentage aan punten verdiend door klant"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:334
+#: plugin-options/affiliates-options.php:37
+msgid "Conversion based on order subtotal"
+msgstr "Conversie gebaseerd op subtotaal bestelling"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:344
+#: plugin-options/affiliates-options.php:47
+msgid "Number of points earned for each commission"
+msgstr "Aantal verdiende punten voor iedere commissie"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:345
+msgid "Set a fix amount of points to assign for each commission."
+msgstr ""
+"Een vaste hoeveelheid aan punten instellen om toe te wijzen voor elke "
+"commissie."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:359
+#: plugin-options/affiliates-options.php:61
+msgid "Percent of points"
+msgstr "Percentage aan punten"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:360
+msgid "Percent of points earned by customer."
+msgstr "Punten percentage verdient door de klant."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:378
+msgid "Assign points based on the order subtotal."
+msgstr "Punten toewijzen gebaseerd op subtotaal bestelling."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:379
+msgid ""
+"Decide how many points will be assigned to each order based on the currency."
+msgstr ""
+"Bepaal hoeveel punten worden toegewezen aan elke bestelling, gebaseerd op "
+"valuta."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:396
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:400
+#: plugin-options/affiliates-options.php:98
+#: plugin-options/affiliates-options.php:102
+msgid "Affiliate commission"
+msgstr "Affiliatie commissie"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:489
+msgid "Order refunded"
+msgstr "Bestelling gerestitueerd"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:90
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:122
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:168
+msgid "Users with a membership plan"
+msgstr "Gebruikers met een lidmaatschap plan"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:99
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:145
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:177
+msgid "Choose membership plans"
+msgstr "Lidmaatschap plannen kiezen"
+
+#. translators: Placeholder are html tags.
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:103
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:148
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:180
+msgid "Search membership plan"
+msgstr "Lidmaatschap plan zoeken"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:221
+msgid "Extra points for members of specific plans"
+msgstr "Extra punten voor leden van specifieke plannen"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:227
+msgid "Assign points to the users of a membership"
+msgstr "Punten toewijzen aan de gebruikers van een lidmaatschap"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:228
+msgid "Assign points to the members of a membership"
+msgstr "Punten toewijzen aan de leden van een lidmaatschap"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:236
+#: plugin-options/points/extra-options.php:86
+#: plugin-options/points/extra-options.php:124
+#: plugin-options/points/extra-options.php:162
+#: plugin-options/points/extra-options.php:200
+#: plugin-options/points/extra-options.php:252
+#: plugin-options/points/extra-options.php:304
+#: plugin-options/points/extra-options.php:362
+msgid "Points to assign:"
+msgstr "Toe te wijzen punten:"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:237
+msgid "Set how many points to assign to members"
+msgstr "Bepaal hoeveel punten je wilt toewijzen aan leden"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:288
+msgid "Achieved membership plan"
+msgstr "Bereikt lidmaatschap plan"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:309
+msgid "Target - Membership Plan"
+msgstr "Doel - Lidmaatschap plan"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:313
+msgid "Target achieved - Membership Plan"
+msgstr "Doel bereikt - Lidmaatschap plan"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:151
+msgid "Extra points for subscribers"
+msgstr "Extra punten voor abonnees"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:157
+msgid "Enable to earn points on the subscriptions fees"
+msgstr "Inschakelen om punten te verdienen op abonnementskosten"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:158
+msgid ""
+"Enable to earn points on the subscriptions fees. If disabled, the user will "
+"get points only for the price of subscription products."
+msgstr ""
+"Inschakelen om punten te verdienen op abonnementskosten. Indien "
+"uitgeschakeld, zal de gebruiker alleen punten krijgen voor de productprijs "
+"van het abonnement."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:166
+msgid "Enable to earn points on each renewal order"
+msgstr "Inschakelen om punten te verdienen bij iedere vernieuwingsbestelling"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:167
+msgid ""
+"Enable to earn points on each renewal order (each subscription payment). If "
+"disabled, the user will get points only for the 1st payment."
+msgstr ""
+"Inschakelen om punten te verdienen bij elke verlengingsbestelling (elke "
+"abonnementsbetaling). Indien uitgeschakeld, krijgt de gebruiker alleen "
+"punten voor de eerste betaling."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:176
+msgid ""
+"Enter the renew order label to identify point assignment in the user's "
+"points history page"
+msgstr ""
+"Het vernieuwingsbestelling label invoeren, om de toewijzing van punten te "
+"identificeren op de pagina met de puntengeschiedenis van de gebruiker"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:179
+msgid "Renew order"
+msgstr "Vernieuw bestelling"
+
+#: includes/emails/class-yith-ywpar-expiration.php:28
+msgid "Expiring Points"
+msgstr "Te vervallen Punten"
+
+#: includes/emails/class-yith-ywpar-expiration.php:29
+msgid "This email is sent to users, a few days before their points expire."
+msgstr ""
+"Deze e-mail wordt verzonden naar gebruikers, enkele dagen voordat de punten "
+"vervallen."
+
+#: includes/emails/class-yith-ywpar-expiration.php:31
+msgid "Don't lose your points!"
+msgstr "Verlies je punten niet!"
+
+#: includes/emails/class-yith-ywpar-expiration.php:32
+msgid "[Expiring points]"
+msgstr "[Expiring points]"
+
+#: includes/emails/class-yith-ywpar-expiration.php:173
+#: includes/emails/class-yith-ywpar-update-points.php:167
+msgid "Enable/Disable"
+msgstr "Inschakelen/Uitschakelen"
+
+#: includes/emails/class-yith-ywpar-expiration.php:175
+#: includes/emails/class-yith-ywpar-update-points.php:169
+msgid "Enable this email notification"
+msgstr "Deze e-mail melding inschakelen"
+
+#: includes/emails/class-yith-ywpar-expiration.php:179
+#: includes/emails/class-yith-ywpar-update-points.php:173
+msgid "From (Name)"
+msgstr "Van (Naam)"
+
+#: includes/emails/class-yith-ywpar-expiration.php:186
+#: includes/emails/class-yith-ywpar-update-points.php:180
+msgid "From (Email Address)"
+msgstr "Van (E-mail adres)"
+
+#: includes/emails/class-yith-ywpar-expiration.php:193
+#: includes/emails/class-yith-ywpar-update-points.php:187
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: includes/emails/class-yith-ywpar-expiration.php:201
+#: includes/emails/class-yith-ywpar-update-points.php:195
+msgid "Recipient(s)"
+msgstr "Ontvanger(s)"
+
+#: includes/emails/class-yith-ywpar-expiration.php:210
+#: includes/emails/class-yith-ywpar-update-points.php:203
+msgid "Email Heading"
+msgstr "E-mail titel"
+
+#: includes/emails/class-yith-ywpar-expiration.php:219
+#: includes/emails/class-yith-ywpar-update-points.php:212
+msgid "Email Description"
+msgstr "Email Beschrijving"
+
+#: includes/emails/class-yith-ywpar-expiration.php:226
+#: includes/emails/class-yith-ywpar-update-points.php:219
+msgid "Email type"
+msgstr "E-mail type"
+
+#: includes/emails/class-yith-ywpar-expiration.php:228
+#: includes/emails/class-yith-ywpar-update-points.php:221
+msgid "Choose the format of the email that has to be sent."
+msgstr "Kies welke e-mail opmaak wordt verzonden."
+
+#: includes/emails/class-yith-ywpar-expiration.php:232
+#: includes/emails/class-yith-ywpar-update-points.php:225
+msgid "Plain text"
+msgstr "Eenvoudige tekst"
+
+#: includes/emails/class-yith-ywpar-expiration.php:233
+#: includes/emails/class-yith-ywpar-update-points.php:226
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/emails/class-yith-ywpar-expiration.php:234
+#: includes/emails/class-yith-ywpar-update-points.php:227
+msgid "Multipart"
+msgstr "Multipart"
+
+#: includes/emails/class-yith-ywpar-update-points.php:29
+msgid "Update Points"
+msgstr "Punten bijwerken"
+
+#: includes/emails/class-yith-ywpar-update-points.php:30
+msgid "This email is sent when the number of user-points change"
+msgstr ""
+"Deze e-mail wordt verzonden als de hoeveelheid punten van de gebruiker zijn "
+"gewijzigd"
+
+#: includes/emails/class-yith-ywpar-update-points.php:32
+msgid "Your Points in "
+msgstr "Je punten in "
+
+#: includes/emails/class-yith-ywpar-update-points.php:33
+msgid "[Points updated]"
+msgstr "[Punten bijgewerkt]"
+
+#: includes/functions-yith-wc-points-rewards.php:153
+#: plugin-options/customization-options.php:339
+#: plugin-options/customization-options.php:343
+msgid "Order Completed"
+msgstr "Bestelling afgerond"
+
+#: includes/functions-yith-wc-points-rewards.php:154
+msgid "Payment Completed"
+msgstr "Betaling afgerond"
+
+#: includes/functions-yith-wc-points-rewards.php:155
+#: plugin-options/customization-options.php:348
+#: plugin-options/customization-options.php:352
+msgid "Order Processing"
+msgstr "Bestelling in verwerking"
+
+#: includes/functions-yith-wc-points-rewards.php:374
+#: includes/functions-yith-wc-points-rewards.php:375
+msgid "When you achieve %points%"
+msgstr "Wanneer je %points% bereikt"
+
+#: includes/functions-yith-wc-points-rewards.php:376
+msgid ""
+"When you spend a total of %amount% in our shop you will earn an extra %points"
+"%"
+msgstr ""
+"Wanneer je een totaalbedrag van %amount% uitgeeft in onze winkel, verdien je "
+"%points% extra"
+
+#: includes/functions-yith-wc-points-rewards.php:377
+msgid "Get %points% for each user registered by clicking on your referral link"
+msgstr ""
+"Ontvang %points% voor elke gebruiker die zich registreert door op jouw "
+"referral link te klikken"
+
+#: includes/functions-yith-wc-points-rewards.php:378
+msgid ""
+"Get %points% for each user that complete an order by clicking on your "
+"referral link"
+msgstr ""
+"Ontvang %points% voor elke gebruiker die een bestelling afrond door op jouw "
+"referral link te klikken"
+
+#: includes/functions-yith-wc-points-rewards.php:379
+msgid ""
+"Get %points% extra, if you leave a review for %products% you've purchased"
+msgstr ""
+"Krijg %points% extra, als je een beoordeling achterlaat voor %products% die "
+"je hebt gekocht"
+
+#: includes/functions-yith-wc-points-rewards.php:380
+msgid "and get %points%"
+msgstr "en krijg %points%"
+
+#: includes/functions-yith-wc-points-rewards.php:413
+msgid "Upgrade to %level%"
+msgstr "Upgraden naar %level%"
+
+#: includes/functions-yith-wc-points-rewards.php:414
+msgid "Get %points% Extra Points"
+msgstr "Krijg %points% extra punten"
+
+#: includes/functions-yith-wc-points-rewards.php:415
+msgid "Get %points% when you spend %amount%"
+msgstr "Krijg %points% wanner je %amount% besteed"
+
+#: includes/functions-yith-wc-points-rewards.php:416
+#: includes/functions-yith-wc-points-rewards.php:417
+#: plugin-options/metaboxes/banners-options.php:20
+msgid "Refer a friend"
+msgstr "Verwijs een vriend"
+
+#: includes/functions-yith-wc-points-rewards.php:418
+#: plugin-options/metaboxes/banners-options.php:22
+msgid "Leave a review"
+msgstr "Een beoordeling achterlaten"
+
+#: includes/functions-yith-wc-points-rewards.php:419
+msgid "Complete your profile"
+msgstr "Je profiel afronden"
+
+#: includes/functions-yith-wc-points-rewards.php:1195
+msgid "earned:"
+msgstr "verdiend:"
+
+#: includes/functions-yith-wc-points-rewards.php:1200
+msgid "used:"
+msgstr "gebruikt:"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:31
+msgid "Show customers' points "
+msgstr "Toon punten van klanten"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:33
+msgid "YITH WooCommerce Points And Rewards - Customers Points"
+msgstr "YITH WooCommerce Points And Rewards - Klanten punten"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:123
+msgid "Best Users"
+msgstr "Beste gebruikers"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:124
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:138
+#: plugin-options/metaboxes/banners-options.php:75
+msgid "Simple"
+msgstr "Simpel"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:125
+msgid "Number of customers to show"
+msgstr "Aantal klanten om te tonen"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:130
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:142
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:136
+msgid "Style:"
+msgstr "Stijl:"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:139
+msgid "Boxed"
+msgstr "Omlijnd"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:144
+msgid "Number of customers to show:"
+msgstr "Aantal klanten om weer te geven:"
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:33
+msgid "Show points collected by the user so far"
+msgstr "Toon punten die gebruiker tot op heden heeft verzameld"
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:35
+msgid "YITH WooCommerce Points And Rewards - Balance"
+msgstr "YITH WooCommerce Points And Rewards - Saldo"
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:134
+msgid "Your balance is "
+msgstr "Je saldo is "
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:147
+msgid "Label:"
+msgstr "Label:"
+
+#: init.php:65
+msgid ""
+"YITH WooCommerce Points and Rewards is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Points and Rewards is ingeschakeld maar niet werkend. Het "
+"heeft WooCommerce nodig om te werken."
+
+#: plugin-options/affiliates-options.php:14
+msgid "YITH WooCommerce Affiliates Integration"
+msgstr "YITH WooCommerce Affiliates integratie"
+
+#: plugin-options/affiliates-options.php:20
+msgid "Enable Integration"
+msgstr "Integratie inschakelen"
+
+#: plugin-options/affiliates-options.php:21
+msgid "Enable the integration with YITH WooCommerce Affiliates plugin"
+msgstr "Integratie met YITH WooCommerce Affiliates plugin inschakelen."
+
+#: plugin-options/affiliates-options.php:30
+msgid "Select the method to calculate points for your affiliates"
+msgstr "Selecteer de methode voor het berekenen van punten voor je affiliates."
+
+#: plugin-options/affiliates-options.php:80
+msgid "Assign points based on the order subtotal"
+msgstr "Punten toewijzen gebaseerd op het subtotaal van de bestelling"
+
+#: plugin-options/affiliates-options.php:81
+msgid ""
+"Decide how many points will be assigned to each order based on the currency"
+msgstr ""
+"Bepaal hoeveel punten worden toegewezen aan elke bestellen, gebaseerd op de "
+"valuta"
+
+#: plugin-options/customers-tab/ranking-options.php:16
+msgid "Customer's ranking"
+msgstr "Rangorde van klant"
+
+#: plugin-options/customers-tab/ranking-options.php:21
+msgid "Enable customer ranking"
+msgstr "Rangschikking van klanten"
+
+#: plugin-options/customers-tab/ranking-options.php:22
+msgid "Enable the ranking of customers by points"
+msgstr "De rangschikking van klanten op punten instellen"
+
+#: plugin-options/customers-tab/ranking-options.php:33
+#: plugin-options/customers-tab/ranking-options.php:46
+msgid "Show ranking in My Account"
+msgstr "Toon rangorde in Mijn Account"
+
+#: plugin-options/customers-tab/ranking-options.php:34
+#: plugin-options/customers-tab/ranking-options.php:47
+msgid "Enable to show the customers' ranking in their \"My Account\" page"
+msgstr ""
+"Inschakelen om de rangorde van de klant in de \"Mijn Account\" pagina te "
+"tonen"
+
+#: plugin-options/customers-tab-options.php:21
+msgid "Customer points"
+msgstr "Punten klant"
+
+#: plugin-options/customers-tab-options.php:25 views/tabs/bulk-actions.php:219
+msgid "Bulk Actions"
+msgstr "Bulk acties"
+
+#: plugin-options/customers-tab-options.php:29
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: plugin-options/customers-tab-options.php:33
+msgid "Ranking"
+msgstr "Rangorde"
+
+#: plugin-options/customization-options.php:18
+msgid "General"
+msgstr "Algemeen"
+
+#: plugin-options/customization-options.php:24
+msgid "Hide points messages to guest users"
+msgstr "Punten berichten verbergen voor gast gebruikers"
+
+#: plugin-options/customization-options.php:25
+msgid "Enable to hide point messages to guest users"
+msgstr "Inschakelen om punten berichten te verbergen aan gast gebruikers."
+
+#: plugin-options/customization-options.php:39
+msgid "Points in shop pages"
+msgstr "Punten in winkel pagina's"
+
+#: plugin-options/customization-options.php:45
+msgid "Show points message in shop pages (loop)"
+msgstr "Toon punten bericht op winkel pagina's (loop)"
+
+#: plugin-options/customization-options.php:46
+msgid "Enable to show the message related to points in all shop pages"
+msgstr ""
+"Inschakelen om de berichten gerelateerd aan punten te tonen in alle winkel "
+"pagina's"
+
+#: plugin-options/customization-options.php:54
+msgid "Loop Message"
+msgstr "Vergrootglas bericht"
+
+#: plugin-options/customization-options.php:72
+#: plugin-options/customization-options.php:148
+msgid "Colors"
+msgstr "Kleuren"
+
+#: plugin-options/customization-options.php:76
+#: plugin-options/customization-options.php:152
+#: plugin-options/metaboxes/banners-options.php:173
+msgid "Text"
+msgstr "Tekst"
+
+#: plugin-options/customization-options.php:81
+#: plugin-options/customization-options.php:157
+#: plugin-options/metaboxes/banners-options.php:163
+msgid "Background"
+msgstr "Achtergrond"
+
+#: plugin-options/customization-options.php:86
+msgid "Border"
+msgstr "Rand"
+
+#: plugin-options/customization-options.php:99
+msgid "Show points message in product page"
+msgstr "Toon punten bericht op product pagina"
+
+#: plugin-options/customization-options.php:100
+msgid "Enable to show the message related to points in all product pages"
+msgstr ""
+"Inschakelen om het bericht gerelateerd aan punten te tonen in alle product "
+"pagina's"
+
+#: plugin-options/customization-options.php:108
+msgid "Message position"
+msgstr "Bericht positie"
+
+#: plugin-options/customization-options.php:109
+msgid "Choose where to show the points message in the product page"
+msgstr "Kies waar je het punten bericht wilt weergeven in de product pagina"
+
+#: plugin-options/customization-options.php:114
+msgid "Before \"Add to cart\" button"
+msgstr "Voor \"Toevoegen aan winkelwagen\" knop"
+
+#: plugin-options/customization-options.php:115
+msgid "After \"Add to cart\" button"
+msgstr "Na \"Toevoegen aan winkelwagen\" knop"
+
+#: plugin-options/customization-options.php:116
+msgid "Before excerpt"
+msgstr "Voor samenvatting"
+
+#: plugin-options/customization-options.php:117
+msgid "After excerpt"
+msgstr "Na samenvatting"
+
+#: plugin-options/customization-options.php:118
+msgid "After product meta"
+msgstr "Na prodcut meta"
+
+#: plugin-options/customization-options.php:130
+msgid "Single Product Page Message"
+msgstr "Single Product pagina bericht"
+
+#: plugin-options/customization-options.php:175
+msgid "Points in My Account"
+msgstr "Punten in mijn account"
+
+#: plugin-options/customization-options.php:182
+msgid "Show points on My Account"
+msgstr "Toon punten in mijn account"
+
+#: plugin-options/customization-options.php:183
+msgid "Enable to show points in the \"My Account\" page of all users"
+msgstr ""
+"Inschakelen voor het tonen van punten in de \"mijn account\" pagina van alle "
+"gebruikers"
+
+#: plugin-options/customization-options.php:191
+msgid "Label for points section"
+msgstr "Label voor punten sectie"
+
+#: plugin-options/customization-options.php:192
+msgid "Enter a label to identify the points section in My Account page"
+msgstr ""
+"Label invoeren voor het identificeren van de punten sectie in de mijn "
+"account pagina"
+
+#: plugin-options/customization-options.php:205
+msgid "Endpoint for points section"
+msgstr "Eindpunt voor punten sectie"
+
+#: plugin-options/customization-options.php:206
+msgid ""
+"Enter the endpoint of the Points in My account page. Endpoints cannot "
+"contain any spaces nor uppercase letters"
+msgstr ""
+"Het eindpunt van de punten invoeren op de Mijn account pagina. Eindpunten "
+"mogen geen spaties of hoofdletters bevatten"
+
+#: plugin-options/customization-options.php:219
+msgid "Show Points Value"
+msgstr "Toon puntenwaarde"
+
+#: plugin-options/customization-options.php:220
+msgid "enable to show the points value. Example: \"You have 100 points - 15$"
+msgstr ""
+"inschakelen om de puntenwaarde te tonen. Voorbeeld: \"Je hebt 100 punten - "
+"15$\""
+
+#: plugin-options/customization-options.php:233
+msgid "Show points earned and spent"
+msgstr "Toon verdiende en uitgegeven punten"
+
+#: plugin-options/customization-options.php:234
+msgid "Show points earned and spent in My Account > Order details"
+msgstr ""
+"Toon verdiende en uitgegeven punten in Mijn Account > Bestelling details"
+
+#: plugin-options/customization-options.php:242
+msgid "Show points earned and spent in the email of Order completed"
+msgstr "Toon verdiende en uitgegeven punten in de 'bestelling afgerond' e-mail"
+
+#: plugin-options/customization-options.php:255
+msgid "Points in Cart & Checkout"
+msgstr "Punten in winkelwagen & afrekenscherm"
+
+#: plugin-options/customization-options.php:261
+msgid "Show points in Cart page"
+msgstr "Toon punten op winkelwagen pagina"
+
+#: plugin-options/customization-options.php:262
+msgid "Enable to show the points message in cart page"
+msgstr "Inschakelen om het punten bericht te tonen in de winkelwagen pagina"
+
+#: plugin-options/customization-options.php:270
+msgid "Message text in cart"
+msgstr "Tekstbericht in winkelwagen"
+
+#: plugin-options/customization-options.php:271
+msgid "Enter the text to show in cart page"
+msgstr "Tekst invoeren die wordt getoond in de winkelwagen pagina"
+
+#: plugin-options/customization-options.php:285
+msgid "Show points in Checkout page"
+msgstr "Toon punten op afrekenpagina"
+
+#: plugin-options/customization-options.php:286
+msgid "Enable to show the points message in checkout page"
+msgstr "Toon het bericht in winkelwagen- & afrekenpagina"
+
+#: plugin-options/customization-options.php:294
+msgid "Message text in checkout"
+msgstr "Tekstbericht in afrekenscherm"
+
+#: plugin-options/customization-options.php:295
+msgid "Enter the text to show in Checkout page"
+msgstr "Tekst invoeren om te tonen in afrekenpagina"
+
+#: plugin-options/customization-options.php:315
+msgid "Labels Settings"
+msgstr "Label instellingen"
+
+#: plugin-options/customization-options.php:321
+msgid "Singular label replacing \"point\""
+msgstr "Enkelvoudig label vervangen \"punt\""
+
+#: plugin-options/customization-options.php:325
+msgid "Point"
+msgstr "Punt"
+
+#: plugin-options/customization-options.php:330
+msgid "Plural label replacing \"points\""
+msgstr "Meervoudig label vervangen \"punten\""
+
+#: plugin-options/customization-options.php:334
+#: views/panel/types/options-conversion-earning.php:44
+#: views/panel/types/options-conversion.php:39
+#: views/panel/types/options-percentage-conversion.php:42
+#: views/panel/types/options-role-conversion.php:79
+#: views/panel/types/options-role-conversion.php:88
+#: views/panel/types/options-role-percentage-conversion.php:66
+#: views/tabs/bulk-actions.php:147
+msgid "Points"
+msgstr "Punten"
+
+#: plugin-options/customization-options.php:357
+#: plugin-options/customization-options.php:361
+msgid "Order Cancelled"
+msgstr "Bestelling geannuleerd"
+
+#: plugin-options/customization-options.php:366
+#: plugin-options/customization-options.php:370
+msgid "Admin Action"
+msgstr "Actie beheerder"
+
+#: plugin-options/customization-options.php:375
+#: plugin-options/customization-options.php:379
+msgid "Reviews"
+msgstr "Beoordelingen"
+
+#: plugin-options/customization-options.php:384
+#: plugin-options/customization-options.php:388
+msgid "Registration"
+msgstr "Registratie"
+
+#: plugin-options/customization-options.php:393
+msgid "Target - Total Points"
+msgstr "Doel - Totaal aantal punten"
+
+#: plugin-options/customization-options.php:397
+msgid "Target achieved - Points collected"
+msgstr "Doel bereikt - Punten verzameld"
+
+#: plugin-options/customization-options.php:402
+msgid "Target - Total Amount"
+msgstr "Doel - Totaalbedrag"
+
+#: plugin-options/customization-options.php:406
+msgid "Target achieved - Total spend"
+msgstr "Doel bereikt - Totaal uitgegeven"
+
+#: plugin-options/customization-options.php:411
+msgid "Target - Total Orders"
+msgstr "Doel - Totaal bestellingen"
+
+#: plugin-options/customization-options.php:415
+msgid "Target achieved - Total Orders"
+msgstr "Doel bereikt - Totaal bestellingen"
+
+#: plugin-options/customization-options.php:419
+msgid "Target Checkout Total Threshold"
+msgstr "Doel drempelwaarde van totaal in afrekenscherm"
+
+#: plugin-options/customization-options.php:423
+msgid "Target achieved - Checkout Total Threshold"
+msgstr "Doel bereikt - Drempelwaarde van totaal in afrekenscherm"
+
+#: plugin-options/customization-options.php:427
+msgid "Birthday"
+msgstr "Verjaardag"
+
+#: plugin-options/customization-options.php:431
+msgid "Target achieved - Birthday"
+msgstr "Doel bereikt - Verjaardag"
+
+#: plugin-options/customization-options.php:435
+msgid "Daily Login"
+msgstr "Dagelijkse login"
+
+#: plugin-options/customization-options.php:439
+msgid "Target achieved - Daily Login"
+msgstr "Doel bereikt - Dagelijkse login"
+
+#: plugin-options/customization-options.php:443
+msgid "Registration by referral"
+msgstr "Registratie via verwijzing"
+
+#: plugin-options/customization-options.php:447
+msgid "User registration by referral"
+msgstr "Gebruikersregistratie via verwijzing"
+
+#: plugin-options/customization-options.php:451
+#: plugin-options/customization-options.php:455
+msgid "Removed registration points due to a referred user cancellation"
+msgstr ""
+"Registratiepunten verwijderd vanwege annulering door doorverwezen gebruiker"
+
+#: plugin-options/customization-options.php:459
+#: plugin-options/customization-options.php:463
+msgid "Purchase by referral"
+msgstr "Aankoop via verwijzing"
+
+#: plugin-options/customization-options.php:468
+#: plugin-options/customization-options.php:472
+msgid "Removed points due to a referred user cancellation"
+msgstr ""
+"Punten verwijderd vanwege een annulering van een doorverwezen gebruiker"
+
+#: plugin-options/customization-options.php:477
+#: plugin-options/customization-options.php:481
+msgid "Collected Points"
+msgstr "Verzamelde punten"
+
+#: plugin-options/customization-options.php:486
+msgid "Level Achieved"
+msgstr "Niveau behaald"
+
+#: plugin-options/customization-options.php:490
+msgid "Target achieved - Level"
+msgstr "Doel bereikt - Niveau"
+
+#: plugin-options/customization-options.php:494
+msgid "Profile Complete"
+msgstr "Profiel afgerond"
+
+#: plugin-options/customization-options.php:498
+msgid "Target achieved - Profile Completed"
+msgstr "Doel bereikt - Profiel afgerond"
+
+#: plugin-options/customization-options.php:502
+#: plugin-options/customization-options.php:506
+msgid "Expired Points"
+msgstr "Vervallen punten"
+
+#: plugin-options/customization-options.php:511
+#: plugin-options/customization-options.php:515
+msgid "Order Refund"
+msgstr "Restitutie bestelling"
+
+#: plugin-options/customization-options.php:520
+#: plugin-options/customization-options.php:524
+msgid "Order Refund Deleted"
+msgstr "Restitutie bestelling verwijderd"
+
+#: plugin-options/customization-options.php:529
+msgid "Redeemed Points"
+msgstr "Ingeloste Punten"
+
+#: plugin-options/customization-options.php:533
+msgid "Redeemed Points for order"
+msgstr "Ingeloste punten voor bestelling"
+
+#: plugin-options/customization-options.php:538
+msgid "Shared Points"
+msgstr "Gedeelde punten"
+
+#: plugin-options/customization-options.php:542
+msgid "Shared point with a coupon"
+msgstr "Punten gedeeld met een kortingsbon"
+
+#: plugin-options/customization-options.php:547
+msgid "Apply Discount Button"
+msgstr "Korting toepassen knop"
+
+#: plugin-options/customization-options.php:551
+msgid "Apply Points"
+msgstr "Punten Toepassen"
+
+#: plugin-options/customization-options.php:556
+msgid "Applied Points Discount Label"
+msgstr "Punten toegepast kortingslabel"
+
+#: plugin-options/emails-options.php:14
+msgid "Expiring points"
+msgstr "Te vervallen punten"
+
+#: plugin-options/emails-options.php:19
+msgid "Send an email before the expiration date"
+msgstr "Stuur een e-mail vóór de vervaldatum"
+
+#: plugin-options/emails-options.php:28
+msgid "Days before points expire"
+msgstr "Dagen voordat punten vervallen"
+
+#: plugin-options/emails-options.php:29
+msgid "Number of days before 'points expiration' when the email will be sent"
+msgstr ""
+"Aantal dagen voordat de punten vervallen, en deze e-mail wordt verzonden"
+
+#: plugin-options/emails-options.php:42 plugin-options/emails-options.php:138
+msgid "Email content"
+msgstr "Inhoud e-mail"
+
+#: plugin-options/emails-options.php:91
+msgid "Updated Points"
+msgstr "Bijgewerkte punten"
+
+#: plugin-options/emails-options.php:97
+msgid "Enable this email notification on updated points"
+msgstr "Deze e-mail melding inschakelen bij bijgewerkte punten"
+
+#: plugin-options/emails-options.php:106
+msgid "Send Email"
+msgstr "Verstuur e-mail"
+
+#: plugin-options/emails-options.php:110
+msgid "Once a day if points have been updated"
+msgstr "Een keer per dag, als punten zijn bijgewerkt."
+
+#: plugin-options/emails-options.php:111
+msgid "As soon as points are updated"
+msgstr "Zodra punten zijn bijgewerkt"
+
+#: plugin-options/emails-options.php:123
+msgid "Avoid email sending for manual update"
+msgstr "Voorkom versturen van e-mails bij handmatig bijwerken."
+
+#: plugin-options/emails-options.php:124
+msgid "Enable to not send email when the admin updates points manually"
+msgstr ""
+"Inschakelen als je geen e-mail wilt versturen wanneer de beheerder punten "
+"handmatig bijwerkt."
+
+#: plugin-options/emails-options.php:141
+msgid "You can use the following placeholders"
+msgstr "Je kunt de volgende invulvelden gebruiken"
+
+#: plugin-options/emails-options.php:142
+msgid "customer's username"
+msgstr "gebruikersnaam klant"
+
+#: plugin-options/emails-options.php:143
+msgid "customer's first name"
+msgstr "voornaam klant"
+
+#: plugin-options/emails-options.php:144
+msgid "customer's last name"
+msgstr "achternaam klant"
+
+#: plugin-options/emails-options.php:145
+msgid "latest updates of your points"
+msgstr "Laatste bijwerkingen van je punten"
+
+#: plugin-options/emails-options.php:146
+msgid "label for points"
+msgstr "label voor punten"
+
+#: plugin-options/emails-options.php:147
+msgid "current balance"
+msgstr "Huidig saldo"
+
+#: plugin-options/emails-options.php:148
+msgid "Shop url"
+msgstr "Winkel url"
+
+#: plugin-options/emails-options.php:149
+msgid "Website name"
+msgstr "Website naam"
+
+#: plugin-options/gutenberg/blocks.php:62
+msgid "Yes"
+msgstr "Ja"
+
+#: plugin-options/metaboxes/banners-options.php:14
+msgid "Points of next level"
+msgstr "Punten van het volgende niveau"
+
+#: plugin-options/metaboxes/banners-options.php:15
+#: plugin-options/points/extra-options.php:686
+msgid "Extra points for amount spent"
+msgstr "Extra punten voor uitgegeven bedrag"
+
+#: plugin-options/metaboxes/banners-options.php:16
+msgid "Extra points for points collected"
+msgstr "Extra punten voor verzamelde punten"
+
+#: plugin-options/metaboxes/banners-options.php:21
+msgid "Refer a friend "
+msgstr "Verwijs een vriend"
+
+#: plugin-options/metaboxes/banners-options.php:23
+msgid "Complete Profile"
+msgstr "Afgerond profiel"
+
+#: plugin-options/metaboxes/banners-options.php:53
+msgid "Enter a name to identify this banner"
+msgstr "Een naam invoeren om deze banner te identificeren"
+
+#: plugin-options/metaboxes/banners-options.php:76
+msgid "Target"
+msgstr "Doel"
+
+#: plugin-options/metaboxes/banners-options.php:77
+msgid "Get points"
+msgstr "Krijg punten"
+
+#: plugin-options/metaboxes/banners-options.php:80
+msgid "Choose the banner type"
+msgstr "Kies het banner type"
+
+#: plugin-options/metaboxes/banners-options.php:88
+#: plugin-options/metaboxes/banners-options.php:104
+msgid "Action type"
+msgstr "Actie type"
+
+#: plugin-options/metaboxes/banners-options.php:89
+msgid ""
+"Choose the banner action type. To create target banners you need to enable "
+"extra points options first."
+msgstr ""
+"Kies het banner actie type. Om doel banners aan te maken, moet je eerst de "
+"extra punten opties inschakelen."
+
+#: plugin-options/metaboxes/banners-options.php:92
+#: plugin-options/metaboxes/banners-options.php:109
+msgid " No extra rules found"
+msgstr "Geen extra regels gevonden"
+
+#: plugin-options/metaboxes/banners-options.php:119
+msgid "Products to show"
+msgstr "Producten om te tonen"
+
+#: plugin-options/metaboxes/banners-options.php:120
+msgid ""
+"Enter the maximum number of products the user can review to earn extra points"
+msgstr ""
+"Maximum aantal producten invoeren, die de gebruiker kan beoordelen om extra "
+"punten te verdienen"
+
+#: plugin-options/metaboxes/banners-options.php:132
+msgid "Banner title"
+msgstr "Banner titel"
+
+#: plugin-options/metaboxes/banners-options.php:133
+msgid "Enter the title to show in this banner"
+msgstr "Titel invoeren om in deze banner te tonen"
+
+#: plugin-options/metaboxes/banners-options.php:141
+msgid "Banner text"
+msgstr "Banner tekst"
+
+#: plugin-options/metaboxes/banners-options.php:142
+msgid "Enter the text to show in this banner"
+msgstr "Tekst invoeren om in deze banner te tonen"
+
+#: plugin-options/metaboxes/banners-options.php:150
+msgid "Banner image"
+msgstr "Banner afbeelding"
+
+#: plugin-options/metaboxes/banners-options.php:151
+msgid "Upload an image for this banner"
+msgstr "Een afbeelding uploaden voor deze banner"
+
+#: plugin-options/metaboxes/banners-options.php:158
+msgid "Banner colors"
+msgstr "Banner kleuren"
+
+#: plugin-options/metaboxes/banners-options.php:168
+msgid "Title"
+msgstr "Titel"
+
+#: plugin-options/metaboxes/banners-options.php:183
+msgid "Add link"
+msgstr "Link toevoegen"
+
+#: plugin-options/metaboxes/banners-options.php:184
+msgid "Enable to add a link to this banner"
+msgstr "Inschakelen om een link toe te voegen aan deze banner"
+
+#: plugin-options/metaboxes/banners-options.php:195
+msgid "Banner links to"
+msgstr "Banner verwijst naar"
+
+#: plugin-options/metaboxes/banners-options.php:196
+msgid "Enter the url of this banner"
+msgstr "De url van deze banner invoeren"
+
+#: plugin-options/metaboxes/banners-options.php:207
+msgid "Show progress slider"
+msgstr "Toon voortgang slider"
+
+#: plugin-options/metaboxes/banners-options.php:208
+msgid "Enable to show a slider with user progress"
+msgstr "Inschakelen om een slider te tonen met gebruikersvoortgang"
+
+#: plugin-options/metaboxes/banners-options.php:220
+msgid "Banner progress bar colors"
+msgstr "Banner vooruitgang balk kleuren"
+
+#: plugin-options/metaboxes/banners-options.php:225
+msgid "Bar"
+msgstr "Balk"
+
+#: plugin-options/metaboxes/banners-options.php:230
+msgid "Progress"
+msgstr "Voortgang"
+
+#: plugin-options/metaboxes/banners-options.php:243
+msgid "Show"
+msgstr "Toon"
+
+#: plugin-options/metaboxes/banners-options.php:244
+msgid "Choose in which section to show this banner"
+msgstr "Kies welke sectie je wilt tonen in deze banner"
+
+#: plugin-options/metaboxes/banners-options.php:246
+msgid "in Target tab"
+msgstr "in Doel tab"
+
+#: plugin-options/metaboxes/banners-options.php:247
+msgid "in Get points tab"
+msgstr "in Krijg punten tab"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:28
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:39
+#: plugin-options/points/standard-options.php:54
+#: plugin-options/redeem/standard-options.php:41 views/tabs/bulk-actions.php:39
+msgid "Only specified user roles"
+msgstr "Uitsluitend aangegeven gebruikersrollen"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:29
+#: plugin-options/metaboxes/points-earning-rules-options.php:79
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:40
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:75
+msgid "Users with specific points level"
+msgstr "Gebruikers met een specifiek punten niveau"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:39
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:49
+msgid "Choose user roles"
+msgstr "Kies gebruikersrollen"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:42
+msgid "Search user role"
+msgstr "Gebruikersrol zoeken"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:50
+#: plugin-options/metaboxes/points-earning-rules-options.php:81
+#: plugin-options/metaboxes/points-earning-rules-options.php:251
+msgid "Apply rule to:"
+msgstr "Regel toepassen op:"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:113
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:151
+msgid "Enter a name to identify this rule"
+msgstr "Naam invoeren om deze regel te identificeren"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:127
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:165
+msgid "Priority"
+msgstr "Prioriteit"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:128
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:166
+msgid ""
+"Set the priority to assign to this rule. This is important to overwrite "
+"rules. 1 is highest priority"
+msgstr ""
+"De prioriteit instellen voor deze regel. Dit is belangrijk om regels te "
+"overschrijven. 1 is de hoogste prioriteit"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:141
+msgid "Points type"
+msgstr "Punten type"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:142
+msgid ""
+"Choose if to assign a fixed amount of points or calculate the points from "
+"the product price"
+msgstr ""
+"Bepaal of je een vaste hoeveelheid punten wilt toewijzen, of bereken de "
+"punten vanaf de productprijs"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:146
+#: plugin-options/metaboxes/points-earning-rules-options.php:159
+#: plugin-options/metaboxes/points-earning-rules-options.php:171
+msgid "Points to assign"
+msgstr "Toe te wijzen punten"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:155
+#: plugin-options/redeem/share-options.php:57
+#: plugin-options/redeem/share-options.php:74
+#: views/panel/types/options-extrapoints-multi.php:69
+#: views/panel/types/options-extrapoints.php:55
+msgid "points"
+msgstr "punten"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:195
+msgid "Rule will be valid"
+msgstr "Regel is geldig"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:196
+#: plugin-options/metaboxes/points-earning-rules-options.php:236
+msgid ""
+"Choose to schedule the global points overriding or if to start and end it "
+"manually"
+msgstr ""
+"Bepaal of je de globale punten overschrijving wilt plannen of dat je het "
+"handmatig wilt starten en beëindigen"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:209
+#: views/tabs/bulk-actions.php:193
+msgid "Add points to orders placed from"
+msgstr "Punten toekennen aan bestellingen geplaatst vanaf"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:210
+#: plugin-options/metaboxes/points-earning-rules-options.php:223
+#: views/tabs/bulk-actions.php:194
+msgid "Choose from which date to assign points to previous orders"
+msgstr ""
+"Bepaal vanaf welke datum punten worden toegekend aan voorgaande bestellingen"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:219
+msgid "To"
+msgstr "tot"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:245
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:241
+msgid "All products"
+msgstr "Alle producten"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:246
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:242
+msgid "Specific products"
+msgstr "Specifieke producten"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:247
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:243
+msgid "On sale products"
+msgstr "In uitverkoop producten"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:248
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:244
+msgid "Products of specific categories"
+msgstr "Producten van specifieke categorieën"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:249
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:245
+msgid "Products of specific tags"
+msgstr "Producten met specifieke tags"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:252
+msgid ""
+"Choose if to assign these points when the user purchases all products or "
+"only specific products or products of specific categories"
+msgstr ""
+"Bepaal of je deze punten wilt toewijzen wanneer de gebruiker alle producten "
+"koopt, alleen specifieke producten of producten van specifieke categorieën"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:256
+#: plugin-options/metaboxes/points-earning-rules-options.php:319
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:256
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:319
+msgid "Choose products"
+msgstr "Kies producten"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:257
+#: plugin-options/metaboxes/points-earning-rules-options.php:274
+#: plugin-options/metaboxes/points-earning-rules-options.php:291
+msgid "Choose for which products to apply these points"
+msgstr "Bepaal op welke producten je deze punten wilt toepassen"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:273
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:273
+msgid "Choose categories"
+msgstr "Categorieën kiezen"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:279
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:279
+msgid "Search for a category"
+msgstr "Een categorie zoeken"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:290
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:290
+msgid "Choose tags"
+msgstr "Tags kiezen"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:296
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:296
+msgid "Search for a tag"
+msgstr "Tag zoeken"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:311
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:311
+msgid "Exclude products"
+msgstr "Producten uitsluiten"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:312
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:312
+msgid "Enable if you want to exclude some products from this rule"
+msgstr "Inschakelen als je enkele producten wilt uitsluiten van deze regel"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:320
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:320
+msgid "Choose which products to exclude"
+msgstr "Kies welke producten je wilt uitsluiten"
+
+#. translators: Placeholder are html tags.
+#: plugin-options/metaboxes/points-earning-rules-options.php:345
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:349
+msgid "Choose user levels"
+msgstr "Kies gebruikersniveaus"
+
+#. translators: Placeholder are html tags.
+#: plugin-options/metaboxes/points-earning-rules-options.php:349
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:351
+msgid "Search user level"
+msgstr "Gebruikersniveau zoeken"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:29
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:77
+msgid "Apply rule to"
+msgstr "Regel toepassen op"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:105
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:125
+#: plugin-options/redeem/standard-options.php:87
+#: plugin-options/redeem/standard-options.php:106
+msgid "Reward Conversion Rate"
+msgstr "Omrekenkoers beloning"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:106
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:126
+#: plugin-options/redeem/standard-options.php:88
+#: plugin-options/redeem/standard-options.php:107
+msgid ""
+"Choose how to calculate the discount when customers use their available "
+"points"
+msgstr ""
+"Bepaal hoe je de korting wilt berekenen wanneer de klant zijn beschikbare "
+"punten gebruikt."
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:174
+msgid "Redeem conversion rate"
+msgstr "Inlossen met omrekenkoers"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:175
+msgid "Redeem max discount rate"
+msgstr "Inlossen met max. kortingswaarde"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:177
+msgid "Rule type"
+msgstr "Regel type"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:178
+msgid ""
+"Choose how to apply the discount. The discount can either be a percentage or "
+"a fixed amount"
+msgstr ""
+"Bepaal hoe je de korting wilt toepassen. De korten kan een percentage of een "
+"vast bedrag zijn"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:191
+msgid ""
+"Set a % max discount based on the global max discount.\n"
+"(Example: with a global max discount of 50$ if you set a max discount of 10% "
+"for this product the user will get a max discount of 5$ for this product)"
+msgstr ""
+"Een % max korting gebaseerd op de globale max korting.\n"
+"(Voorbeeld: met een globale max korting van 50$, als je een max korting van "
+"10% instelt voor dit product, krijgt de gebruiker een max korting van 5$ op "
+"dit product)"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:196
+msgid ""
+"Set a fixed max discount value\n"
+"(Example: max 5$ of discount for this product)"
+msgstr ""
+"Vaste max kortingswaarde instellen\n"
+"(Voorbeeld: max 5$ korting voor dit product)"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:203
+msgid "Max discount type"
+msgstr "Max kortingstype"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:215
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:227
+msgid "Max discount value"
+msgstr "Maximale kortingswaarde"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:247
+msgid "Apply rule to these products"
+msgstr "Regel toepassen op deze producten"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:248
+msgid ""
+"Choose if set a max discount when the user purchases all products or only "
+"specific products or products of specific categories"
+msgstr ""
+"Bepaal of je een maximale korting instelt wanneer de gebruiker alle "
+"producten koopt, alleen specifieke producten of producten van specifieke "
+"categorieën"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:257
+msgid "Choose for which products to apply this rule"
+msgstr "Bepaal op welke producten je deze regel wilt toepassen"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:274
+msgid "Choose for which category to apply this rule"
+msgstr "Bepaal op welke categorie je deze regel wilt toepassen"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:291
+msgid "Choose for which tags to apply this rule"
+msgstr "Bepaal op welke tags deze regel wordt toegepast"
+
+#: plugin-options/points/extra-options.php:14
+msgid "My Account Page"
+msgstr "Mijn Account pagina"
+
+#: plugin-options/points/extra-options.php:15
+msgid "Registration Form"
+msgstr "Registratieformulier"
+
+#: plugin-options/points/extra-options.php:16
+msgid "Checkout Page"
+msgstr "Afrekenpagina"
+
+#: plugin-options/points/extra-options.php:22
+msgid "Extra Points"
+msgstr "Extra punten"
+
+#: plugin-options/points/extra-options.php:33
+#: plugin-options/points/extra-options.php:71
+msgid "Extra points for user registration"
+msgstr "Extra punten voor gebruikers registratie"
+
+#: plugin-options/points/extra-options.php:39
+#: plugin-options/points/extra-options.php:77
+msgid "Assign points when a user registers"
+msgstr "Punten toekennen wanneer een gebruiker zich registreert"
+
+#: plugin-options/points/extra-options.php:40
+#: plugin-options/points/extra-options.php:78
+msgid "Assign extra points to newly registered users"
+msgstr "Extra punten toekennen voor nieuwe geregistreerde gebruikers"
+
+#: plugin-options/points/extra-options.php:48
+msgid "Points to assign to new users"
+msgstr "Punten om toe te kennen aan nieuwe gebruikers"
+
+#: plugin-options/points/extra-options.php:49
+msgid "Set how many points to assign to new users"
+msgstr "Bepaal hoeveel punten je wilt toewijzen aan nieuwe gebruikers"
+
+#: plugin-options/points/extra-options.php:87
+msgid "Set how many points to assing"
+msgstr "Instellen hoeveel punten je wilt toewijzen"
+
+#: plugin-options/points/extra-options.php:109
+msgid "Extra points for the first daily login"
+msgstr "Extra punten voor de eerste dagelijkse login"
+
+#: plugin-options/points/extra-options.php:115
+msgid "Assign points each first time the user logs in daily"
+msgstr ""
+"Punten toekennen voor elke eerste keer dat de gebruiker dagelijks inlogt"
+
+#: plugin-options/points/extra-options.php:116
+msgid "Assign extra points for the each first daily login"
+msgstr "Extra punten toekennen voor elke eerste dagelijkse login"
+
+#: plugin-options/points/extra-options.php:125
+#: plugin-options/points/extra-options.php:163
+#: plugin-options/points/extra-options.php:201
+#: plugin-options/points/extra-options.php:253
+msgid "Set how many points to assign"
+msgstr "Bepaal hoeveel punten je wilt toewijzen"
+
+#: plugin-options/points/extra-options.php:147
+msgid "Extra points for completed profile"
+msgstr "Extra punten voor een afgerond profiel"
+
+#: plugin-options/points/extra-options.php:153
+msgid "Assign points when the user completes all fields in the user profile"
+msgstr ""
+"Punten toekennen wanneer een gebruiker alle velden van het gebruikersprofiel "
+"invult"
+
+#: plugin-options/points/extra-options.php:154
+msgid "Assign extra points for a completed profile"
+msgstr "Extra punten toekennen voor een afgerond profiel"
+
+#: plugin-options/points/extra-options.php:185
+msgid "Extra points for referrals"
+msgstr "Extra punten voor verwijzingen"
+
+#: plugin-options/points/extra-options.php:191
+msgid "Referral link signup"
+msgstr "Verwijzing-link registratie"
+
+#: plugin-options/points/extra-options.php:192
+msgid ""
+"Assign extra points when a new user signs up using a customer created "
+"referral link"
+msgstr ""
+"Extra punten toekennen wanneer een nieuwe gebruiker zich registreert door "
+"middel van een verwijzing-link van een klant"
+
+#: plugin-options/points/extra-options.php:217
+msgid "Revoke referral points if referred user account is deleted or banned"
+msgstr ""
+"Verwijzingspunten intrekken als het doorverwezen gebruikersaccount is "
+"verwijderd of verbannen"
+
+#: plugin-options/points/extra-options.php:218
+#: plugin-options/points/extra-options.php:270
+msgid ""
+"Enable to automatically delete referral points if the referred user account "
+"is deleted or banned"
+msgstr ""
+"Inschakelen om verwijzingspunten automatisch te verwijderen als het "
+"doorverwezen gebruikersaccount is verwijderd of verbannen"
+
+#: plugin-options/points/extra-options.php:237
+msgid "Extra points for referral purchase"
+msgstr "Extra punten voor een verwijzing-aankoop"
+
+#: plugin-options/points/extra-options.php:243
+msgid "Assign points when a user purchases through the user's referral link"
+msgstr ""
+"Punten toewijzen wanneer een gebruiker koopt via een gebruikers verwijzing-"
+"link"
+
+#: plugin-options/points/extra-options.php:244
+msgid "Assign extra points when a user places an order using the referral link"
+msgstr ""
+"Extra punten toewijzen wanneer een gebruiker een bestelling plaats door "
+"middel van een verwijzing-link"
+
+#: plugin-options/points/extra-options.php:269
+msgid "Revoke referral if referred user account is deleted or banned"
+msgstr ""
+"Verwijzing intrekken als doorverwezen gebruikersaccount is verwijderd of "
+"verbannen"
+
+#: plugin-options/points/extra-options.php:289
+msgid "Extra points for user that collected the most points"
+msgstr "Extra punten voor gebruiker die de meeste punten heeft verzamelt"
+
+#: plugin-options/points/extra-options.php:295
+msgid "Assign points to the user that collected the most points"
+msgstr "Punten toewijzen aan de gebruiker die de meeste punten heeft verzamelt"
+
+#: plugin-options/points/extra-options.php:296
+msgid "Assign extra points to the user that collected the most points"
+msgstr ""
+"Extra punten toewijzen aan gebruikers die de meeste punten hebben verzamelt"
+
+#: plugin-options/points/extra-options.php:305
+msgid ""
+"Set how many points to assign to the user that collected the most points"
+msgstr ""
+
+#: plugin-options/points/extra-options.php:321
+msgid "Check and assign points on:"
+msgstr "Controleer en wijs toe op:"
+
+#: plugin-options/points/extra-options.php:322
+msgid "Set when to check points of all users and assign these extra points"
+msgstr ""
+"Bepaal wanner je de punten van alle gebruikers controleert en deze extra "
+"punten toewijst"
+
+#: plugin-options/points/extra-options.php:347
+msgid "Extra points for users that achieve specific levels"
+msgstr "Extra punten voor gebruikers die specifieke niveaus bereiken"
+
+#: plugin-options/points/extra-options.php:353
+msgid "Assign points to the users that achieve levels"
+msgstr "Punten toewijzen aan gebruikers die niveaus bereiken"
+
+#: plugin-options/points/extra-options.php:354
+msgid "Assign extra points to users that achieve specific levels"
+msgstr "Extra punten toewijzen aan gebruikers die specifieke niveaus bereiken"
+
+#: plugin-options/points/extra-options.php:363
+msgid ""
+"Set how many points to assign to users when they achieve a specific level"
+msgstr ""
+"Bepaal hoeveel punten je  wilt toewijzen aan gebruikers wanneer zij een "
+"specifiek niveau bereiken"
+
+#: plugin-options/points/extra-options.php:392
+msgid "Enable points incentive on total collected points"
+msgstr "Puntenstimulans inschakelen op het totaal aantal verzamelde punten"
+
+#: plugin-options/points/extra-options.php:398
+msgid "Assign extra points based on the total number of points collected"
+msgstr ""
+"Extra punten toekennen op basis van het totaal aantal verzamelde punten"
+
+#: plugin-options/points/extra-options.php:399
+msgid "Assign extra points to users that achieve a set number points collected"
+msgstr ""
+"Extra punten toekennen aan gebruikers die het doel van een bepaalt aantal "
+"punten verzamelen hebben bereikt"
+
+#: plugin-options/points/extra-options.php:407
+msgid "Points to assign per points collected"
+msgstr "Punten om toe te kennen voor verzamelde punten"
+
+#: plugin-options/points/extra-options.php:408
+msgid "Set how many points to assign based on the total of points collected"
+msgstr ""
+"Bepaal hoeveel punten worden toegekend, gebaseerd op het totaal aantal "
+"verzamelde punten"
+
+#: plugin-options/points/extra-options.php:411
+msgid "points ="
+msgstr "Punten ="
+
+#: plugin-options/points/extra-options.php:437
+msgid "Extra points for users' birthday"
+msgstr "Extra punten voor verjaardag van gebruikers"
+
+#: plugin-options/points/extra-options.php:443
+msgid "Assign extra points on customer's birthday"
+msgstr "Extra punten toekennen op verjaardag van klant"
+
+#: plugin-options/points/extra-options.php:444
+msgid "Enable to assign points on customer's birthday"
+msgstr "Inschakelen om punten toe te kennen op de verjaardag van de klant"
+
+#: plugin-options/points/extra-options.php:452
+msgid "Points to assign per birthday"
+msgstr "Punten om toe te kennen per verjaardag"
+
+#: plugin-options/points/extra-options.php:453
+msgid "Set how many points to assign to users on their birthday"
+msgstr ""
+"Bepaal hoeveel punten je wilt toekennen op de verjaardag van de gebruiker"
+
+#: plugin-options/points/extra-options.php:469
+msgid "Show birthday input field in"
+msgstr "Toon geboortedatum input veld op"
+
+#: plugin-options/points/extra-options.php:470
+msgid "Choose where to show the Birthday Date Field"
+msgstr "Bepaal waar je het geboortedatum veld wilt tonen"
+
+#: plugin-options/points/extra-options.php:485
+msgid "Birthday input date format"
+msgstr "Geboortedatum input datum format"
+
+#: plugin-options/points/extra-options.php:486
+msgid "Choose the format to use for the Birthday Date Field"
+msgstr "Bepaal welk format je wilt gebruiken voor het geboortedatum veld"
+
+#: plugin-options/points/extra-options.php:507
+msgid "Extra Points for reviews"
+msgstr "Extra punten voor beoordelingen"
+
+#: plugin-options/points/extra-options.php:513
+msgid "Assign points to users that leave a product review"
+msgstr ""
+"Punten toekennen aan gebruikers die een product beoordeling achterlaten"
+
+#: plugin-options/points/extra-options.php:514
+msgid "Enable to assign points to users that leave a product review"
+msgstr ""
+"Inschakelen om punten toe te wijzen aan gebruikers die een product "
+"beoordeling achterlaten"
+
+#: plugin-options/points/extra-options.php:522
+msgid "Points to assign for reviews"
+msgstr "Punten om toe te kennen voor beoordelingen"
+
+#: plugin-options/points/extra-options.php:523
+msgid ""
+"Set how many points to assign for reviews. Check \"repeat\" to repeat the "
+"rules: if you set 5 reviews = 10 points. Check repeat, and 10 reviews will "
+"get 20 points and so on"
+msgstr ""
+"Instellen hoeveel punten je wilt toewijzen voor beoordelingen. Selecteer "
+"\"herhalen\" om de regels te herhalen: als je 5 beoordelingen instelt = 10 "
+"punten. Selecteer \"herhalen\", en 10 beoordelingen krijgen 20 punten "
+"enzovoort"
+
+#: plugin-options/points/extra-options.php:553
+msgid "Extra points for orders"
+msgstr "Extra punten voor bestellingen"
+
+#: plugin-options/points/extra-options.php:559
+msgid "Assign points based on orders placed"
+msgstr "Punten toekennen gebaseerd op geplaatste bestellingen"
+
+#: plugin-options/points/extra-options.php:560
+#: plugin-options/points/extra-options.php:693
+msgid "Enable to assign points to a user, when an order is placed"
+msgstr ""
+"Inschakelen om punten toe te wijzen aan een gebruiker, wanneer een "
+"bestelling is geplaatst."
+
+#: plugin-options/points/extra-options.php:568
+msgid "Points to assign per order"
+msgstr "Punten om toe te kennen per bestelling"
+
+#: plugin-options/points/extra-options.php:569
+msgid "Set how many points to assign per order placed"
+msgstr "Bepaal hoeveel punten je wilt toekennen per geplaatste bestelling"
+
+#: plugin-options/points/extra-options.php:572
+msgid "order(s) ="
+msgstr "Bestelling(en) ="
+
+#: plugin-options/points/extra-options.php:599
+msgid "Extra Points for cart total"
+msgstr "Extra punten voor winkelwagen totaal"
+
+#: plugin-options/points/extra-options.php:605
+msgid "Assign points based on the cart total"
+msgstr "Punten toekennen op basis van winkelwagen totaal"
+
+#: plugin-options/points/extra-options.php:606
+msgid "Enable to assign points to user, based on the cart total"
+msgstr ""
+"Inschakelen om punten toe te kennen aan een gebruiker, gebaseerd op "
+"winkelwagen totaal"
+
+#: plugin-options/points/extra-options.php:614
+msgid "Points to assign on cart total"
+msgstr "Punten om toe te kennen op winkelwagen totaal"
+
+#: plugin-options/points/extra-options.php:615
+msgid "Set how many points to assign based on cart total"
+msgstr ""
+"Instellen hoeveel punten worden toegekend gebaseerd op winkelwagen totaal"
+
+#: plugin-options/points/extra-options.php:637
+msgid "Based on cart total, allow user to achieve multiple thresholds"
+msgstr ""
+"Gebaseerd op winkelwagen totaal, sta toe dat gebruikers meerdere "
+"drempelbedragen kunnen bereiken"
+
+#: plugin-options/points/extra-options.php:638
+msgid ""
+"If you created multiple points based rules on cart total, choose whether to "
+"apply all rules or just the highest value rule"
+msgstr ""
+"Als je meerdere puntenregels hebt aangemaakt gebaseerd op het "
+"winkelwagentotaal, bepaal of je alle regels wilt toepassen of alleen de "
+"regel met de hoogste waarde"
+
+#: plugin-options/points/extra-options.php:643
+msgid "Apply all rules and sum up the points"
+msgstr "Alle regels toepassen en de punten optellen"
+
+#: plugin-options/points/extra-options.php:644
+msgid "Apply only the rule with the highest number of points in cart"
+msgstr ""
+"Alleen te regel met het hoogst aantal punten in de winkelwagen toepassen"
+
+#: plugin-options/points/extra-options.php:655
+msgid "Show threshold message in cart and checkout"
+msgstr "Toon drempelbedrag bericht in winkelwagen en afrekenscherm"
+
+#: plugin-options/points/extra-options.php:656
+msgid ""
+"Enable to show messages about thresholds achieved on Cart & Checkout pages"
+msgstr ""
+"Inschakelen om berichten over bereikte drempelbedragen weer te geven op "
+"winkelwagen- & afrekenpagina's"
+
+#: plugin-options/points/extra-options.php:668
+msgid "Title of threshold message"
+msgstr "Titel van het drempelbedrag bericht"
+
+#: plugin-options/points/extra-options.php:669
+msgid "Set the text to show as title of threshold message"
+msgstr "De tekst instellen om te tonen als titel van het drempelbedrag bericht"
+
+#: plugin-options/points/extra-options.php:672
+msgid "Get points based on your order amount!"
+msgstr "Ontvang punten gebaseerd op je bestelling bedrag!"
+
+#: plugin-options/points/extra-options.php:692
+msgid "Assign points based on the total amount spent"
+msgstr "Punten toekennen gebaseerd op het totaal uitgegeven bedrag"
+
+#: plugin-options/points/extra-options.php:701
+msgid "Points to assign per amount reached"
+msgstr "Punten om toe te kennen per bereikt bedrag"
+
+#: plugin-options/points/extra-options.php:702
+msgid "Set how many points to allocate for each amount reached"
+msgstr "Instellen hoeveel punten worden toegekend voor ieder bereikt bedrag"
+
+#: plugin-options/points/standard-options.php:18
+msgid "Points Assignments"
+msgstr "Punten toekennen"
+
+#: plugin-options/points/standard-options.php:24
+msgid "Allow shop manager to manage this plugin"
+msgstr "Winkelmanagers toestaan om deze plugin te beheren"
+
+#: plugin-options/points/standard-options.php:25
+msgid ""
+"Enable to allow your shop manager to access and manage the plugin settings"
+msgstr ""
+"Inschakelen om je winkelmanager toegang te geven tot de plugin instellingen "
+"en deze te beheren"
+
+#: plugin-options/points/standard-options.php:33
+msgid "Assign points to user"
+msgstr "Punten toekennen aan gebruiker"
+
+#: plugin-options/points/standard-options.php:34
+msgid "Choose whether to award points to users automatically or manually"
+msgstr "Bepaal of je punten automatisch of handmatig wilt toekennen"
+
+#: plugin-options/points/standard-options.php:38
+msgid "Automatically - Points will be assigned automatically for each purchase"
+msgstr "Automatisch - Punten worden automatisch toegekend voor elke aankoop"
+
+#: plugin-options/points/standard-options.php:39
+msgid "Manually - You can assign points manually in 'Customer Points' tab"
+msgstr "Handmatig - Je kunt punten handmatig toekennen de 'Punten klant' tab"
+
+#: plugin-options/points/standard-options.php:46
+msgid "Assign points to"
+msgstr "Punten toekennen aan"
+
+#: plugin-options/points/standard-options.php:47
+msgid "Choose if to assign points to all users or only to specified user roles"
+msgstr ""
+"Bepaal of je punten wilt toekennen aan alle gebruikers of alleen bepaalde "
+"gebruikersrollen"
+
+#: plugin-options/points/standard-options.php:64
+msgid "Assign points to roles"
+msgstr "Punten toekennen aan rollen"
+
+#: plugin-options/points/standard-options.php:65
+msgid "Choose which user roles can collect points with their purchases"
+msgstr ""
+"Bepaal welke gebruikersrollen punten kunnen verzamelen met hun aankopen"
+
+#: plugin-options/points/standard-options.php:80
+msgid "Default points assigned"
+msgstr "Punten standaard toegekend"
+
+#: plugin-options/points/standard-options.php:81
+msgid ""
+"Set how many points per product will be earned based on the product value. "
+"You can override this value for specific products or users using the points "
+"rules.%sPlease, note: points are awarded on a product basis and not on the "
+"cart total"
+msgstr ""
+"Stel in hoeveel punten per product worden verdiend op basis van de "
+"productwaarde. Je kunt deze waarde overschrijven voor specifieke producten "
+"of gebruikers met behulp van de puntenregels.%sLet op: punten worden "
+"toegekend op productbasis en niet op het winkelwagentotaal"
+
+#: plugin-options/points/standard-options.php:101
+msgid "Calculate points considering product price with:"
+msgstr "Bereken punten rekening houdend met de productprijs:"
+
+#: plugin-options/points/standard-options.php:102
+msgid ""
+"Choose whether to calculate points considering prices with taxes or without "
+"taxes"
+msgstr ""
+"Bepaal of de punten worden berekend op prijzen inclusief of exclusief "
+"belasting"
+
+#: plugin-options/points/standard-options.php:107
+#: plugin-options/redeem/standard-options.php:130
+msgid "taxes included"
+msgstr "inclusief belasting"
+
+#: plugin-options/points/standard-options.php:108
+#: plugin-options/redeem/standard-options.php:131
+msgid "taxes excluded"
+msgstr "exclusief belasting"
+
+#: plugin-options/points/standard-options.php:118
+msgid "Exclude on sale products from points collection"
+msgstr "Producten in de uitverkoop uitsluiten van punten verzamelen"
+
+#: plugin-options/points/standard-options.php:119
+msgid "If enabled, sale products will not assign points to your users"
+msgstr ""
+"Indien ingeschakeld, zullen producten in uitverkoop geen punten toekennen "
+"aan je gebruikers"
+
+#: plugin-options/points/standard-options.php:131
+msgid "Assign points to a guest if his billing email is registered"
+msgstr ""
+"Punten toekennen aan een gast als het factuur e-mailadres is geregistreerd"
+
+#: plugin-options/points/standard-options.php:132
+msgid ""
+"Enable to assign points to guests if the billing e-mail matches with a "
+"registered user"
+msgstr ""
+"Inschakelen om punten toe te kennen aan gastgebruikers als het factuur e-"
+"mailadres overeenkomt met een geregistreerde gebruiker."
+
+#: plugin-options/points/standard-options.php:144
+msgid ""
+"Assign points to a new registered user if his billing e-mail is registered"
+msgstr ""
+"Punten toekennen aan een nieuw geregistreerde gebruiker als het factuur e-"
+"mailadres is geregistreerd"
+
+#: plugin-options/points/standard-options.php:145
+msgid ""
+"Enable to assign points to newly registered users if they use the same "
+"billing email address for previous orders"
+msgstr ""
+"Inschakelen om punten toe te wijzen aan nieuw geregistreerde gebruikers als "
+"ze hetzelfde e-mailadres voor facturering gebruikten voor eerdere "
+"bestellingen"
+
+#: plugin-options/points/standard-options.php:157
+msgid "Assign points when the order has status"
+msgstr "Punten toewijzen wanneer de bestelling de volgende status heeft"
+
+#: plugin-options/points/standard-options.php:158
+msgid "Choose based on which order status to assign points to users"
+msgstr ""
+"Kies op basis van welke bestelstatus je punten aan gebruikers wilt toewijzen"
+
+#: plugin-options/points/standard-options.php:174
+msgid "Remove earned points if order is cancelled"
+msgstr "Verwijder verdiende punten als een bestelling is geannuleerd"
+
+#: plugin-options/points/standard-options.php:175
+msgid "Enable if you want to remove earned points when an order is cancelled"
+msgstr ""
+"Inschakelen als je verdiende punten wilt verwijderen voor geannuleerde "
+"bestellingen"
+
+#: plugin-options/points/standard-options.php:187
+msgid "Reassign points when an order is refunded"
+msgstr "Punten opnieuw toewijzen wanneer een bestelling is gerestitueerd"
+
+#: plugin-options/points/standard-options.php:188
+msgid ""
+"Enable if you want to reassign all the redeemed points to a customer when an "
+"order is refunded"
+msgstr ""
+"Inschakelen als je alle ingeloste punten opnieuw aan een klant wilt "
+"toewijzen wanneer een bestelling wordt terugbetaald"
+
+#: plugin-options/points/standard-options.php:200
+msgid "Remove earned points if order is refunded"
+msgstr "Verwijder verdiende punten als een bestelling is gerestitueerd"
+
+#: plugin-options/points/standard-options.php:201
+msgid ""
+"Enable to remove points when applying a total or partial refund of the order"
+msgstr ""
+"Inschakelen om punten te verwijderen wanneer een bestelling compleet of "
+"gedeeltelijk wordt gerestitueerd"
+
+#: plugin-options/points/standard-options.php:213
+msgid "Not assign points to the full order amount if a coupon is used"
+msgstr ""
+"Geen punten toekennen aan volledige bestelling wanneer een kortingsbon is "
+"gebruikt."
+
+#: plugin-options/points/standard-options.php:214
+msgid ""
+"Enable this option if you do not want the user to earn points on a full "
+"order amount if they use a coupon. Instead they will only earn points on the "
+"amount minus the coupon discount. For example: order total €30 minus €10 "
+"coupon discount, so the user earns points on €20 order value only"
+msgstr ""
+"Deze optie inschakelen als je niet wilt dat de gebruiker punten verdiend op "
+"een volledige bestelling, wanneer een kortingsbon is gebruikt.\n"
+"In plaats daarvan verdienen ze alleen punten op het totaal min de "
+"kortingsbon korting. Bijvoorbeeld: Totaal bestelling €30 min de kortingsbon "
+"van €10, dus de gebruiker verdient alleen punten over €20."
+
+#: plugin-options/points/standard-options.php:226
+msgid "Do not assign points to orders in which the user is redeeming points"
+msgstr "Geen punten toekennen aan bestellingen waarbij punten zijn ingelost"
+
+#: plugin-options/points/standard-options.php:227
+msgid "Enable to not assign points to orders in which the user redeems points"
+msgstr ""
+"Inschakelen om geen punten toe te kennen aan bestellingen waarbij de "
+"gebruiker punten heeft ingelost"
+
+#: plugin-options/points/standard-options.php:239
+msgid "Points Rounding"
+msgstr "Punten afronden"
+
+#: plugin-options/points/standard-options.php:240
+msgid ""
+"Select how to round the points. For example, if points are 1.5 and Round Up "
+"is selected, points will be 2. If Round Down is selected, points will be 1"
+msgstr ""
+"Bepaal hoe je de punten wilt afronden. Bijvoorbeeld, als je 1,5 punt hebt en "
+"naar boven afronden selecteert, zijn het 2 punten. Als je naar beneden "
+"afronden selecteert, is het 1 punt"
+
+#: plugin-options/points/standard-options.php:245
+msgid "Round Up"
+msgstr "Naar boven afronden"
+
+#: plugin-options/points/standard-options.php:246
+msgid "Round Down"
+msgstr "Naar beneden afronden"
+
+#: plugin-options/points/standard-options.php:256
+msgid "Set an expire time for points"
+msgstr "Vervaldatum instellen voor punten"
+
+#: plugin-options/points/standard-options.php:257
+msgid ""
+"Enable if you want to set an expiration time on points assigned to users"
+msgstr ""
+"Inschakelen als je een vervaldatum wilt inschakelen op punten toegekend aan "
+"gebruikers"
+
+#: plugin-options/points/standard-options.php:269
+msgid "Points will expire after"
+msgstr "Punten zullen vervallen na"
+
+#: plugin-options/points/standard-options.php:270
+msgid "Set a default expiration on points earned in your shop"
+msgstr "Standaard vervaldatum instellen voor verdiende punten in je winkel"
+
+#: plugin-options/points-options.php:21
+msgid "Points Rules"
+msgstr "Punten regels"
+
+#: plugin-options/points-options.php:24
+msgid "Extra points"
+msgstr "Extra punten"
+
+#: plugin-options/points-options.php:27
+msgid "Levels & Badges"
+msgstr "Niveaus & Badges"
+
+#: plugin-options/points-options.php:30
+msgid "Banners"
+msgstr "Banners"
+
+#: plugin-options/redeem/share-options.php:17
+#: plugin-options/redeem-options.php:24
+msgid "Share points"
+msgstr "Punten delen"
+
+#: plugin-options/redeem/share-options.php:23
+msgid "Allow users to convert points in a coupon to share"
+msgstr ""
+"Gebruikers toestaan om punten te converteren in kortingsbonnen om te delen"
+
+#: plugin-options/redeem/share-options.php:24
+msgid ""
+"Enable to allow customers to convert their points in a coupon code in the My "
+"Account page"
+msgstr ""
+"Inschakelen om klanten hun punten te laten converteren in een "
+"kortingsboncode vanaf de Mijn Account pagina"
+
+#: plugin-options/redeem/share-options.php:32
+msgid "Apply limits to points coupons"
+msgstr "Beperkingen toepassen op punten kortingsbonnen"
+
+#: plugin-options/redeem/share-options.php:33
+msgid ""
+"Enable to set a minimum or maximum of points that can be converted into a "
+"coupon code"
+msgstr ""
+"Inschakelen om een minimum en maximum aantal punten in te stellen dat kan "
+"worden geconverteerd in een kortingsboncode"
+
+#: plugin-options/redeem/share-options.php:46
+msgid "Minimum amount of points that can be converted"
+msgstr "Minimum aantal punten dat kan worden geconverteerd"
+
+#: plugin-options/redeem/share-options.php:47
+msgid ""
+"Set the minimum number of points that the user can convert into a coupon code"
+msgstr ""
+"Het minimum aantal punten instellen die de gebruiker can converteren in een "
+"kortingsboncode"
+
+#: plugin-options/redeem/share-options.php:63
+msgid "Maximum amount of points that can be converted"
+msgstr "Maximum aantal punten dat kan worden geconverteerd"
+
+#: plugin-options/redeem/share-options.php:64
+msgid ""
+"Set the maximum number of points that the user can convert into a coupon code"
+msgstr ""
+"Het maximaal aantal punten instellen die een gebruiker kan converteren in "
+"een kortingsboncode"
+
+#: plugin-options/redeem/share-options.php:80
+msgid "Set the expiration for points coupon codes"
+msgstr "De vervaldatum instellen voor punten kortingsboncodes"
+
+#: plugin-options/redeem/share-options.php:81
+msgid "Enable to set an expiry date for points coupon codes to be used"
+msgstr ""
+"Inschakelen om een vervaldatum voor gebruikte punten kortingsboncodes in te "
+"stellen"
+
+#: plugin-options/redeem/share-options.php:94
+msgid "Points coupon will expire after"
+msgstr "Punten kortingsbon verloopt na"
+
+#: plugin-options/redeem/share-options.php:95
+msgid "Set after how many days a points coupon code will expire"
+msgstr "Bepaal na hoeveel dagen een punten kortingsboncode verloopt"
+
+#: plugin-options/redeem/share-options.php:105
+msgid "days"
+msgstr "dagen"
+
+#: plugin-options/redeem/standard-options.php:16
+msgid "Points redeeming"
+msgstr "Punten inlossen"
+
+#: plugin-options/redeem/standard-options.php:22
+msgid "Allow users to redeem points"
+msgstr "Laat gebruikers punten inlossen"
+
+#: plugin-options/redeem/standard-options.php:23
+msgid ""
+"Choose if a user can redeem points automatically or if you want to manage "
+"points redeeming manually"
+msgstr ""
+"Bepaal of een gebruiker automatisch punten kan inlossen, of dat je punten "
+"inlossen handmatig wilt beheren"
+
+#: plugin-options/redeem/standard-options.php:31
+msgid "User that can redeem points"
+msgstr "Gebruiker kan punten inlossen"
+
+#: plugin-options/redeem/standard-options.php:32
+msgid ""
+"Choose if all users can redeem points or only specified user roles can do "
+"that. "
+msgstr ""
+"Bepaal of alle gebruikers punten kunnen inlossen of uitsluitend aangegeven "
+"gebruikersrollen"
+
+#: plugin-options/redeem/standard-options.php:40
+msgid "All"
+msgstr "Alle"
+
+#: plugin-options/redeem/standard-options.php:52
+msgid "User roles"
+msgstr "Gebruikersrollen"
+
+#: plugin-options/redeem/standard-options.php:53
+msgid "Choose which user roles can redeem points"
+msgstr "Selecteer de gebruikersrollen die punten in mogen lossen"
+
+#: plugin-options/redeem/standard-options.php:70
+msgid "Reward Conversion Method"
+msgstr "Omreken methode beloning"
+
+#: plugin-options/redeem/standard-options.php:71
+msgid ""
+"Choose how to apply the discount. The discount can either be a percent or a "
+"fixed amount"
+msgstr ""
+"Bepaal hoe je de korting wilt toepassen. De korting is ofwel een percentage "
+"of een vast bedrag."
+
+#: plugin-options/redeem/standard-options.php:76
+msgid "Fixed Price Discount"
+msgstr "Vaste prijs korting"
+
+#: plugin-options/redeem/standard-options.php:77
+msgid "Percentage Discount"
+msgstr "Procentuele korting"
+
+#: plugin-options/redeem/standard-options.php:124
+msgid "When redeeming, calculate the discount on the product price with:"
+msgstr "Bij het  inlossen, bereken de korting op de productprijs:"
+
+#: plugin-options/redeem/standard-options.php:125
+msgid ""
+"Choose whether to calculate the redeem discount on prices with prices with "
+"taxes or without taxes"
+msgstr ""
+"Bepaal of de inlossing-korting wordt berekend op prijzen inclusief of "
+"exclusief btw."
+
+#: plugin-options/redeem/standard-options.php:141
+msgid "Exclude on sale products from the discount amount calculation"
+msgstr "Producten in de uitverkoop uitsluiten van kortingsbedrag berekening"
+
+#: plugin-options/redeem/standard-options.php:142
+msgid "If enabled, sale products will not be used to redeem points"
+msgstr ""
+"Indien ingeschakeld, worden producten in de uitverkoopt niet gebruikt in de "
+"punten inlossen berekening"
+
+#: plugin-options/redeem/standard-options.php:154
+msgid "Automatically redeem points on Cart/Checkout Page"
+msgstr "Punten automatisch inlossen op winkelwagen-/afrekenpagina"
+
+#: plugin-options/redeem/standard-options.php:155
+msgid "Enable to automatically apply points on the cart/checkout page"
+msgstr ""
+"Inschakelen om punten van de klant automatisch toe te passen in de "
+"winkelwagen-/afrekenpagina"
+
+#: plugin-options/redeem/standard-options.php:168
+msgid "Redeem box style"
+msgstr "Punten inlossen box stijl"
+
+#: plugin-options/redeem/standard-options.php:169
+msgid "Choose the style for the redeem points section"
+msgstr "Kies de stijl voor de punten inlossen sectie"
+
+#: plugin-options/redeem/standard-options.php:173
+msgid "Default"
+msgstr "Standaard"
+
+#: plugin-options/redeem/standard-options.php:174
+msgid "Custom"
+msgstr "Aangepast"
+
+#: plugin-options/redeem/standard-options.php:186
+msgid "Redeem message in Cart and Checkout"
+msgstr "Inlossen bericht in winkelwagen en afrekenscherm"
+
+#: plugin-options/redeem/standard-options.php:200
+msgid "Offer free shipping when user redeem"
+msgstr "Gratis verzenden aanbieden wanneer gebruiker inlost"
+
+#: plugin-options/redeem/standard-options.php:201
+msgid ""
+"Enable to offer free shipping to users that redeem their points. A free "
+"shipping method must be enabled and set up in your shipping zones to "
+"generate “a valid free shipping coupon”"
+msgstr ""
+"Inschakelen om gratis verzending aan te bieden aan gebruikers die punten "
+"inlossen. Een gratis verzendmethode moet ingeschakeld zijn in je verzend "
+"zone om een \"geldige gratis verzending kortingsbon\" te genereren."
+
+#: plugin-options/redeem/standard-options.php:213
+msgid "Coupons allowed"
+msgstr "Kortingsbonnen toegestaan"
+
+#: plugin-options/redeem/standard-options.php:214
+msgid ""
+"Select if you want to allow the use of point-redemption coupons, WooCommerce "
+"coupons or both"
+msgstr ""
+"Selecteer of je het gebruik wilt toestaan van punten-inlossen "
+"kortingsbonnen, WooCommerce kortingsbonnen of beide"
+
+#: plugin-options/redeem/standard-options.php:218
+msgid "Use only WooCommerce coupons"
+msgstr "Gebruik uitsluitend WooCommerce kortingsbonnen"
+
+#: plugin-options/redeem/standard-options.php:219
+msgid "Use only points-redemption coupon"
+msgstr "Gebruik uitsluitend de 'punten inlossen' kortingsbon"
+
+#: plugin-options/redeem/standard-options.php:220
+msgid "Use both coupons"
+msgstr "Gebruik beide kortingsbonnen"
+
+#: plugin-options/redeem/standard-options.php:237
+msgid "Redeeming restrictions"
+msgstr "Punten inlossen beperkingen"
+
+#: plugin-options/redeem/standard-options.php:243
+msgid "Apply redeeming restrictions"
+msgstr "Beperkingen bij inlossen toepassen"
+
+#: plugin-options/redeem/standard-options.php:244
+msgid "Enable to setup redeeming restrictions for your users"
+msgstr "Inschakelen om inlossen-beperkingen in te stellen voor je gebruikers"
+
+#: plugin-options/redeem/standard-options.php:257
+msgid "Minimum discount users can get"
+msgstr "Minimale korting die een gebruiker kan krijgen"
+
+#: plugin-options/redeem/standard-options.php:258
+#: plugin-options/redeem/standard-options.php:272
+msgid ""
+"( in %) Set minimum discount percentage allowed in cart when redeeming points"
+msgstr ""
+"(in %) Het minimale kortingspercentage instellen dat is toegestaan ​​in de "
+"winkelwagen bij het inlossen van punten"
+
+#: plugin-options/redeem/standard-options.php:271
+#: plugin-options/redeem/standard-options.php:285
+msgid "Maximum discount users can get"
+msgstr "Maximale korting die gebruikers kunnen verkrijgen"
+
+#: plugin-options/redeem/standard-options.php:286
+msgid ""
+"Set the maximum discount amount that your users can get when they redeem "
+"their points"
+msgstr ""
+"Stel het maximale kortingsbedrag in die je gebruikers kunnen krijgen als ze "
+"hun punten inlossen"
+
+#: plugin-options/redeem/standard-options.php:297
+msgid "Minimum cart amount to redeem points"
+msgstr "Minimum winkelwagen bedrag om punten in te lossen"
+
+#: plugin-options/redeem/standard-options.php:298
+msgid "Set the minimum cart amount required to redeem points"
+msgstr ""
+"Minimum winkelwagen bedrag instellen dat nodig is voor het inlossen van "
+"punten"
+
+#: plugin-options/redeem/standard-options.php:312
+msgid "Minimum discount required to redeem"
+msgstr "Minimale korting nodig voor inlossen"
+
+#: plugin-options/redeem/standard-options.php:313
+msgid "Set the minimum discount to redeem points"
+msgstr "Minimum kortingsbedrag instellen om punten in te lossen."
+
+#: plugin-options/redeem/standard-options.php:325
+msgid "Maximum discount for a single product"
+msgstr "Maximale korting voor een enkel product"
+
+#: plugin-options/redeem/standard-options.php:326
+msgid "Set the maximum discount that can be applied per product"
+msgstr "Maximale korting instellen die kan worden toegepast per product."
+
+#: plugin-options/redeem-options.php:21
+msgid "Redeem Rules"
+msgstr "Inlossen regels"
+
+#: templates/emails/latest-updates.php:52 views/tabs/bulk-actions.php:16
+msgid "Action"
+msgstr "Actie"
+
+#: templates/myaccount/my-points-view.php:15
+msgid "You must to be logged in to view your points."
+msgstr "Je moet ingelogd zijn om je punten te kunnen zien."
+
+#: templates/myaccount/my-points-view.php:24
+msgid "You are not enabled to see this page."
+msgstr "Je bent niet in staat deze pagina te bekijken."
+
+#: templates/myaccount/my-points-view.php:99 views/tabs/customer-history.php:83
+msgid "Points history"
+msgstr "Punten geschiedenis"
+
+#: templates/myaccount/my-points-view.php:104
+msgid "Targets to achieve"
+msgstr "Te bereiken doelen"
+
+#: templates/myaccount/my-points-view.php:109
+msgid "Get points!"
+msgstr "Krijg punten!"
+
+#: templates/myaccount/my-points-view.php:114
+msgid "Manage points"
+msgstr "Punten beheren"
+
+#: templates/myaccount/ywpar-banner-get-points-review.php:36
+msgid "product"
+msgid_plural "products"
+msgstr[0] "product"
+msgstr[1] "producten"
+
+#: templates/myaccount/ywpar-banner-get-points-review.php:74
+msgid "Purchased on "
+msgstr "Gekocht op"
+
+#: templates/myaccount/ywpar-share-points.php:79
+#: templates/myaccount/ywpar-share-points.php:97
+msgid "Date of creation"
+msgstr "Aanmaakdatum"
+
+#: templates/myaccount/ywpar-share-points.php:80
+#: templates/myaccount/ywpar-share-points.php:98
+msgid "Value"
+msgstr "Waarde"
+
+#: templates/myaccount/ywpar-share-points.php:81
+#: templates/myaccount/ywpar-share-points.php:99
+msgid "Code"
+msgstr "Code"
+
+#: templates/myaccount/ywpar-share-points.php:82
+#: templates/myaccount/ywpar-share-points.php:100
+msgid "Expire on"
+msgstr "Verloopt op"
+
+#: templates/shortcodes/ywpar-customers-points.php:27
+msgid "All time"
+msgstr "Altijd"
+
+#: templates/shortcodes/ywpar-customers-points.php:29
+msgid "Last 30 days"
+msgstr "Laatste 30 dagen"
+
+#: templates/shortcodes/ywpar-customers-points.php:31
+msgid "This week"
+msgstr "Deze week"
+
+#: templates/shortcodes/ywpar-customers-points.php:33
+msgid "Today"
+msgstr "Vandaag"
+
+#: templates/shortcodes/ywpar-customers-points.php:90
+msgid "No results"
+msgstr "Geen resultaten"
+
+#: views/panel/types/options-conversion-earning.php:39
+msgid "For each"
+msgstr "Voor elke"
+
+#: views/panel/types/options-conversion-earning.php:41
+#: views/panel/types/options-role-conversion.php:74
+msgid "assign"
+msgstr "toewijzen"
+
+#: views/panel/types/options-conversion.php:43
+#: views/panel/types/options-percentage-conversion.php:46
+#: views/panel/types/options-role-conversion.php:95
+#: views/panel/types/options-role-percentage-conversion.php:72
+msgid "discount"
+msgstr "korting"
+
+#: views/panel/types/options-expire.php:22
+msgid "Days"
+msgstr "Dagen"
+
+#: views/panel/types/options-expire.php:23
+msgid "Months"
+msgstr "Maanden"
+
+#: views/panel/types/options-extrapoints-levels.php:32
+#: views/panel/types/options-extrapoints-membership-plans.php:32
+msgid "Assign"
+msgstr "Wijs"
+
+#: views/panel/types/options-extrapoints-levels.php:37
+msgid "points to users with level"
+msgstr "punten toe aan gebruikers met niveau"
+
+#: views/panel/types/options-extrapoints-levels.php:56
+#: views/panel/types/options-extrapoints-membership-plans.php:56
+#: views/panel/types/options-extrapoints-multi.php:92
+#: views/panel/types/options-extrapoints.php:75
+msgid "+ Add rule"
+msgstr "+ Regel toevoegen"
+
+#: views/panel/types/options-extrapoints-membership-plans.php:37
+msgid "points to member of"
+msgstr "punten aan leden van"
+
+#: views/panel/types/options-extrapoints-multi.php:59
+msgid " spent ="
+msgstr "besteed ="
+
+#: views/panel/types/options-extrapoints-multi.php:67
+#: views/panel/types/options-extrapoints.php:53
+msgid "points extra"
+msgstr "extra punten"
+
+#: views/panel/types/options-extrapoints-multi.php:80
+#: views/panel/types/options-extrapoints.php:64
+msgid "repeat"
+msgstr "herhalen"
+
+#: views/panel/types/options-extrapoints-timing.php:18
+msgid "1st day"
+msgstr "1e dag"
+
+#: views/panel/types/options-extrapoints-timing.php:19
+msgid "Last day"
+msgstr "Laatste dag"
+
+#: views/panel/types/options-extrapoints-timing.php:23
+msgid "Each month"
+msgstr "Elke maand"
+
+#: views/panel/types/options-extrapoints-timing.php:24
+msgid "Each week"
+msgstr "Elke week"
+
+#: views/panel/types/options-extrapoints-timing.php:41
+msgid "of:"
+msgstr "van:"
+
+#: views/panel/types/options-role-conversion.php:45
+#: views/panel/types/options-role-percentage-conversion.php:43
+msgid "For"
+msgstr "Voor"
+
+#: views/panel/types/options-role-conversion.php:65
+msgid "each"
+msgstr "elke"
+
+#: views/panel/types/options-role-conversion.php:109
+#: views/panel/types/options-role-percentage-conversion.php:81
+msgid "+ Add rule for same user role"
+msgstr "+ Regel toevoegen voor dezelfde gebruikersrol"
+
+#: views/panel/types/options-role-conversion.php:114
+#: views/panel/types/options-role-percentage-conversion.php:86
+msgid "+ Add rule for another user role"
+msgstr "+ Regel toevoegen voor een andere gebruikersrol"
+
+#: views/panel/types/shortcode-list.php:13 views/tabs/ranking-tab.php:13
+msgid "Simple customers list"
+msgstr "Simpele klantenlijst"
+
+#: views/panel/types/shortcode-list.php:19 views/tabs/ranking-tab.php:19
+msgid "Boxed customers list"
+msgstr "Omlijnde klantenlijst"
+
+#: views/panel/types/shortcode-list.php:31 views/tabs/ranking-tab.php:32
+msgid "Rank Shortcodes"
+msgstr "Rangorde shortcodes"
+
+#: views/panel/types/shortcode-list.php:32 views/tabs/ranking-tab.php:33
+msgid ""
+"Copy and paste these shortcodes in a custom page to show a list of your "
+"customers' points. You can also use Gutenberg Block."
+msgstr ""
+"kopieer en plak deze shortcode op een aangepaste pagina om een lijst met de "
+"punten van je klant te tonen. Je kunt ook het Gutenberg Blok gebruiken."
+
+#: views/tabs/bulk-actions.php:19
+msgid "Reset points"
+msgstr "Punten resetten"
+
+#: views/tabs/bulk-actions.php:20
+msgid "Add points to previous orders"
+msgstr "Punten toepassen op voorgaande bestellingen"
+
+#: views/tabs/bulk-actions.php:21
+msgid "Add points to users"
+msgstr "Punten toevoegen aan gebruikers"
+
+#: views/tabs/bulk-actions.php:22
+msgid "Remove points to users"
+msgstr "Punten verwijderen van gebruikers"
+
+#: views/tabs/bulk-actions.php:23
+msgid "Ban Users"
+msgstr "Gebruikers verbannen"
+
+#: views/tabs/bulk-actions.php:24
+msgid "Unban Users"
+msgstr "Verbannen gebruikers opheffen"
+
+#: views/tabs/bulk-actions.php:25
+msgid "Recalculate total points"
+msgstr "Totale punten herberekenen"
+
+#: views/tabs/bulk-actions.php:28
+msgid "Choose the action you want to execute"
+msgstr "Bepaal welke actie moet worden uitgevoerd"
+
+#: views/tabs/bulk-actions.php:34
+msgid "Apply action to"
+msgstr "Actie toepassen op"
+
+#: views/tabs/bulk-actions.php:35
+msgid "Choose to which users apply this action"
+msgstr "Bepaal op welke gebruikers je deze actie wilt toepassen"
+
+#: views/tabs/bulk-actions.php:38
+msgid "All users"
+msgstr "Alle gebruikers"
+
+#: views/tabs/bulk-actions.php:40
+msgid "Only specified users"
+msgstr "Uitsluitend aangegeven gebruikers"
+
+#: views/tabs/bulk-actions.php:52
+msgid "Choose which roles"
+msgstr "Bepaal welke rollen"
+
+#: views/tabs/bulk-actions.php:53
+msgid "Choose which user roles to apply the action"
+msgstr "Bepaal op welke gebruikersrollen je deze actie wilt toepassen"
+
+#: views/tabs/bulk-actions.php:70
+msgid "Choose which users"
+msgstr "Bepaal welke gebruikers"
+
+#: views/tabs/bulk-actions.php:71
+msgid "Choose which users to apply the action"
+msgstr "Bepaal op welke gebruikers je deze actie wilt toepassen"
+
+#: views/tabs/bulk-actions.php:84
+msgid "Exclude users"
+msgstr "Gebruikers uitsluiten"
+
+#: views/tabs/bulk-actions.php:85
+msgid "Enable if you want to exclude specific users or user roles"
+msgstr ""
+"Inschakelen als je specifieke gebruikers of gebruikersrollen wilt uitsluiten"
+
+#: views/tabs/bulk-actions.php:97
+msgid "Don't apply action to"
+msgstr "Geen acties toepassen op"
+
+#: views/tabs/bulk-actions.php:98
+msgid "Set which users to apply the selected action"
+msgstr "Bepaal op welke gebruikers je de geselecteerde actie wilt toepassen"
+
+#: views/tabs/bulk-actions.php:101
+msgid "Specified users"
+msgstr "Gespecificeerde gebruikers"
+
+#: views/tabs/bulk-actions.php:102
+msgid "Specified user roles"
+msgstr "Gespecificeerde gebruikersrollen"
+
+#: views/tabs/bulk-actions.php:114
+msgid "Choose which roles to exclude"
+msgstr "Bepaal welke rollen je wilt uitsluiten"
+
+#: views/tabs/bulk-actions.php:115
+msgid "Choose which user roles to exclude from this bulk action"
+msgstr "Bepaal welke gebruikersrollen worden uitgesloten van deze bulk actie"
+
+#: views/tabs/bulk-actions.php:133
+msgid "Choose which users to exclude"
+msgstr "Bepaal welke rollen je wilt uitsluiten"
+
+#: views/tabs/bulk-actions.php:134
+msgid "Choose which users to exclude from this bulk action"
+msgstr "Kies welke gebruikers worden uitgesloten van deze bulk-actie"
+
+#: views/tabs/bulk-actions.php:148
+msgid "Set how many points."
+msgstr "Bepaal hoeveel punten."
+
+#: views/tabs/bulk-actions.php:163
+msgid ""
+"Enter a description to explain to your users the reason for the points action"
+msgstr ""
+"Beschrijving invoeren om aan je gebruikers uit te leggen waarom deze actie "
+"plaatsvindt"
+
+#: views/tabs/bulk-actions.php:176
+msgid "Add points to"
+msgstr "Punten toevoegen aan"
+
+#: views/tabs/bulk-actions.php:177
+msgid ""
+"Choose to assign points to all previous orders or only orders placed from a "
+"specific date. All orders from this date will be checked and points will be "
+"added to the customer's profile."
+msgstr ""
+"Bepaal of je punten wilt toepassen op alle voorgaande bestellingen, of "
+"alleen bestellingen geplaatst vanaf een bepaalde datum. Alle bestellingen "
+"vanaf deze datum zullen worden gecontroleerd en punten worden toegekend aan "
+"het klantprofiel."
+
+#: views/tabs/bulk-actions.php:180
+msgid "All previous orders"
+msgstr "Alle voorgaande bestellingen"
+
+#: views/tabs/bulk-actions.php:181
+msgid "Orders placed from a specific date"
+msgstr "Bestellingen geplaatst vanaf een specifieke datum"
+
+#: views/tabs/bulk-actions.php:218 views/tabs/customers-tab.php:20
+msgid "< back to list"
+msgstr "< Terug naar lijst"
+
+#: views/tabs/bulk-actions.php:272
+msgid "Apply Action"
+msgstr "Actie toepassen"
+
+#: views/tabs/customer-history.php:18
+msgid "Unban user"
+msgstr "Verbannen gebruiker opheffen"
+
+#: views/tabs/customer-history.php:18
+msgid "Ban user"
+msgstr "Gebruiker verbannen"
+
+#: views/tabs/customer-history.php:53
+msgid "Email:"
+msgstr "E-mail: "
+
+#: views/tabs/customer-history.php:57
+msgid "Level:"
+msgstr "Niveau:"
+
+#: views/tabs/customer-history.php:67
+msgid "Total collected"
+msgstr "Totaal verzameld"
+
+#: views/tabs/customer-history.php:86 views/tabs/customer-list.php:19
+msgid "Search"
+msgstr "Zoeken"
+
+#: views/tabs/customer-history.php:126
+msgid "Points:"
+msgstr "Punten:"
+
+#: views/tabs/customer-history.php:132
+msgid "Optional description:"
+msgstr "Optionele beschrijving:"
+
+#: views/tabs/customers-tab.php:23
+msgid "Customers' Points"
+msgstr "Punten klant"
+
+#: views/tabs/import_export-tab.php:21
+msgid "Import points from a CSV file"
+msgstr "Punten van een CSV bestand importeren"
+
+#: views/tabs/import_export-tab.php:22
+msgid "Export points into a CSV file"
+msgstr "Punten van een CSV bestand exporteren "
+
+#: views/tabs/import_export-tab.php:25 views/tabs/import_export-tab.php:38
+msgid "Choose if you want to import or export"
+msgstr "Bepaal of je wilt importeren of exporteren"
+
+#: views/tabs/import_export-tab.php:31
+msgid "Choose the CSV format"
+msgstr "Kies het CSV format"
+
+#: views/tabs/import_export-tab.php:34
+msgid "User ID / Points"
+msgstr "Gebruikers ID / Punten"
+
+#: views/tabs/import_export-tab.php:35
+msgid "User email / Points"
+msgstr "E-mail gebruiker / Punten"
+
+#: views/tabs/import_export-tab.php:44
+msgid "CSV import action"
+msgstr "CSV importeer actie"
+
+#: views/tabs/import_export-tab.php:47
+msgid "Add points to current balance"
+msgstr "Punten toevoegen aan huidig saldo"
+
+#: views/tabs/import_export-tab.php:48
+msgid "Override points"
+msgstr "Punten overschrijven"
+
+#: views/tabs/import_export-tab.php:51
+msgid ""
+"Choose if imported points will be added or will override the current balance."
+msgstr ""
+"Bepaal of geïmporteerde punten worden toegevoegd aan het huidige balans, of "
+"dat ze de huidige balans overschrijven."
+
+#: views/tabs/import_export-tab.php:57
+msgid "Delimiter Type"
+msgstr "Scheidingsteken"
+
+#: views/tabs/import_export-tab.php:60
+msgid "Enter the delimiter type. You can use for example , / ;"
+msgstr "Scheidingsteken invoeren. Je kunt bijvoorbeeld gebruik maken van , / ;"
+
+#: views/tabs/import_export-tab.php:72
+msgid "Import/Export Points"
+msgstr "Importeer/exporteer punten"
+
+#: views/tabs/import_export-tab.php:94
+msgid "Upload CSV file"
+msgstr "CSV bestand uploaden"
+
+#: views/tabs/import_export-tab.php:97
+msgid "Upload"
+msgstr "Uploaden"
+
+#: views/tabs/import_export-tab.php:100
+msgid "Upload the CSV file to import points"
+msgstr "Upload het CSV bestand om punten te importeren"
+
+#: views/tabs/import_export-tab.php:110
+msgid "Start"
+msgstr "Start"
+
+#. Description of the plugin/theme
+msgid ""
+"With <code><strong>YITH WooCommerce Points and Rewards</strong></code> you "
+"can start a rewards program with points to gain your customers' loyalty. "
+"Your customers will be able to use their points to get discounts making it a "
+"perfect marketing strategy for your store. <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</"
+"strong></a>."
+msgstr ""
+"Met <code><strong>YITH WooCommerce Points and Rewards</strong></code> kun je "
+"een beloningssysteem opzetten waarbij je klanten loyaliteitspunten kunnen "
+"verdienen. Je klanten kunnen deze punten gebruiken om korting te krijgen, "
+"een perfecte strategie voor je winkel. <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Verkrijg meer plugins voor je e-commerce winkel op "
+"<strong>YITH</strong></a>."
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:214
+msgctxt "Customer Points action"
+msgid "Add points"
+msgstr "Punten toevoegen"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:224
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:299
+msgctxt "Customer Points action"
+msgid "Remove points"
+msgstr "Punten verwijderen"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:235
+msgctxt "Customer Points action"
+msgid "Remove all points"
+msgstr "Alle punten verwijderen"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:285
+msgctxt "Customer Points action"
+msgid "View history"
+msgstr "Bekijk geschiedenis"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:314
+msgctxt "Customer Points action"
+msgid "Unban user"
+msgstr "Verbannen gebruiker opheffen"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:328
+msgctxt "Customer Points action"
+msgid "Ban user"
+msgstr "Gebruiker verbannen"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:355
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:258
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:218
+msgctxt "Admin action label to activate post type"
+msgid "Activate"
+msgstr "Activeren"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:356
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:259
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:219
+msgctxt "Admin action label to deactivate post type"
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:357
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:260
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:221
+msgctxt "Admin action label to delete a post type"
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:80
+msgctxt "Message that appears when a post is updated"
+msgid "Banner updated"
+msgstr "Banner bijgewerkt"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:78
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:79
+msgctxt "Message that appears when a post is updated"
+msgid "Rule updated"
+msgstr "Regel bijgewerkt"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:79
+msgctxt "Message that appears when a post is updated"
+msgid "Level updated"
+msgstr "Niveau bijgewerkt"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:81
+msgctxt "Message that appears when a post is published"
+msgid "Banner published"
+msgstr "Banner uitgebracht"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:79
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:80
+msgctxt "Message that appears when a post is published"
+msgid "Rule published"
+msgstr "Opnieuw uitgebracht"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:80
+msgctxt "Message that appears when a post is published"
+msgid "Level published"
+msgstr "Niveau gepubliceerd"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:118
+msgctxt "Description for Banner list table"
+msgid ""
+"Banners are shown in the “My Account” page. You can use banners to create "
+"targets to achieve for your users and push them to collect points."
+msgstr ""
+"Banners worden getoond in de \"My Account\" pagina. Je kunt banners "
+"gebruiken om doelen aan te maken, die je klanten kunnen bereiken en "
+"stimuleer daarmee het verzamelen van punten."
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:184
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:184
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:145
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:184
+msgctxt "Post action"
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:193
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:193
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:154
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:193
+msgctxt "Delete confirmation action"
+msgid "Yes, delete"
+msgstr "Ja, verwijderen"
+
+#. translators: placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:423
+msgctxt "placeholder is an html tag"
+msgid ""
+"You have no banners created yet.%1$sCreate your first one to show in your "
+"customer's account %1$sand push him to collect points."
+msgstr ""
+"Je hebt nog geen banners aangemaakt. %1$sMaak je eerste aan om deze te tonen "
+"in het account van je klant %1$sen spoor hem aan om punten te verzamelen."
+
+#. translators:placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:326
+msgctxt "placeholder is an html tag"
+msgid "You have no points rules created yet.%1$sCreate now your first one!"
+msgstr "Je hebt nog geen punten regels aangemaakt. %1$sMaak nu je eerste aan!"
+
+#. translators: placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:369
+msgctxt "placeholder is an html tag"
+msgid "You have no points levels created yet.%1$sCreate now your first one!"
+msgstr "Je hebt nog geen punten niveaus aangemaakt. %1$sMaak nu je eerste aan!"
+
+#. translators: placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:399
+msgctxt "placeholder is an html tag"
+msgid "You have no redeeming rules created yet.%1$sCreate now your first one!"
+msgstr ""
+"Je hebt nog geen inlossen regels aangemaakt. %1$sMaak nu je eerste aan!"
+
+#. translators: placeholder is an html tag.
+#: plugin-options/metaboxes/banners-options.php:106
+msgctxt "placeholder is an html tag"
+msgid ""
+"Choose the banner action type.%s To create target banners you need to enable "
+"extra points options first."
+msgstr ""
+"Bepaal het banner actie type. %s Om doel banners aan te maken moet je eerst "
+"de extra punten opties inschakelen."
+
+#. translators:Description of Points Rules. Placeholder are tag html.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:112
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:113
+msgctxt "Description of Points Rules. Placeholder are tag html."
+msgid ""
+"Please note: rules applied to products have a higher priority by default. "
+"%1$sRead the documentation to better understand how rules work >%2$s"
+msgstr ""
+"Let op: regels toegepast op producten hebben standaard een hogere "
+"prioriteit. %1$sBekijk de documentatie om beter te begrijpen hoe regels "
+"werken >%2$s"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:220
+msgctxt "Admin action label to associate the levels to the customers"
+msgid "Associate to customers"
+msgstr "Koppelen aan klanten"
+
+#: includes/class-yith-wc-points-rewards-admin.php:201
+msgctxt "[HELP TAB] Video title"
+msgid ""
+"Check this video to learn how to set up a <b>points and rewards system</b> "
+"in your shop:"
+msgstr ""
+
+#: includes/class-yith-wc-points-rewards-ajax.php:208
+msgctxt "Name of duplicated rule"
+msgid " - Copy"
+msgstr "- Kopie"
+
+#. translators: subscription number.
+#: includes/class-yith-wc-points-rewards-ajax.php:287
+#: includes/class-yith-wc-points-rewards-ajax.php:323
+#: includes/class-yith-wc-points-rewards-ajax.php:349
+#: includes/class-yith-wc-points-rewards-ajax.php:375
+#: includes/class-yith-wc-points-rewards-ajax.php:401
+#: includes/class-yith-wc-points-rewards-ajax.php:426
+#: includes/class-yith-wc-points-rewards-ajax.php:450
+msgctxt "Error message during admin actions"
+msgid "Some fields are missing"
+msgstr "Enkele velden ontbreken"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:463
+msgctxt "Error message during share points coupon creation"
+msgid "You have not enough points to create this coupon"
+msgstr "Je hebt niet genoeg punten om deze kortingsbon aan te maken"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:474
+msgctxt "Error message during share points coupon creation"
+msgid "Please check the number of points to share."
+msgstr "Controleer het aantal punten dat je wilt delen."
+
+#: includes/class-yith-wc-points-rewards-assets.php:82
+msgctxt "Customer add points title"
+msgid "Add points to the customer"
+msgstr "Punten toekennen aan klant"
+
+#: includes/class-yith-wc-points-rewards-assets.php:83
+msgctxt "Customer add points save button"
+msgid "Add points"
+msgstr "Punten toevoegen"
+
+#: includes/class-yith-wc-points-rewards-assets.php:84
+msgctxt "Customer remove points title"
+msgid "Remove points from the customer"
+msgstr "Punten verwijderen van klant"
+
+#: includes/class-yith-wc-points-rewards-assets.php:85
+msgctxt "Customer remove points save button"
+msgid "Remove points"
+msgstr "Punten verwijderen"
+
+#: includes/class-yith-wc-points-rewards-assets.php:86
+msgctxt "Customer remove points save button"
+msgid "Remove all points "
+msgstr "Alle punten verwijderen"
+
+#: includes/class-yith-wc-points-rewards-assets.php:87
+msgctxt "Customer remove points confirmation message"
+msgid "Are you sure to remove all points of the customer?"
+msgstr "Weet je zeker dat je alle punten van de klant wilt verwijderen?"
+
+#: includes/class-yith-wc-points-rewards-assets.php:88
+msgctxt "Customer remove points confirmation message for bulk action"
+msgid "Are you sure to remove all points of the selected customers?"
+msgstr ""
+"Weet je zeker dat je alle punten van geselecteerde klanten wilt verwijderen?"
+
+#. translators:First placeholder: user id; second placeholder: user first name;
+#. third placeholder: user last name.
+#: includes/class-yith-wc-points-rewards-customer.php:437
+msgctxt ""
+"First placeholder: user id; second placeholder: user first name; third "
+"placeholder: user last name"
+msgid "#%1$d - %2$s %3$s"
+msgstr "#%1$d - %2$s %3$s"
+
+#. translators:First placeholder: user id; second placeholder: user display
+#. name.
+#: includes/class-yith-wc-points-rewards-customer.php:440
+msgctxt "First placeholder: user id; second placeholder: user display name"
+msgid "#%1$d - %2$s"
+msgstr "#%1$d - %2$s"
+
+#. translators: First placeholder: number of points; second placeholder: label
+#. of points.
+#: includes/class-yith-wc-points-rewards-earning.php:228
+#: includes/class-yith-wc-points-rewards-orders.php:320
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:131
+msgctxt ""
+"First placeholder: number of points; second placeholder: label of points"
+msgid "Customer earned %1$d %2$s for this purchase."
+msgstr "Klant heeft %1$d %2$s verdiend met deze aankoop."
+
+#. translators:First placeholder: number of points; second placeholder: label
+#. of points.
+#: includes/class-yith-wc-points-rewards-orders.php:145
+msgctxt ""
+"First placeholder: number of points; second placeholder: label of points"
+msgid "Removed %1$d %2$s for order %3$s."
+msgstr "%1$d %2$s verwijderd voor bestelling %3$s."
+
+#. translators:First placeholder: number of points; second placeholder: label
+#. of points.
+#: includes/class-yith-wc-points-rewards-orders.php:576
+msgctxt ""
+"First placeholder: number of points; second placeholder: label of points"
+msgid "Customer redeemed %1$d %2$s to get a reward"
+msgstr "Klant heeft %1$d %2$s ingelost om een beloning te krijgen"
+
+#. translators: 'First placeholder: number of points; second placeholder:
+#. reason'.
+#: includes/class-yith-wc-points-rewards-orders.php:611
+msgctxt ""
+"First placeholder: number of points; second placeholder: label of points"
+msgid "Removed %1$s for %2$s."
+msgstr "%1$s verwijderd wegens %2$s."
+
+#. translators: First placeholder: number of points; second and third
+#. placeholders: label of points plural and singular.
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:98
+msgctxt ""
+"First placeholder: number of points; second placeholder: label of points"
+msgid "<strong>%1$s</strong> %2$s"
+msgid_plural "<strong>%1$s</strong> %3$s"
+msgstr[0] "<strong>%1$s</strong> %2$s"
+msgstr[1] "<strong>%3$s</strong> %4$s"
+
+#. translators: Total number of orders updated.
+#: includes/class-yith-wc-points-rewards-orders.php:285
+msgctxt "Total number of orders updated."
+msgid "<strong>%d</strong> order has been updated"
+msgid_plural "<strong>%d</strong> orders have been updated"
+msgstr[0] "<strong>%d</strong> bestelling is bijgewerkt"
+msgstr[1] "<strong>%d</strong> bestellingen zijn bijgewerkt"
+
+#. translators: 'First placeholder: number of points; second placeholder:
+#. reason of action'.
+#: includes/class-yith-wc-points-rewards-orders.php:648
+msgctxt ""
+"First placeholder: number of points; second placeholder: reason of action"
+msgid "Returned %1$s to customer for %2$s."
+msgstr "Teruggave van %1$s aan klant, wegens %2$s."
+
+#. translators:First placeholder: number of point; second placeholder: label of
+#. points.
+#: includes/class-yith-wc-points-rewards-orders.php:737
+msgctxt ""
+"First placeholder: number of point; second placeholder: label of points"
+msgid "Removed %1$d %2$s to customer for order refund."
+msgstr "%1$d %2$s verwijderd voor een gerestitueerde bestelling."
+
+#: includes/class-yith-wc-points-rewards-post-types.php:100
+msgctxt "Post Type General Name"
+msgid "Levels & Badges"
+msgstr "Niveaus & Badges"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:135
+msgctxt "Post Type General Name"
+msgid "Banners"
+msgstr "Banners"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:170
+msgctxt "Post Type General Name"
+msgid "Points assignment rules"
+msgstr "Punten toewijzen regels"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:205
+msgctxt "Post Type General Name"
+msgid "Points redeeming rules"
+msgstr "Punten inlossen regels"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:101
+msgctxt "Post Type Singular Name"
+msgid "Levels & Badges"
+msgstr "Niveaus & Badges"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:136
+msgctxt "Post Type Singular Name"
+msgid "Banner"
+msgstr "Banner"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:171
+msgctxt "Post Type Singular Name"
+msgid "Points assignment rule"
+msgstr "Punten toewijzen regel"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:206
+msgctxt "Post Type Singular Name"
+msgid "Points redeeming rule"
+msgstr "Punten inlossen regel"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:322
+msgctxt "Name of duplicated post type"
+msgid " - Copy"
+msgstr "- Kopie"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:165
+msgctxt "20% on order total"
+msgid "on order total"
+msgstr "op bestelling totaal"
+
+#. translators: Placeholder is the id of the customer.
+#: includes/class-yith-wc-points-rewards-referral.php:233
+msgctxt "Placeholder is the id of the customer."
+msgid "Points from registration of a new customer"
+msgstr "Punten voor registratie van een nieuwe klant"
+
+#. translators: Placeholder is the if of the order.
+#: includes/class-yith-wc-points-rewards-referral.php:323
+msgctxt " Placeholder is the if of the order."
+msgid "Points removed from order with id %1$s because the user has been banned"
+msgstr ""
+"Punten verwijderd van bestelling met id %1$s omdat de gebruiker is verbannen"
+
+#: includes/class-yith-wc-points-rewards-referral.php:383
+#: includes/class-yith-wc-points-rewards-share-points.php:281
+msgctxt "Copy-to-clipboard message"
+msgid "Copied!"
+msgstr "Gekopieerd!"
+
+#: includes/class-yith-wc-points-rewards-referral.php:387
+#: includes/class-yith-wc-points-rewards-share-points.php:285
+msgctxt "Copy-to-clipboard button text"
+msgid "Copy"
+msgstr "Kopiëren"
+
+#. translators: Placeholder number of points and customer name.
+#: includes/class-yith-wc-points-rewards-share-points.php:190
+msgctxt "Placeholder number of points and customer name"
+msgid "Converted %1$s by the customer %2$s"
+msgstr "%1$s geconverteerd door klant %2$s"
+
+#. translators:Placeholder is the coupon code.
+#: includes/class-yith-wc-points-rewards-share-points.php:203
+msgctxt ""
+"Text displayed inside the history table. Placeholder is the coupon code."
+msgid "Created coupon: %s"
+msgstr "Kortingsbon aangemaakt: %s"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:229
+msgctxt "the shared point coupon has beed used"
+msgid "Used"
+msgstr "Gebruikt"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:231
+msgctxt "the shared point coupon has beed used"
+msgid "Expired"
+msgstr "Verlopen"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:233
+msgctxt "the shared point coupon is still valid"
+msgid "Not used"
+msgstr "Niet gebruikt"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:239
+msgctxt "the shared point coupon is still valid"
+msgid "Deleted"
+msgstr "Verwijderd"
+
+#. translators: First placeholder: number of points; second and third
+#. placeholder: labels of points.
+#: includes/class-yith-wc-points-rewards-shortcodes.php:325
+msgctxt ""
+"First placeholder: number of points; second and third placeholder: labels of "
+"points"
+msgid "<strong>%1$s</strong> %2$s"
+msgid_plural "<strong>%1$s</strong> %3$s"
+msgstr[0] "<strong>%1$s</strong> %2$s"
+msgstr[1] "<strong>%1$s</strong> %3$s"
+
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:343
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:348
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:413
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:419
+msgctxt "yith-woocommerce-points-and-rewards"
+msgid "Imported rule"
+msgstr "Regel importeren"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:175
+msgctxt "Reason to show when the customer earns points from recurring payment"
+msgid "Renew order label"
+msgstr "Vernieuwingsbestelling label"
+
+#. translators: Placeholder: subject.
+#: includes/emails/class-yith-ywpar-expiration.php:196
+#: includes/emails/class-yith-ywpar-update-points.php:190
+msgctxt "Placeholder: subject"
+msgid ""
+"This field lets you edit the email subject line. Leave it blank to use the "
+"default subject text: <code>%s</code>."
+msgstr ""
+"Dit veld laat je het e-mail onderwerp bewerken. Laat leeg om het "
+"standaardonderwerp tekst te gebruiken: <code>%s</code>."
+
+#. translators: Placeholder: admin email.
+#: includes/emails/class-yith-ywpar-expiration.php:204
+#: includes/emails/class-yith-ywpar-update-points.php:198
+msgctxt "Placeholder: admin email"
+msgid ""
+"Enter recipients (separated by commas) for this email. Defaults to <code>%s</"
+"code>"
+msgstr ""
+"Ontvangers invoeren voor deze e-mail gescheiden met komma´s). Standaard naar "
+"<code>%s</code>"
+
+#. translators: Placeholder: email heading.
+#: includes/emails/class-yith-ywpar-expiration.php:213
+#: includes/emails/class-yith-ywpar-update-points.php:206
+msgctxt "Placeholder: email heading"
+msgid ""
+"This field lets you change the main heading in email notification. Leave it "
+"blank to use the default heading type: <code>%s</code>."
+msgstr ""
+"Dit veld laat je de hoofdtitel van de e-mail melding aanpassen. Laat het "
+"leeg om de standaard titel te gebruiken: <code>%s</code>."
+
+#: plugin-options/customization-options.php:55
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"{points} number of points earned;<br>{points_label} of points;"
+"<br>{price_discount_fixed_conversion} the value corresponding to points"
+msgstr ""
+"{points} aantal verdiende punten;<br>{points_label} van punten;"
+"<br>{price_discount_fixed_conversion} de waarde gerelateerd aan punten "
+
+#: plugin-options/customization-options.php:58
+msgctxt "do not translate the text inside the brackets"
+msgid "<strong>{points}</strong> {points_label}"
+msgstr "<strong>{points}</strong> {points_label}"
+
+#: plugin-options/customization-options.php:131
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"{points} number of points earned;<br>{points_label} of points;"
+"<br>{price_discount_fixed_conversion} the value corresponding to points "
+msgstr ""
+"{points} aantal verdiende punten;<br>{points_label} van punten;"
+"<br>{price_discount_fixed_conversion} de waarde gerelateerd aan punten "
+
+#: plugin-options/customization-options.php:134
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"Purchase this item and get <strong>{points} {points_label}</strong> - a "
+"worth of <strong>{price_discount_fixed_conversion}</strong>"
+msgstr ""
+"Koop dit item en ontvang <strong>{points} {points_label}</strong> - met een "
+"waarde van <strong>{price_discount_fixed_conversion}</strong>"
+
+#: plugin-options/customization-options.php:274
+#: plugin-options/customization-options.php:298
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"If you proceed to checkout, you will earn <strong>{points}</strong> "
+"{points_label}!"
+msgstr ""
+"Als je doorgaat met afrekenen, verdien je <strong>{points}</strong> "
+"{points_label}!"
+
+#: plugin-options/emails-options.php:43
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"You can use the following placeholders,<br>\n"
+"                {username} = customer's username <br>\n"
+"                {first_name} = customer's  first name <br>\n"
+"                {last_name} = customer's last name <br>\n"
+"                {expiring_points} = expiring points <br>\n"
+"                {label_points} = label for points <br>\n"
+"                {expiring_date} = points expiry date<br>\n"
+"                {total_points} = current balance<br>\n"
+"                {shop_url} = url of the shop<br>\n"
+"                {discount} = value of the discount<br>\n"
+"\t\t\t\t{website_name} = website name"
+msgstr ""
+"Je kunt de volgende invulvelden gebruiken,<br>\n"
+"                {username} = gebruikersnaam klant <br>\n"
+"                {first_name} = voornaam klant <br>\n"
+"                {last_name} = achternaam klant <br>\n"
+"                {expiring_points} = punten die gaan vervallen <br>\n"
+"                {label_points} = label voor punten <br>\n"
+"                {expiring_date} = vervaldatum punten<br>\n"
+"                {total_points} = huidig balans<br>\n"
+"                {shop_url} = url van de winkel<br>\n"
+"                {discount} = kortingswaarde<br>\n"
+"\t\t\t\t{website_name} = website naam"
+
+#: plugin-options/emails-options.php:60
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"Hi {username}!\n"
+"\t\t\t\n"
+"We send you this message because the <b>{expiring_points} {label_points}</b> "
+"you've already earned in our shop will expire on {expiring_date}.\n"
+"\n"
+"<div class=\"points_banner\">\n"
+"Use them now to get a <b>discount of {discount}</b> in your purchase!\n"
+"<a href=\"{shop_url}\">Check our shop now ></a>\n"
+"</div>\n"
+"\n"
+"Regards,\n"
+"{website_name} staff\n"
+msgstr ""
+"Hoi {username}!\n"
+"\t\t\t\n"
+"We sturen je dit bericht omdat de <b>{expiring_points} {label_points}</b> "
+"die je al hebt verdiend in onze winkel, zullen vervallen op "
+"{expiring_date}.\n"
+"\n"
+"<div class=\"points_banner\">\n"
+"Gebruik ze nu om een <b>korting van {discount}</b> te krijgen voor je "
+"aankoop!\n"
+"<a href=\"{shop_url}\">Bekijk onze winkel nu ></a>\n"
+"</div>\n"
+"\n"
+"Groeten,\n"
+"{website_name} \n"
+
+#: plugin-options/emails-options.php:153
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"Hi {username}!\n"
+"\t\t\t\n"
+"Here you can find the updated balance of your {label_points}.\n"
+" \n"
+" <div class=\"points_banner\">\n"
+" Total points collected: <b>{total_points}</b>\n"
+" <a href=\"{shop_url}\">Redeem them in your next order ></a>\n"
+"</div>\n"
+"\n"
+" Well done!\n"
+" {website_name} staff"
+msgstr ""
+"Hoi {username}!\n"
+"\t\t\t\n"
+"Hier vind je de bijgewerkte balans van je {label_points}.\n"
+" \n"
+" <div class=\"points_banner\">\n"
+" Totaal verzamelde punten: <b>{total_points}</b>\n"
+" <a href=\"{shop_url}\">Los ze in, in je volgende bestelling ></a>\n"
+"</div>\n"
+"\n"
+" Goed gedaan!\n"
+" {website_name}"
+
+#: plugin-options/redeem/standard-options.php:187
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+" Enter the redeem message to show in cart and checkout page. <br />You can "
+"use these placeholders:<br />{points} number of points earned;"
+"<br>{points_label} of points;<br>{max_discount} maximum discount value"
+msgstr ""
+" Inlossen bericht invoeren om weer te geven in de winkelwagen- en "
+"afrekenpagina. <br /> Je kunt deze invulvelden gebruiker:<br />{points} "
+"aantal verdiende punten;<br>{points_label} van punten;<br>{max_discount} "
+"maximale kortingswaarde"
+
+#: plugin-options/redeem/standard-options.php:190
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"Use <strong>{points}</strong> {points_label} for a <strong>{max_discount}</"
+"strong> discount on this order!"
+msgstr ""
+"Gebruik <strong>{points}</strong> {points_label} voor een "
+"<strong>{max_discount}</strong> korting op deze bestelling!"
+
+#: plugin-options/gutenberg/blocks.php:36
+msgctxt "[gutenberg]: block name"
+msgid "Best user list - YITH WooCommerce Points and Rewards"
+msgstr "Beste gebruiker lijst - YITH WooCommerce Points and Rewards"
+
+#: plugin-options/gutenberg/blocks.php:75
+msgctxt "[gutenberg]: block name"
+msgid "Customer Total points - YITH WooCommerce Points and Rewards"
+msgstr "Totaal punten klant - YITH WooCommerce Points and Rewards"
+
+#: plugin-options/gutenberg/blocks.php:95
+msgctxt "[gutenberg]: block name"
+msgid "Points message on product page - YITH WooCommerce Points and Rewards"
+msgstr "Puntenbericht op productpagina - YITH WooCommerce Points and Rewards"
+
+#: plugin-options/gutenberg/blocks.php:37
+msgctxt "[gutenberg]: block description"
+msgid "Show the list of best customers."
+msgstr "Toon de lijst met beste klanten."
+
+#: plugin-options/gutenberg/blocks.php:76
+msgctxt "[gutenberg]: block description"
+msgid "Show customer credit points."
+msgstr "Toon het puntentegoed van de klant."
+
+#: plugin-options/gutenberg/blocks.php:96
+msgctxt "[gutenberg]: block description"
+msgid "Show a single product page message"
+msgstr "Toon een enkele productpagina bericht"
+
+#: plugin-options/gutenberg/blocks.php:43
+msgctxt "[gutenberg]: keywords"
+msgid "YITH"
+msgstr "YITH"
+
+#: plugin-options/gutenberg/blocks.php:44
+#: plugin-options/gutenberg/blocks.php:82
+#: plugin-options/gutenberg/blocks.php:102
+msgctxt "[gutenberg]: keywords"
+msgid "Points and Rewards"
+msgstr "Points and Rewards"
+
+#: plugin-options/gutenberg/blocks.php:45
+msgctxt "[gutenberg]: keywords"
+msgid "Points and Rewards Widget"
+msgstr "Points and Rewards Widget"
+
+#: plugin-options/gutenberg/blocks.php:83
+msgctxt "[gutenberg]: keywords"
+msgid "Points"
+msgstr "Punten"
+
+#: plugin-options/gutenberg/blocks.php:103
+msgctxt "[gutenberg]: keywords"
+msgid "Points message"
+msgstr "Punten bericht"
+
+#: plugin-options/gutenberg/blocks.php:50
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Style of list"
+msgstr "Lijst stijl"
+
+#: plugin-options/gutenberg/blocks.php:88
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Text before points"
+msgstr "Tekst vóór punten"
+
+#: plugin-options/gutenberg/blocks.php:108
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Product id"
+msgstr "Product id"
+
+#: plugin-options/gutenberg/blocks.php:113
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Message"
+msgstr "Bericht"
+
+#: plugin-options/gutenberg/blocks.php:53
+msgctxt "[gutenberg]: Label for gutenberg attribute"
+msgid "Simple"
+msgstr "Simpel"
+
+#: plugin-options/gutenberg/blocks.php:54
+msgctxt "[gutenberg]: Label for gutenberg attribute"
+msgid "Boxed"
+msgstr "Omlijnd"
+
+#: plugin-options/gutenberg/blocks.php:89
+msgctxt "[gutenberg]: Label for gutenberg attribute"
+msgid "Your credit is "
+msgstr "Je tegoed is"
+
+#: plugin-options/gutenberg/blocks.php:59
+msgctxt "[gutenberg]: show or hide the tabs"
+msgid "Tabs"
+msgstr "Tabs"
+
+#: plugin-options/gutenberg/blocks.php:68
+msgctxt "[gutenberg]: number od customers to show"
+msgid "Number of customers"
+msgstr "Aantal klanten"
+
+#: plugin-options/gutenberg/blocks.php:118
+msgctxt "[gutenberg]: title of widget"
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+#: plugin-options/gutenberg/blocks.php:123
+msgctxt "[gutenberg]: title of widget"
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: plugin-options/metaboxes/levels-badges-options.php:18
+msgctxt "Admin option title"
+msgid "Level name"
+msgstr "Niveau naam"
+
+#: plugin-options/metaboxes/levels-badges-options.php:33
+msgctxt "Admin option title"
+msgid "Points to collect"
+msgstr "Te verzamelen punten"
+
+#: plugin-options/metaboxes/levels-badges-options.php:41
+msgctxt "Admin option title"
+msgid "Add a badge image"
+msgstr "Badge afbeelding toevoegen"
+
+#: plugin-options/metaboxes/levels-badges-options.php:49
+msgctxt "Admin option title"
+msgid "Upload badge"
+msgstr "Badge uploaden"
+
+#: plugin-options/metaboxes/levels-badges-options.php:61
+msgctxt "Admin option title"
+msgid "Level text color"
+msgstr "Tekstkleur niveau"
+
+#: plugin-options/metaboxes/levels-badges-options.php:19
+msgctxt "Admin option description"
+msgid "Enter a name to identify this level"
+msgstr "Naam invoeren om dit niveau te identificeren"
+
+#: plugin-options/metaboxes/levels-badges-options.php:34
+msgctxt "Admin option description"
+msgid "Set how many points the user has to collect to achieve this level."
+msgstr ""
+"Bepaal hoeveel punten de gebruiker moet verzamelen om dit niveau te bereiken."
+
+#: plugin-options/metaboxes/levels-badges-options.php:34
+msgctxt "Admin option description"
+msgid "Leave \"to\" empty if this level is the last achievable."
+msgstr "Laat \"tot\" leeg, als dit niveau het hoogst haalbare is."
+
+#: plugin-options/metaboxes/levels-badges-options.php:42
+msgctxt "Admin option description"
+msgid "Enable if you want to upload a badge image to identify this level"
+msgstr ""
+"Inschakelen als je een badge afbeelding wilt uploaden om dit niveau te "
+"identificeren"
+
+#: plugin-options/metaboxes/levels-badges-options.php:50
+msgctxt "Admin option description"
+msgid "Upload an image to identify this level"
+msgstr "Afbeelding uploaden om dit niveau te identificeren"
+
+#: plugin-options/metaboxes/levels-badges-options.php:62
+msgctxt "Admin option description"
+msgid "Set the color for level label text (shown in shortcodes and widgets)"
+msgstr ""
+"De tekstkleur instellen voor het niveau label (getoond in shortcodes en "
+"widgets)"
+
+#. translators: Placeholder are html tags.
+#: plugin-options/metaboxes/points-earning-rules-options.php:52
+#: plugin-options/metaboxes/points-earning-rules-options.php:83
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:31
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:79
+msgctxt "Placeholder are html tags."
+msgid ""
+"Choose to which users apply this rule. %1$sNote:%2$s you can apply rules "
+"only to user roles enabled in the global option. If you want to create rules "
+"for all users or other user roles you need to %3$sedit the global option%4$s"
+msgstr ""
+"Bepaal op welke gebruikers deze regel wordt toegepast. %1$sLet  op::%2$s je "
+"kunt deze regels alleen toepassen op gebruikersrollen die zijn geactiveerd "
+"in de globale optie. Als je regels wilt aanmaken voor alle gebruikers of "
+"andere gebruikersrollen, moet je de %3$sde globale opties bewerken%4$s"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:136
+msgctxt "Admin option"
+msgid "Assign a fixed amount of points"
+msgstr "Vaste hoeveelheid aan punten toekennen"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:137
+msgctxt "Admin option"
+msgid "Set a % amount of points based on global points rules"
+msgstr ""
+"Een % hoeveelheid aan punten instellen, gebaseerd op globale punten regels"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:138
+msgctxt "Admin option"
+msgid "Set a fixed amount of points based on product prices"
+msgstr "Vaste hoeveelheid aan punten instellen, gebaseerd op productprijzen"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:139
+msgctxt "Admin option"
+msgid "Don't assign points"
+msgstr "Geen punten toekennen"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:192
+msgctxt "Admin option"
+msgid "From now, until\tit's ended manually"
+msgstr "Vanaf nu, tot → handmatig beëindigd"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:193
+msgctxt "Admin option"
+msgid "Schedule a start and end date"
+msgstr "Start- en einddatum inplannen"
+
+#: plugin-options/points/extra-options.php:526
+msgctxt "Part of an option where for each renew are assigned some points"
+msgid "review(s) is equivalent to"
+msgstr "beoordeling(en) is/zijn gelijk aan"
+
+#. translators:Placeholder: label of points.
+#: templates/myaccount/my-points-view.php:46
+msgctxt "Placeholder: label of points;"
+msgid "My %s"
+msgstr "Mijn %s"
+
+#: templates/myaccount/my-points-view.php:52
+msgctxt "sub title inside my account recap points badge"
+msgid "to redeem"
+msgstr "in te lossen"
+
+#: templates/myaccount/my-points-view.php:59
+msgctxt "sub title inside my account recap points badge"
+msgid "total collected:"
+msgstr "totaal verzameld:"
+
+#: templates/myaccount/my-points-view.php:56
+msgctxt "label to show the worth amount"
+msgid "worth"
+msgstr "waarde"
+
+#: templates/myaccount/my-points-view.php:64
+msgctxt "My account banner title"
+msgid "My level"
+msgstr "Mijn niveau"
+
+#: templates/myaccount/my-points-view.php:71
+msgctxt "My account banner title"
+msgid "My rank"
+msgstr "Mijn rangorde"
+
+#: templates/myaccount/ywpar-banner-get-points-review.php:76
+msgctxt "link to leave a review inside the review banner on My Account page"
+msgid "Leave a review >"
+msgstr "Laat een beoordeling achter >"
+
+#: templates/myaccount/ywpar-share-points.php:20
+msgctxt "My account title on tab to share points "
+msgid "Convert points in a coupon code"
+msgstr "Converteer punten in een kortingsbon code"
+
+#: templates/myaccount/ywpar-share-points.php:21
+msgctxt "Description of share points My account tab"
+msgid ""
+"Do you want to share your points? Create a coupon code and share it so it "
+"can be used"
+msgstr ""
+"Wil je je punten delen? Maak een kortingsbon code aan en deel deze, zodat de "
+"code gebruikt kan worden"
+
+#: templates/myaccount/ywpar-share-points.php:33
+msgctxt "Error message on My account share points tab"
+msgid "At the moment you don't have enough points to convert."
+msgstr "Je hebt op dit moment niet genoeg punten om te converteren."
+
+#. translators:Placeholder is the minimum amount of points that can be used.
+#. Error message on My account share points tab.
+#: templates/myaccount/ywpar-share-points.php:38
+#: templates/myaccount/ywpar-share-points.php:69
+msgctxt ""
+"Placeholder is the minimum amount of points that can be used. Error message "
+"on My account share points tab"
+msgid "You need to convert a minimum of %s"
+msgstr "Het minimum om te converteren is %s"
+
+#. translators:Placeholder is the maximum amount of points that can be used.
+#. Error message on My account share points tab.
+#: templates/myaccount/ywpar-share-points.php:63
+msgctxt ""
+"Placeholder is the minimum amount of points that can be used. Error message "
+"on My account share points tab"
+msgid "You can convert a maximum of %s"
+msgstr "Je kunt een maximum van %s converteren"
+
+#: templates/myaccount/ywpar-share-points.php:51
+msgctxt "part of a sentence on My account page share points tab"
+msgid "Convert"
+msgstr "Converteer"
+
+#: templates/myaccount/ywpar-share-points.php:55
+msgctxt "part of a sentence on My account page share points tab"
+msgid "points for a coupon value of %s"
+msgstr "punten voor een kortingsbon waarde van %s"
+
+#: templates/myaccount/ywpar-share-points.php:57
+msgctxt "Label of button to convert point on My account page share points tab"
+msgid "Convert"
+msgstr "Converteren"
+
+#: templates/myaccount/ywpar-share-points.php:75
+msgctxt "Title of table for the shared coupon in My account page"
+msgid "Your coupons:"
+msgstr "Je kortingsbonnen:"
+
+#: views/tabs/import_export-tab.php:18
+msgctxt "Import export panel option"
+msgid "Action to execute"
+msgstr "Uit te voeren acties"

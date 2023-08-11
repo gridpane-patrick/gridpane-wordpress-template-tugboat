@@ -1,0 +1,6 @@
+amp-selector [option][selected] {
+    outline: none;
+}
+amp-selector [option]:not([selected]) img {
+    opacity: .5;
+}

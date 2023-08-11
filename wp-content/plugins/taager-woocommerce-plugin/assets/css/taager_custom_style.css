@@ -1,0 +1,3 @@
+.woocommerce-checkout form .form-row.woocommerce-invalid input.input-text, .woocommerce-checkout form .form-row.woocommerce-invalid select {
+    border: 2px solid #ff0000 !important;
+}

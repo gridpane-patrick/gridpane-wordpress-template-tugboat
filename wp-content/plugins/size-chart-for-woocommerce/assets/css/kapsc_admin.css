@@ -1,0 +1,46 @@
+.kapsc_admin_main { width: 100%; float: left; margin-top: 30px;}
+
+.kapsc_admin_main_left{ width: 22%; float: left }
+
+.kapsc_admin_main_right { width: 77%; float: left }
+.kapsc_admin_main_right img{ display: inline; float: left; margin-left: 105px; margin-bottom: 60px; }
+.kapsc_admin_main label{ float: left; margin-top: 5px; }
+
+.kapsc_admin_chart_table { width: 100%; border: 1px solid #aaa; border-radius: 2px; }
+
+.kapsc_button { font-weight: normal; }
+
+.kapsc_buttons_in_row { text-align: center; }
+
+table.kapsc_admin_chart_table tbody input { width: 100%; padding: 0; margin: 3px; }
+/*th button, td button { text-align: center; }*/
+
+.all_cats { width: 97%; border: solid 1px #b6b1b1; border-radius: 4px; padding: 10px; float: left; }
+
+.par_cat { width: auto; padding: 5px; }
+
+.child_cat{ width: auto; padding:3px 15px; }
+
+.select_box_small{ width: 400px; margin-bottom: 7px; }
+
+.kapsc_admin_main_right input[type="number"] { height: 47px; padding-left: 10px; width: 100%; }
+.kapsc_admin_main_right input[type="text"] { height: 47px; padding-left: 10px; width: 100%; }
+
+#kapsc-size-chart-mb {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.postbox {
+	position: inherit;
+	overflow: hidden !important;
+}
+
+.kapsc_admin_main_right .select2-container{ width: 100% !important; }
+
+.login_title {float: right;}
+
+#profile-page .form-table textarea, .kapsc_field_length, .form-table span.description, .form-table td input[type=email], .form-table td input[type=password], .form-table td input[type=text], .form-table td select, .form-table td textarea{
+	width: 30%;
+}

@@ -1,0 +1,799 @@
+# Copyright (C) 2022 SweetCode
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pixel Manager Pro for WooCommerce 1.17.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-07-08T04:26:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: woocommerce-google-adwords-conversion-tracking-tag\n"
+
+#. Plugin Name of the plugin
+msgid "Pixel Manager Pro for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/pixel-manager-pro-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Visitor and conversion value tracking for WooCommerce. Highly optimized for data accuracy."
+msgstr ""
+
+#. Author of the plugin
+msgid "SweetCode"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://sweetcode.com"
+msgstr ""
+
+#: classes/admin/class-admin.php:266
+#: classes/admin/class-admin.php:267
+#: wgact.php:233
+#: wgact.php:234
+msgid "Pixel Manager"
+msgstr ""
+
+#: classes/admin/class-admin.php:306
+msgid "Main"
+msgstr ""
+
+#: classes/admin/class-admin.php:327
+msgid "Google"
+msgstr ""
+
+#: classes/admin/class-admin.php:350
+msgid "Google Ads Conversion ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:362
+msgid "Google Ads Purchase Conversion Label"
+msgstr ""
+
+#: classes/admin/class-admin.php:373
+msgid "Google Analytics UA"
+msgstr ""
+
+#: classes/admin/class-admin.php:384
+msgid "Google Analytics 4"
+msgstr ""
+
+#: classes/admin/class-admin.php:395
+msgid "Google Optimize"
+msgstr ""
+
+#: classes/admin/class-admin.php:407
+msgid "Meta (Facebook)"
+msgstr ""
+
+#: classes/admin/class-admin.php:430
+msgid "Meta (Facebook) pixel ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:442
+msgid "more pixels"
+msgstr ""
+
+#: classes/admin/class-admin.php:467
+msgid "Microsoft Advertising UET tag ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:479
+msgid "Twitter pixel ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:491
+msgid "Pinterest pixel ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:503
+msgid "Snapchat pixel ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:515
+msgid "TikTok pixel ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:528
+msgid "Hotjar site ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:540
+msgid "Advanced"
+msgstr ""
+
+#: classes/admin/class-admin.php:591
+msgid "Order Total Logic"
+msgstr ""
+
+#: classes/admin/class-admin.php:603
+msgid "Order Duplication Prevention"
+msgstr ""
+
+#: classes/admin/class-admin.php:615
+msgid "Maximum Compatibility Mode"
+msgstr ""
+
+#: classes/admin/class-admin.php:629
+msgid "Disable Tracking for User Roles"
+msgstr ""
+
+#: classes/admin/class-admin.php:663
+msgid "Conversion Cart Data"
+msgstr ""
+
+#: classes/admin/class-admin.php:676
+msgid "Enhanced E-Commerce"
+msgstr ""
+
+#: classes/admin/class-admin.php:688
+msgid "GA 4 API secret"
+msgstr ""
+
+#: classes/admin/class-admin.php:701
+msgid "Enhanced Link Attribution"
+msgstr ""
+
+#: classes/admin/class-admin.php:714
+msgid "Google User ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:726
+msgid "Google Ads Enhanced Conversions"
+msgstr ""
+
+#: classes/admin/class-admin.php:740
+msgid "Google Ads Phone Conversion Number"
+msgstr ""
+
+#: classes/admin/class-admin.php:752
+msgid "Google Ads Phone Conversion Label"
+msgstr ""
+
+#: classes/admin/class-admin.php:765
+msgid "Cookie Consent Management"
+msgstr ""
+
+#: classes/admin/class-admin.php:788
+msgid "Google Consent Mode"
+msgstr ""
+
+#: classes/admin/class-admin.php:800
+msgid "Google Consent Regions"
+msgstr ""
+
+#: classes/admin/class-admin.php:812
+msgid "Explicit Consent Mode"
+msgstr ""
+
+#: classes/admin/class-admin.php:825
+msgid "Borlabs Cookie support"
+msgstr ""
+
+#: classes/admin/class-admin.php:839
+msgid "Cookiebot support"
+msgstr ""
+
+#: classes/admin/class-admin.php:853
+msgid "Complianz GDPR support"
+msgstr ""
+
+#: classes/admin/class-admin.php:867
+msgid "Cookie Notice support"
+msgstr ""
+
+#: classes/admin/class-admin.php:881
+msgid "Cookie Script support"
+msgstr ""
+
+#: classes/admin/class-admin.php:895
+msgid "GDPR Cookie Compliance support"
+msgstr ""
+
+#: classes/admin/class-admin.php:909
+msgid "GDPR Cookie Consent support"
+msgstr ""
+
+#: classes/admin/class-admin.php:942
+msgid "Meta (Facebook) CAPI: token"
+msgstr ""
+
+#: classes/admin/class-admin.php:954
+msgid "Meta (Facebook) CAPI: process anonymous hits"
+msgstr ""
+
+#: classes/admin/class-admin.php:966
+msgid "Meta (Facebook) CAPI: send additional visitor identifiers"
+msgstr ""
+
+#: classes/admin/class-admin.php:978
+msgid "Meta (Facebook) Microdata Tags for Catalogues"
+msgstr ""
+
+#: classes/admin/class-admin.php:990
+#: classes/admin/class-admin.php:1003
+#: classes/admin/class-admin.php:1014
+msgid "Dynamic Remarketing"
+msgstr ""
+
+#: classes/admin/class-admin.php:1026
+msgid "Product Identifier"
+msgstr ""
+
+#: classes/admin/class-admin.php:1038
+msgid "Variations output"
+msgstr ""
+
+#: classes/admin/class-admin.php:1051
+msgid "Google Business Vertical"
+msgstr ""
+
+#: classes/admin/class-admin.php:1064
+#: classes/admin/class-admin.php:1073
+msgid "Support"
+msgstr ""
+
+#: classes/admin/class-admin.php:1081
+#: classes/admin/class-admin.php:1091
+msgid "Author"
+msgstr ""
+
+#: classes/admin/class-admin.php:1138
+msgid ""
+"It looks like you are using some sort of ad or script blocker which is blocking the script and CSS files of this plugin.\n"
+"                    In order for the plugin to work properly you need to disable the script blocker."
+msgstr ""
+
+#: classes/admin/class-admin.php:1145
+#: classes/admin/class-notifications.php:31
+#: classes/admin/class-notifications.php:73
+#: classes/admin/class-notifications.php:114
+#: classes/admin/class-notifications.php:164
+msgid "Learn more"
+msgstr ""
+
+#: classes/admin/class-admin.php:1189
+msgid "Profit Driven Marketing by SweetCode"
+msgstr ""
+
+#: classes/admin/class-admin.php:1214
+msgid "Visit us here:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1259
+msgid "Contacting Support"
+msgstr ""
+
+#: classes/admin/class-admin.php:1273
+msgid "Debug Information"
+msgstr ""
+
+#: classes/admin/class-admin.php:1282
+msgid "copy to clipboard"
+msgstr ""
+
+#: classes/admin/class-admin.php:1289
+msgid "Export settings"
+msgstr ""
+
+#: classes/admin/class-admin.php:1301
+msgid "Export to disk"
+msgstr ""
+
+#: classes/admin/class-admin.php:1308
+msgid "Import settings"
+msgstr ""
+
+#: classes/admin/class-admin.php:1313
+msgid "Settings imported successfully!"
+msgstr ""
+
+#: classes/admin/class-admin.php:1316
+msgid "Reloading...(in 5 seconds)!"
+msgstr ""
+
+#: classes/admin/class-admin.php:1322
+msgid "There was an error importing that file! Please try again."
+msgstr ""
+
+#: classes/admin/class-admin.php:1339
+msgid "Translations"
+msgstr ""
+
+#: classes/admin/class-admin.php:1340
+msgid "If you want to participate improving the translations of this plugin into your language, please follow this link:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1358
+msgid "Post a support request in the WordPress support forum here: "
+msgstr ""
+
+#: classes/admin/class-admin.php:1361
+msgid "Support forum"
+msgstr ""
+
+#: classes/admin/class-admin.php:1365
+msgid "(Never post the debug or other sensitive information to the support forum. Instead send us the information by email.)"
+msgstr ""
+
+#: classes/admin/class-admin.php:1368
+msgid "Or send us an email to the following address: "
+msgstr ""
+
+#: classes/admin/class-admin.php:1384
+msgid "Send us your support request through the WooCommerce.com dashboard: "
+msgstr ""
+
+#: classes/admin/class-admin.php:1398
+msgid "More details about the developer of this plugin: "
+msgstr ""
+
+#: classes/admin/class-admin.php:1401
+msgid "Developer: SweetCode"
+msgstr ""
+
+#: classes/admin/class-admin.php:1403
+msgid "Website: "
+msgstr ""
+
+#: classes/admin/class-admin.php:1426
+msgid "The Google Analytics Universal property ID looks like this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1442
+msgid "The Google Analytics 4 measurement ID looks like this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1458
+msgid "The conversion ID looks similar to this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1474
+msgid "The purchase conversion label looks similar to this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1478
+#: classes/admin/class-admin.php:2205
+msgid "Requires an active Google Ads Conversion ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:1496
+msgid "The Google Optimize container ID looks like this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1512
+msgid "The Meta (Facebook) pixel ID looks similar to this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1530
+msgid "The Microsoft Advertising UET tag ID looks similar to this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1549
+msgid "The Twitter pixel ID looks similar to this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1568
+msgid "The Pinterest pixel ID looks similar to this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1587
+msgid "The Snapchat pixel ID looks similar to this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1606
+msgid "The TikTok pixel ID looks similar to this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1618
+msgid "The Hotjar site ID looks similar to this:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1628
+msgid "Use order_subtotal: Doesn't include tax and shipping (default)"
+msgstr ""
+
+#: classes/admin/class-admin.php:1635
+msgid "Use order_total: Includes tax and shipping"
+msgstr ""
+
+#: classes/admin/class-admin.php:1638
+msgid "This is the order total amount reported back to Google Ads"
+msgstr ""
+
+#: classes/admin/class-admin.php:1658
+msgid "open the documentation"
+msgstr ""
+
+#: classes/admin/class-admin.php:1678
+msgid "Enable Google consent mode with standard settings"
+msgstr ""
+
+#: classes/admin/class-admin.php:1716
+msgid "If no region is set, then the restrictions are enabled for all regions. If you specify one or more regions, then the restrictions only apply for the specified regions."
+msgstr ""
+
+#: classes/admin/class-admin.php:1737
+msgid "Enable Google Analytics enhanced e-commerce"
+msgstr ""
+
+#: classes/admin/class-admin.php:1748
+#: classes/admin/class-admin.php:1809
+#: classes/admin/class-admin.php:1839
+msgid "You need to activate at least Google Analytics UA or Google Analytics 4"
+msgstr ""
+
+#: classes/admin/class-admin.php:1770
+msgid "Google Analytics 4 activation required"
+msgstr ""
+
+#: classes/admin/class-admin.php:1775
+msgid "Enhanced E-Commerce activation required"
+msgstr ""
+
+#: classes/admin/class-admin.php:1778
+msgid "If enabled, purchase and refund events will be sent to Google through the measurement protocol for increased accuracy."
+msgstr ""
+
+#: classes/admin/class-admin.php:1793
+msgid "Enable Google Analytics enhanced link attribution"
+msgstr ""
+
+#: classes/admin/class-admin.php:1828
+msgid "Enable Google user ID"
+msgstr ""
+
+#: classes/admin/class-admin.php:1858
+msgid "Enable Google Ads Enhanced Conversions"
+msgstr ""
+
+#: classes/admin/class-admin.php:1869
+msgid "You need to activate Google Ads"
+msgstr ""
+
+#: classes/admin/class-admin.php:1889
+msgid "The Google Ads phone conversion number must be in the same format as on the website."
+msgstr ""
+
+#: classes/admin/class-admin.php:1911
+msgid "Borlabs Cookie detected. Automatic support is:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1917
+msgid "Cookiebot detected. Automatic support is:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1923
+msgid "Complianz GDPR detected. Automatic support is:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1929
+msgid "Cookie Notice (by hu-manity.co) detected. Automatic support is:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1935
+msgid "Cookie Script (by cookie-script.com) detected. Automatic support is:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1941
+msgid "GDPR Cookie Compliance (by Moove Agency) detected. Automatic support is:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1947
+msgid "GDPR Cookie Consent (by WebToffee) detected. Automatic support is:"
+msgstr ""
+
+#: classes/admin/class-admin.php:1966
+msgid "Enable Explicit Consent Mode"
+msgstr ""
+
+#: classes/admin/class-admin.php:1975
+msgid "Only activate the Explicit Consent Mode if you are also using a Cookie Management Platform (a cookie banner) that is compatible with this plugin. Find a list of compatible plugins in the documentation."
+msgstr ""
+
+#: classes/admin/class-admin.php:1994
+#: classes/admin/class-admin.php:2027
+#: classes/admin/class-admin.php:2056
+#: classes/admin/class-admin.php:2084
+msgid "You need to activate the Meta (Facebook) pixel"
+msgstr ""
+
+#: classes/admin/class-admin.php:2018
+msgid "Send CAPI hits for anonymous visitors who likely have blocked the Meta (Facebook) pixel."
+msgstr ""
+
+#: classes/admin/class-admin.php:2047
+msgid "Include additional visitor's identifiers, such as IP address, email and shop ID in the CAPI hit."
+msgstr ""
+
+#: classes/admin/class-admin.php:2075
+msgid "Enable Meta (Facebook) product microdata output"
+msgstr ""
+
+#: classes/admin/class-admin.php:2111
+msgid "Only disable order duplication prevention for testing. Remember to re-enable the setting once done."
+msgstr ""
+
+#: classes/admin/class-admin.php:2128
+msgid "Enable the maximum compatibility mode"
+msgstr ""
+
+#: classes/admin/class-admin.php:2164
+msgid "Advanced order duplication prevention is "
+msgstr ""
+
+#: classes/admin/class-admin.php:2166
+msgid "Basic order duplication prevention is "
+msgstr ""
+
+#: classes/admin/class-admin.php:2190
+msgid "Enable dynamic remarketing audience collection"
+msgstr ""
+
+#: classes/admin/class-admin.php:2211
+msgid "You need to choose the correct product identifier setting in order to match the product identifiers in the product feeds."
+msgstr ""
+
+#: classes/admin/class-admin.php:2229
+msgid "Enable variations output"
+msgstr ""
+
+#: classes/admin/class-admin.php:2240
+msgid "In order for this to work you need to upload your product feed including product variations and the item_group_id. Disable it, if you choose only to upload the parent product for variable products."
+msgstr ""
+
+#: classes/admin/class-admin.php:2255
+msgid "Retail"
+msgstr ""
+
+#: classes/admin/class-admin.php:2265
+msgid "Education"
+msgstr ""
+
+#: classes/admin/class-admin.php:2275
+msgid "Hotels and rentals"
+msgstr ""
+
+#: classes/admin/class-admin.php:2285
+msgid "Jobs"
+msgstr ""
+
+#: classes/admin/class-admin.php:2295
+msgid "Local deals"
+msgstr ""
+
+#: classes/admin/class-admin.php:2305
+msgid "Real estate"
+msgstr ""
+
+#: classes/admin/class-admin.php:2315
+msgid "Custom"
+msgstr ""
+
+#: classes/admin/class-admin.php:2334
+msgid "ID of your Google Merchant Center account. It looks like this: 12345678"
+msgstr ""
+
+#: classes/admin/class-admin.php:2343
+msgid "post ID (default)"
+msgstr ""
+
+#: classes/admin/class-admin.php:2349
+msgid "SKU"
+msgstr ""
+
+#: classes/admin/class-admin.php:2356
+msgid "ID for the WooCommerce Google Product Feed. Outputs the post ID with woocommerce_gpf_ prefix *"
+msgstr ""
+
+#: classes/admin/class-admin.php:2363
+msgid "ID for the WooCommerce Google Listings & Ads Plugin. Outputs the post ID with gla_ prefix **"
+msgstr ""
+
+#: classes/admin/class-admin.php:2367
+msgid "Choose a product identifier."
+msgstr ""
+
+#: classes/admin/class-admin.php:2370
+msgid "* This is for users of the WooCommerce Google Product Feed Plugin"
+msgstr ""
+
+#: classes/admin/class-admin.php:2374
+msgid "** This is for users of the WooCommerce Google Listings & Ads Plugin"
+msgstr ""
+
+#: classes/admin/class-admin.php:2383
+msgid "beta"
+msgstr ""
+
+#: classes/admin/class-admin.php:2387
+#: classes/admin/class-admin.php:2392
+msgid "active"
+msgstr ""
+
+#: classes/admin/class-admin.php:2397
+#: classes/admin/class-admin.php:2402
+msgid "inactive"
+msgstr ""
+
+#: classes/admin/class-admin.php:2407
+#: classes/admin/class-admin.php:2412
+msgid "partially active"
+msgstr ""
+
+#: classes/admin/class-admin.php:2423
+msgid "Pro Feature"
+msgstr ""
+
+#: classes/admin/class-admin.php:2467
+msgid "You have entered an invalid Google Analytics Universal property ID."
+msgstr ""
+
+#: classes/admin/class-admin.php:2475
+msgid "You have entered an invalid Google Analytics 4 measurement ID."
+msgstr ""
+
+#: classes/admin/class-admin.php:2483
+msgid "You have entered an invalid Google Analytics 4 API key."
+msgstr ""
+
+#: classes/admin/class-admin.php:2491
+msgid "You have entered an invalid conversion ID. It only contains 8 to 10 digits."
+msgstr ""
+
+#: classes/admin/class-admin.php:2499
+#: classes/admin/class-admin.php:2507
+msgid "You have entered an invalid conversion label."
+msgstr ""
+
+#: classes/admin/class-admin.php:2515
+msgid "You have entered an invalid merchant ID. It only contains 6 to 12 digits."
+msgstr ""
+
+#: classes/admin/class-admin.php:2523
+msgid "You have entered an invalid Google Optimize container ID."
+msgstr ""
+
+#: classes/admin/class-admin.php:2531
+msgid "You have entered an invalid Meta (Facebook) pixel ID. It only contains 14 to 16 digits."
+msgstr ""
+
+#: classes/admin/class-admin.php:2539
+msgid "You have entered an invalid Meta (Facebook) CAPI token."
+msgstr ""
+
+#: classes/admin/class-admin.php:2547
+msgid "You have entered an invalid Bing Ads UET tag ID. It only contains 7 to 9 digits."
+msgstr ""
+
+#: classes/admin/class-admin.php:2555
+msgid "You have entered an invalid Twitter pixel ID. It only contains 5 to 7 lowercase letters and numbers."
+msgstr ""
+
+#: classes/admin/class-admin.php:2563
+msgid "You have entered an invalid Pinterest pixel ID. It only contains 13 digits."
+msgstr ""
+
+#: classes/admin/class-admin.php:2571
+msgid "You have entered an invalid Snapchat pixel ID."
+msgstr ""
+
+#: classes/admin/class-admin.php:2579
+msgid "You have entered an invalid TikTok pixel ID."
+msgstr ""
+
+#: classes/admin/class-admin.php:2587
+msgid "You have entered an invalid Hotjar site ID. It only contains 6 to 9 digits."
+msgstr ""
+
+#. translators: %d: the amount of purchase conversions that have been measured
+#: classes/admin/class-ask-for-rating.php:129
+msgid "Hey, I noticed that you tracked more than %d purchase conversions with the Pixel Manager Pro for WooCommerce plugin - that's awesome! Could you please do me a BIG favour and give it a 5-star rating on WordPress? It will help to spread the word and boost our motivation."
+msgstr ""
+
+#: classes/admin/class-ask-for-rating.php:146
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: classes/admin/class-ask-for-rating.php:151
+msgid "Nope, maybe later"
+msgstr ""
+
+#: classes/admin/class-ask-for-rating.php:160
+msgid "I already did"
+msgstr ""
+
+#: classes/admin/class-ask-for-rating.php:166
+#: classes/admin/class-notifications.php:131
+#: classes/admin/class-notifications.php:180
+msgid "If the dismiss button is not working, here's why >>"
+msgstr ""
+
+#: classes/admin/class-notifications.php:22
+msgid ""
+"We detected that the WP Rocket JavaScript concatenation function has been enabled. This function has been proven to be incompatible with the WooCommerce Google Ads Conversion Tracking plugin. \n"
+"\t\t\t\t\t\tPlease turn off the WP Rocket JavaScript concatenation."
+msgstr ""
+
+#: classes/admin/class-notifications.php:37
+msgid "Open the WP Rocket JavaScript concatenation settings"
+msgstr ""
+
+#: classes/admin/class-notifications.php:42
+msgid "Click here to simply turn off the WP Rocket JavaScript concatenation"
+msgstr ""
+
+#: classes/admin/class-notifications.php:47
+#: classes/admin/class-notifications.php:89
+msgid "Click here to dismiss this warning forever."
+msgstr ""
+
+#: classes/admin/class-notifications.php:49
+msgid "And I swear that I triple checked that the visitor and conversion tracking is working just fine and that I won't ask for support as long as the WP Rocket JavaScript concatenation is turned on!"
+msgstr ""
+
+#: classes/admin/class-notifications.php:64
+msgid ""
+"We detected that the LiteSpeed Inline JavaScript After DOM Ready function has been enabled. This function has been proven to be incompatible with the WooCommerce Google Ads Conversion Tracking plugin. \n"
+"\t\t\t\t\t\tPlease turn off the LiteSpeed Inline JavaScript After DOM Ready function."
+msgstr ""
+
+#: classes/admin/class-notifications.php:79
+msgid "Open the LiteSpeed Inline JavaScript After DOM Ready settings"
+msgstr ""
+
+#: classes/admin/class-notifications.php:84
+msgid "Click here to simply turn off LiteSpeed Inline JavaScript After DOM Ready"
+msgstr ""
+
+#: classes/admin/class-notifications.php:91
+msgid "And I swear that I triple checked that the visitor and conversion tracking is working just fine and that I won't ask for support as long as the LiteSpeed Inline JavaScript After DOM Ready is turned on!"
+msgstr ""
+
+#: classes/admin/class-notifications.php:107
+msgid "The Pixel Manager Pro for WooCommerce plugin detected that the PayPal standard payment gateway is active. The PayPal standard payment gateway is an off-site payment gateway which impairs conversion tracking significantly. Please switch to an on-site payment gateway as soon as possible in order to increase your conversion tracking accuracy."
+msgstr ""
+
+#: classes/admin/class-notifications.php:119
+msgid "Open the WooCommerce payment methods settings"
+msgstr ""
+
+#: classes/admin/class-notifications.php:126
+#: classes/admin/class-notifications.php:175
+msgid "Click here to dismiss this warning forever"
+msgstr ""
+
+#: classes/admin/class-notifications.php:145
+msgid "The following plugin is not compatible with the Pixel Manager Pro for WooCommerce: "
+msgstr ""
+
+#: classes/admin/class-notifications.php:151
+msgid "Version"
+msgstr ""
+
+#: classes/admin/class-notifications.php:156
+msgid "Please disable the plugin as soon as possible."
+msgstr ""
+
+#: classes/admin/class-notifications.php:160
+msgid "Find more information about the the reason in our documentation: "
+msgstr ""
+
+#: wgact.php:249
+msgid "Pixel Manager Pro for WooCommerce error"
+msgstr ""
+
+#: wgact.php:251
+msgid "Your environment doesn't meet all the system requirements listed below."
+msgstr ""
+
+#: wgact.php:255
+msgid "The WooCommerce plugin needs to be activated"
+msgstr ""

@@ -1,0 +1,544 @@
+/* my account view points page */
+.ywpar_myaccount_entry_info {
+    & {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    & > div {
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px 10px;
+        min-width: 250px;
+        margin: 0 10px 0 0;
+    }
+
+    span.ywpar_entry_info_title {
+        display: block;
+    }
+
+    .ywpar_badge {
+        & {
+            max-width: 40px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        & > p {
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    .ywpar_levels_badges .ywpar_level.ywpar_level {
+
+        & {
+            display: block;
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        img {
+            max-width: 50px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .points_collected {
+        & {
+            font-size: 30px;
+            display: block;
+            justify-content: center;
+            gap: 10px;
+            line-height: 30px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 35px;
+        }
+
+    }
+
+    span.ywpar_total_collected_title {
+        text-transform: uppercase;
+        font-size: 0.85em;
+        margin-top: 10px;
+        display: block;
+
+        span {
+            padding-left: 5px;
+        }
+    }
+
+    span.rank {
+        font-size: 30px;
+        padding: 30px 0;
+        display: block;
+    }
+
+    .points_worth {
+        font-size: 0.8em;
+        font-weight: 600;
+        display: block;
+    }
+
+    span.ywpar_to_redeem_title {
+        display: block;
+        text-transform: uppercase;
+        color: #9f9c9c;
+        font-size: 0.85em;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+.ywpar_points_rewards {
+
+    td {
+        font-size: 16px;
+    }
+
+    td.ywpar_points_rewards-order,
+    td.ywpar_points_rewards-points,
+    th.ywpar_points_rewards-order {
+        text-align: center;
+    }
+
+    td.ywpar_points_rewards-points {
+        min-width: 150px;
+        font-size: 0.8em;
+        color: #949494;
+
+        & > span {
+            & {
+                display: block;
+                font-size: 1.3em;
+            }
+
+            &.ywpar_minus {
+                color: red;
+            }
+
+            &.ywpar_plus {
+                color: green;
+            }
+        }
+
+    }
+
+    th.ywpar_points_rewards-action,
+    th.ywpar_points_rewards-date {
+        text-align: left;
+    }
+}
+
+.theme-yith-proteo .ywpar_points_rewards td {
+    padding: 25px 15px;
+}
+
+ywpar_tabs_content_container {
+    position: relative;
+}
+
+.ywpar_tabcontent {
+
+    &.active {
+        position: relative;
+    }
+
+    #ywpar_banner {
+        & {
+            padding: 20px 40px 20px 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 12px;
+            display:block;
+        }
+
+        &.with_image {
+            padding-left: 90px;
+
+            img.banner_image {
+                max-width: 50px;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                margin-right: 20px;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+        }
+
+        .banner_header {
+            & {
+                margin-bottom: 20px;
+            }
+
+            h3, h4 {
+                margin: 0;
+                padding: 0;
+                clear: none;
+                font-weight: normal;
+            }
+
+            h3 {
+                font-size: 18px;
+                margin-bottom: 8px;
+            }
+
+            h4 {
+                font-size: 14px;
+            }
+        }
+
+        #ywpar_progress_bar, .pbar_back, .pbar_fill {
+            position: relative;
+        }
+
+        #ywpar_progress_bar {
+            .pbar_back {
+                height: 10px;
+                border-radius: 5px;
+                margin: 50px 0 40px 0px;
+            }
+
+            .step {
+                width: 20px;
+                height: 20px;
+                background-color: white;
+                border-radius: 50%;
+                position: absolute;
+                top: -5px;
+
+                &.final_step {
+                    right: 0;
+                }
+
+                .step_label {
+                    width: 80px;
+                    margin-left: -150%;
+                    font-size: 11px;
+                    top: auto;
+                    bottom: 25px;
+                    padding: 5px;
+                    display: none;
+                }
+
+                &:hover .step_label {
+                    display: block;
+                }
+
+                .step_points {
+                    top: 40px;
+                    width: 80px;
+                    margin-left: -150%;
+                    font-size: 11px;
+                }
+            }
+
+            .pbar_fill {
+                height: 10px;
+                border-radius: 5px 0 0 5px;
+            }
+        }
+    }
+}
+
+#ywpar_banner #ywpar_progress_bar .step > span {
+    position: absolute;
+    top: 25px;
+    width: 50px;
+    text-align: center;
+    margin-left: -70%;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.ywpar_arrow_go {
+    width: 10px;
+    height: 10px;
+    transition: .5s;
+    float: left;
+    box-shadow: -2px 2px 0 black;
+    transform: rotate(-135deg);
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 5px);
+}
+
+#ywpar_share_points_to_share {
+    min-width: 100px;
+    max-width: 100px;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin: 0 10px;
+    text-align: right;
+}
+
+#share_points {
+    & {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 10px;
+        padding: 40px;
+    }
+
+
+    h3 {
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+
+    .ywpar-share-points-error {
+        display: block;
+        margin: 0 0 40px 0;
+        height: 30px;
+    }
+
+    .error {
+        display: none;
+        color: red;
+        font-size: 0.8rem;
+
+        &.show {
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+
+    .input-error {
+        border: 1px solid red;
+    }
+
+    input#ywpar-share-points__submit {
+        margin-left: 20px;
+        background: #5B5B5B;
+        border-color: #5B5B5B;
+    }
+
+    .ywpar-share-status {
+        & {
+            font-style: italic;
+        }
+
+        &.used {
+            color: #7FA82B;
+        }
+
+        &.not-used {
+            color: #d38a0b;
+        }
+
+        &.deleted, &.expired {
+            color: #C1000E;
+        }
+    }
+
+
+    table.shop_table.ywpar_points_rewards.my_account_orders {
+        th, td {
+            text-align: left !important;
+            padding-left: 0 !important;
+            padding-right: 30px;
+        }
+
+        th {
+            font-size: 1rem;
+        }
+
+        td.ywpar-share-points-code {
+            padding-right: 40px !important;
+        }
+    }
+
+}
+
+/* copy to clipboard field */
+[class^="yith-icon-"], [class*=" yith-icon-"] {
+    font-family: yith-icon !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 1em;
+    height: 1em;
+    font-size: 20px;
+}
+
+#ywpar-copy-to-clipboard-wrapper {
+    & {
+        background: #ffffff;
+        border-radius: 8px;
+        border: 1px solid #d8d8d8;
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+        max-width: 400px;
+        box-sizing: border-box;
+    }
+
+    input[type="text"].ywpar-copy-to-clipboard__field {
+        color: #999;
+        cursor: default;
+        height: 38px;
+        width: 100%;
+        background: transparent;
+        padding: 0 10px 0 0;
+        border: 0 !important;
+        border-radius: 0;
+        box-shadow: none;
+        outline: none;
+        font-size: 12px;
+    }
+
+    #ywpar-copy-to-clipboard-wrapper {
+        background: #f1f1f1;
+        border: 1px dashed #cccccc;
+    }
+
+    .ywpar-copy-to-clipboard_field-wrap {
+        position: relative;
+        flex: 1;
+    }
+
+    .ywpar-copy-to-clipboard__tip {
+        display: none;
+        position: absolute;
+        background: rgba(30, 30, 30, 0.9);
+        color: #ffffff;
+        padding: 7px 10px;
+        border-radius: 3px;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+        font-size: 12px;
+        line-height: 1;
+    }
+
+    .ywpar-copy-to-clipboard__copy {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 2px;
+        padding: 1px;
+        user-select: none;
+        line-height: 1;
+        transition: all .2s ease-in-out;
+    }
+
+    .ywpar-copy-to-clipboard__copy__icon {
+        margin-right: 4px;
+        font-size: 14px;
+    }
+
+    .ywpar-copy-to-clipboard__copy__text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+.getpoints_banner.enable_review_exp {
+    a:hover {
+        text-decoration: none;
+        box-shadow: none;
+    }
+
+    .product {
+        * {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        & {
+            box-sizing: border-box;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        img {
+            max-width: 90px;
+            margin-right: 10px;
+            box-shadow: none;
+        }
+
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+        span {
+            display: block;
+
+            &.title {
+                font-weight: bolder;
+            }
+
+            &.date {
+                font-size: 80%;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .ywpar_myaccount_entry_info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+
+        & > div{
+            margin:0;
+        }
+
+
+    }
+
+    input#ywpar-share-points__submit {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ywpar_myaccount_entry_info {
+        display: block;
+
+        & > div {
+            margin: 10px 0;
+        }
+
+
+    }
+
+    table.shop_table_responsive tbody tr td[data-title]::before {
+        padding-right: 10px
+    }
+    .ywpar_points_rewards td.ywpar_points_rewards-points {
+
+        width: 100%;
+        &::before {
+            color: initial;
+            font-size: initial;
+        }
+
+        span.ywpar_plus {
+            display: inline-block !important;
+            margin-right: 10px;
+        }
+    }
+}

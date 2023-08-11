@@ -1,0 +1,116 @@
+.sticky-cart,
+.sticky-cart-form {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--et_amp-w-2-d);
+    transition: all .3s;
+    z-index: 11;
+}
+
+.sticky-cart.invisible,
+.sticky-cart-form.invisible {
+    transform: translateY(100%);
+}
+
+.sticky-cart .button, .sticky-cart button,
+.sticky-cart .single_add_to_cart_button,
+.sticky-cart-form .single_add_to_cart_button {
+    font-size: 1.3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: unset;
+    width: auto;
+}
+
+.sticky-cart .button:not(:first-child),
+.sticky-cart button:not(:first-child) {
+    margin-left: 10px;
+}
+
+.sticky-cart button {
+    flex: 1;
+}
+
+.sticky-cart .amp-container > p,
+.sticky-cart .single_add_to_cart_button {
+    width: 100%;
+    margin: 0;
+}
+
+.sticky-cart > div {
+    margin: 0 -5px;
+}
+
+.sticky-cart-form {
+    padding-top: 15px;
+}
+
+.sticky-cart-form:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--et_amp-w-2-d);
+    opacity: .5;
+    height: 100vh;
+}
+
+.sticky-cart-form form {
+    max-height: 70vh;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.sticky-cart-form .close {
+    min-width: unset;
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    color: var(--et_amp-d-2-w);
+    position: absolute;
+    bottom: calc(100% + 7px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--et_amp-w-2-d);
+    border-color: transparent;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    padding: 0;
+    line-height: 1;
+}
+
+.sticky-cart-form table,
+.sticky-cart-form .single_add_to_cart_button {
+    flex: auto;
+    width: 100%;
+}
+
+.sticky-cart-form .single_variation_wrap .quantity,
+.sticky-cart-form form > .before-addtocart-wrapper .quantity {
+    width: 100%;
+}
+
+.sticky-cart-form .single_variation_wrap span[role=button],
+.sticky-cart-form form > .before-addtocart-wrapper span[role=button] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sticky-cart-form .single_variation_wrap .quantity input,
+.sticky-cart-form form > .before-addtocart-wrapper .quantity input {
+    max-width: unset;
+}
+
+.sticky-cart-form .single_add_to_cart_button {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.sticky-cart-form form .out-of-stock,
+.sticky-cart-form form .quantity {
+    margin: 0;
+}
